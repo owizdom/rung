@@ -1,0 +1,199 @@
+{
+ "doc_id": "google-fsf-1.0",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:52:39Z",
+ "other_risks": [],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cybersecurity: Risks of models assisting in the execution of a cyber attack.",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Capable of fully automating opportunistic cyberattacks on organizations with a limited security posture.",
+    "page": "p.5",
+    "note": "Cyber autonomy level 1 CCL; also Cyber enablement level 1."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",
+    "page": "p.2",
+    "note": "Binding 'would' in if-then (p.2): hold deployment/development so models with CCLs are not deployed without deployment mitigations; mitigation levels defined in tables pp.3-4. Applies framework-wide to every CCL (A9)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body decides anywhere in the document; acknowledgements p.7 list authors only."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'We will also explore how to appropriately involve independent third parties' is hedged (explore, appropriately); p.1 'Where appropriate, involve external parties' describes RCS principles, hedged."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",
+    "page": "p.2",
+    "note": "Condition is mitigations at the required levels not being ready (p.2 'A model may reach evaluation thresholds before mitigations at appropriate levels are ready'); response is to put deployment/development on hold."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Biosecurity: Risks of models assisting in the development, preparation and/or execution of a biological attack.",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Capable of significantly enabling a non-expert to develop known biothreats that could increase their ability to cause severe harm compared to other means.",
+    "page": "p.5",
+    "note": "Bio amateur enablement level 1 CCL."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",
+    "page": "p.2",
+    "note": "Binding 'would' in if-then (p.2): hold deployment/development so models with CCLs are not deployed without deployment mitigations; mitigation levels defined in tables pp.3-4. Applies framework-wide to every CCL (A9)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body decides anywhere in the document; acknowledgements p.7 list authors only."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'We will also explore how to appropriately involve independent third parties' is hedged (explore, appropriately); p.1 'Where appropriate, involve external parties' describes RCS principles, hedged."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",
+    "page": "p.2",
+    "note": "Condition is mitigations at the required levels not being ready (p.2 'A model may reach evaluation thresholds before mitigations at appropriate levels are ready'); response is to put deployment/development on hold."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Risks of the misuse of models capable of accelerating the rate of AI progress",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Could fully automate the AI R&D pipeline at a fraction of human labor costs",
+    "page": "p.6",
+    "note": "Machine Learning R&D level 2; level 1 (p.5-6) 'improving the pace of algorithmic progress by 3X'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",
+    "page": "p.2",
+    "note": "Binding 'would' in if-then (p.2): hold deployment/development so models with CCLs are not deployed without deployment mitigations; mitigation levels defined in tables pp.3-4. Applies framework-wide to every CCL (A9)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body decides anywhere in the document; acknowledgements p.7 list authors only."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'We will also explore how to appropriately involve independent third parties' is hedged (explore, appropriately); p.1 'Where appropriate, involve external parties' describes RCS principles, hedged."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",
+    "page": "p.2",
+    "note": "Condition is mitigations at the required levels not being ready (p.2 'A model may reach evaluation thresholds before mitigations at appropriate levels are ready'); response is to put deployment/development on hold."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomy: Risks of the misuse of AI models with significant capacity for agency and flexible action/tool use over long time horizons and across many domains.",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Capable of expanding its effective capacity in the world by autonomously acquiring resources and using them to run and sustain additional copies of itself on hardware it rents.",
+    "page": "p.5",
+    "note": "Autonomy level 1 CCL."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",
+    "page": "p.2",
+    "note": "Binding 'would' in if-then (p.2): hold deployment/development so models with CCLs are not deployed without deployment mitigations; mitigation levels defined in tables pp.3-4. Applies framework-wide to every CCL (A9)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body decides anywhere in the document; acknowledgements p.7 list authors only."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'We will also explore how to appropriately involve independent third parties' is hedged (explore, appropriately); p.1 'Where appropriate, involve external parties' describes RCS principles, hedged."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",
+    "page": "p.2",
+    "note": "Condition is mitigations at the required levels not being ready (p.2 'A model may reach evaluation thresholds before mitigations at appropriate levels are ready'); response is to put deployment/development on hold."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Misaligned AI: protection against the risk of systems acting adversarially against humans may require additional Framework components, including new evaluations and control mitigations that protect against adversarial AI activity.",
+    "page": "p.6",
+    "note": "Named under 'Updated set of risks and mitigations' as a risk the developer is considering for future versions; no CCL in this version."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Misaligned AI named p.6 only as a future candidate; no CCL for it. Autonomy CCL p.5 is framed as misuse, not misalignment (B2)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for misalignment; p.6 says it 'may require additional Framework components' (future, hedged)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk; external involvement p.6 only 'explore'."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response for this risk, so nothing on non-fulfilment."
+   }
+  }
+ }
+}

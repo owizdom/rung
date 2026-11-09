@@ -1,0 +1,205 @@
+{
+ "doc_id": "anthropic-rsp-2.2",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:58:17Z",
+ "other_risks": [
+  "persuasion",
+  "radiological and nuclear",
+  "misinformation, hateful or fraudulent use (Usage Policy)",
+  "model weight theft",
+  "societal impacts"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber Operations: The ability to significantly enhance or automate sophisticated destructive cyber attacks",
+    "page": "p.9",
+    "note": "listed as capability under ongoing assessment"
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9 says 'Instead of prespecifying particular thresholds and safeguards today' for this capability; ongoing assessment only, no level that changes what is done"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9 'considering the implementation of tiered access controls' is not a commitment"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk: no threshold or response"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9 'This will involve engaging with experts in cyber operations to assess' but cyber has no threshold or response, so scope rule C5 not met (checker also enforces)"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk: no threshold or response"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN-3: The ability to significantly assist individuals or groups with basic STEM backgrounds in obtaining, producing, or deploying CBRN weapons.",
+    "page": "p.20",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "CBRN-3: The ability to significantly assist individuals or groups with basic STEM backgrounds in obtaining, producing, or deploying CBRN weapons.",
+    "page": "p.20",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "The ASL-3 Deployment Standard and the ASL-3 Security Standard, which protect against misuse and model-weight theft by non-state adversaries, are required.",
+    "page": "p.8",
+    "note": ""
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Safeguards Report(s) will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2) decide any deployment-related issues.",
+    "page": "p.14",
+    "note": "CEO and RSO decide whether Required Safeguards are satisfied; also capability decision p.11"
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "framework-wide third-party review of adherence; applies to every risk with a threshold"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",
+    "page": "p.14",
+    "note": "covers Required Safeguards for every Capability Threshold; 6.2 p.15 also commits to de-deploy or delete weights"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI R&D-4: The ability to fully automate the work of an entry-level, remote-only Researcher at Anthropic.",
+    "page": "p.20",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI R&D-4: The ability to fully automate the work of an entry-level, remote-only Researcher at Anthropic.",
+    "page": "p.20",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "The ASL-3 Security Standard is required.",
+    "page": "p.8",
+    "note": ""
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Safeguards Report(s) will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2) decide any deployment-related issues.",
+    "page": "p.14",
+    "note": "CEO and RSO decide whether Required Safeguards are satisfied; also capability decision p.11"
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "framework-wide third-party review of adherence; applies to every risk with a threshold"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",
+    "page": "p.14",
+    "note": "covers Required Safeguards for every Capability Threshold; 6.2 p.15 also commits to de-deploy or delete weights"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Model Autonomy checkpoint: The ability to perform a wide range of advanced software engineering tasks autonomously that could be precursors to full autonomous replication or automated AI R&D",
+    "page": "p.20",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "We will test for this checkpoint and, by the time we reach it, we will (1) aim to have met (or be close to meeting)",
+    "page": "p.8",
+    "note": "checkpoint of autonomously performing 2-8 hour software engineering tasks (p.20); on reaching it the policy also says share an update (p.9) and begin testing for full AI R&D threshold (p.9); triggers update and further testing (E5)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.8 'aim to have met' is hedged; share an update and begin testing are not named safeguards; changelog p.21 says checkpoint only prompts additional evaluation"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no named body decides on the checkpoint; CEO and RSO decisions p.11 cover Capability Thresholds, not the checkpoint"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review tied to the checkpoint; framework-wide review covers risks with a threshold or response and the checkpoint has no binding response"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no required response for the checkpoint, so nothing about it being unmet"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "We expect to continue refining our framework in response to future risks (for example, the risk that an AI system attempts to subvert the goals of its operators).",
+    "page": "p.6",
+    "note": "also p.8 affirmative case on 'models pursuing misaligned goals'"
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "AI R&D-4 text (p.8, p.20) is about automating a researcher's work, not misalignment (B2); p.8 safeguards cell and p.23 changelog mention misaligned goals and autonomous internal sabotage. Ambiguous"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.8 affirmative case on misaligned-goal risks 'mitigated to acceptable levels' names no safeguards; no deployment gate specific to it"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or named-safeguard response for this risk to decide on"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or response for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or response for this risk"
+   }
+  }
+ }
+}

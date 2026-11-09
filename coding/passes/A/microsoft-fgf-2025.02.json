@@ -1,0 +1,201 @@
+{
+ "doc_id": "microsoft-fgf-2025.02",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:55:20Z",
+ "other_risks": [
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Offensive cyberoperations. A model’s ability to provide significant capability uplift to an actor seeking to carry out highly disruptive or destructive cyberattacks, including on critical infrastructure.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "a low-to-medium skilled actor’s ability to create and conduct highly disruptive or destructive cyber-attacks, including on critical infrastructure, for example, through discovering novel zero-day exploit chains",
+    "page": "p.13",
+    "note": "High cyber threshold; 'Further review and mitigations required'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Binding; measures listed p.8 (restricted access, access control list hygiene, weights encrypted, security red teaming). Framework-wide for tracked capabilities (A9). Also p.9 pause commitment."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "'Executive Officers responsible for Microsoft's AI governance program' (p.10) approve deployment, covering the low/medium post-mitigation case for every tracked capability."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement hedged: p.7 'As appropriate, evaluations involve qualified and expert external actors'; p.8 'using third parties where appropriate'; p.10 'independent internal audit and board oversight' is internal."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Binding pause when the required mitigation cannot be achieved; framework-wide."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Chemical, biological, radiological, and nuclear (CBRN) weapons. A model’s ability to provide significant capability uplift to an actor seeking to develop and deploy a chemical, biological, radiological, or nuclear weapon.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model provides a meaningful uplift to an expert’s (PhD level education in related fields) ability to develop and deliver a novel CBRN threat.",
+    "page": "p.12",
+    "note": "High CBRN threshold; 'Further review and mitigations required'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Binding; measures listed p.8 (restricted access, access control list hygiene, weights encrypted, security red teaming). Framework-wide for tracked capabilities (A9). Also p.9 pause commitment."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "'Executive Officers responsible for Microsoft's AI governance program' (p.10) approve deployment, covering the low/medium post-mitigation case for every tracked capability."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement hedged: p.7 'As appropriate, evaluations involve qualified and expert external actors'; p.8 'using third parties where appropriate'; p.10 'independent internal audit and board oversight' is internal."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Binding pause when the required mitigation cannot be achieved; framework-wide."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can fully automate the AI R&D pipeline at a fraction of human labor costs, majorly accelerating AI R&D.",
+    "page": "p.14",
+    "note": "Critical level of Advanced autonomy."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "C3(b) pause until risk can be mitigated; critical-level security p.8 is 'highest level' with only 'will likely include' measures, so the pause carries the code. p.7 'Models assessed as having a high or critical risk are subject to further review and safety and security mitigations prior to deployment'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "'Executive Officers responsible for Microsoft's AI governance program' (p.10) approve deployment, covering the low/medium post-mitigation case for every tracked capability."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement hedged: p.7 'As appropriate, evaluations involve qualified and expert external actors'; p.8 'using third parties where appropriate'; p.10 'independent internal audit and board oversight' is internal."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Binding pause when the required mitigation cannot be achieved; framework-wide."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can autonomously complete a range of generalist tasks equivalent to multiple days’ worth of generalist human labor and appropriately correct for complex error conditions",
+    "page": "p.14",
+    "note": "High Advanced autonomy threshold (long-horizon autonomous task execution)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Binding; measures listed p.8 (restricted access, access control list hygiene, weights encrypted, security red teaming). Framework-wide for tracked capabilities (A9). Also p.9 pause commitment."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "'Executive Officers responsible for Microsoft's AI governance program' (p.10) approve deployment, covering the low/medium post-mitigation case for every tracked capability."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement hedged: p.7 'As appropriate, evaluations involve qualified and expert external actors'; p.8 'using third parties where appropriate'; p.10 'independent internal audit and board oversight' is internal."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Binding pause when the required mitigation cannot be achieved; framework-wide."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No misalignment, loss of control, deception or oversight-undermining risk named. 'Oversight' p.10 is corporate board oversight; chain-of-thought monitoring p.9 is a mitigation example, not a named risk."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold for this risk."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   }
+  }
+ }
+}

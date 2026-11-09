@@ -1,0 +1,201 @@
+{
+ "doc_id": "anthropic-rsp-1.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:56:37Z",
+ "other_risks": [
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Misuse domains should at a minimum include causes of extreme CBRN risks, and cybersecurity.",
+    "page": "p.8",
+    "note": "Also p.3: 'helping individuals create CBRN or cyber threats'; p.20 domains of interest 'CBRN and cyber risks'."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Access to the model would substantially increase the risk of deliberately-caused catastrophic harm, either by proliferating capabilities, lowering costs, or enabling new methods of attack.",
+    "page": "p.6",
+    "note": "Generic ASL-3 misuse level; p.20 names CBRN and cyber as the domains of interest. Coded 1 on the same basis as biochem; specific cyber capabilities are promised later (p.7)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "a commitment not to deploy ASL-3 models until thorough red-teaming finds no risk of catastrophe",
+    "page": "p.5",
+    "note": "Also p.8 ASL-3 deployment measures and containment security commitments; p.4 table lists measures."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named body or role decides threshold or response: the CEO and CISO 'should be immediately convened' (p.13) and the Responsible Scaling Officer only reports (p.10); 'should' is not binding under A4."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding outside review: p.9 red-teaming 'should' be done by world-class experts, p.7 evaluations developed 'in collaboration with external experts', p.15 ASL-4 external audits are speculative, p.21 'mandatory external reviews should embed security'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Anthropic's commitment to follow the ASL scheme thus implies that we commit to pause the scaling",
+    "page": "p.2",
+    "note": "Bold sentence continues: 'and/or delay the deployment of new models whenever our scaling ability outstrips our ability to comply with the safety procedures for the corresponding ASL.'"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our first area of effort is in evaluating bioweapons risks where we will determine threat models and capabilities in consultation with a number of world-class biosecurity experts.",
+    "page": "p.7",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Access to the model would substantially increase the risk of deliberately-caused catastrophic harm, either by proliferating capabilities, lowering costs, or enabling new methods of attack.",
+    "page": "p.6",
+    "note": "Followed on p.7 by the bioweapons evaluation effort; ASL-2 example p.4 is bioweapon-related information."
+   },
+   "response": {
+    "value": 1,
+    "quote": "a commitment not to deploy ASL-3 models until thorough red-teaming finds no risk of catastrophe",
+    "page": "p.5",
+    "note": "Also p.8 ASL-3 deployment measures and containment security commitments; p.4 table lists measures."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named body or role decides threshold or response: the CEO and CISO 'should be immediately convened' (p.13) and the Responsible Scaling Officer only reports (p.10); 'should' is not binding under A4."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding outside review: p.9 red-teaming 'should' be done by world-class experts, p.7 evaluations developed 'in collaboration with external experts', p.15 ASL-4 external audits are speculative, p.21 'mandatory external reviews should embed security'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Anthropic's commitment to follow the ASL scheme thus implies that we commit to pause the scaling",
+    "page": "p.2",
+    "note": "Bold sentence continues: 'and/or delay the deployment of new models whenever our scaling ability outstrips our ability to comply with the safety procedures for the corresponding ASL.'"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomous AI research: A model for which the weights would be a massive boost to a malicious AI development program",
+    "page": "p.14",
+    "note": "Appears in the speculative ASL-4 sketch ('early guess'); also p.15 'entirely automate scientific research' might be above ASL-4."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.14 ASL-4 criteria are an 'early guess' and an illustration, 'too early to define ASL-4 capabilities'; no binding AI R&D threshold."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response tied to AI R&D; p.14 ASL-4 safeguard sketch is explicitly speculative."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.15 'external audits' is in the ASL-4 sketch (speculative); no AI R&D threshold or response."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomous replication in the lab: The model shows early signs of autonomous self-replication ability, as defined by 50% aggregate success rate on the tasks listed in",
+    "page": "p.7",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model shows early signs of autonomous self-replication ability, as defined by 50% aggregate success rate on the tasks listed in",
+    "page": "p.7",
+    "note": "Quantitative criterion; appendix p.15-16 gives tasks and the 50% evaluation threshold."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We commit to pause training before a model's capability level outstrips the Containment Measures we have implemented.",
+    "page": "p.4",
+    "note": "Also p.8 containment commitments for ASL-3 (weights security, compartmentalization) and p.13 response policy (pause training if measures not implemented)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named body or role decides threshold or response: the CEO and CISO 'should be immediately convened' (p.13) and the Responsible Scaling Officer only reports (p.10); 'should' is not binding under A4."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding outside review: p.9 red-teaming 'should' be done by world-class experts, p.7 evaluations developed 'in collaboration with external experts', p.15 ASL-4 external audits are speculative, p.21 'mandatory external reviews should embed security'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "We commit to pause training before a model's capability level outstrips the Containment Measures we have implemented.",
+    "page": "p.4",
+    "note": "Pausing until Containment Measures are in place; p.13 (2) 'pause training and analyze the level of risk'."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "potentially behave in ways contrary to the intent of their designers or users",
+    "page": "p.3",
+    "note": "Also p.15 ASL-4 sketch: 'our models will not autonomously attempt to strategically undermine our safety measures'."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No level defined by misalignment: the ASL-3 autonomy threshold (p.7) is about replication capability (B2); ASL-4 shutdown-avoidance criterion p.14 is speculative."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or committed response aimed at misalignment; p.15 safety research and shutdown procedure are only in the ASL-4 sketch."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.15 external audits are in the speculative ASL-4 sketch."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   }
+  }
+ }
+}

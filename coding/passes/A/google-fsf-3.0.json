@@ -1,0 +1,202 @@
+{
+ "doc_id": "google-fsf-3.0",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:54:26Z",
+ "other_risks": [
+  "harmful manipulation",
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber: Risks of models assisting in the development, preparation, and/or execution of a cyber attack.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Provides sufficient uplift with high impact cyber attacks for additional expected harm at severe scale.",
+    "page": "p.10",
+    "note": "Cyber uplift level 1 CCL."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments of a model take place only after the appropriate governance function determines the safety case regarding each CCL the model has reached to be adequate.",
+    "page": "p.9",
+    "note": "Misuse deployment process 'will be applied to models reaching a misuse CCL' (p.8); present-tense rule tied to a condition (E1); deploy-only-if-adequate gate (C3(b), E3). Security levels are only 'recommended'."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Decisions sit with 'the appropriate governance function' (pp.9, 12-13) and 'appropriate corporate governance bodies' (p.16), never named."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Binding 'will' with 'as needed' (not voiding per E2); applies to every CCL with an alert threshold."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3-style adequacy gate (p.9/p.12-13), whose condition is the safety case being adequate (E4). Risk acceptance criteria p.6-7 are 'if, for example' and security levels 'recommended'; no statement of what happens if required safeguards cannot be put in place."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN: Risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear (“CBRN”) threat.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Provides low to medium resourced actors uplift in reference scenarios resulting in",
+    "page": "p.10",
+    "note": "CBRN uplift level 1 CCL; cell continues 'additional expected harm at severe scale' after a footnote marker."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments of a model take place only after the appropriate governance function determines the safety case regarding each CCL the model has reached to be adequate.",
+    "page": "p.9",
+    "note": "Misuse deployment process 'will be applied to models reaching a misuse CCL' (p.8); present-tense rule tied to a condition (E1); deploy-only-if-adequate gate (C3(b), E3). Security levels are only 'recommended'."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Decisions sit with 'the appropriate governance function' (pp.9, 12-13) and 'appropriate corporate governance bodies' (p.16), never named."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Binding 'will' with 'as needed' (not voiding per E2); applies to every CCL with an alert threshold."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3-style adequacy gate (p.9/p.12-13), whose condition is the safety case being adequate (E4). Risk acceptance criteria p.6-7 are 'if, for example' and security levels 'recommended'; no statement of what happens if required safeguards cannot be put in place."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "These CCLs focus on risks posed by models capable of accelerating the rate of AI progress.",
+    "page": "p.13",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Can fully automate the work of any team of researchers at Google focused on improving AI capabilities, with approximately comparable all-inclusive costs.",
+    "page": "p.14",
+    "note": "ML R&D automation level 1; also ML R&D acceleration level 1 (p.13)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments and large scale internal deployments of a model take place only after the appropriate governance function determines",
+    "page": "p.12",
+    "note": "ML R&D deployment process 'will be applied for deployments of a model reaching a ML R&D CCL' (p.12); sentence ends on p.13 'the safety case regarding each CCL the model has reached to be adequate'. Gate under C3(b)/E3."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Decisions sit with 'the appropriate governance function' (pp.9, 12-13) and 'appropriate corporate governance bodies' (p.16), never named."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Binding 'will' with 'as needed' (not voiding per E2); applies to every CCL with an alert threshold."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3-style adequacy gate (p.9/p.12-13), whose condition is the safety case being adequate (E4). Risk acceptance criteria p.6-7 are 'if, for example' and security levels 'recommended'; no statement of what happens if required safeguards cannot be put in place."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomous replication, resource acquisition or long-horizon autonomous action risk. 'Autonomous'/'agents' appear only in misalignment (p.15, loss_of_control) and ML R&D automation (ai_rnd)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy CCL."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy threshold or response."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "we address specific scenarios where general-purpose AI agents are potentially misaligned and can become difficult to control, thereby posing a risk of severe harm.",
+    "page": "p.15",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Instrumental Reasoning CCLs (p.15, Table 4.a) are 'exploratory and intended for illustration only' (p.4) and 'This section is therefore illustrative only' (p.15): illustrations do not count (C2). ML R&D CCL text itself is not about misalignment (B2)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Automated monitoring 'may be applied' (Table 4.a p.15); 'one possible mitigation' (p.15); no explicit risk acceptance criteria for misalignment (p.4, p.7)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk (illustrative CCLs only)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response for this risk."
+   }
+  }
+ }
+}

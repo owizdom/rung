@@ -1,0 +1,201 @@
+{
+ "doc_id": "amazon-fmsf-2025.02",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:56:12Z",
+ "other_risks": [
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Offensive Cyber Operations focuses on risks that would arise from the use of a model by malicious actors to compromise digital systems with the intent to cause harm.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of providing material uplift (beyond other publicly available research or tools) that would enable a moderately skilled actor (e.g., an individual with undergraduate level understanding of offensive cyber activities or operations) to discover new, high-value vulnerabilities",
+    "page": "p.2",
+    "note": "Offensive Cyber Operations Critical Capability Threshold."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "C3(b): no deployment until the risk is mitigated. Also p.2 'When a maximal capability evaluation indicates that a model has hit a Critical Capability Threshold, we will not deploy the model until we have implemented appropriate safeguards' and p.3 'we will implement a set of Safety Measures and Security Measures' with examples listed pp.3-4. Framework-wide for each CCT."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The report will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel. Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",
+    "page": "p.5",
+    "note": "'Senior leadership' is given as specific roles (SVP for the model development team, CSO, legal counsel) who approve mitigations and make the go/no-go decision."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.",
+    "page": "p.3",
+    "note": "Listed under the binding lead-in p.3 'We will therefore use a range of evaluation approaches, including both automated and manual methods, including:' for determining whether a model hit a CCT. Outside red teamers evaluate capabilities on the CCT domains."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "Condition is the required Safety and Security Measures failing to mitigate; result is no deployment (C6(a))."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN Weapons Proliferation focuses on the risk that a model may be able to guide malicious actors in developing and deploying CBRN weapons.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of providing expert-level, interactive instruction that provides material uplift (beyond other publicly available research or tools) that would enable a non-subject matter expert to reliably produce and deploy a CBRN weapon.",
+    "page": "p.2",
+    "note": "CBRN Critical Capability Threshold."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "C3(b): no deployment until the risk is mitigated. Also p.2 'When a maximal capability evaluation indicates that a model has hit a Critical Capability Threshold, we will not deploy the model until we have implemented appropriate safeguards' and p.3 'we will implement a set of Safety Measures and Security Measures' with examples listed pp.3-4. Framework-wide for each CCT."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The report will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel. Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",
+    "page": "p.5",
+    "note": "'Senior leadership' is given as specific roles (SVP for the model development team, CSO, legal counsel) who approve mitigations and make the go/no-go decision."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.",
+    "page": "p.3",
+    "note": "Listed under the binding lead-in p.3 'We will therefore use a range of evaluation approaches, including both automated and manual methods, including:' for determining whether a model hit a CCT. Outside red teamers evaluate capabilities on the CCT domains."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "Condition is the required Safety and Security Measures failing to mitigate; result is no deployment (C6(a))."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Automated AI R&D could also accelerate the development of models that pose enhanced CBRN, Offensive Cybersecurity, or other severe risks.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of replacing human researchers and fully automating the research, development, and deployment of frontier models",
+    "page": "p.2",
+    "note": "Automated AI R&D Critical Capability Threshold."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "C3(b): no deployment until the risk is mitigated. Also p.2 'When a maximal capability evaluation indicates that a model has hit a Critical Capability Threshold, we will not deploy the model until we have implemented appropriate safeguards' and p.3 'we will implement a set of Safety Measures and Security Measures' with examples listed pp.3-4. Framework-wide for each CCT."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The report will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel. Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",
+    "page": "p.5",
+    "note": "'Senior leadership' is given as specific roles (SVP for the model development team, CSO, legal counsel) who approve mitigations and make the go/no-go decision."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.",
+    "page": "p.3",
+    "note": "Listed under the binding lead-in p.3 'We will therefore use a range of evaluation approaches, including both automated and manual methods, including:' for determining whether a model hit a CCT. Outside red teamers evaluate capabilities on the CCT domains."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "Condition is the required Safety and Security Measures failing to mitigate; result is no deployment (C6(a))."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomous replication, resource acquisition or long-horizon autonomous action risk; 'automating' appears only for AI R&D (ai_rnd) and cyber exploitation."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy threshold."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy threshold or response."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'Alignment' appears only as safety training to meet Responsible AI objectives (p.3 Alignment Training), jailbreak/prompt-injection bypass of alignment and malicious fine-tuning (pp.3-4, misuse), and alignment research investment (p.4). No risk of the model acting against developer intent or evading control is named."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold for this risk."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   }
+  }
+ }
+}

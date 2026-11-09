@@ -1,0 +1,199 @@
+{
+ "doc_id": "meta-scaling-2025.03",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:51:33Z",
+ "other_risks": [],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "We include catastrophic outcomes in the following risk domains: Cybersecurity and Chemical & Biological risks.",
+    "page": "p.14",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "TS.1.1: End-to-End compromise of a fully patched environment protected by state of the art security best practices. Complete end to end automation of",
+    "page": "p.14",
+    "note": "Text layer interleaves table cells; quote is the contiguous start of the TS.1.1 cell. Critical threshold = uniquely enabling a threat scenario, High = significant uplift (Table 1 p.13); cyber threat scenarios TS.1.1-3.1 p.14 give the domain-specific level."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If a frontier AI is assessed to have reached the critical risk threshold and cannot be mitigated, we will stop development and implement the measures outlined in Table 1.",
+    "page": "p.12",
+    "note": "Also p.17: at 'high' threshold 'we will not release the frontier AI externally'; Table 1 p.13 security mitigations (access strictly limited)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.8 'a leadership team will ... approve the model for release' and p.13 fn7 'senior-level decision-makers' are generic labels, not defined as specific roles."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External input is hedged: p.7 'where appropriate'/'where relevant', p.8 'involving external experts when appropriate', p.13 fn7 'third parties where appropriate'. p.7 fn2 government officials join threat-modelling workshops, not a review of model, threshold or safeguards."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If additional barriers do not exist, continue to investigate mitigations, and do not further develop the model until such a time as adequate mitigations have been identified.",
+    "page": "p.13",
+    "note": "Table 1 Critical row, Measures cell (text layer interleaves cells). Also p.12: if critical and 'cannot be mitigated, we will stop development'."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "We include catastrophic outcomes in the following risk domains: Cybersecurity and Chemical & Biological risks.",
+    "page": "p.14",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "CB 1: Proliferation of known medium-impact biological and chemical weapons for low and moderate skill actors.",
+    "page": "p.15",
+    "note": "Critical/High levels in Table 1 p.13 defined against chem/bio threat scenarios TS.1.1-3.1 p.15."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If a frontier AI is assessed to have reached the critical risk threshold and cannot be mitigated, we will stop development and implement the measures outlined in Table 1.",
+    "page": "p.12",
+    "note": "Also p.17: at 'high' threshold 'we will not release the frontier AI externally'; Table 1 p.13 security mitigations (access strictly limited)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.8 'a leadership team will ... approve the model for release' and p.13 fn7 'senior-level decision-makers' are generic labels, not defined as specific roles."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External input is hedged: p.7 'where appropriate'/'where relevant', p.8 'involving external experts when appropriate', p.13 fn7 'third parties where appropriate'. p.7 fn2 government officials join threat-modelling workshops, not a review of model, threshold or safeguards."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If additional barriers do not exist, continue to investigate mitigations, and do not further develop the model until such a time as adequate mitigations have been identified.",
+    "page": "p.13",
+    "note": "Table 1 Critical row, Measures cell (text layer interleaves cells). Also p.12: if critical and 'cannot be mitigated, we will stop development'."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "We also account for enabling capabilities, such as automated AI R&D, that might increase the potential for enhancements to model capabilities.",
+    "page": "p.17",
+    "note": "Named as an enabling capability accounted for in evaluations; no domain of its own."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold for AI R&D; thresholds defined only for cyber and chem/bio threat scenarios (p.12-15)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response committed for AI R&D."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; no threshold or response"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; no threshold or response"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "execution: Ability to autonomously",
+    "page": "p.14",
+    "note": "Text layer interleaves table cells; full cell reads 'Web & tool automation and long term multi-step planning & execution: Ability to autonomously perform end to end tasks requiring multi-step planning'. Named as an example enabling capability for cyber outcome 3 (Table p.14); 'Autonomous cyber operations' also p.14. No autonomy threshold of its own (B2)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold for autonomy; thresholds defined only for cyber and chem/bio threat scenarios (p.12-15)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response committed for autonomy."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; no threshold or response"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; no threshold or response"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "This includes accounting for capabilities that might undermine reliability of results, such as deception.",
+    "page": "p.16",
+    "note": "Model deception undermining evaluation results (oversight); only mention."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold for loss of control; thresholds defined only for cyber and chem/bio threat scenarios (p.12-15)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response committed for loss of control."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; no threshold or response"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; no threshold or response"
+   }
+  }
+ }
+}

@@ -2,7 +2,7 @@
  "doc_id": "anthropic-fcf-1.0",
  "coder": "A",
  "codebook": "v1.1",
- "coded_at": "2026-11-09T13:50:00Z",
+ "coded_at": "2026-11-09T13:50:21Z",
  "other_risks": [
   "harmful manipulation",
   "nuclear and radiological (within CBRN)"
@@ -131,9 +131,9 @@
    },
    "threshold": {
     "value": 1,
-    "quote": "Models demonstrate capability for sustained autonomous operation and resource acquisition against active resistance",
-    "page": "p.9",
-    "note": "Sabotage and loss of control Tier 4; p.8 tier system describes capabilities 'against autonomy level' and gives 'thresholds for decision-making around autonomous capabilities'; tiers use time horizons (~1 hour, ~10 hours, days to months)."
+    "quote": "For sabotage and loss of control risks, we have established a tier system that describes model capabilities against autonomy level, deception sophistication, and potential for unsanctioned action, providing thresholds for decision-making around autonomous capabilities.",
+    "page": "p.8",
+    "note": "Text layer interleaves table cells; Tier 4 cell p.9 reads 'Models demonstrate capability for sustained autonomous operation and resource acquisition against active resistance'; tiers use time horizons (~1 hour, ~10 hours, days to months)."
    },
    "response": {
     "value": 0,
@@ -169,9 +169,9 @@
    },
    "threshold": {
     "value": 1,
-    "quote": "Models demonstrate reliable capability to evade detection across diverse evaluation methods of the kinds typically used in 2025.",
-    "page": "p.9",
-    "note": "Sabotage and loss of control Tier 3 (tiers 1-4 p.9); triggers safeguards p.6."
+    "quote": "For sabotage and loss of control risks, we have established a tier system that describes model capabilities against autonomy level, deception sophistication, and potential for unsanctioned action, providing thresholds for decision-making around autonomous capabilities.",
+    "page": "p.8",
+    "note": "Text layer interleaves table cells; Tier 3 cell p.9 reads 'Models demonstrate reliable capability to evade detection across diverse evaluation methods of the kinds typically used in 2025.' Tier reached triggers safeguards p.6."
    },
    "response": {
     "value": 0,

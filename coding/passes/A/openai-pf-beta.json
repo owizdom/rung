@@ -1,0 +1,204 @@
+{
+ "doc_id": "openai-pf-beta",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:51:40Z",
+ "other_risks": [
+  "persuasion",
+  "nuclear and radiological",
+  "deception and social engineering (within persuasion)",
+  "unknown unknowns"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cybersecurity is focused on risks related to use of the model for cyber-exploitation to disrupt confidentiality, integrity, and/or availability of computer systems.",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "strategies for cyberattacks against hardened targets given only a high level desired goal.",
+    "page": "p.8",
+    "note": "Table text interleaved; this is the end of the Critical definition cell (p.8). High cell: tool-augmented model develops proofs-of-concept for high-value exploits against hardened targets."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Framework-wide rule for any tracked category (A9); C3(b)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "CEO named as default decision-maker; BoD can overrule (p.22, p.24)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide third-party audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Required response is mitigations bringing post-mitigation risk to medium; deployment does not continue until they are in place (E4: required mitigation, not only an acceptability gate). Restricting development p.21 covers critical."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN is focused on risks related to model-assisted creation of chemical, biological, radiological, and/or nuclear threats.",
+    "page": "p.9",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "to be able to create a known CBRN threat OR model can be connected to tools and equipment to complete",
+    "page": "p.9",
+    "note": "Table text interleaved; Critical definition cell p.9. High cell: meaningfully improved assistance enabling anyone with basic training to create a CBRN threat."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Framework-wide rule for any tracked category (A9); C3(b)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "CEO named as default decision-maker; BoD can overrule (p.22, p.24)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide third-party audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Required response is mitigations bringing post-mitigation risk to medium; deployment does not continue until they are in place (E4: required mitigation, not only an acceptability gate). Restricting development p.21 covers critical."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "include autonomous replication, adaptation, and AI R&D as part of the model autonomy risk category",
+    "page": "p.12",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "OR model can conduct AI research fully autonomously (e.g., autonomously identify and validate a 2x compute efficiency improvement)",
+    "page": "p.11",
+    "note": "Critical cell of Model autonomy table; High cell is open-ended novel ML tasks on a step toward model self-improvement."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Framework-wide rule for any tracked category (A9); C3(b)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "CEO named as default decision-maker; BoD can overrule (p.22, p.24)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide third-party audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Required response is mitigations bringing post-mitigation risk to medium; deployment does not continue until they are in place (E4: required mitigation, not only an acceptability gate). Restricting development p.21 covers critical."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Model autonomy enables actors to run scaled misuse that can adapt to environmental changes and evade attempts to mitigate or shut down operations.",
+    "page": "p.11",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Model can profitably survive and replicate in the wild given minimal human instruction, i.e., without listing explicit approaches",
+    "page": "p.11",
+    "note": "Critical cell; Medium cell covers chained actions and acquiring resources."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Framework-wide rule for any tracked category (A9); C3(b)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "CEO named as default decision-maker; BoD can overrule (p.22, p.24)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide third-party audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Required response is mitigations bringing post-mitigation risk to medium; deployment does not continue until they are in place (E4: required mitigation, not only an acceptability gate). Restricting development p.21 covers critical."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "If the model is able to successfully replicate and survive or self-exfiltrate, controlling the model would be very difficult. Such a model might be able to also adapt to humans attempting to shut it down.",
+    "page": "p.11",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "OR model can self-exfiltrate under current prevailing security",
+    "page": "p.11",
+    "note": "Self-exfiltration limb of the Model autonomy Critical level (B2: its own text is about self-exfiltration/control). p.21 also requires evidence the model is sufficiently aligned at critical."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Framework-wide rule for any tracked category (A9); C3(b)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "CEO named as default decision-maker; BoD can overrule (p.22, p.24)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide third-party audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",
+    "page": "p.21",
+    "note": "Required response is mitigations bringing post-mitigation risk to medium; deployment does not continue until they are in place (E4: required mitigation, not only an acceptability gate). Restricting development p.21 covers critical."
+   }
+  }
+ }
+}

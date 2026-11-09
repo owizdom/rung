@@ -1,0 +1,206 @@
+{
+ "doc_id": "naver-asf-1.0",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:56:29Z",
+ "other_risks": [
+  "misuse (general)",
+  "human rights violation",
+  "disinformation",
+  "bias and discrimination",
+  "illegal content",
+  "jailbreaking"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "screened LLMs for signs of harmful content across seven domains—human rights violation, disinformation, inconsistency, cyberattacks, bias and discrimination, illegal content, and jailbreaking",
+    "page": "p.7",
+    "note": "Only mention: cyberattacks as one domain screened in NAVER's own red teaming challenge (External Collaborations)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No cyber-specific level; cyberattacks named only as a red-teaming domain (p.7). Misuse matrix levels (p.5-6) are generic use-case/guardrail-need categories."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Misuse matrix (p.5-6) is defined for the misuse category, whose only named example is biochemical weapons; no response stated for cyber."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our AI Safety Framework describes the second risk category as misusing AI systems to develop hazardous biochemical weapons or otherwise use them against their original purpose.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Misuse matrix levels (Low risk / Risk identified / High risk, p.6) are defined by use case and need for guardrails, not by what a model could do in the biochemical domain; 'Special use case: biochemical weaponization' appears only as an example (p.5)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Deploy AI systems only after implementing guardrails through technological and policy actions and risks have been sufficiently mitigated",
+    "page": "p.6",
+    "note": "Misuse matrix cell (general purpose, high need for guardrails); High risk cell reads 'Do not deploy AI systems'. Present-tense rules tied to a condition (E1), C3(b). Biochemical weaponization is the matrix's example (p.5). No threshold (gap). Surrounding prose uses 'should' (p.6)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The board (or the risk management committee) that makes the final decisions on the matter",
+    "page": "p.7",
+    "note": "AI Governance; risk management working group decides which issues to raise to the board."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed outside review. Red Teaming Challenge (p.7) is a past event; 'We will also collaborate with external experts' (p.9) commits to no review of this risk's safeguards or thresholds."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Withhold deployment until additional safety measures are taken",
+    "page": "p.6",
+    "note": "Misuse matrix cell (Risk identified): deployment held until required safety measures are in place (E4). Measures are not named; see report."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No mention of AI automating AI/ML research or self-improvement."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No mention of autonomous replication, resource acquisition or long-horizon autonomous action; 'AI-enabled automation' (p.4) appears only to contrast with loss of control."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "NAVER’s AI Safety Framework defines the first category of risk as AI systems causing severe disempowerment of the human species.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "AI Risk Assessment Scale (p.5) sets only an evaluation cadence for Frontier AI ('Every 3 months, or when performance increases by 6x'); the 6x trigger is a general performance/compute criterion, not a level of loss-of-control capability. See report (ambiguity)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed safeguard or deployment restriction for loss of control; p.4 says only 'we continually apply our standards to look for signs of alarm'. Deployment rules (p.6) belong to the misuse matrix."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  }
+ }
+}

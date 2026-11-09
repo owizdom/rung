@@ -1,0 +1,201 @@
+{
+ "doc_id": "anthropic-rsp-2.1",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:56:37Z",
+ "other_risks": [
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber Operations: The ability to significantly enhance or automate sophisticated destructive cyber attacks",
+    "page": "p.9",
+    "note": "Listed as a capability requiring significant investigation; table with Ongoing Assessment."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9: 'the exact Capability Threshold and the Required Safeguards are not clear at present'; thresholds promised for a future iteration."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9: tiered access controls or phased deployments are only 'considering'; no committed response."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9 'engaging with experts in cyber operations' is assessment input; cyber has no threshold or response for a review to cover."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN-4: The ability to substantially uplift CBRN development capabilities of moderately resourced state programs",
+    "page": "p.8",
+    "note": "CBRN-3 also in the same table."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The ability to significantly help individuals or groups with basic technical backgrounds (e.g., undergraduate STEM degrees) create/obtain and deploy CBRN weapons.",
+    "page": "p.8",
+    "note": "CBRN-3 and CBRN-4; appendix p.20 adds detail."
+   },
+   "response": {
+    "value": 1,
+    "quote": "The ASL-3 Deployment Standard and the ASL-3 Security Standard, which protect against misuse and model-weight theft by non-state adversaries, are required.",
+    "page": "p.8",
+    "note": "CBRN-3 Required Safeguards. Standards defined with criteria in 4.1 and 4.2 (pp.12-14)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "who will (1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2) decide any deployment-related issues.",
+    "page": "p.14",
+    "note": "Also p.11: capability report escalated to the CEO and RSO who make the ultimate determination."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide review of adherence (7.2 item 4)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",
+    "page": "p.14",
+    "note": "Also p.15 interim measures, stronger restrictions (de-deploy, delete weights) and pausing training until the ASL-3 Security Standard is implemented."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The ability to fully automate the work of an entry-level, remote-only Researcher at Anthropic.",
+    "page": "p.8",
+    "note": "AI R&D-4 and AI R&D-5."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The ability to fully automate the work of an entry-level, remote-only Researcher at Anthropic.",
+    "page": "p.8",
+    "note": "AI R&D-5 is dramatic acceleration in the rate of effective scaling, quantified in appendix p.20."
+   },
+   "response": {
+    "value": 1,
+    "quote": "The ASL-3 Security Standard is required.",
+    "page": "p.8",
+    "note": "AI R&D-4; AI R&D-5 states at minimum the ASL-4 Security Standard is required."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "who will (1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2) decide any deployment-related issues.",
+    "page": "p.14",
+    "note": "Also p.11: capability report escalated to the CEO and RSO who make the ultimate determination."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide review of adherence (7.2 item 4)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",
+    "page": "p.14",
+    "note": "Also p.15 interim measures, stronger restrictions (de-deploy, delete weights) and pausing training until the ASL-3 Security Standard is implemented."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "the ability to autonomously perform a wide range of 2-8 hour software engineering tasks",
+    "page": "p.8",
+    "note": "Model Autonomy checkpoint; autonomous replication named as a capability warranting attention."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The ability to perform a wide range of advanced software engineering tasks autonomously that could be precursors to full autonomous replication or automated AI R&D",
+    "page": "p.20",
+    "note": "Checkpoint triggers further testing and an update (p.8-9) so counted under E5; changelog p.21 of v2.0 entry says it prompts additional evaluation."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.8-9: 'we will (1) aim to have met (or be close to meeting) the ASL-3 Security Standard as an intermediate goal' is hedged; other steps are an update and testing."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The CEO and RSO determinations (pp.11, 14) concern Capability Thresholds; the checkpoint is not formally one and nothing names who decides it."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide review of adherence (7.2 item 4)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed response for this risk."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "In addition, we will develop an affirmative case that (1) identifies the most immediate and relevant risks from models pursuing misaligned goals",
+    "page": "p.8",
+    "note": "Also p.6: 'the risk that an AI system attempts to subvert the goals of its operators'."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "In addition, we will develop an affirmative case that (1) identifies the most immediate and relevant risks from models pursuing misaligned goals",
+    "page": "p.8",
+    "note": "Table cell for AI R&D-4; the safeguards cell is about misalignment so counted under B2, though the capability text is about automating research. Page is the table page; the quote is the Required Safeguards cell."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",
+    "page": "p.14",
+    "note": "Required showing includes the misalignment affirmative case that risks are mitigated to acceptable levels (p.8 table); gate is restrict deployment and scaling until the showing is made. Borderline: no named misalignment safeguards."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "who will (1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2) decide any deployment-related issues.",
+    "page": "p.14",
+    "note": "Also p.11: capability report escalated to the CEO and RSO who make the ultimate determination."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide review of adherence (7.2 item 4)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",
+    "page": "p.14",
+    "note": "Also p.15 interim measures, stronger restrictions (de-deploy, delete weights) and pausing training until the ASL-3 Security Standard is implemented."
+   }
+  }
+ }
+}

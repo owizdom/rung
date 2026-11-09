@@ -1,0 +1,201 @@
+{
+ "doc_id": "openai-pf-2.0",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:54:35Z",
+ "other_risks": [
+  "nuclear and radiological (Research Category)"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cybersecurity capabilities that, in addition to helping protect vulnerable systems, can also create new risks of scaled cyberattacks and vulnerability exploitation.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "[High] The model removes existing bottlenecks to scaling cyber operations including by automating end-to-end cyber operations against reasonably hardened targets OR by automating the discovery and exploitation of operationally relevant vulnerabilities.",
+    "page": "p.6",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Require security controls meeting High standard (Appendix C.3)",
+    "page": "p.6",
+    "note": "Cyber High row; plus misuse and misalignment safeguards; Critical row (p.7) halts development. C.3 (p.21) lists the High security measures."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",
+    "page": "p.16",
+    "note": "Responsibility of 'OpenAI Leadership, i.e., the CEO or a person designated by them' (same list, p.16); Board SSC may reverse decisions."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.",
+    "page": "p.22",
+    "note": "Part of the High security standard introduced by 'We will require the following practices for High capability models' (p.21); the Tracked Category tables require this standard. Appendix C is headed illustrative (p.17), but C.3 itself says 'We will require'. Third-party capability evaluation and safeguard stress testing (p.14) are discretionary ('If we deem', 'when available and feasible')."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Until we have specified safeguards and security",
+    "page": "p.7",
+    "note": "Table text interleaved; full cell reads 'Until we have specified safeguards and security controls that would meet a Critical standard, halt further development' (Critical row, p.7). Required response (Critical-standard safeguards) not in place -> halt development (C6a)."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Biological and Chemical capabilities that, in addition to unlocking discoveries and cures, can also reduce barriers to creating and using biological or chemical weapons.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "tools and equipment to complete the full engineering and/or synthesis cycle of a regulated or novel biological threat without human intervention.",
+    "page": "p.6",
+    "note": "Critical cell of Biological and Chemical row (table text interleaved). High cell: meaningful counterfactual assistance to novice actors to create known biological or chemical threats."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Require security controls meeting High standard (Appendix C.3)",
+    "page": "p.6",
+    "note": "Same wording appears in the Biological and Chemical High row (p.6), with safeguards against misuse meeting High standard before external deployment."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",
+    "page": "p.16",
+    "note": "Responsibility of 'OpenAI Leadership, i.e., the CEO or a person designated by them' (same list, p.16); Board SSC may reverse decisions."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.",
+    "page": "p.22",
+    "note": "Part of the High security standard introduced by 'We will require the following practices for High capability models' (p.21); the Tracked Category tables require this standard. Appendix C is headed illustrative (p.17), but C.3 itself says 'We will require'. Third-party capability evaluation and safeguard stress testing (p.14) are discretionary ('If we deem', 'when available and feasible')."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Until we have specified safeguards and security",
+    "page": "p.6",
+    "note": "Table text interleaved; full cell reads 'Until we have specified safeguards and security controls that would meet a Critical standard, halt further development' (Critical row, p.6). Required response (Critical-standard safeguards) not in place -> halt development (C6a)."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI Self-improvement capabilities that, in addition to unlocking helpful capabilities faster, could also create new challenges for human control of AI systems.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "[High] The model’s impact is equivalent to giving every OpenAI researcher a highly performant mid-career research engineer assistant, relative to those researchers’ 2024 baseline.",
+    "page": "p.7",
+    "note": "Critical: recursively self improving (fully automated AI R&D), p.7."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Require security controls meeting High standard (Appendix C.3)",
+    "page": "p.7",
+    "note": "Same wording in AI Self-improvement High row (p.7; text interleaved there). Critical row: halt development until Critical-standard safeguards."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",
+    "page": "p.16",
+    "note": "Responsibility of 'OpenAI Leadership, i.e., the CEO or a person designated by them' (same list, p.16); Board SSC may reverse decisions."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.",
+    "page": "p.22",
+    "note": "Part of the High security standard introduced by 'We will require the following practices for High capability models' (p.21); the Tracked Category tables require this standard. Appendix C is headed illustrative (p.17), but C.3 itself says 'We will require'. Third-party capability evaluation and safeguard stress testing (p.14) are discretionary ('If we deem', 'when available and feasible')."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Until we have specified safeguards and security",
+    "page": "p.7",
+    "note": "Table text interleaved; full cell reads 'Until we have specified safeguards and security controls that would meet a Critical standard, halt further development' (Critical row, p.7). Required response (Critical-standard safeguards) not in place -> halt development (C6a)."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Long-range Autonomy: ability for a model to execute a long-horizon sequence of actions sufficient to",
+    "page": "p.8",
+    "note": "Research Category; Autonomous Replication and Adaptation also a Research Category (p.8)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Long-range Autonomy and Autonomous Replication and Adaptation are Research Categories with no capability threshold (p.8); change log p.15 says they are not yet Tracked Categories."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Research Category 'Potential response' column (p.8): a misalignment safeguards report (reporting only) and converting ARA to a Tracked Category; no committed safeguard or deployment restriction for autonomy."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI Self-improvement capabilities that, in addition to unlocking helpful capabilities faster, could also create new challenges for human control of AI systems.",
+    "page": "p.2",
+    "note": "Also Research Categories Sandbagging and Undermining Safeguards (p.8) and C.2 Safeguards against a misaligned model (p.19)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold whose own text is about misalignment or loss of control (B2). AI Self-improvement Critical threshold is defined as automated AI R&D; human control appears only in its associated-risk cell (p.7). Sandbagging and Undermining Safeguards are Research Categories without thresholds (p.8)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Require safeguards meeting High standard against misalignment (Appendix C.2) for large-scale internal deployment",
+    "page": "p.6",
+    "note": "Cyber High row; the C.2 standard lists Value Alignment, Instruction Alignment, Reliable and Robust System Oversight, System Architecture (p.19-20). Response without own threshold (gap)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",
+    "page": "p.16",
+    "note": "Responsibility of 'OpenAI Leadership, i.e., the CEO or a person designated by them' (same list, p.16); Board SSC may reverse decisions."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "C.3 third-party audits cover security controls only; third-party stress testing of safeguards is discretionary ('If we deem', 'We may seek this out', p.14)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if misalignment safeguards cannot be met; halt clauses (p.6-7) attach to Critical security/safeguard standards of the tracked categories."
+   }
+  }
+ }
+}

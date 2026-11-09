@@ -1,0 +1,203 @@
+{
+ "doc_id": "meta-scaling-2.0",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:53:03Z",
+ "other_risks": [
+  "nuclear and radiological",
+  "physical autonomy (emerging)",
+  "fraud and scams"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "meeting the simple-suite threshold is provisionally rated “high” risk for the given deployment scenario and such deployment will not be implemented.",
+    "page": "p.29",
+    "note": "Simple-suite threshold = pass@10 >= 75% on any CTF category (p.28-29); high-risk examples p.29 item 4."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Proceed with deployment of the Frontier AI only if sufficient mitigations are defined, implemented and validated to reduce risk to that of a moderate or lower model.",
+    "page": "p.15",
+    "note": "Table 1 High and Critical rows, Measures cell, applies to every threshold (A9). Also p.17 critical: 'we will only continue development ... if ... safeguards are defined, implemented and validated'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Based on this pre-mitigation risk assessment, the Chief AI Officer and Director of Alignment and Risk2 will assign a risk threshold.",
+    "page": "p.6",
+    "note": "Framework-wide; p.7 CAIO or Director 'will determine whether to ... approve the model for deployment'; roles defined p.10 s.2.3."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review: p.5 'where appropriate' external experts and fn1 government officials only in threat-modelling workshops; p.6 red teaming 'involving external experts when appropriate'; p.9 internal-use report to authorities 'as appropriate' (notification); p.32 evals 'developed in collaboration with external experts' describes development, not review; p.1 'demonstrate externally' is publication."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.17",
+    "note": "Critical threshold. Table 1 p.15 High/Critical: deploy only if sufficient mitigations validated. p.10 non-compliance protocol is 'is developing' (not counted)."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "define high risk as a level of performance that could substantially contribute to one or more Threat Scenarios if the deployment proceeds as planned",
+    "page": "p.31",
+    "note": "Threat scenarios CB1-CB3 (p.21) give the domain-specific levels."
+   },
+   "response": {
+    "value": 1,
+    "quote": "we will not deploy the model externally unless we have strong additional evidence that mitigations are sufficiently robust to adversarial attacks that the fully mitigated model is reduced to moderate or lower levels.",
+    "page": "p.32",
+    "note": "Also Table 1 p.15."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Based on this pre-mitigation risk assessment, the Chief AI Officer and Director of Alignment and Risk2 will assign a risk threshold.",
+    "page": "p.6",
+    "note": "Framework-wide; p.7 CAIO or Director 'will determine whether to ... approve the model for deployment'; roles defined p.10 s.2.3."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review: p.5 'where appropriate' external experts and fn1 government officials only in threat-modelling workshops; p.6 red teaming 'involving external experts when appropriate'; p.9 internal-use report to authorities 'as appropriate' (notification); p.32 evals 'developed in collaboration with external experts' describes development, not review; p.1 'demonstrate externally' is publication."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.17",
+    "note": "Critical threshold. Table 1 p.15 High/Critical: deploy only if sufficient mitigations validated. p.10 non-compliance protocol is 'is developing' (not counted)."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomous AI R&D: Ability to autonomously and consistently complete tasks which are",
+    "page": "p.22",
+    "note": "Example enabling capability for Loss of Control 1 (TS.1.1 'AI development accelerates', p.22); p.36 tracking autonomous research capabilities."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Autonomously complete research tasks which are representative of the work of a senior research engineer improving AI capabilities at Meta, and/or results in AI progress substantially accelerating from historical rates.",
+    "page": "p.35",
+    "note": "Enhanced evaluation for LoC 1; fn8 p.35 gives quantitative criterion; p.34 checkpoint (2+ hour SWE tasks) triggers it. Framed 'For example, we will assess'. Counted as ai_rnd threshold under B2."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Proceed with deployment of the Frontier AI only if sufficient mitigations are defined, implemented and validated to reduce risk to that of a moderate or lower model.",
+    "page": "p.15",
+    "note": "Table 1 High and Critical rows, Measures cell, applies to every threshold (A9). Also p.17 critical: 'we will only continue development ... if ... safeguards are defined, implemented and validated'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Based on this pre-mitigation risk assessment, the Chief AI Officer and Director of Alignment and Risk2 will assign a risk threshold.",
+    "page": "p.6",
+    "note": "Framework-wide; p.7 CAIO or Director 'will determine whether to ... approve the model for deployment'; roles defined p.10 s.2.3."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review: p.5 'where appropriate' external experts and fn1 government officials only in threat-modelling workshops; p.6 red teaming 'involving external experts when appropriate'; p.9 internal-use report to authorities 'as appropriate' (notification); p.32 evals 'developed in collaboration with external experts' describes development, not review; p.1 'demonstrate externally' is publication."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.17",
+    "note": "Critical threshold. Table 1 p.15 High/Critical: deploy only if sufficient mitigations validated. p.10 non-compliance protocol is 'is developing' (not counted)."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "autonomous acquisition of resources (e.g., computational, financial, or otherwise) as an instrumental means to accomplish their objectives more effectively, including through autonomous replication.",
+    "page": "p.38",
+    "note": "Illustrative threat scenario being explored (s.4.2.4). Physical autonomy also named p.36-37 as emerging outcome."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy threshold: p.38 replication/resource acquisition only illustrative scenarios being explored; p.37 physical autonomy 'in the future we may first define a rule-out threshold' (future, hedged). The p.34 2+ hour SWE checkpoint is presented as a LoC 1/AI R&D marker (B2)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response committed for autonomy; p.37 'a potential pathway would be to integrate monitoring' is hedged."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; no threshold or response"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; no threshold or response"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Selectively adapt performance on key capability and safety benchmarks in the context of an evaluation designed to elicit this behavior, where performance on target evaluations is substantially different from control evaluations",
+    "page": "p.34",
+    "note": "LoC 1 capability checkpoint triggers enhanced evaluation (E5); LoC thresholds operationalized against TS p.22-24 (p.33); enhanced evals p.35 lead to high vs critical determination (p.36)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Proceed with deployment of the Frontier AI only if sufficient mitigations are defined, implemented and validated to reduce risk to that of a moderate or lower model.",
+    "page": "p.15",
+    "note": "Table 1 High and Critical rows, Measures cell, applies to every threshold (A9). Also p.17 critical: 'we will only continue development ... if ... safeguards are defined, implemented and validated'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Based on this pre-mitigation risk assessment, the Chief AI Officer and Director of Alignment and Risk2 will assign a risk threshold.",
+    "page": "p.6",
+    "note": "Framework-wide; p.7 CAIO or Director 'will determine whether to ... approve the model for deployment'; roles defined p.10 s.2.3."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review: p.5 'where appropriate' external experts and fn1 government officials only in threat-modelling workshops; p.6 red teaming 'involving external experts when appropriate'; p.9 internal-use report to authorities 'as appropriate' (notification); p.32 evals 'developed in collaboration with external experts' describes development, not review; p.1 'demonstrate externally' is publication."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.17",
+    "note": "Critical threshold. Table 1 p.15 High/Critical: deploy only if sufficient mitigations validated. p.10 non-compliance protocol is 'is developing' (not counted)."
+   }
+  }
+ }
+}
