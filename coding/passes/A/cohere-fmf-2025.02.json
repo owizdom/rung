@@ -1,0 +1,206 @@
+{
+ "doc_id": "cohere-fmf-2025.02",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:35:19Z",
+ "other_risks": [
+  "child sexual exploitation and abuse material",
+  "discriminatory outputs",
+  "hateful or violent content",
+  "insecure code",
+  "privacy violations",
+  "inaccurate harmful outputs"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Risks stemming from possible malicious use of foundation AI models, such as generating content to facilitate cybercrime or child sexual exploitation",
+    "page": "p.6",
+    "note": "Also the 'Malware code' row of the harms table p.8 ('generate code that could be used to spread malware in a cybercrime')."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No cyber level. The harms table (p.7-8) gives an 'illustrative assessment' of likelihood and severity for malware code, not a level that changes what Cohere does. The only gate is generic (no regressions vs previous model, p.16)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Any performance regressions identified during any such testing or evaluations, including the final pre-deployment evaluation, are investigated and mitigated before deployment.",
+    "page": "p.16",
+    "note": "Generic launch gate (E3, read with E1 present tense): p.16 'This is Cohere’s bright line for determining when a model is “acceptable” from a risk management perspective and ready to be launched.' Covers the harms the evaluations target, including malicious-use cybercrime/malware. No cyber threshold, recorded as a gap."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The final authority to determine if our products are safe, secure, and ready to be made available to our customers is delegated by Cohere’s CEO to Cohere’s Chief Scientist.",
+    "page": "p.15",
+    "note": "Decides whether to proceed under the generic gate that covers this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Third-party penetration testing of containers (p.10, p.16) tests Cohere's own system security, not safeguards against offensive cyber misuse; red teaming 'may include independent external parties' (p.16) is hedged."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the generic no-regression gate (p.16), which E4 excludes; nothing says what happens if a required named response cannot be met."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Biorisk appears only in the boxed description of 'One approach to risk assurance in the AI industry' (p.14-15, E7) and in a critique that existing biorisk research 'fails to account' for risk chains (p.15); Cohere's own approach is 'focused on risks that are known, measurable, or observable today' (p.15)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'the ability to perform autonomous research' appears only in the boxed description of another industry approach (p.15), not adopted (E7)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'autonomy, and self-replication' appear only in the boxed description of another industry approach (p.14, E7). 'Excessive agency' in the key-risks table (p.13-14) is an application-security item with no autonomous-action-in-the-world framing."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No misalignment, deception or oversight-undermining risk named. Red teaming of 'the model’s ability to fulfill alignment on risk mitigation goals' (p.16) is robustness to user jailbreaks (misuse), not the model acting against its developer."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk (not mentioned)"
+   }
+  }
+ }
+}

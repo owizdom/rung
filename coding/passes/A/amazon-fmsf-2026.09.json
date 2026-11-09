@@ -1,0 +1,202 @@
+{
+ "doc_id": "amazon-fmsf-2026.09",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:33:25Z",
+ "other_risks": [
+  "harmful manipulation",
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The Offensive Cyber Operations domain focuses on risks that would arise from the use of a model by malicious actors to compromise digital systems with the intent to cause harm.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "exploit chains in hardened systems or utilize existing vulnerabilities to autonomously extend control over critical infrastructure systems.",
+    "page": "p.2",
+    "note": "Critical Capability Threshold box for Offensive Cyber Operations; opening words 'AI at this level will be able to enable non-subject matter experts to discover novel end-to-end' omitted because the text layer reads 'endto-end'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "When an evaluation indicates that a model’s capabilities meet a Critical Capability Threshold, we will not deploy the model until safeguards appropriately mitigate the risks.",
+    "page": "p.3",
+    "note": ""
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Any evaluations that exceed the Capability threshold will be reported to the SVP for the model development team and the company’s Chief Security Officer. These leaders will review the plan for risk mitigations to address the Critical Capability",
+    "page": "p.7",
+    "note": "Same section p.7: these leaders 'review the safeguards evaluation report as part of a go/no-go decision'."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "We will therefore use a range of internal and external evaluation approaches including both automated and manual methods",
+    "page": "p.3",
+    "note": "Binding 'will ... use' external evaluation approaches to determine whether a Critical Capability Threshold is hit. Other external passages are hedged ('as appropriate' p.3, 'may engage, where appropriate' p.3) or describe current practice (red-team firms p.3-4, bug bounty p.5, outside security experts p.11)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we will not deploy the model until we have identified and implemented additional safeguards as appropriate.",
+    "page": "p.6",
+    "note": "Condition on p.5: 'In the event evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Risk Mitigations are unable to appropriately control the capabilities'. 'as appropriate' qualifies the safeguards that lift the hold, not the binding 'will not deploy'."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The CBRN Weapons Proliferation domain focuses on the risk that a model may be able to guide malicious actors in developing and deploying CBRN weapons.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of providing expert-level, interactive instruction that provides material uplift (beyond other publicly available models in known harnesses) that would enable a non-subject matter expert to reliably produce and deploy a CBRN weapon.",
+    "page": "p.2",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "When an evaluation indicates that a model’s capabilities meet a Critical Capability Threshold, we will not deploy the model until safeguards appropriately mitigate the risks.",
+    "page": "p.3",
+    "note": ""
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Any evaluations that exceed the Capability threshold will be reported to the SVP for the model development team and the company’s Chief Security Officer. These leaders will review the plan for risk mitigations to address the Critical Capability",
+    "page": "p.7",
+    "note": "Same section p.7: these leaders 'review the safeguards evaluation report as part of a go/no-go decision'."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "We will therefore use a range of internal and external evaluation approaches including both automated and manual methods",
+    "page": "p.3",
+    "note": "Binding 'will ... use' external evaluation approaches to determine whether a Critical Capability Threshold is hit. Other external passages are hedged ('as appropriate' p.3, 'may engage, where appropriate' p.3) or describe current practice (red-team firms p.3-4, bug bounty p.5, outside security experts p.11)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we will not deploy the model until we have identified and implemented additional safeguards as appropriate.",
+    "page": "p.6",
+    "note": "Condition on p.5: 'In the event evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Risk Mitigations are unable to appropriately control the capabilities'. 'as appropriate' qualifies the safeguards that lift the hold, not the binding 'will not deploy'."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI at this level will be capable of autonomously planning and executing complex sequences of expert-level tasks (including, but not limited to, the research, development, and deployment of frontier models) in such a way that would impair the ability to direct, modify, or shut down the model.",
+    "page": "p.3",
+    "note": "AI R&D appears only inside the Loss of Control threshold, as 'the research, development, and deployment of frontier models' among example tasks."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The only level naming frontier-model R&D is the Loss of Control Critical Capability Threshold (p.3); it is presented as marking loss of control, with R&D as a non-limiting example of tasks (B2). No AI R&D domain or threshold."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response committed for AI R&D as its own risk; the not-deploy rule (p.3) attaches to Critical Capability Thresholds, none of which is presented as an AI R&D threshold."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk (no threshold or response)"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no response for this risk, so nothing unmet"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Loss of control could arise in circumstances where a model is capable of self-exfiltration, autonomous resource acquisition, or unauthorized replication.",
+    "page": "p.3",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of autonomously planning and executing complex sequences of expert-level tasks (including, but not limited to, the research, development, and deployment of frontier models) in such a way that would impair the ability to direct, modify, or shut down the model.",
+    "page": "p.3",
+    "note": "Loss of Control threshold whose own text is about autonomous execution of long, complex task sequences (B1)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "When an evaluation indicates that a model’s capabilities meet a Critical Capability Threshold, we will not deploy the model until safeguards appropriately mitigate the risks.",
+    "page": "p.3",
+    "note": ""
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Any evaluations that exceed the Capability threshold will be reported to the SVP for the model development team and the company’s Chief Security Officer. These leaders will review the plan for risk mitigations to address the Critical Capability",
+    "page": "p.7",
+    "note": "Same section p.7: these leaders 'review the safeguards evaluation report as part of a go/no-go decision'."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "We will therefore use a range of internal and external evaluation approaches including both automated and manual methods",
+    "page": "p.3",
+    "note": "Binding 'will ... use' external evaluation approaches to determine whether a Critical Capability Threshold is hit. Other external passages are hedged ('as appropriate' p.3, 'may engage, where appropriate' p.3) or describe current practice (red-team firms p.3-4, bug bounty p.5, outside security experts p.11)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we will not deploy the model until we have identified and implemented additional safeguards as appropriate.",
+    "page": "p.6",
+    "note": "Condition on p.5: 'In the event evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Risk Mitigations are unable to appropriately control the capabilities'. 'as appropriate' qualifies the safeguards that lift the hold, not the binding 'will not deploy'."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Evaluations for this threat model will include rigorous measurement of a model’s propensity for deception, autonomous goal-directed planning, and the ability to circumvent safeguards",
+    "page": "p.3",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of autonomously planning and executing complex sequences of expert-level tasks (including, but not limited to, the research, development, and deployment of frontier models) in such a way that would impair the ability to direct, modify, or shut down the model.",
+    "page": "p.3",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "When an evaluation indicates that a model’s capabilities meet a Critical Capability Threshold, we will not deploy the model until safeguards appropriately mitigate the risks.",
+    "page": "p.3",
+    "note": "Misalignment Safeguards also listed p.5."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Any evaluations that exceed the Capability threshold will be reported to the SVP for the model development team and the company’s Chief Security Officer. These leaders will review the plan for risk mitigations to address the Critical Capability",
+    "page": "p.7",
+    "note": "Same section p.7: these leaders 'review the safeguards evaluation report as part of a go/no-go decision'."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "We will therefore use a range of internal and external evaluation approaches including both automated and manual methods",
+    "page": "p.3",
+    "note": "Binding 'will ... use' external evaluation approaches to determine whether a Critical Capability Threshold is hit. Other external passages are hedged ('as appropriate' p.3, 'may engage, where appropriate' p.3) or describe current practice (red-team firms p.3-4, bug bounty p.5, outside security experts p.11)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we will not deploy the model until we have identified and implemented additional safeguards as appropriate.",
+    "page": "p.6",
+    "note": "Condition on p.5: 'In the event evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Risk Mitigations are unable to appropriately control the capabilities'. 'as appropriate' qualifies the safeguards that lift the hold, not the binding 'will not deploy'."
+   }
+  }
+ }
+}

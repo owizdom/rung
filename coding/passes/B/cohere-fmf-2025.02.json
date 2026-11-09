@@ -1,0 +1,207 @@
+{
+ "doc_id": "cohere-fmf-2025.02",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:40:45Z",
+ "other_risks": [
+  "child sexual exploitation and abuse",
+  "hateful or violent content",
+  "discriminatory outputs",
+  "insecure code",
+  "data poisoning and model theft",
+  "prompt injection",
+  "privacy and sensitive information disclosure"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Risks stemming from possible malicious use of foundation AI models, such as generating content to facilitate cybercrime or child sexual exploitation",
+    "page": "p.6",
+    "note": "p.8 table also lists 'Malware code' with likelihood and severity."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No capability or risk level for cyber that changes what Cohere does. p.7-8 table gives illustrative likelihood and severity for malware code only; p.14 box describes thresholds as an industry approach, not Cohere's."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response is tied to a cyber threshold. p.12 revoking access from abusive accounts and p.13 blocklists and classifiers are general practice, not conditioned on a threshold (E1)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; p.15 CEO delegation to the Chief Scientist covers launch readiness generally, with no cyber threshold or response."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.16 'independent third-party penetration testing of model containers' tests the security of Cohere's systems; red teaming with external parties 'may include' (hedged). Neither tests cyber capability or a threshold response."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.16 says regressions are 'investigated and mitigated before deployment', a generic performance statement with no cyber response to fail."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.14-15 mention radiological and nuclear weapons and biorisk only inside a box describing 'one approach to risk assurance in the AI industry', and the text then says that research is immature; Cohere does not adopt it (E7)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the industry approach in the p.14-15 box; not adopted."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'ability to perform autonomous research' appears p.14-15 only in the box describing an industry approach, which Cohere does not adopt (E7)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'autonomy, and self-replication' appears p.14 only in the industry-approach box (E7). 'Excessive agency' (p.13 table) is an OWASP-style deployment risk with no autonomy framing; not coded as autonomy."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned as Cohere practice"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No misalignment, scheming, shutdown resistance or loss of control. p.16 'alignment on risk mitigation goals' refers to safety-instruction following in red teaming."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   }
+  }
+ }
+}

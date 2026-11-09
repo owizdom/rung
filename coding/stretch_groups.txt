@@ -1,0 +1,6 @@
+S1 anthropic-rsp-1.0 anthropic-rsp-2.0 anthropic-rsp-2.1
+S2 anthropic-rsp-2.2 anthropic-rsp-3.0 anthropic-rsp-3.1
+S3 anthropic-rsp-3.2 anthropic-rsp-3.3 anthropic-fcf-1.0 anthropic-fcf-1.1
+S4 openai-pf-beta openai-pf-2.0 magic-agi-1.0 naver-asf-1.0
+S5 meta-scaling-2025.02 meta-scaling-2025.03 meta-scaling-2.0
+S6 google-fsf-1.0 google-fsf-2.0 google-fsf-3.0 microsoft-fgf-2025.02 amazon-fmsf-2025.02 xai-framework-draft xai-framework-2025.08 xai-framework-2025.12

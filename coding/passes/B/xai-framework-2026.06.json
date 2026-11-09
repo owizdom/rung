@@ -1,0 +1,204 @@
+{
+ "doc_id": "xai-framework-2026.06",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:40:09Z",
+ "other_risks": [
+  "harmful manipulation",
+  "radiological and nuclear",
+  "jailbreaks and safeguard circumvention",
+  "deception and sycophancy"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "xAI treats AI-accelerated malicious cyber offense as a core risk domain.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 refers to 'whether a threshold has been reached' and 'risk tiers' but no level specific to this domain is defined; p.5 'threshold breaches' is generic"
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "generic acceptance gate (E3); no threshold defined, a gap in the ladder"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.8 'designating risk owners' and p.9 'internal governance structures' name no role or body; no named decider"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review of capabilities, safeguards or adherence committed; p.9 only 'legal and compliance reviews' internal; p.8 incident report to authorities is notification"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 gate's only condition is acceptability (E4); p.8 'may temporarily fully shut down' is hedged; p.9 'ensure that risk management functions adhere' is not a consequence procedure"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "xAI aims to reduce the risk that the use of its models might contribute to a malicious actor potentially seriously injuring people, property, or national security interests",
+    "page": "p.3",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 refers to 'whether a threshold has been reached' and 'risk tiers' but no level specific to this domain is defined; p.5 'threshold breaches' is generic"
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "generic acceptance gate (E3); no threshold defined, a gap in the ladder"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.8 'designating risk owners' and p.9 'internal governance structures' name no role or body; no named decider"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review of capabilities, safeguards or adherence committed; p.9 only 'legal and compliance reviews' internal; p.8 incident report to authorities is notification"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 gate's only condition is acceptability (E4); p.8 'may temporarily fully shut down' is hedged; p.9 'ensure that risk management functions adhere' is not a consequence procedure"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "AI R&D automation or self-improvement not named anywhere in the 9 pages"
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "risk not in document"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "risk not in document; gate covers named risk domains only"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or response for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or response for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "speculation that a superintelligent AI system hypothetically might escape the control of its developers and wreak havoc on the public, assume dual-use capabilities such as offensive cybersecurity capabilities (e.g., to surreptitiously replicate across servers or prevent shutdown) that we also track as part of managing malicious use risks",
+    "page": "p.7",
+    "note": "only autonomy-like content: self-replication across servers named as a tracked capability inside a loss-of-control scenario; hedged as hypothetical. Ambiguous."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no level defined"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 acceptance gate covers 'systemic risks' and the document's four risk domains (p.2) do not include autonomy; not treated as covered"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or response for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or response for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our assessment of risk of loss of control includes risks from humans losing the ability to reliably direct, modify, or shut down a model (“Loss of Control Risks”).",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 refers to 'whether a threshold has been reached' and 'risk tiers' but no level specific to this domain is defined; p.5 'threshold breaches' is generic"
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "generic acceptance gate (E3); no threshold defined, a gap in the ladder"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.8 'designating risk owners' and p.9 'internal governance structures' name no role or body; no named decider"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review of capabilities, safeguards or adherence committed; p.9 only 'legal and compliance reviews' internal; p.8 incident report to authorities is notification"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 gate's only condition is acceptability (E4); p.8 'may temporarily fully shut down' is hedged; p.9 'ensure that risk management functions adhere' is not a consequence procedure"
+   }
+  }
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "doc_id": "samsung-asf-2025.02",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:40:09Z",
+ "other_risks": [
+  "privacy",
+  "fairness and bias",
+  "toxicity",
+  "truthfulness and reliability"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 'simulate potential security threats' is generic red teaming of model defences, no offensive cyber capability named; 'malicious attacks' p.1 is generic."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no capability or risk level defined; framework has no thresholds"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.4 'considers possible mitigation plans, such as retraining models' is a development-team step with no threshold or named commitment for this risk"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; p.5 AI Strategy Team only manages processes"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review committed"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no statement of what happens if a response is not met"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no CBRN, biological or chemical risk anywhere in the 5 pages."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no capability or risk level defined; framework has no thresholds"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.4 'considers possible mitigation plans, such as retraining models' is a development-team step with no threshold or named commitment for this risk"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; p.5 AI Strategy Team only manages processes"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review committed"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no statement of what happens if a response is not met"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "AI R&D acceleration or self-improvement not mentioned."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no capability or risk level defined; framework has no thresholds"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.4 'considers possible mitigation plans, such as retraining models' is a development-team step with no threshold or named commitment for this risk"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; p.5 AI Strategy Team only manages processes"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review committed"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no statement of what happens if a response is not met"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no autonomous replication, resource acquisition or long-horizon autonomy; only on-device consumer AI."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no capability or risk level defined; framework has no thresholds"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.4 'considers possible mitigation plans, such as retraining models' is a development-team step with no threshold or named commitment for this risk"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; p.5 AI Strategy Team only manages processes"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review committed"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no statement of what happens if a response is not met"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.3 'misalignments in the testing goals' is about test goals, not model misalignment; no loss of control, shutdown or oversight risk named."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no capability or risk level defined; framework has no thresholds"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.4 'considers possible mitigation plans, such as retraining models' is a development-team step with no threshold or named commitment for this risk"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk; p.5 AI Strategy Team only manages processes"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no external review committed"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no statement of what happens if a response is not met"
+   }
+  }
+ }
+}

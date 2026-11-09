@@ -1,0 +1,204 @@
+{
+ "doc_id": "naver-asf-2.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:42:24Z",
+ "other_risks": [
+  "protecting life and physical safety",
+  "protecting economic value",
+  "preventing unjust discrimination",
+  "misleading users with AI-generated content"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named anywhere in the document (read all 14 pages). Taxonomy is protected values: life and physical safety, economic value, unjust discrimination (p.6-7)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold: risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response commitment for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No external review for this risk (p.12 external expert advice is general and not tied to this risk)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response to fail."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named anywhere in the document; no CBRN or biosecurity."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold: risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response commitment for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No external review for this risk (p.12 external expert advice is general and not tied to this risk)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response to fail."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named anywhere in the document."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold: risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response commitment for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No external review for this risk (p.12 external expert advice is general and not tied to this risk)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response to fail."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.13 mentions AI agents that 'autonomously reason and act' as a service trend and says NAVER will examine newly defined risks, but names no autonomy risk it considers; not a risk mention."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold: risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response commitment for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No external review for this risk (p.12 external expert advice is general and not tied to this risk)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response to fail."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named anywhere in the document; no misalignment, shutdown or oversight-loss risk."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold: risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response commitment for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No external review for this risk (p.12 external expert advice is general and not tied to this risk)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response to fail."
+   }
+  }
+ }
+}

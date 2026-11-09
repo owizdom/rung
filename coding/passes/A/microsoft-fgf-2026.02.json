@@ -1,0 +1,202 @@
+{
+ "doc_id": "microsoft-fgf-2026.02",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:36:23Z",
+ "other_risks": [
+  "harmful manipulation",
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Offensive cyberoperations. A model’s ability to provide significant capability uplift to an actor seeking to carry out highly disruptive or destructive cyberattacks, including on critical infrastructure.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model provides meaningful uplift to a low-to-medium skilled actor’s ability to create and conduct highly disruptive or destructive cyber-attacks, including on critical infrastructure, for example, through discovering novel zero-day exploit chains",
+    "page": "p.13",
+    "note": "High level, 'Further review and mitigations required'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked high-risk capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Measures listed p.8: restricted weight access, defense in depth with encrypted weights, security red teaming. Tables p.12-14 give 'Further review and mitigations required' at High and Critical."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Defined p.10 as 'Executive Officers responsible for Microsoft’s AI governance program'; the recommendation must show the model is mitigated to low or medium risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. p.7 'We engage qualified third parties to conduct evaluations in ways that are appropriate to the risk profile' is present-tense practice with an appropriateness qualifier, and involvement is decided case by case by internal experts; security red teaming uses third parties 'where appropriate' (p.8); audit is 'independent internal audit' (p.10)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Pause applies when required mitigations (tables: 'Further review and mitigations required') cannot sufficiently mitigate the risk."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Chemical, biological, radiological, and nuclear (CBRN) weapons. A model’s ability to provide significant capability uplift to an actor seeking to develop and deploy a chemical, biological, radiological, or nuclear weapon.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model provides a meaningful uplift to an expert’s (PhD level education in related fields) ability to develop and deliver a novel CBRN threat.",
+    "page": "p.12",
+    "note": "High level, 'Further review and mitigations required'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked high-risk capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Measures listed p.8: restricted weight access, defense in depth with encrypted weights, security red teaming. Tables p.12-14 give 'Further review and mitigations required' at High and Critical."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Defined p.10 as 'Executive Officers responsible for Microsoft’s AI governance program'; the recommendation must show the model is mitigated to low or medium risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. p.7 'We engage qualified third parties to conduct evaluations in ways that are appropriate to the risk profile' is present-tense practice with an appropriateness qualifier, and involvement is decided case by case by internal experts; security red teaming uses third parties 'where appropriate' (p.8); audit is 'independent internal audit' (p.10)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Pause applies when required mitigations (tables: 'Further review and mitigations required') cannot sufficiently mitigate the risk."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can fully automate the AI R&D pipeline at a fraction of human labor costs, majorly accelerating AI R&D.",
+    "page": "p.14",
+    "note": "Critical level of the Advanced autonomy table; 'Further review and mitigations required'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "C3(b) pause until mitigation meets the risk. The AI R&D level is Critical; p.8 says critical-risk models 'are subject to the highest level of security safeguards' but its measures are only 'will likely include' (hedged), so the pause carries this code."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Defined p.10 as 'Executive Officers responsible for Microsoft’s AI governance program'; the recommendation must show the model is mitigated to low or medium risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. p.7 'We engage qualified third parties to conduct evaluations in ways that are appropriate to the risk profile' is present-tense practice with an appropriateness qualifier, and involvement is decided case by case by internal experts; security red teaming uses third parties 'where appropriate' (p.8); audit is 'independent internal audit' (p.10)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Pause applies when required mitigations (tables: 'Further review and mitigations required') cannot sufficiently mitigate the risk."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can autonomously complete a range of generalist tasks equivalent to multiple days’ worth of generalist human labor and appropriately correct for complex error conditions",
+    "page": "p.14",
+    "note": "High level, 'Further review and mitigations required'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked high-risk capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Measures listed p.8: restricted weight access, defense in depth with encrypted weights, security red teaming. Tables p.12-14 give 'Further review and mitigations required' at High and Critical."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Defined p.10 as 'Executive Officers responsible for Microsoft’s AI governance program'; the recommendation must show the model is mitigated to low or medium risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. p.7 'We engage qualified third parties to conduct evaluations in ways that are appropriate to the risk profile' is present-tense practice with an appropriateness qualifier, and involvement is decided case by case by internal experts; security red teaming uses third parties 'where appropriate' (p.8); audit is 'independent internal audit' (p.10)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Pause applies when required mitigations (tables: 'Further review and mitigations required') cannot sufficiently mitigate the risk."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Loss of control. A model’s ability to undermine effective human control through adaptive, deceptive, or self-reinforcing mechanisms such that, when deployed, a model can no longer be reliably directed, modified, or shut down.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No level defined. p.15: 'We are researching approaches to evaluating models for loss of control risk in a pre-deployment context and setting appropriate risk acceptance criteria' (future)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Generic gate covering every tracked risk (E3): pause if a risk cannot be sufficiently mitigated. No threshold, recorded as a gap."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Executive Officers decide whether to proceed with deployment for every tracked capability, including this one (defined p.10)."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. p.7 'We engage qualified third parties to conduct evaluations in ways that are appropriate to the risk profile' is present-tense practice with an appropriateness qualifier, and involvement is decided case by case by internal experts; security red teaming uses third parties 'where appropriate' (p.8); audit is 'independent internal audit' (p.10)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the generic pause gate applies (E4); no named mitigation is required for loss of control, so nothing defines an unmet response."
+   }
+  }
+ }
+}

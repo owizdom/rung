@@ -1,0 +1,204 @@
+{
+ "doc_id": "nvidia-fara-2025.02",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:40:45Z",
+ "other_risks": [
+  "persuasion and manipulation",
+  "at-scale discrimination",
+  "nuclear and radiological",
+  "privacy and data memorization"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber offence e.g. risks from using AI for discovering or exploiting system vulnerabilities.",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 sets the only threshold (MR5 for frontier models, based on 'a wide variety of undefined capabilities' or autonomy), which is generic with nothing specific to cyber."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.12 'When a model shows capabilities of frontier AI models pre deployment we will initially restrict access to model weights to essential personnel and ensure rigorous security protocols are in place' is binding but triggered by being a frontier model, not by a capability tied to this risk, and there is no threshold for this risk; not counted. p.12 'full market removal ... can be considered' is hedged."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body decides on a threshold or response for this risk; the only approval levels (p.2) are keyed to the MR category, and this risk has no threshold. p.14 governance names 'separate teams tasked with risk management' only generically."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No commitment to review by an outside party. p.14 describes NVIDIA-run red teaming, Garak and public benchmarks; p.15 and p.2 name only internal bodies."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if a required response is not met; p.12 and p.14 'pause development when necessary' is a generic governance aim with no named response."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "e.g. AI enabling the development and use of weapons of mass destruction.",
+    "page": "p.8",
+    "note": "Follows 'Chemical, biological, radiological, and nuclear risks' in the list of hazards frontier models may present; WMDP benchmark p.12 is also listed."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 MR5 threshold is generic (undefined capabilities or autonomy); nothing specific to CBRN."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.12 'When a model shows capabilities of frontier AI models pre deployment we will initially restrict access to model weights to essential personnel and ensure rigorous security protocols are in place' is binding but triggered by being a frontier model, not by a capability tied to this risk, and there is no threshold for this risk; not counted. p.12 'full market removal ... can be considered' is hedged."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body decides on a threshold or response for this risk; the only approval levels (p.2) are keyed to the MR category, and this risk has no threshold. p.14 governance names 'separate teams tasked with risk management' only generically."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No commitment to review by an outside party. p.14 describes NVIDIA-run red teaming, Garak and public benchmarks; p.15 and p.2 name only internal bodies."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if a required response is not met; p.12 and p.14 'pause development when necessary' is a generic governance aim with no named response."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No mention of AI R&D automation or self-improvement anywhere in the 15 pages."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Another important strategy involves restricting advanced autonomy functions like self-assigning new sub-goals or executing long-horizon tasks, as well as tool-use functionalities like function calls and web browsing.",
+    "page": "p.11",
+    "note": "Autonomy is also a PRA criterion (p.2 table 'Level of autonomy')."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The PRA sets a threshold for MR5 (frontier models) based on a ‘wide variety of undefined capabilities’ or high levels of autonomy.",
+    "page": "p.6",
+    "note": "p.2 table gives autonomy levels per MR score (autonomous agent without user approval = MR5, with human oversight = MR4); higher MR means stricter governance. Borderline under C2 since it is a risk category, not a capability description."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.11 and p.6 describe restricting autonomy as an approach ('One effective approach', 'can dramatically reduce') with no binding commitment tied to the autonomy level. p.12 weight-restriction commitment is triggered by frontier capability generally, not autonomy."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "MR4 – A detailed risk assessment should be complete and business unit leader approval is required.",
+    "page": "p.2",
+    "note": "MR4 includes 'Autonomous agent with human oversight'. MR5 approval by independent committee is only 'should'. Borderline: approval is keyed to the MR category."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No commitment to review by an outside party. p.14 describes NVIDIA-run red teaming, Garak and public benchmarks; p.15 and p.2 name only internal bodies."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if a required response is not met; p.12 and p.14 'pause development when necessary' is a generic governance aim with no named response."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No misalignment, scheming, shutdown resistance, or loss of control as a risk. p.12 'maintaining human oversight by avoiding full autonomy in critical systems' is a way to slow hazard onset for any hazard, not a loss-of-control risk."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   }
+  }
+ }
+}

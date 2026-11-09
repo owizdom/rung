@@ -1,0 +1,203 @@
+{
+ "doc_id": "xai-framework-2026.06",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:33:36Z",
+ "other_risks": [
+  "harmful manipulation",
+  "nuclear and radiological (within CBRN)",
+  "unauthorized proliferation via distillation"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "xAI treats AI-accelerated malicious cyber offense as a core risk domain.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No specific level defined for this risk. p.6 refers to 'whether a threshold has been reached' and 'the risk tiers for each systemic risk category', and p.8 to 'alerting of threshold breaches', but no threshold or tier is ever stated."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "Generic acceptance gate, counted under E3."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body. p.6 'The final decision also reflects an overall judgment' names no decider; p.8 'designating risk owners' is generic; p.9 'internal governance structures' unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed external review. p.6 takes into account 'human expert red-teaming' without saying it is external or committing to it; p.8-9 reporting incidents to authorities is notification only (C5)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3 acceptance gate (p.6), which E4 excludes. No statement of what happens if named safeguards cannot be put in place; p.6 options are hedged ('xAI may'); p.8 incident responses are hedged ('we may'); p.9 'legal and compliance reviews' names no reporting or investigation of non-compliance."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "risk of malicious use includes risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear threat",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No specific level defined for this risk. p.6 refers to 'whether a threshold has been reached' and 'the risk tiers for each systemic risk category', and p.8 to 'alerting of threshold breaches', but no threshold or tier is ever stated."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "Generic acceptance gate, counted under E3."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body. p.6 'The final decision also reflects an overall judgment' names no decider; p.8 'designating risk owners' is generic; p.9 'internal governance structures' unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed external review. p.6 takes into account 'human expert red-teaming' without saying it is external or committing to it; p.8-9 reporting incidents to authorities is notification only (C5)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3 acceptance gate (p.6), which E4 excludes. No statement of what happens if named safeguards cannot be put in place; p.6 options are hedged ('xAI may'); p.8 incident responses are hedged ('we may'); p.9 'legal and compliance reviews' names no reporting or investigation of non-compliance."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Read all 9 pp. No mention of the model automating or accelerating AI/ML research or self-improvement; the four risk domains (p.2) are CBRN, cyber, loss of control, harmful manipulation."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold for this risk."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not identified, so the p.6 gate does not reach it; no response for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "speculation that a superintelligent AI system hypothetically might escape the control of its developers and wreak havoc on the public, assume dual-use capabilities such as offensive cybersecurity capabilities (e.g., to surreptitiously replicate across servers or prevent shutdown) that we also track",
+    "page": "p.7",
+    "note": "Self-replication named inside the loss-of-control scenarios that xAI tracks (B1)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No specific level defined for this risk. p.6 refers to 'whether a threshold has been reached' and 'the risk tiers for each systemic risk category', and p.8 to 'alerting of threshold breaches', but no threshold or tier is ever stated."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "E3 gate covers each identified systemic risk; autonomy is covered as part of the Loss of Control domain (p.7)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body. p.6 'The final decision also reflects an overall judgment' names no decider; p.8 'designating risk owners' is generic; p.9 'internal governance structures' unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed external review. p.6 takes into account 'human expert red-teaming' without saying it is external or committing to it; p.8-9 reporting incidents to authorities is notification only (C5)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3 acceptance gate (p.6), which E4 excludes. No statement of what happens if named safeguards cannot be put in place; p.6 options are hedged ('xAI may'); p.8 incident responses are hedged ('we may'); p.9 'legal and compliance reviews' names no reporting or investigation of non-compliance."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our assessment of risk of loss of control includes risks from humans losing the ability to reliably direct, modify, or shut down a model",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No specific level defined for this risk. p.6 refers to 'whether a threshold has been reached' and 'the risk tiers for each systemic risk category', and p.8 to 'alerting of threshold breaches', but no threshold or tier is ever stated."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "Generic acceptance gate, counted under E3."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body. p.6 'The final decision also reflects an overall judgment' names no decider; p.8 'designating risk owners' is generic; p.9 'internal governance structures' unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed external review. p.6 takes into account 'human expert red-teaming' without saying it is external or committing to it; p.8-9 reporting incidents to authorities is notification only (C5)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3 acceptance gate (p.6), which E4 excludes. No statement of what happens if named safeguards cannot be put in place; p.6 options are hedged ('xAI may'); p.8 incident responses are hedged ('we may'); p.9 'legal and compliance reviews' names no reporting or investigation of non-compliance."
+   }
+  }
+ }
+}

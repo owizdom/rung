@@ -1,0 +1,201 @@
+{
+ "doc_id": "anthropic-rsp-1.0",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:43:10Z",
+ "other_risks": [
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "there is an increasing risk that they will be used to intentionally cause large-scale harm, for example by helping individuals create CBRN3 or cyber threats",
+    "page": "p.3",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "ASL-3 misuse threshold (p.6) is generic 'substantially increase the risk of deliberately-caused catastrophic harm' with nothing cyber-specific; p.20 says cyber capabilities are still to be defined ('we will define which specific capability improvements'); ASL-4 'cyberattacks' (p.14) is an early guess."
+   },
+   "response": {
+    "value": 1,
+    "quote": "our most significant immediate commitments include a high standard of security for ASL-3 containment, and a commitment not to deploy ASL-3 models until thorough red-teaming finds no risk of catastrophe",
+    "page": "p.5",
+    "note": "Cyber tied to ASL-3 misuse via p.8 'Misuse domains should at a minimum include causes of extreme CBRN risks, and cybersecurity' and p.20 'each domain of interest (CBRN and cyber risks)'. No cyber-specific threshold (gap)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Follow an \"Update Process\" for this document, including approval by the board of directors, following consultation with the Long-Term Benefit Trust (LTBT).",
+    "page": "p.10",
+    "note": "Board approval of policy updates gates resumption of training after an evaluation triggers: p.13 (2a) 'This document will be updated according to the \"Update Process\" ... before continuing training' and (2b) 'do not resume training until the next safety level has been defined (with this document updated accordingly)'. RSO (p.10) only ensures execution; CEO/CISO convening in (2c) is 'should'."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. ARC Evals advised on eval design (p.7, p.15); red-teaming by 'world-class experts' is 'should' (p.8); 'mandatory external reviews should' and SOC 2 (p.21) concern own security; external audits only in speculative ASL-4 sketch (p.15)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we commit to pause the scaling2 and/or delay the deployment of new models whenever our scaling ability outstrips our ability to comply with the safety procedures for the corresponding ASL",
+    "page": "p.2",
+    "note": "Also p.10: RSO quarterly report to board and LTBT noting deficiencies."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our first area of effort is in evaluating bioweapons risks where we will determine threat models and capabilities in consultation with a number of world-class biosecurity experts.",
+    "page": "p.7",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Bio is named only under the generic ASL-3 misuse threshold (p.6-7); bio capabilities are still to be determined ('we will determine threat models and capabilities', p.7, p.20). ASL-2 bioweapon example (p.4) defines the current level, not a trigger; ASL-4 'biological weapons' (p.14) is an early guess."
+   },
+   "response": {
+    "value": 1,
+    "quote": "our most significant immediate commitments include a high standard of security for ASL-3 containment, and a commitment not to deploy ASL-3 models until thorough red-teaming finds no risk of catastrophe",
+    "page": "p.5",
+    "note": "Bio tied to ASL-3 misuse via p.7 (bioweapons first area) and p.8 'Misuse domains should at a minimum include causes of extreme CBRN risks'. No bio-specific threshold (gap)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Follow an \"Update Process\" for this document, including approval by the board of directors, following consultation with the Long-Term Benefit Trust (LTBT).",
+    "page": "p.10",
+    "note": "Board approval of policy updates gates resumption of training after an evaluation triggers: p.13 (2a) 'This document will be updated according to the \"Update Process\" ... before continuing training' and (2b) 'do not resume training until the next safety level has been defined (with this document updated accordingly)'. RSO (p.10) only ensures execution; CEO/CISO convening in (2c) is 'should'."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. ARC Evals advised on eval design (p.7, p.15); red-teaming by 'world-class experts' is 'should' (p.8); 'mandatory external reviews should' and SOC 2 (p.21) concern own security; external audits only in speculative ASL-4 sketch (p.15)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "we commit to pause the scaling2 and/or delay the deployment of new models whenever our scaling ability outstrips our ability to comply with the safety procedures for the corresponding ASL",
+    "page": "p.2",
+    "note": "Also p.10: RSO quarterly report noting deficiencies."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomous AI research: A model for which the weights would be a massive boost to a malicious AI development program",
+    "page": "p.14",
+    "note": "Named in early guess at ASL-4 criteria."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only in 'Early Thoughts on ASL-4' which is an 'early guess' and 'too early to define' (p.14); p.15 'entirely automate scientific research, might be classed above ASL-4' is speculative."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed response for AI R&D; ASL-4 measures are a 'possible sketch' (p.14)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomy and replication: As AI systems continue to scale, they may become capable of increased autonomy that enables them to proliferate",
+    "page": "p.3",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model shows early signs of autonomous self-replication ability, as defined by 50% aggregate success rate on the tasks listed in",
+    "page": "p.7",
+    "note": "Tasks and 50% criterion in appendix p.15-20."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Specifically, we will implement measures designed to harden our security so that non-state attackers are unlikely to be able to steal model weights, and advanced threat actors (e.g. states) cannot steal them without significant expense.",
+    "page": "p.8",
+    "note": "ASL-3 containment measures, committed 'prior to training ASL-3 models' (p.7); security themes listed p.21-22. Also p.4 'We commit to pause training before a model's capability level outstrips the Containment Measures'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Follow an \"Update Process\" for this document, including approval by the board of directors, following consultation with the Long-Term Benefit Trust (LTBT).",
+    "page": "p.10",
+    "note": "Board approval of policy updates gates resumption of training after an evaluation triggers: p.13 (2a) 'This document will be updated according to the \"Update Process\" ... before continuing training' and (2b) 'do not resume training until the next safety level has been defined (with this document updated accordingly)'. RSO (p.10) only ensures execution; CEO/CISO convening in (2c) is 'should'."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. ARC Evals advised on eval design (p.7, p.15); red-teaming by 'world-class experts' is 'should' (p.8); 'mandatory external reviews should' and SOC 2 (p.21) concern own security; external audits only in speculative ASL-4 sketch (p.15)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "We commit to pause training before a model's capability level outstrips the Containment Measures we have implemented.",
+    "page": "p.4",
+    "note": "Also p.2 pause/delay commitment and p.13 (2b) 'do not resume training until ... its Containment Measures have been implemented'."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "potentially behave in ways contrary to the intent of their designers or users",
+    "page": "p.3",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The purpose of these evaluations is to quantify the risk that a model is capable of accumulating resources (e.g. through fraud), navigating computer systems, devising and executing coherent strategies, and surviving in the real world while avoiding being shut down.",
+    "page": "p.15",
+    "note": "ASL-3 autonomous replication threshold (p.7, 50% of tasks) is framed by its own appendix text as evading shutdown (B1)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Specifically, we will implement measures designed to harden our security so that non-state attackers are unlikely to be able to steal model weights, and advanced threat actors (e.g. states) cannot steal them without significant expense.",
+    "page": "p.8",
+    "note": "Same ASL-3 containment measures that apply to the autonomous replication threshold."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Follow an \"Update Process\" for this document, including approval by the board of directors, following consultation with the Long-Term Benefit Trust (LTBT).",
+    "page": "p.10",
+    "note": "Board approval of policy updates gates resumption of training after an evaluation triggers: p.13 (2a) 'This document will be updated according to the \"Update Process\" ... before continuing training' and (2b) 'do not resume training until the next safety level has been defined (with this document updated accordingly)'. RSO (p.10) only ensures execution; CEO/CISO convening in (2c) is 'should'."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. ARC Evals advised on eval design (p.7, p.15); red-teaming by 'world-class experts' is 'should' (p.8); 'mandatory external reviews should' and SOC 2 (p.21) concern own security; external audits only in speculative ASL-4 sketch (p.15)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "We commit to pause training before a model's capability level outstrips the Containment Measures we have implemented.",
+    "page": "p.4",
+    "note": ""
+   }
+  }
+ }
+}

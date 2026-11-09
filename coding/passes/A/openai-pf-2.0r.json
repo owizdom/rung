@@ -1,0 +1,201 @@
+{
+ "doc_id": "openai-pf-2.0r",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:34:32Z",
+ "other_risks": [
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cybersecurity capabilities that, in addition to helping protect vulnerable systems, can also create new risks of scaled cyberattacks and vulnerability exploitation.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "[High] The model removes existing bottlenecks to scaling cyber operations including by automating end-to-end cyber operations against reasonably hardened targets OR by automating the discovery and exploitation of operationally relevant vulnerabilities.",
+    "page": "p.6",
+    "note": "Critical cyber threshold on p.7."
+   },
+   "response": {
+    "value": 1,
+    "quote": "do not deploy models that reach a High capability threshold until the associated risks that they pose are sufficiently minimized.",
+    "page": "p.4",
+    "note": "Present-tense conditional rule (E1), C3(b). Table 1 (p.6) also requires security controls meeting High standard (Appendix C.3); C.3 (p.21) 'We will require the following practices for High capability models'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "OpenAI Leadership, i.e., the CEO or a person designated by them, is responsible for: • Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG's recommendations.",
+    "page": "p.16",
+    "note": "SAG recommends; Board SSC can reverse (p.16)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Independent Security Audits: Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.",
+    "page": "p.22",
+    "note": "Under 'We will require the following practices for High capability models' (p.21, C.3); Table 1 requires security controls meeting the High standard (Appendix C.3) for this category. Third-party capability evaluation (p.14) is voided by 'when available and feasible'; third-party stress testing is conditional on 'If we deem' and 'We may seek'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Covered systems that cross this capability threshold are required to have robust and effective safeguards that sufficiently minimize the associated risk of severe harm before they are deployed and appropriate security controls as they are developed.",
+    "page": "p.5",
+    "note": "Not deployed until the required safeguards are in place (E4). Table 1 Critical row also says 'Until we have specified safeguards and security controls that would meet a Critical standard, halt further development' (p.7); that cell is not contiguous in either text layer."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Biological and Chemical capabilities that, in addition to unlocking discoveries and cures, can also reduce barriers to creating and using biological or chemical weapons.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "model can be connected to tools and equipment to complete the full engineering and/or synthesis cycle of a regulated or novel biological threat without human intervention.",
+    "page": "p.6",
+    "note": "Second limb of the [Critical] bio threshold. The [High] threshold on the same page (meaningful counterfactual assistance to novice actors to create known biological or chemical threats) is not contiguous in the text layer."
+   },
+   "response": {
+    "value": 1,
+    "quote": "do not deploy models that reach a High capability threshold until the associated risks that they pose are sufficiently minimized.",
+    "page": "p.4",
+    "note": "E1 conditional rule, C3(b). Table 1 (p.6) requires security controls meeting High standard (Appendix C.3) and safeguards against misuse before external deployment."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "OpenAI Leadership, i.e., the CEO or a person designated by them, is responsible for: • Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG's recommendations.",
+    "page": "p.16",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Independent Security Audits: Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.",
+    "page": "p.22",
+    "note": "Under 'We will require the following practices for High capability models' (p.21, C.3); Table 1 requires security controls meeting the High standard (Appendix C.3) for this category. Third-party capability evaluation (p.14) is voided by 'when available and feasible'; third-party stress testing is conditional on 'If we deem' and 'We may seek'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Covered systems that cross this capability threshold are required to have robust and effective safeguards that sufficiently minimize the associated risk of severe harm before they are deployed and appropriate security controls as they are developed.",
+    "page": "p.5",
+    "note": "Not deployed until the required safeguards are in place (E4). Table 1 Critical row also says 'Until we have specified safeguards and security controls that would meet a Critical standard, halt further development' (p.6); that cell is not contiguous in either text layer."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI Self-improvement capabilities that, in addition to unlocking helpful capabilities faster, could also create new challenges for human control of AI systems.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "[High] The model's impact is equivalent to giving every OpenAI researcher a highly performant mid-career research engineer assistant, relative to those researchers' 2024 baseline.",
+    "page": "p.7",
+    "note": "Critical: fully automated AI R&D / generational improvement in 1/5th the time (p.7)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "do not deploy models that reach a High capability threshold until the associated risks that they pose are sufficiently minimized.",
+    "page": "p.4",
+    "note": "E1 conditional rule, C3(b). Table 1 (p.7) requires security controls meeting High standard (Appendix C.3) for the High AI self-improvement threshold."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "OpenAI Leadership, i.e., the CEO or a person designated by them, is responsible for: • Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG's recommendations.",
+    "page": "p.16",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Independent Security Audits: Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.",
+    "page": "p.22",
+    "note": "Under 'We will require the following practices for High capability models' (p.21, C.3); Table 1 requires security controls meeting the High standard (Appendix C.3) for this category. Third-party capability evaluation (p.14) is voided by 'when available and feasible'; third-party stress testing is conditional on 'If we deem' and 'We may seek'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Covered systems that cross this capability threshold are required to have robust and effective safeguards that sufficiently minimize the associated risk of severe harm before they are deployed and appropriate security controls as they are developed.",
+    "page": "p.5",
+    "note": "Not deployed until the required safeguards are in place (E4). Table 1 Critical row also says 'Until we have specified safeguards and security controls that would meet a Critical standard, halt further development' (p.7); that cell is not contiguous in either text layer."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Long-range Autonomy: ability for a model to execute a long-horizon sequence of actions sufficient to realize a “High” threat model (e.g., a cyberattack) without being directed by a human",
+    "page": "p.8",
+    "note": "Also Autonomous Replication and Adaptation, a Research Category (p.8)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Long-range Autonomy and Autonomous Replication and Adaptation are Research Categories (p.8) with no capability level defined; Long-range Autonomy appears in the cyber High risk column (p.6) only as an aggravating factor."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Table 2 (p.8) gives only 'Potential response' entries: a misalignment safeguards report triggered by Tracked Category thresholds, future 'decisions about how this should influence our governance', and converting ARA to a Tracked Category. No named safeguard or deployment restriction for autonomy."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Undermining Safeguards: ability and propensity for the model to act to undermine safeguards placed on it, including e.g., deception, colluding with oversight models, sabotaging safeguards over time such as by embedding vulnerabilities in safeguards code, etc.",
+    "page": "p.8",
+    "note": "Also Sandbagging (p.8) and safeguards against a misaligned model (p.12, p.19)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Sandbagging and Undermining Safeguards are Research Categories without a level (p.8). Human control appears only in the associated-risk column of the AI self-improvement Critical row (p.7) and bypassing sandboxing/monitoring in the cyber High risk column (p.6); the threshold texts themselves are about AI R&D and cyber (B2)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Cyber High row (p.6) says 'Require safeguards meeting High standard against misalignment (Appendix C.2) for large-scale internal deployment', but C.2 (p.19-20) is presented as illustrative 'potential safeguards' that 'should not be construed as a definitive or comprehensive list' (p.17); Table 2 (p.8) undermining-safeguards and sandbagging entries are 'Potential response'. Nothing named in binding form for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  }
+ }
+}

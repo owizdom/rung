@@ -1,0 +1,204 @@
+{
+ "doc_id": "nvidia-fara-2025.02",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:34:22Z",
+ "other_risks": [
+  "persuasion and manipulation",
+  "disinformation",
+  "at-scale discrimination",
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber offence e.g. risks from using AI for discovering or exploiting system vulnerabilities.",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No cyber-specific level. MR scores (p.2) are generic; p.13 says MBPP 'would need adaptation to test for malicious code patterns', an illustration, not a threshold."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The weight-access restriction (p.12) is triggered by generic 'capabilities of frontier AI models', not tied to cyber; no cyber threshold for the framework-wide rule to attach to."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk; no external review committed anywhere"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk; p.14 'mechanisms to pause development when necessary' is descriptive, p.12 market removal 'can be considered' hedged"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Chemical, biological, radiological, and nuclear risks11 e.g. AI enabling the development and use of weapons of",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No biochem-specific level. MoleculeNet 'could be repurposed to determine whether the model can generate toxic compounds' (p.13) is an illustration; 'Molecule discovery' in the MR3 capability row (p.2) is not presented as a weapons risk."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No biochem-specific response; the p.12 weight restriction is triggered by generic frontier capabilities, and biochem has no threshold."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk; no external review committed anywhere"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "AI R&D automation or self-improvement is not named anywhere in the document."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Another important strategy involves restricting advanced autonomy functions like self-assigning new sub-goals or executing long-horizon tasks",
+    "page": "p.11",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The PRA sets a threshold for MR5 (frontier models) based on a ‘wide variety of undefined capabilities’ or high levels of autonomy.",
+    "page": "p.6",
+    "note": "The PRA table (p.2) defines the MR5 autonomy level as 'Autonomous agent without user approval' (MR4: 'with human oversight'); MR level sets governance (p.2-3)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "When a model shows capabilities of frontier AI models pre deployment we will initially restrict access to model weights to essential personnel and ensure rigorous security protocols are in place.",
+    "page": "p.12",
+    "note": "Triggered by frontier (MR5) capability, whose threshold includes high autonomy (p.6). Named measure: weight access limited to essential personnel."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "MR5 approver p.2 is hedged and only exemplified: 'should be complete and approved by an independent committee e.g. NVIDIA’s AI ethics committee'. MR4 'business unit leader approval is required' (p.2) is a generic role label, and frontier models are MR5 (p.3)."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No outside review committed; the MR5 'independent committee' example is NVIDIA's own AI ethics committee (p.2). Red teaming and Garak (p.13) are not committed external review."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing says what happens if the weight restriction cannot be met; p.14 'mechanisms to pause development when necessary' is descriptive; p.12 'full market removal ... can be considered' is hedged."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No misalignment, deception, oversight-undermining or shutdown-resistance risk named. p.2 'unauthorized interventions' are system errors; p.11 'human oversight' is a mitigation to slow harmful automated actions; p.13 ARC capability check is not framed as loss of control."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk"
+   }
+  }
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "doc_id": "meta-scaling-2.1",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:36:50Z",
+ "other_risks": [
+  "large-scale fraud and scams (Cyber 3)",
+  "nuclear and radiological (emerging)",
+  "physical autonomy (emerging)",
+  "loss of human oversight capacity (emerging)"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The Framework currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",
+    "page": "p.1",
+    "note": "Offensive cyber outcomes Cyber 1-2 defined pp.20-21."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "we set the threshold for determination of 'high' risk level based on reliable and consistent success on realistic, high difficulty challenges",
+    "page": "p.32",
+    "note": "Applies Table 1 levels (p.17) to cyber threat scenarios TS.1.1 and TS.2.1 (pp.20-21), e.g. automated discovery and exploitation of vulnerabilities that would take expert teams a month or more."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Should either scenario arise, we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.19",
+    "note": "Critical threshold, framework-wide (A9). Table 1 p.17: High -> 'Proceed with deployment of the Frontier AI only if sufficient mitigations are defined, implemented and validated to reduce risk to that of a moderate or lower model.'"
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Informed by this analysis, the Chief AI Officer or the Director of Alignment and Risk will determine whether to request further testing or information, require additional mitigations or",
+    "page": "p.8",
+    "note": "Also p.8 the Chief AI Officer and Director of Alignment and Risk 'will assign a risk threshold'; continues on p.9 '... or approve the model for deployment'; p.12 deployment 'with the approval of the Chief AI Officer'."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. External experts take part only 'where appropriate' / 'where relevant' / 'when appropriate' (pp.6, 7, 9, 15); p.6 footnote on working with government officials concerns identifying new outcomes, not reviewing capabilities or safeguards; p.11 sharing internal-use summaries with authorities is 'as appropriate' notification; preparedness reports are publication (C5)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Should either scenario arise, we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.19",
+    "note": "Development does not continue until the required safeguards are in place (C6 a, E4). The non-compliance reporting protocol p.12-13 is still being developed ('is developing'), so not relied on."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The Framework currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "define high risk as a level of performance that could substantially contribute to one or more Threat Scenarios if the deployment proceeds as planned",
+    "page": "p.34",
+    "note": "Threat scenarios CB 1-3 pp.23-24, e.g. 'Small cells of low or moderate skill actors acquire sufficient scientific capabilities to succeed at complex chemical or biological workflows.'"
+   },
+   "response": {
+    "value": 1,
+    "quote": "In the case where pre-mitigation testing suggests that a model has crossed the high risk threshold, we will not deploy the model externally unless we have strong additional evidence to support the moderate or lower level, with mitigations.",
+    "page": "p.35",
+    "note": "Also the framework-wide critical gate p.19."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Informed by this analysis, the Chief AI Officer or the Director of Alignment and Risk will determine whether to request further testing or information, require additional mitigations or",
+    "page": "p.8",
+    "note": "Also p.8 the Chief AI Officer and Director of Alignment and Risk 'will assign a risk threshold'; continues on p.9 '... or approve the model for deployment'; p.12 deployment 'with the approval of the Chief AI Officer'."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. External experts take part only 'where appropriate' / 'where relevant' / 'when appropriate' (pp.6, 7, 9, 15); p.6 footnote on working with government officials concerns identifying new outcomes, not reviewing capabilities or safeguards; p.11 sharing internal-use summaries with authorities is 'as appropriate' notification; preparedness reports are publication (C5)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Should either scenario arise, we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.19",
+    "note": "Development does not continue until the required safeguards are in place (C6 a, E4). The non-compliance reporting protocol p.12-13 is still being developed ('is developing'), so not relied on."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomous AI R&D: Ability to autonomously and consistently complete tasks which are representative of the work of a researcher to progress AI development.",
+    "page": "p.25",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Autonomously complete research tasks which are representative of the work of a senior research engineer improving AI capabilities at Meta, and/or results in AI progress substantially accelerating from historical rates.",
+    "page": "p.37",
+    "note": "Loss of Control 1 enhanced evaluation; threat scenario TS.1.1 'AI development accelerates such that new capabilities and behaviors emerge faster than the organization's evaluation processes' (p.25); footnote 5 (p.38) gives a quantitative criterion for acceleration. Its own text is about AI R&D automation, so counted for ai_rnd under B2."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Should either scenario arise, we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.19",
+    "note": "Critical threshold, framework-wide (A9). Table 1 p.17: High -> 'Proceed with deployment of the Frontier AI only if sufficient mitigations are defined, implemented and validated to reduce risk to that of a moderate or lower model.'"
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Informed by this analysis, the Chief AI Officer or the Director of Alignment and Risk will determine whether to request further testing or information, require additional mitigations or",
+    "page": "p.8",
+    "note": "Also p.8 the Chief AI Officer and Director of Alignment and Risk 'will assign a risk threshold'; continues on p.9 '... or approve the model for deployment'; p.12 deployment 'with the approval of the Chief AI Officer'."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. External experts take part only 'where appropriate' / 'where relevant' / 'when appropriate' (pp.6, 7, 9, 15); p.6 footnote on working with government officials concerns identifying new outcomes, not reviewing capabilities or safeguards; p.11 sharing internal-use summaries with authorities is 'as appropriate' notification; preparedness reports are publication (C5)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Should either scenario arise, we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+    "page": "p.19",
+    "note": "Development does not continue until the required safeguards are in place (C6 a, E4). The non-compliance reporting protocol p.12-13 is still being developed ('is developing'), so not relied on."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Long-horizon operation: Ability to maintain and pursue an objective across many steps, sessions, and interruptions, including re-establishing state and access after disruption.",
+    "page": "p.26",
+    "note": "Also p.44 'autonomous acquisition of resources ... including through autonomous replication' and p.42 physical autonomy."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold presented as marking autonomy (B2). Long-horizon operation is an enabling capability of Loss of Control 3 (p.26) and the 2-hour autonomous SWE checkpoint marks Loss of Control 1 (p.37); physical autonomy threshold is only future and hedged ('in the future we may first define a rule-out threshold', p.43)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "require remediation of all detected medium to high severity vulnerabilities before initiating new high- or critical-risk training runs with the impacted sandboxes",
+    "page": "p.40",
+    "note": "Response to Loss of Control 3 (AI 'covertly operates outside of its authorized environment', p.26), which is also autonomous operation in the world (B1). Named measures pp.40-42 (sandbox standards, write-only logging, monitoring for high-risk runs)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "All training or evaluation runs that pose high risk or greater pre-mitigation require chain-of-thought and trajectory monitoring to be active for all rollouts, with any exceptions requiring manual approval by the Director of Alignment and Risk or the Chief AI Officer.",
+    "page": "p.41",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. External experts take part only 'where appropriate' / 'where relevant' / 'when appropriate' (pp.6, 7, 9, 15); p.6 footnote on working with government officials concerns identifying new outcomes, not reviewing capabilities or safeguards; p.11 sharing internal-use summaries with authorities is 'as appropriate' notification; preparedness reports are publication (C5)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "require remediation of all detected medium to high severity vulnerabilities before initiating new high- or critical-risk training runs with the impacted sandboxes",
+    "page": "p.40",
+    "note": "Training runs do not start until the required sandbox remediation is in place."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The Framework currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "TS.2.1*: AI disables or corrupts monitors to reduce oversight and accomplish its objectives.",
+    "page": "p.25",
+    "note": "With Table 1 levels (p.17) and the LoC capability checkpoints and enhanced evaluations pp.36-38 (e.g. bypassing monitor systems while evading detection)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "require remediation of all detected medium to high severity vulnerabilities before initiating new high- or critical-risk training runs with the impacted sandboxes",
+    "page": "p.40",
+    "note": "Plus framework-wide critical gate p.19 and named monitoring requirements p.41."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Informed by this analysis, the Chief AI Officer or the Director of Alignment and Risk will determine whether to request further testing or information, require additional mitigations or",
+    "page": "p.8",
+    "note": "Also p.8 the Chief AI Officer and Director of Alignment and Risk 'will assign a risk threshold'; continues on p.9 '... or approve the model for deployment'; p.12 deployment 'with the approval of the Chief AI Officer'."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. External experts take part only 'where appropriate' / 'where relevant' / 'when appropriate' (pp.6, 7, 9, 15); p.6 footnote on working with government officials concerns identifying new outcomes, not reviewing capabilities or safeguards; p.11 sharing internal-use summaries with authorities is 'as appropriate' notification; preparedness reports are publication (C5)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "require remediation of all detected medium to high severity vulnerabilities before initiating new high- or critical-risk training runs with the impacted sandboxes",
+    "page": "p.40",
+    "note": "Also p.19 critical gate."
+   }
+  }
+ }
+}

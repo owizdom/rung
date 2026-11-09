@@ -1,0 +1,201 @@
+{
+ "doc_id": "anthropic-rsp-3.4",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:40:09Z",
+ "other_risks": [
+  "international security and balance of power disruption"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "offensive cyber capability is not named anywhere in the 21 pages; 'security' refers to the developer's own systems and weights (p.8 moonshot security R&D) and does not count"
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "offensive cyber capability is not named anywhere in the 21 pages; 'security' refers to the developer's own systems and weights (p.8 moonshot security R&D) and does not count"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "offensive cyber capability is not named anywhere in the 21 pages; 'security' refers to the developer's own systems and weights (p.8 moonshot security R&D) and does not count"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "offensive cyber capability is not named anywhere in the 21 pages; 'security' refers to the developer's own systems and weights (p.8 moonshot security R&D) and does not count"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "offensive cyber capability is not named anywhere in the 21 pages; 'security' refers to the developer's own systems and weights (p.8 moonshot security R&D) and does not count"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "offensive cyber capability is not named anywhere in the 21 pages; 'security' refers to the developer's own systems and weights (p.8 moonshot security R&D) and does not count"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI systems with the ability to significantly help individuals or groups with basic technical backgrounds (e.g., undergraduate STEM degrees) create/obtain and deploy chemical and/or biological weapons with serious potential for catastrophic damages.",
+    "page": "p.6",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI systems that can functionally substitute for the scarce human expertise that is currently the primary barrier to novel development of chemical and biological weapons with potential for catastrophic harm.",
+    "page": "p.7",
+    "note": "also non-novel threshold p.6; each paired with a planned mitigation"
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers; access controls for trusted users with exemptions to classifier guards; red-teaming, bug bounties, and threat intelligence",
+    "page": "p.6",
+    "note": "E6 protections kept in place; named measures"
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.13",
+    "note": "Risk Reports assess whether thresholds are crossed (p.12); RSO also approves deployment decisions (p.16)"
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments.",
+    "page": "p.16",
+    "note": "framework-wide adherence review; procedural only, covers every risk with a threshold. Also p.14 external review of Risk Reports 'anytime a Risk Report covers highly capable models and is significantly redacted'"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated, and document the report and our findings.",
+    "page": "p.16",
+    "note": "framework-wide noncompliance procedure (b); applies to risks with a threshold"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI systems that can fully automate, or otherwise dramatically accelerate, the work of large, top-tier teams of human researchers in domains where fast progress could cause threats to international security",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "We will consider this threshold to be met if we determine that either (1) our models would be able to fully substitute for our entire set of Research Scientists and Research Engineers, at competitive costs",
+    "page": "p.9",
+    "note": "scenario (2) is a doubling of the rate of AI progress"
+   },
+   "response": {
+    "value": 1,
+    "quote": "Achieve an “eyes on everything” state for our internal AI development. We will comprehensively gather, centralize, and maintain logs",
+    "page": "p.8",
+    "note": "named measures in the company-plan column under the AI R&D threshold row; also the Appendix A delay commitment p.17"
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.13",
+    "note": "Risk Reports assess whether thresholds are crossed (p.12); RSO also approves deployment decisions (p.16)"
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments.",
+    "page": "p.16",
+    "note": "framework-wide adherence review; procedural only, covers every risk with a threshold. Also p.14 external review of Risk Reports 'anytime a Risk Report covers highly capable models and is significantly redacted'"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated, and document the report and our findings.",
+    "page": "p.16",
+    "note": "framework-wide noncompliance procedure (b); applies to risks with a threshold"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "autonomy as a risk is not covered: p.8 'autonomous, goal-directed operation' and p.11 'fully autonomous research' are inside loss_of_control and ai_rnd; p.18 changelog says the ARA threshold was replaced in RSP v2.0 and is not a mention this version covers (A10)"
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "autonomy as a risk is not covered: p.8 'autonomous, goal-directed operation' and p.11 'fully autonomous research' are inside loss_of_control and ai_rnd; p.18 changelog says the ARA threshold was replaced in RSP v2.0 and is not a mention this version covers (A10)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "autonomy as a risk is not covered: p.8 'autonomous, goal-directed operation' and p.11 'fully autonomous research' are inside loss_of_control and ai_rnd; p.18 changelog says the ARA threshold was replaced in RSP v2.0 and is not a mention this version covers (A10)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "autonomy as a risk is not covered: p.8 'autonomous, goal-directed operation' and p.11 'fully autonomous research' are inside loss_of_control and ai_rnd; p.18 changelog says the ARA threshold was replaced in RSP v2.0 and is not a mention this version covers (A10)"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "autonomy as a risk is not covered: p.8 'autonomous, goal-directed operation' and p.11 'fully autonomous research' are inside loss_of_control and ai_rnd; p.18 changelog says the ARA threshold was replaced in RSP v2.0 and is not a mention this version covers (A10)"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "autonomy as a risk is not covered: p.8 'autonomous, goal-directed operation' and p.11 'fully autonomous research' are inside loss_of_control and ai_rnd; p.18 changelog says the ARA threshold was replaced in RSP v2.0 and is not a mention this version covers (A10)"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Misaligned AI systems in high-stakes settings.",
+    "page": "p.7",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI systems that are highly relied on and have extensive access to sensitive assets as well as moderate capacity for autonomous, goal-directed operation and subterfuge",
+    "page": "p.7",
+    "note": "change triggered is reporting in Risk Reports (E5)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "p.7",
+    "note": "company column only says 'We will detail the state of our AI systems’ capabilities and propensities, our monitoring practices, and the overall level of risk in our Risk Reports': reporting alone. Safeguards in the right-hand column are recommendations the document says it cannot commit to (p.4). p.8 alignment assessments and monitoring sit in the AI R&D row"
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.13",
+    "note": "Risk Reports assess whether thresholds are crossed (p.12); RSO also approves deployment decisions (p.16)"
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments.",
+    "page": "p.16",
+    "note": "framework-wide adherence review; procedural only, covers every risk with a threshold. Also p.14 external review of Risk Reports 'anytime a Risk Report covers highly capable models and is significantly redacted'"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated, and document the report and our findings.",
+    "page": "p.16",
+    "note": "framework-wide noncompliance procedure (b); applies to risks with a threshold"
+   }
+  }
+ }
+}

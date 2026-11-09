@@ -1,0 +1,199 @@
+{
+ "doc_id": "magic-agi-1.0r",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:33:00Z",
+ "other_risks": [],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",
+    "page": "Covered Threat Models",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The table under 'Covered Threat Models' gives a Critical Capability Threshold for this risk, but the document calls these 'high-level, illustrative capability levels' and commits only to developing evaluations later; C2 excludes illustrations. The 50% LiveCodeBench threshold is a generic coding trigger, not specific to this risk."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",
+    "page": "Evaluations for Covered Threat Models",
+    "note": "Named measures: under 'Information Security Measures', 'We will implement the following information security measures ... if and when we observe evidence that our models are proficient at our Covered Threat Models' (weight-security hardening, internal compartmentalization)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Engineering team conducts benchmark evals and reports to 'the leadership team and Magic’s Board of Directors' (Activation section): reporting, not deciding. The Board approves only changes to the generic coding benchmark threshold (Updating Our Understanding), not whether this risk's red-line is reached or the response is adequate."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only external input: 'with input from external security and AI safety advisers' on changes to the generic coding benchmark threshold, and engineering team 'potentially in collaboration with external advisers' (hedged). No committed external review of this risk's evaluations or safeguards."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Deployment Mitigations",
+    "note": "Deployment restricted (no wide availability) until the required deployment mitigations are in place."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The model provides expert-level guidance which increases the accessibility or severity of bioweapon development.",
+    "page": "Covered Threat Models",
+    "note": "Listed as a Covered Threat Model ('potentially Biological Weapons Assistance')."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The table under 'Covered Threat Models' gives a Critical Capability Threshold for this risk, but the document calls these 'high-level, illustrative capability levels' and commits only to developing evaluations later; C2 excludes illustrations. The 50% LiveCodeBench threshold is a generic coding trigger, not specific to this risk."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",
+    "page": "Evaluations for Covered Threat Models",
+    "note": "Named measures: under 'Information Security Measures', 'We will implement the following information security measures ... if and when we observe evidence that our models are proficient at our Covered Threat Models' (weight-security hardening, internal compartmentalization)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Engineering team conducts benchmark evals and reports to 'the leadership team and Magic’s Board of Directors' (Activation section): reporting, not deciding. The Board approves only changes to the generic coding benchmark threshold (Updating Our Understanding), not whether this risk's red-line is reached or the response is adequate."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only external input: 'with input from external security and AI safety advisers' on changes to the generic coding benchmark threshold, and engineering team 'potentially in collaboration with external advisers' (hedged). No committed external review of this risk's evaluations or safeguards."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Deployment Mitigations",
+    "note": "Deployment restricted (no wide availability) until the required deployment mitigations are in place."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The model facilitates a dramatic acceleration in the rate of effective compute scaling or can effectively replace high-level machine learning researchers.",
+    "page": "Covered Threat Models",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The table under 'Covered Threat Models' gives a Critical Capability Threshold for this risk, but the document calls these 'high-level, illustrative capability levels' and commits only to developing evaluations later; C2 excludes illustrations. The 50% LiveCodeBench threshold is a generic coding trigger, not specific to this risk."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",
+    "page": "Evaluations for Covered Threat Models",
+    "note": "Named measures: under 'Information Security Measures', 'We will implement the following information security measures ... if and when we observe evidence that our models are proficient at our Covered Threat Models' (weight-security hardening, internal compartmentalization)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Engineering team conducts benchmark evals and reports to 'the leadership team and Magic’s Board of Directors' (Activation section): reporting, not deciding. The Board approves only changes to the generic coding benchmark threshold (Updating Our Understanding), not whether this risk's red-line is reached or the response is adequate."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only external input: 'with input from external security and AI safety advisers' on changes to the generic coding benchmark threshold, and engineering team 'potentially in collaboration with external advisers' (hedged). No committed external review of this risk's evaluations or safeguards."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Deployment Mitigations",
+    "note": "Deployment restricted (no wide availability) until the required deployment mitigations are in place."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "If given access to its own weights and prompted to do so, the AI model could autonomously maintain its own operation executing cybercrime and using the proceeds to create arbitrarily many replicas of itself.",
+    "page": "Covered Threat Models",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The table under 'Covered Threat Models' gives a Critical Capability Threshold for this risk, but the document calls these 'high-level, illustrative capability levels' and commits only to developing evaluations later; C2 excludes illustrations. The 50% LiveCodeBench threshold is a generic coding trigger, not specific to this risk."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",
+    "page": "Evaluations for Covered Threat Models",
+    "note": "Named measures: under 'Information Security Measures', 'We will implement the following information security measures ... if and when we observe evidence that our models are proficient at our Covered Threat Models' (weight-security hardening, internal compartmentalization)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Engineering team conducts benchmark evals and reports to 'the leadership team and Magic’s Board of Directors' (Activation section): reporting, not deciding. The Board approves only changes to the generic coding benchmark threshold (Updating Our Understanding), not whether this risk's red-line is reached or the response is adequate."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only external input: 'with input from external security and AI safety advisers' on changes to the generic coding benchmark threshold, and engineering team 'potentially in collaboration with external advisers' (hedged). No committed external review of this risk's evaluations or safeguards."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Deployment Mitigations",
+    "note": "Deployment restricted (no wide availability) until the required deployment mitigations are in place."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Read the full page. No misalignment, deception, oversight-undermining or loss-of-control language. ARA is defined as acting when 'prompted to do so' (Covered Threat Models), i.e. not against the developer's intent; 'unsafe proliferation' (AI R&D row) is about other capabilities."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold for this risk."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  }
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "doc_id": "magic-agi-1.0r",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:40:09Z",
+ "other_risks": [
+  "biological weapons assistance (marked 'potentially')",
+  "unsafe proliferation of dangerous AI capabilities"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyberoffense The model is effective at real-world cyberoffense operations.",
+    "page": "Covered Threat Models",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "Covered Threat Models",
+    "note": "capability levels are table rows under 'Critical Capability Threshold' but the document calls them 'high-level, illustrative capability levels' and defers 'specific plans' for 'dangerous capability thresholds' to later; illustrations only under C2. Ambiguous."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",
+    "page": "Evaluations for Covered Threat Models",
+    "note": "pause until mitigated or contained when red-line passed; threshold itself coded 0 (gap)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "How We Will Update This Policy",
+    "note": "Board only receives reports (activation section) and approves changes to the coding-benchmark threshold (updating section); no body decides whether this risk's threshold is reached or whether to proceed. Ambiguous."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "How We Will Update This Policy",
+    "note": "'potentially in collaboration with external advisers' is hedged; 'input from external security and AI safety advisers' is input to Board approval of a threshold change, not review"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Threat Mitigations",
+    "note": "same passage also supports response; deployment is conditional on the mitigations being in place (E4)"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Biological Weapons Assistance The model provides expert-level guidance which increases the accessibility or severity of bioweapon development.",
+    "page": "Covered Threat Models",
+    "note": "biochem listed as 'potentially' a threat model"
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "Covered Threat Models",
+    "note": "capability levels are table rows under 'Critical Capability Threshold' but the document calls them 'high-level, illustrative capability levels' and defers 'specific plans' for 'dangerous capability thresholds' to later; illustrations only under C2. Ambiguous."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",
+    "page": "Evaluations for Covered Threat Models",
+    "note": "pause until mitigated or contained when red-line passed; threshold itself coded 0 (gap)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "How We Will Update This Policy",
+    "note": "Board only receives reports (activation section) and approves changes to the coding-benchmark threshold (updating section); no body decides whether this risk's threshold is reached or whether to proceed. Ambiguous."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "How We Will Update This Policy",
+    "note": "'potentially in collaboration with external advisers' is hedged; 'input from external security and AI safety advisers' is input to Board approval of a threshold change, not review"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Threat Mitigations",
+    "note": "same passage also supports response; deployment is conditional on the mitigations being in place (E4)"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI R&D The model facilitates a dramatic acceleration in the rate of effective compute scaling or can effectively replace high-level machine learning researchers.",
+    "page": "Covered Threat Models",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "Covered Threat Models",
+    "note": "capability levels are table rows under 'Critical Capability Threshold' but the document calls them 'high-level, illustrative capability levels' and defers 'specific plans' for 'dangerous capability thresholds' to later; illustrations only under C2. Ambiguous."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",
+    "page": "Evaluations for Covered Threat Models",
+    "note": "pause until mitigated or contained when red-line passed; threshold itself coded 0 (gap)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "How We Will Update This Policy",
+    "note": "Board only receives reports (activation section) and approves changes to the coding-benchmark threshold (updating section); no body decides whether this risk's threshold is reached or whether to proceed. Ambiguous."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "How We Will Update This Policy",
+    "note": "'potentially in collaboration with external advisers' is hedged; 'input from external security and AI safety advisers' is input to Board approval of a threshold change, not review"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Threat Mitigations",
+    "note": "same passage also supports response; deployment is conditional on the mitigations being in place (E4)"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomous Replication and Adaptation If given access to its own weights and prompted to do so, the AI model could autonomously maintain its own operation executing cybercrime and using the proceeds to create arbitrarily many replicas of itself.",
+    "page": "Covered Threat Models",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "Covered Threat Models",
+    "note": "capability levels are table rows under 'Critical Capability Threshold' but the document calls them 'high-level, illustrative capability levels' and defers 'specific plans' for 'dangerous capability thresholds' to later; illustrations only under C2. Ambiguous."
+   },
+   "response": {
+    "value": 1,
+    "quote": "In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",
+    "page": "Evaluations for Covered Threat Models",
+    "note": "pause until mitigated or contained when red-line passed; threshold itself coded 0 (gap)"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "How We Will Update This Policy",
+    "note": "Board only receives reports (activation section) and approves changes to the coding-benchmark threshold (updating section); no body decides whether this risk's threshold is reached or whether to proceed. Ambiguous."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "How We Will Update This Policy",
+    "note": "'potentially in collaboration with external advisers' is hedged; 'input from external security and AI safety advisers' is input to Board approval of a threshold change, not review"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Threat Mitigations",
+    "note": "same passage also supports response; deployment is conditional on the mitigations being in place (E4)"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not named; ARA row is about self-replication, nothing on misalignment, oversight or shutdown"
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "risk not named"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "risk not named"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or response for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no threshold or response for this risk"
+   }
+  }
+ }
+}

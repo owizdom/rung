@@ -1,0 +1,203 @@
+{
+ "doc_id": "google-fsf-3.1",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:41:00Z",
+ "other_risks": [
+  "harmful manipulation",
+  "radiological and nuclear",
+  "structural risks"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber: Risks of models assisting in the development, preparation, and/or execution of a cyber attack.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Provides sufficient uplift with high impact cyber attacks for additional expected harm at severe scale.",
+    "page": "p.12",
+    "note": "Table 2.2.2.a, Cyber uplift level 1 (CCL); the table cell is split in the text layer, quote is the CCL definition."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable",
+    "page": "p.10",
+    "note": "E3 gate for misuse T/CCLs. No named safeguards are required: deployment mitigations 'may include' (p.10) and security levels are 'recommended' (p.11-12)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.10/p.14 'the appropriate governance function' and p.16 'legal, compliance, and safety reviews with escalation procedures' name no role or body; p.17 'appropriate corporate governance bodies' unnamed."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Borderline: 'as needed' (E2) does not void; external experts take part in analysing the threshold. Other external references are hedged: 'Where appropriate, we may engage relevant external actors, including governments' p.6; 5.2 disclosures 'we aim to share' p.17."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if required safeguards cannot be met. p.10/p.14 only gate deployment on acceptable residual risk (E4); p.17 framework assessment says 'we may' update; no non-compliance procedure."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN: Risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear (“CBRN”) threat.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Provides low to medium resourced actors uplift in reference scenarios, resulting in material risk of CBRN attacks that could result in significant but not severe harm.",
+    "page": "p.11",
+    "note": "CBRN uplift TCL; the CCL 'CBRN uplift level 1' (Table 2.2.1.a) is also defined."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable",
+    "page": "p.10",
+    "note": "E3 gate for misuse T/CCLs. No named safeguards are required: deployment mitigations 'may include' (p.10) and security levels are 'recommended' (p.11-12)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.10/p.14 'the appropriate governance function' and p.16 'legal, compliance, and safety reviews with escalation procedures' name no role or body; p.17 'appropriate corporate governance bodies' unnamed."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Borderline: 'as needed' (E2) does not void; external experts take part in analysing the threshold. Other external references are hedged: 'Where appropriate, we may engage relevant external actors, including governments' p.6; 5.2 disclosures 'we aim to share' p.17."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if required safeguards cannot be met. p.10/p.14 only gate deployment on acceptable residual risk (E4); p.17 framework assessment says 'we may' update; no non-compliance procedure."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "ML R&D acceleration level 1:",
+    "page": "p.15",
+    "note": "Table 3.2.2.a; also p.4 'machine learning R&D' domain."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Can fully automate the work of any team of researchers at Google focused on improving AI capabilities, with approximately comparable all-inclusive costs.",
+    "page": "p.15",
+    "note": "ML R&D automation level 1; table cell text."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments and high-risk internal deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable",
+    "page": "p.14",
+    "note": "E3 gate for ML R&D and misalignment T/CCLs. Security levels are 'recommended' (p.15)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.10/p.14 'the appropriate governance function' and p.16 'legal, compliance, and safety reviews with escalation procedures' name no role or body; p.17 'appropriate corporate governance bodies' unnamed."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Borderline: 'as needed' (E2) does not void; external experts take part in analysing the threshold. Other external references are hedged: 'Where appropriate, we may engage relevant external actors, including governments' p.6; 5.2 disclosures 'we aim to share' p.17."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if required safeguards cannot be met. p.10/p.14 only gate deployment on acceptable residual risk (E4); p.17 framework assessment says 'we may' update; no non-compliance procedure."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named as a risk. p.2 lists agency and tool use only as cross-cutting capabilities to evaluate, p.13 mentions the model exfiltrating itself (coded under loss_of_control). No autonomous replication, resource acquisition or long-horizon autonomy risk."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no autonomy threshold"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no autonomy risk, no response"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide/review for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if required safeguards cannot be met. p.10/p.14 only gate deployment on acceptable residual risk (E4); p.17 framework assessment says 'we may' update; no non-compliance procedure."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The instrumental reasoning abilities of the model enable enough situational awareness",
+    "page": "p.14",
+    "note": "Stealth and Situational Awareness TCL; p.2 'misalignment risk'."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "such that, absent additional mitigations, we cannot rule out the model significantly undermining human control.",
+    "page": "p.14",
+    "note": "Stealth and Situational Awareness TCL; triggers periodic residual risk assessments."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments and high-risk internal deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable",
+    "page": "p.14",
+    "note": "E3 gate for ML R&D and misalignment T/CCLs. Security levels are 'recommended' (p.15)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.10/p.14 'the appropriate governance function' and p.16 'legal, compliance, and safety reviews with escalation procedures' name no role or body; p.17 'appropriate corporate governance bodies' unnamed."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Borderline: 'as needed' (E2) does not void; external experts take part in analysing the threshold. Other external references are hedged: 'Where appropriate, we may engage relevant external actors, including governments' p.6; 5.2 disclosures 'we aim to share' p.17."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if required safeguards cannot be met. p.10/p.14 only gate deployment on acceptable residual risk (E4); p.17 framework assessment says 'we may' update; no non-compliance procedure."
+   }
+  }
+ }
+}

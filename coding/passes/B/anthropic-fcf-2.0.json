@@ -1,0 +1,203 @@
+{
+ "doc_id": "anthropic-fcf-2.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:40:24Z",
+ "other_risks": [
+  "harmful manipulation",
+  "radiological and nuclear",
+  "large-scale systemic harm (>50 fatalities or $1bn damages)"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber offense, including model capabilities that could enable or enhance attacks on computer systems, networks, or digital infrastructure.",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Meaningful technical assistance for active cyber operations using known attack techniques and methodologies.",
+    "page": "p.6",
+    "note": "Tier 1; Tier 2 is completely autonomous cyber operations. Tiers trigger 'safeguards proportionate to that level of risk' (p.6)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.11",
+    "note": "E3 generic acceptance gate; no named safeguards. p.10-11 also say 'Where the residual risks associated with the model exceed acceptable risk levels, additional mitigation measures are deployed' (none named); p.6 safeguards 'may include' (hedged)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role decides on this risk's threshold or response: p.11 'justification for proceeding will be documented by the risk owner' (role unnamed); p.15 board of Anthropic Ireland 'oversees implementation' (oversight only); p.15 named officers only propose framework updates."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.14 'We may solicit input from external actors' and p.10 bug bounty 'we may rely on' are hedged; p.14 'will also rely on commissioned research reports, discussions with domain experts' is input to process design, not review of threshold/safeguards; p.13 security controls independently reviewed concerns own systems."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "Framework-level non-compliance procedure stated in EU Code context; E3 gate alone would not count (E4). Borderline: remediation plan rather than report/investigate/disclose."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Chemical, biological, radiological, and nuclear (CBRN) threats.",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI systems with the ability to significantly help individuals or groups with basic technical backgrounds",
+    "page": "p.7",
+    "note": "Tier 1 non-novel chemical/biological weapons production; Tier 2 novel. Text layer: quote is the contiguous part of the table cell on p.7."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.11",
+    "note": "E3 generic acceptance gate; no named safeguards. p.10-11 also say 'Where the residual risks associated with the model exceed acceptable risk levels, additional mitigation measures are deployed' (none named); p.6 safeguards 'may include' (hedged)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role decides on this risk's threshold or response: p.11 'justification for proceeding will be documented by the risk owner' (role unnamed); p.15 board of Anthropic Ireland 'oversees implementation' (oversight only); p.15 named officers only propose framework updates."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.14 'We may solicit input from external actors' and p.10 bug bounty 'we may rely on' are hedged; p.14 'will also rely on commissioned research reports, discussions with domain experts' is input to process design, not review of threshold/safeguards; p.13 security controls independently reviewed concerns own systems."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "Framework-level non-compliance procedure stated in EU Code context; E3 gate alone would not count (E4). Borderline: remediation plan rather than report/investigate/disclose."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI systems that can fully automate, or otherwise dramatically accelerate, the work of large, top-tier teams of human researchers in domains where fast progress could cause threats",
+    "page": "p.9",
+    "note": "Loss of Control Tier 2 'Automated R&D in key domains', focus on AI R&D."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "We will consider this threshold to be met if we determine that either (1) our models would be able to fully substitute for our entire set of Research Scientists and Research Engineers",
+    "page": "p.10",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.11",
+    "note": "E3 generic acceptance gate; no named safeguards. p.10-11 also say 'Where the residual risks associated with the model exceed acceptable risk levels, additional mitigation measures are deployed' (none named); p.6 safeguards 'may include' (hedged)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role decides on this risk's threshold or response: p.11 'justification for proceeding will be documented by the risk owner' (role unnamed); p.15 board of Anthropic Ireland 'oversees implementation' (oversight only); p.15 named officers only propose framework updates."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.14 'We may solicit input from external actors' and p.10 bug bounty 'we may rely on' are hedged; p.14 'will also rely on commissioned research reports, discussions with domain experts' is input to process design, not review of threshold/safeguards; p.13 security controls independently reviewed concerns own systems."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "Framework-level non-compliance procedure stated in EU Code context; E3 gate alone would not count (E4). Borderline: remediation plan rather than report/investigate/disclose."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Loss of control, including evasion of oversight or unsupervised conduct, and autonomous behavior that would constitute serious crimes",
+    "page": "p.5",
+    "note": "Also p.9 'accumulating resources and capabilities without authorization'."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "For Loss of control risks, we have established a tier system that describes model capabilities against autonomy level, deception sophistication, and potential for unsanctioned action, providing thresholds for decision-making around autonomous capabilities.",
+    "page": "p.9",
+    "note": "Borderline: loss-of-control tiers are presented as thresholds around autonomous capabilities (B2); cyber Tier 2 is also autonomous operation (p.6)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.11",
+    "note": "E3 generic acceptance gate; no named safeguards. p.10-11 also say 'Where the residual risks associated with the model exceed acceptable risk levels, additional mitigation measures are deployed' (none named); p.6 safeguards 'may include' (hedged)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role decides on this risk's threshold or response: p.11 'justification for proceeding will be documented by the risk owner' (role unnamed); p.15 board of Anthropic Ireland 'oversees implementation' (oversight only); p.15 named officers only propose framework updates."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.14 'We may solicit input from external actors' and p.10 bug bounty 'we may rely on' are hedged; p.14 'will also rely on commissioned research reports, discussions with domain experts' is input to process design, not review of threshold/safeguards; p.13 security controls independently reviewed concerns own systems."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "Framework-level non-compliance procedure stated in EU Code context; E3 gate alone would not count (E4). Borderline: remediation plan rather than report/investigate/disclose."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Loss of control refers to scenarios where AI models develop and pursue goals autonomously that conflict with their developers’ intentions or users’ interests.",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Misaligned AI systems in high-stakes settings.",
+    "page": "p.9",
+    "note": "Tier 1 describes systems that could carry out sabotage with substantial access and subterfuge; Tier 2 is Automated R&D."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.11",
+    "note": "E3 generic acceptance gate; no named safeguards. p.10-11 also say 'Where the residual risks associated with the model exceed acceptable risk levels, additional mitigation measures are deployed' (none named); p.6 safeguards 'may include' (hedged)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role decides on this risk's threshold or response: p.11 'justification for proceeding will be documented by the risk owner' (role unnamed); p.15 board of Anthropic Ireland 'oversees implementation' (oversight only); p.15 named officers only propose framework updates."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.14 'We may solicit input from external actors' and p.10 bug bounty 'we may rely on' are hedged; p.14 'will also rely on commissioned research reports, discussions with domain experts' is input to process design, not review of threshold/safeguards; p.13 security controls independently reviewed concerns own systems."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "Framework-level non-compliance procedure stated in EU Code context; E3 gate alone would not count (E4). Borderline: remediation plan rather than report/investigate/disclose."
+   }
+  }
+ }
+}

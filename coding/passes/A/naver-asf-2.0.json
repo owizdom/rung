@@ -1,0 +1,204 @@
+{
+ "doc_id": "naver-asf-2.0",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:36:46Z",
+ "other_risks": [
+  "threats to life and physical safety",
+  "harm to economic value",
+  "unjust discrimination",
+  "misleading AI-generated content"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No offensive cyber risk named anywhere. Taxonomy (p.6-7) covers life and physical safety, economic value and unjust discrimination only."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned; the only levels are the generic High/Notable/Low AI Service Risk matrix (p.8)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk; p.12 'seeking advice from independent external experts' is advisory and not tied to any risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No biological, chemical or CBRN risk named anywhere."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned; the only levels are the generic High/Notable/Low AI Service Risk matrix (p.8)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk; p.12 'seeking advice from independent external experts' is advisory and not tied to any risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No AI R&D automation or self-improvement risk named anywhere."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned; the only levels are the generic High/Notable/Low AI Service Risk matrix (p.8)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk; p.12 'seeking advice from independent external experts' is advisory and not tied to any risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.13 notes AI services 'autonomously reason and act within the scope delegated by users—as in the case of AI agents' and NAVER's agent products; this describes agentic product features and changing context, not an autonomous replication, resource-acquisition or long-horizon autonomy risk."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned; the only levels are the generic High/Notable/Low AI Service Risk matrix (p.8)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk; p.12 'seeking advice from independent external experts' is advisory and not tied to any risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No misalignment, deception or loss-of-control risk named. 'oversight' (p.11) refers to NAVER's governance layers."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned; the only levels are the generic High/Notable/Low AI Service Risk matrix (p.8)"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to review for this risk; p.12 'seeking advice from independent external experts' is advisory and not tied to any risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing for this risk"
+   }
+  }
+ }
+}

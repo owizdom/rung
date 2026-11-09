@@ -1,0 +1,203 @@
+{
+ "doc_id": "google-fsf-3.1",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:35:47Z",
+ "other_risks": [
+  "harmful manipulation",
+  "nuclear and radiological (within CBRN)",
+  "structural risks"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber: Risks of models assisting in the development, preparation, and/or execution of a cyber attack.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Provides sufficient uplift with high impact cyber attacks for additional expected harm at severe scale.",
+    "page": "p.12",
+    "note": "Cyber uplift level 1 CCL, Table 2.2.2.a."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable (including a safety case where a CCL has been reached).",
+    "page": "p.10",
+    "note": "E3 acceptance gate for models reaching a misuse T/CCL; present-tense conditional rule (E1). Security level 2+ is only 'recommended' (p.12)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only 'the appropriate governance function' (p.10, p.14) and 'appropriate corporate governance bodies' (p.17); Section 4.1 (p.16) names no role or body."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'Where appropriate, we may engage relevant external actors, including governments' (hedged); p.17 'we aim to share relevant information with appropriate government authorities' is information sharing, hedged. No binding external review."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3 acceptance gate (p.10). Security level 2+ is 'recommended' (p.11-12) and p.7 lets Google 'otherwise assess that the level of security applied is adequate'; nothing binding on what happens if required mitigations cannot be met."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN: Risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear (“CBRN”) threat.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "CBRN uplift TCL: Provides low to medium resourced actors uplift in reference scenarios, resulting in material risk of CBRN attacks that could result in significant but not severe harm.",
+    "page": "p.11",
+    "note": "Also CBRN uplift level 1 CCL (Table 2.2.1.a, p.11)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable (including a safety case where a CCL has been reached).",
+    "page": "p.10",
+    "note": "E3 acceptance gate for models reaching a misuse T/CCL (E1 conditional rule). Security level 2+ is only 'recommended' (p.11)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only 'the appropriate governance function' (p.10, p.14) and 'appropriate corporate governance bodies' (p.17); Section 4.1 (p.16) names no role or body."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'Where appropriate, we may engage relevant external actors, including governments' (hedged); p.17 'we aim to share relevant information with appropriate government authorities' is information sharing, hedged. No binding external review."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3 acceptance gate (p.10). Security level 2+ is 'recommended' (p.11-12) and p.7 lets Google 'otherwise assess that the level of security applied is adequate'; nothing binding on what happens if required mitigations cannot be met."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "we define CCLs that identify when ML R&D capabilities in our models may, if not properly managed, reduce society's overall ability to manage AI risks.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Can fully automate the work of any team of researchers at Google focused on improving AI capabilities, with approximately comparable all-inclusive costs.",
+    "page": "p.15",
+    "note": "ML R&D automation level 1; also ML R&D acceleration level 1 (p.15)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments and high-risk internal deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable (including a safety case where a CCL has been reached).",
+    "page": "p.14",
+    "note": "E3 acceptance gate for models reaching an ML R&D and Misalignment T/CCL (p.13). Security levels 3 and 4 only 'recommend'ed (p.15)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only 'the appropriate governance function' (p.10, p.14) and 'appropriate corporate governance bodies' (p.17); Section 4.1 (p.16) names no role or body."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'Where appropriate, we may engage relevant external actors, including governments' (hedged); p.17 'we aim to share relevant information with appropriate government authorities' is information sharing, hedged. No binding external review."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3 acceptance gate (p.14). Security levels 3/4 are 'recommended' (p.15) and p.7 allows 'we otherwise assess that the level of security applied is adequate'; no binding consequence if a required mitigation is missing."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomous replication, self-proliferation, resource acquisition or long-horizon autonomous task risk. 'agency' appears p.2 only as a cross-cutting capability to evaluate, and 'agentic' p.18 only in the glossary definition of frontier models; self-exfiltration (p.13) coded under loss_of_control."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not mentioned."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not mentioned."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Stealth and Situational Awareness TCL: The instrumental reasoning abilities of the model enable enough situational awareness (ability to discover and use relevant details of its deployment setting) and stealth (ability to circumvent basic oversight mechanisms) such that, absent additional mitigations, we cannot rule out the model significantly undermining human control.",
+    "page": "p.14",
+    "note": "Misalignment risk also named p.2, p.4."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Stealth and Situational Awareness TCL: The instrumental reasoning abilities of the model enable enough situational awareness (ability to discover and use relevant details of its deployment setting) and stealth (ability to circumvent basic oversight mechanisms) such that, absent additional mitigations, we cannot rule out the model significantly undermining human control.",
+    "page": "p.14",
+    "note": "Triggers periodic residual risk assessments and the ML R&D and Misalignment mitigation process (p.13-14)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments and high-risk internal deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable (including a safety case where a CCL has been reached).",
+    "page": "p.14",
+    "note": "E3 gate applies to a model reaching an ML R&D and Misalignment T/CCL (p.13). p.14 also: 'If the risk assessment deems the residual risk from internal deployment to be unacceptable without additional safeguards (such as chain-of-thought monitoring on high-risk deployments), these will be applied.'"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only 'the appropriate governance function' (p.10, p.14) and 'appropriate corporate governance bodies' (p.17); Section 4.1 (p.16) names no role or body."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'Where appropriate, we may engage relevant external actors, including governments' (hedged); p.17 'we aim to share relevant information with appropriate government authorities' is information sharing, hedged. No binding external review."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the E3 acceptance gate (p.14) and the p.14 conditional 'these will be applied', which is the response itself; nothing on what happens if the safeguards cannot be put in place."
+   }
+  }
+ }
+}

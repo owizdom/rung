@@ -1,0 +1,202 @@
+{
+ "doc_id": "openai-fgf-2026.05",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:38:47Z",
+ "other_risks": [
+  "harmful manipulation",
+  "nuclear and radiological (within CBRN)"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Risks of enabling large-scale sophisticated cyberattacks, including on critical systems, such as by significantly lowering the barriers to entry for malicious actors",
+    "page": "p.6",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model provides substantial capability uplift to small organizations by removing existing bottlenecks to scaling cyber operations, including by automating end-to-end cyber operations against reasonably hardened targets or by automating the discovery and exploitation of operationally relevant vulnerabilities.",
+    "page": "p.9",
+    "note": "Cyber Tier 2; tiers are 'measurable thresholds for decision-making' (p.9) and are reviewed in deciding whether to accept residual risk (p.8). Tier 3 also p.9."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If residual risks associated with the model exceed acceptable risk levels, the model is not deployed unless additional mitigation measures are implemented that sufficiently minimize risk.",
+    "page": "p.13",
+    "note": "Generic acceptance gate (E3), present-tense conditional rule (E1), C3(b). Mitigations themselves are 'appropriate safety mitigations' with nothing named (p.13)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Safety Advisory Group only gives 'recommendations' (p.13, p.19); board of OpenAI Ireland 'exercise systemic risk oversight' for EU purposes (p.20); approval for deployment is unattributed ('the model may be approved', p.13). Deployment governance is deferred to Appendix B of the PF, another document (A1)."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.19 'We may solicit and obtain input from external experts ... This may include independent third-party evaluators, stress testing of safeguards' (hedged); p.13 external experts 'as available and appropriate'; p.17 external security assessments are undated present-tense practice about OpenAI's own security (E1)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "For the EU Code of Practice, if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan",
+    "page": "p.22",
+    "note": "Framework-wide non-compliance procedure, limited to the EU Code; 'as appropriate' in the same sentence qualifies only the FGF update. The p.13 gate conditions only on risk being minimized (E4), so it is not counted here. Ambiguous fit to C6(b), which lists reporting, investigation or disclosure."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "We principally build safeguards against biological and chemical threats, and we prioritize biological capability evaluations due to the higher potential severity of biological threats.",
+    "page": "p.10",
+    "note": "CBRN also listed as a systemic risk category on p.6."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can provide meaningful counterfactual assistance (relative to unlimited access to baseline of tools available in 2021) to novice actors (anyone with a basic relevant technical background) that enables them to create known biological or chemical threats.",
+    "page": "p.10",
+    "note": "CBRN Tier 2; Tier 3 on p.11. Tiers reviewed in the residual-risk acceptance decision (p.8)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If residual risks associated with the model exceed acceptable risk levels, the model is not deployed unless additional mitigation measures are implemented that sufficiently minimize risk.",
+    "page": "p.13",
+    "note": "Generic acceptance gate (E3), present-tense conditional rule (E1), C3(b). Mitigations themselves are 'appropriate safety mitigations' with nothing named (p.13)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Safety Advisory Group only gives 'recommendations' (p.13, p.19); board of OpenAI Ireland 'exercise systemic risk oversight' for EU purposes (p.20); approval for deployment is unattributed ('the model may be approved', p.13). Deployment governance is deferred to Appendix B of the PF, another document (A1)."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.19 'We may solicit and obtain input from external experts ... This may include independent third-party evaluators, stress testing of safeguards' (hedged); p.13 external experts 'as available and appropriate'; p.17 external security assessments are undated present-tense practice about OpenAI's own security (E1)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "For the EU Code of Practice, if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan",
+    "page": "p.22",
+    "note": "Framework-wide non-compliance procedure, limited to the EU Code; 'as appropriate' in the same sentence qualifies only the FGF update. The p.13 gate conditions only on risk being minimized (E4), so it is not counted here. Ambiguous fit to C6(b), which lists reporting, investigation or disclosure."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Such risks may emerge from misalignment with human intent or values, self-improvement, model deception, or autonomous self-improvement.",
+    "page": "p.12",
+    "note": "Also 'Outside of risks related to AI self-improvement, these risk tiers remain exploratory' (p.12)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Loss of control tiers (p.12) describe general expert-level task execution, autonomy and deception, not what a model could do in AI R&D; p.12 says tiers relate to AI self-improvement but no level is stated for this domain."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If residual risks associated with the model exceed acceptable risk levels, the model is not deployed unless additional mitigation measures are implemented that sufficiently minimize risk.",
+    "page": "p.13",
+    "note": "Generic acceptance gate (E3), present-tense conditional rule (E1), C3(b). Mitigations themselves are 'appropriate safety mitigations' with nothing named (p.13). Gate covers all residual systemic risks, including self-improvement under loss of control; no ai_rnd threshold (gap)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Safety Advisory Group only gives 'recommendations' (p.13, p.19); board of OpenAI Ireland 'exercise systemic risk oversight' for EU purposes (p.20); approval for deployment is unattributed ('the model may be approved', p.13). Deployment governance is deferred to Appendix B of the PF, another document (A1)."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.19 'We may solicit and obtain input from external experts ... This may include independent third-party evaluators, stress testing of safeguards' (hedged); p.13 external experts 'as available and appropriate'; p.17 external security assessments are undated present-tense practice about OpenAI's own security (E1)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "For the EU Code of Practice, if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan",
+    "page": "p.22",
+    "note": "Framework-wide non-compliance procedure, limited to the EU Code; 'as appropriate' in the same sentence qualifies only the FGF update. The p.13 gate conditions only on risk being minimized (E4), so it is not counted here. Ambiguous fit to C6(b), which lists reporting, investigation or disclosure."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "autonomous conduct that, if conducted by a human, would constitute a crime of murder, assault, extortion, or theft.",
+    "page": "p.6",
+    "note": "Part of the loss of control category; Tier 3 example 'can acquire resources and expand capacity against active countermeasures' (p.12)."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "We have established a tier system that describes model capabilities in light of a model's level of autonomy, ability to deceive, and the potential to take unsanctioned or unauthorized action.",
+    "page": "p.12",
+    "note": "Tier 3 (p.12): 'can operate autonomously for extended, sustained periods of time'; that cell is interleaved with the Examples column in both text layers, so the framing sentence is quoted."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If residual risks associated with the model exceed acceptable risk levels, the model is not deployed unless additional mitigation measures are implemented that sufficiently minimize risk.",
+    "page": "p.13",
+    "note": "Generic acceptance gate (E3), present-tense conditional rule (E1), C3(b). Mitigations themselves are 'appropriate safety mitigations' with nothing named (p.13)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Safety Advisory Group only gives 'recommendations' (p.13, p.19); board of OpenAI Ireland 'exercise systemic risk oversight' for EU purposes (p.20); approval for deployment is unattributed ('the model may be approved', p.13). Deployment governance is deferred to Appendix B of the PF, another document (A1)."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.19 'We may solicit and obtain input from external experts ... This may include independent third-party evaluators, stress testing of safeguards' (hedged); p.13 external experts 'as available and appropriate'; p.17 external security assessments are undated present-tense practice about OpenAI's own security (E1)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "For the EU Code of Practice, if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan",
+    "page": "p.22",
+    "note": "Framework-wide non-compliance procedure, limited to the EU Code; 'as appropriate' in the same sentence qualifies only the FGF update. The p.13 gate conditions only on risk being minimized (E4), so it is not counted here. Ambiguous fit to C6(b), which lists reporting, investigation or disclosure."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Risks stemming from the inability to reliably direct, modify, or shut down a model, including evading the controls of a model developer or user",
+    "page": "p.6",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "demonstrates basic situational awareness when elicited and executes deceptive behaviors in narrow, highly prompted scenarios.",
+    "page": "p.12",
+    "note": "Loss of control Tier 1. Tier 2 'reliably evade detection ... including the capability to evade chain of thought monitoring' and Tier 3 'cannot reliably detect or rule out evasion of human control' on p.12 (not contiguous in the text layers). Tiers exploratory outside self-improvement (p.12)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If residual risks associated with the model exceed acceptable risk levels, the model is not deployed unless additional mitigation measures are implemented that sufficiently minimize risk.",
+    "page": "p.13",
+    "note": "Generic acceptance gate (E3), present-tense conditional rule (E1), C3(b). Mitigations themselves are 'appropriate safety mitigations' with nothing named (p.13)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Safety Advisory Group only gives 'recommendations' (p.13, p.19); board of OpenAI Ireland 'exercise systemic risk oversight' for EU purposes (p.20); approval for deployment is unattributed ('the model may be approved', p.13). Deployment governance is deferred to Appendix B of the PF, another document (A1)."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.19 'We may solicit and obtain input from external experts ... This may include independent third-party evaluators, stress testing of safeguards' (hedged); p.13 external experts 'as available and appropriate'; p.17 external security assessments are undated present-tense practice about OpenAI's own security (E1)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "For the EU Code of Practice, if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan",
+    "page": "p.22",
+    "note": "Framework-wide non-compliance procedure, limited to the EU Code; 'as appropriate' in the same sentence qualifies only the FGF update. The p.13 gate conditions only on risk being minimized (E4), so it is not counted here. Ambiguous fit to C6(b), which lists reporting, investigation or disclosure."
+   }
+  }
+ }
+}

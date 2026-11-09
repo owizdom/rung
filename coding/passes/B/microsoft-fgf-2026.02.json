@@ -1,0 +1,202 @@
+{
+ "doc_id": "microsoft-fgf-2026.02",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:42:24Z",
+ "other_risks": [
+  "harmful manipulation",
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Offensive cyberoperations. A model’s ability to provide significant capability uplift to an actor seeking to carry out highly disruptive or destructive cyberattacks, including on critical infrastructure.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model provides meaningful uplift to a low-to-medium skilled actor’s ability to create and conduct highly disruptive or destructive cyber-attacks, including on critical infrastructure",
+    "page": "p.13",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked high-risk capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Also pause sentence p.9; table says 'Further review and mitigations required' (unnamed) but p.8 names restricted access, weight encryption, defense in depth."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Executive Officers responsible for the AI governance program; role-based, not a named individual."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Ambiguous: p.7 'We engage qualified third parties to conduct evaluations' but third parties conduct evaluations is discretionary: 'sometimes', and internal experts decide whether to involve them (p.7); security red teaming by third parties is 'where appropriate' (p.8). No binding external review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Pause until mitigation meets the risk; required response is the mitigations and security measures."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Chemical, biological, radiological, and nuclear (CBRN) weapons. A model’s ability to provide significant capability uplift to an actor seeking to develop and deploy a chemical, biological, radiological, or nuclear weapon.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model provides a meaningful uplift to an expert’s (PhD level education in related fields) ability to develop and deliver a novel CBRN threat.",
+    "page": "p.12",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked high-risk capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Also pause sentence p.9; table says 'Further review and mitigations required' (unnamed) but p.8 names restricted access, weight encryption, defense in depth."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Executive Officers responsible for the AI governance program; role-based, not a named individual."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Ambiguous: p.7 'We engage qualified third parties to conduct evaluations' but third parties conduct evaluations is discretionary: 'sometimes', and internal experts decide whether to involve them (p.7); security red teaming by third parties is 'where appropriate' (p.8). No binding external review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Pause until mitigation meets the risk; required response is the mitigations and security measures."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can fully automate the AI R&D pipeline at a fraction of human labor costs, majorly accelerating AI R&D.",
+    "page": "p.14",
+    "note": "Critical level of Advanced autonomy table is specifically AI R&D automation."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked high-risk capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Also pause sentence p.9; table says 'Further review and mitigations required' (unnamed) but p.8 names restricted access, weight encryption, defense in depth."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Executive Officers responsible for the AI governance program; role-based, not a named individual."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Ambiguous: p.7 'We engage qualified third parties to conduct evaluations' but third parties conduct evaluations is discretionary: 'sometimes', and internal experts decide whether to involve them (p.7); security red teaming by third parties is 'where appropriate' (p.8). No binding external review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Pause until mitigation meets the risk; required response is the mitigations and security measures."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can autonomously complete a range of generalist tasks equivalent to multiple days’ worth of generalist human labor",
+    "page": "p.14",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked high-risk capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Also pause sentence p.9; table says 'Further review and mitigations required' (unnamed) but p.8 names restricted access, weight encryption, defense in depth."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": "Executive Officers responsible for the AI governance program; role-based, not a named individual."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Ambiguous: p.7 'We engage qualified third parties to conduct evaluations' but third parties conduct evaluations is discretionary: 'sometimes', and internal experts decide whether to involve them (p.7); security red teaming by third parties is 'where appropriate' (p.8). No binding external review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Pause until mitigation meets the risk; required response is the mitigations and security measures."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Loss of control. A model’s ability to undermine effective human control through adaptive, deceptive, or self-reinforcing mechanisms such that, when deployed, a model can no longer be reliably directed, modified, or shut down.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.15 only says 'We are studying and progressing methods' and 'researching approaches ... setting appropriate risk acceptance criteria'; no level defined."
+   },
+   "response": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": "Generic pause gate (E3) covers any risk identified, incl. loss of control; no loss-of-control-specific response or threshold. Ambiguous."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Executive Officer decision (p.10) is framed on the low or medium risk level, and loss of control has no level or named response to decide on. Ambiguous."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review covering loss of control; third-party evaluation is discretionary (p.7)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only the generic pause gate (p.9) applies; no named required response for loss of control, so E4 excludes it."
+   }
+  }
+ }
+}

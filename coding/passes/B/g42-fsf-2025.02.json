@@ -1,0 +1,204 @@
+{
+ "doc_id": "g42-fsf-2025.02",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:42:24Z",
+ "other_risks": [
+  "advanced manipulation",
+  "misinformation campaigns",
+  "fraud",
+  "illicit content generation"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Offensive Cybersecurity: When an AI’s capabilities could facilitate cybersecurity threats, necessitating strict, proactive measures.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Automating powerful cyber offensive operations against unsecured or secured targets, in a way that could cause critical damage.",
+    "page": "p.6",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Each capability threshold is associated with a required Deployment Mitigation Level (DML) and Security Mitigation Levels (SML), which must be achieved before the capability threshold is reached.",
+    "page": "p.5",
+    "note": "DML 2 / SML 2 listed in the table (p.5-6) with measures defined on p.7-11 (classifiers, access controls, red-teaming); p.5 also restricts deployment."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "A dedicated Frontier AI Governance Board, composed of our Chief Responsible AI Officer, Head of Responsible AI, Head of Technology Risk, and General Counsel, shall oversee all frontier model operations, reviewing safety protocols, risk assessments, and escalation decisions.",
+    "page": "p.11",
+    "note": "Ambiguous: Board 'oversees' and 'reviews', routinely reviews model compliance, escalates to Executive Leadership Committee which approves framework changes (p.12). Coded 1 as a named body with a formal compliance-review role."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "To reinforce accountability, G42 will engage in annual external audits to verify compliance with the Framework.",
+    "page": "p.12",
+    "note": "Framework-wide adherence audit; also annual external review of the Framework (p.12)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If a necessary Deployment Mitigation Level cannot be achieved, then the model’s deployment must be restricted; if a necessary Security Mitigation Level cannot be achieved, then further capabilities development of the model must be paused.",
+    "page": "p.5",
+    "note": "Also non-compliance investigated and escalated to ELC (p.11)."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Biological Threats: When an AI’s capabilities could facilitate biological security threats, necessitating strict, proactive measures.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Enabling an individual with only introductory biology experience in developing a biological weapon, through providing detailed advice, automating biological processes, etc.",
+    "page": "p.5",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Each capability threshold is associated with a required Deployment Mitigation Level (DML) and Security Mitigation Levels (SML), which must be achieved before the capability threshold is reached.",
+    "page": "p.5",
+    "note": "DML 2 / SML 2 listed in the table (p.5-6) with measures defined on p.7-11 (classifiers, access controls, red-teaming); p.5 also restricts deployment."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "A dedicated Frontier AI Governance Board, composed of our Chief Responsible AI Officer, Head of Responsible AI, Head of Technology Risk, and General Counsel, shall oversee all frontier model operations, reviewing safety protocols, risk assessments, and escalation decisions.",
+    "page": "p.11",
+    "note": "Ambiguous: Board 'oversees' and 'reviews', routinely reviews model compliance, escalates to Executive Leadership Committee which approves framework changes (p.12). Coded 1 as a named body with a formal compliance-review role."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "To reinforce accountability, G42 will engage in annual external audits to verify compliance with the Framework.",
+    "page": "p.12",
+    "note": "Framework-wide adherence audit; also annual external review of the Framework (p.12)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If a necessary Deployment Mitigation Level cannot be achieved, then the model’s deployment must be restricted; if a necessary Security Mitigation Level cannot be achieved, then further capabilities development of the model must be paused.",
+    "page": "p.5",
+    "note": "Also non-compliance investigated and escalated to ELC (p.11)."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named anywhere in the document; no AI R&D automation or self-improvement."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold: risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response commitment for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No external review for this risk (p.12 external expert advice is general and not tied to this risk)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response to fail."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomous Operation: When an AI system can make unsupervised decisions with critical implications, particularly in sectors such as healthcare or defense.",
+    "page": "p.4",
+    "note": "Listed as a possible future threshold and as a domain initially identified (p.4)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.4: 'We may also add thresholds for' Autonomous Operation; future and hedged, no level defined."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response tied to autonomy; DML/SML apply to the biological and cyber thresholds in the table."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for autonomy for the external audit to cover."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response for autonomy."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named anywhere in the document; 'Human-in-Loop' appears only as a principle label in the p.3 graphic; DML text on jailbreaks is misuse by humans."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold: risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response commitment for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No external review for this risk (p.12 external expert advice is general and not tied to this risk)."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response to fail."
+   }
+  }
+ }
+}

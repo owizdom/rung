@@ -1,0 +1,203 @@
+{
+ "doc_id": "anthropic-rsp-3.4",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:34:55Z",
+ "other_risks": [
+  "automated R&D in other key domains (energy, robotics, weapons development)",
+  "disruption to the global balance of power / international security",
+  "model weight theft"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Read all 21 pp incl. tables and changelog. No offensive cyber risk named; the only related words are 'exploited to cause harm' (p.14, a redaction reason) and 'security threats' in internal monitoring (p.9), both about Anthropic's own security."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No cyber threshold in the Section 1 table (pp.6-10)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Non-novel chemical/biological weapons production.",
+    "page": "p.6",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI systems with the ability to significantly help individuals or groups with basic technical backgrounds (e.g., undergraduate STEM degrees) create/obtain and deploy chemical and/or biological weapons with serious potential for catastrophic damages.",
+    "page": "p.6",
+    "note": "Also the novel chem/bio threshold p.7."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers; access controls for trusted users with exemptions to classifier guards",
+    "page": "p.6",
+    "note": "E6: named protections kept in place for this threshold. Novel chem/bio row p.7: 'We will apply protections at least as strong as our ASL-3 protections'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.13",
+    "note": "Risk Reports cover the threat models in Section 1 (p.12 item 2). RSO also approves deployment decisions (p.16)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments.",
+    "page": "p.16",
+    "note": "Framework-wide external adherence review (C5)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated, and document the report and our findings.",
+    "page": "p.16",
+    "note": "Non-compliance procedure (C6 b): reports go to the RSO or another executive, quarterly updates to the Board, Board notified of substantiated material reports."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Automated R&D in key domains.",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "We will consider this threshold to be met if we determine that either (1) our models would be able to fully substitute for our entire set of Research Scientists and Research Engineers, at competitive costs",
+    "page": "p.9",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",
+    "page": "p.17",
+    "note": "Appendix A 'Anthropic in the lead': triggered by a highly capable model, defined (p.14) as crossing the automated AI R&D threshold. The AI R&D row's own plan (pp.8-10) is R&D, monitoring, alignment assessments and Risk Reports, which alone would not meet C3."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.13",
+    "note": "Risk Reports cover the threat models in Section 1 (p.12 item 2). RSO also approves deployment decisions (p.16)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "At a minimum, we will complete a full external review process (described below) with at least one external reviewer anytime a Risk Report covers highly capable models and is significantly redacted",
+    "page": "p.14",
+    "note": "Highly capable = crosses the automated AI R&D threshold (p.14). Framework-wide procedural compliance review p.16 also applies."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated, and document the report and our findings.",
+    "page": "p.16",
+    "note": "Non-compliance procedure (C6 b): reports go to the RSO or another executive, quarterly updates to the Board, Board notified of substantiated material reports."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI systems that are highly relied on and have extensive access to sensitive assets as well as moderate capacity for autonomous, goal-directed operation and subterfuge",
+    "page": "p.7",
+    "note": "Autonomous goal-directed operation named within the misalignment threat (B1); p.9 recommendation 'unlikely to autonomously cause catastrophic harm'. Changelog ARA passage (p.18) is history only (A10)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold presented as marking autonomy (B2). The p.7 'Misaligned AI systems in high-stakes settings' threshold is presented as a misalignment threshold; the v2.0 ARA checkpoint appears only in the changelog (p.18, A10)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",
+    "page": "p.17",
+    "note": "Appendix A gate covers catastrophic risk along the lines of Section 1, whose recommendations include models being 'unlikely to autonomously cause catastrophic harm' (p.9). No autonomy threshold, so a ladder gap."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.13",
+    "note": "Risk Reports cover the threat models in Section 1 (p.12 item 2). RSO also approves deployment decisions (p.16)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments.",
+    "page": "p.16",
+    "note": "Framework-wide external adherence review (C5)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated, and document the report and our findings.",
+    "page": "p.16",
+    "note": "Non-compliance procedure (C6 b): reports go to the RSO or another executive, quarterly updates to the Board, Board notified of substantiated material reports."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Misaligned AI systems in high-stakes settings.",
+    "page": "p.7",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI systems that are highly relied on and have extensive access to sensitive assets as well as moderate capacity for autonomous, goal-directed operation and subterfuge",
+    "page": "p.7",
+    "note": "Continues: 'such that it is plausible these AI systems could ... carry out sabotage leading to irreversibly and substantially higher odds of a later global catastrophe' (pp.7-8)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",
+    "page": "p.17",
+    "note": "The misalignment row's own company plan (p.7) is reporting in Risk Reports plus 'We expect to continually be able to meet' (hedged), which would not count. Appendix A gate requires a strong argument along the lines of Section 1, which for this row means AI systems will not carry out sabotage (p.7)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.13",
+    "note": "Risk Reports cover the threat models in Section 1 (p.12 item 2). RSO also approves deployment decisions (p.16)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments.",
+    "page": "p.16",
+    "note": "Framework-wide external adherence review (C5)."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated, and document the report and our findings.",
+    "page": "p.16",
+    "note": "Non-compliance procedure (C6 b): reports go to the RSO or another executive, quarterly updates to the Board, Board notified of substantiated material reports."
+   }
+  }
+ }
+}
