@@ -1,0 +1,202 @@
+{
+ "doc_id": "anthropic-rsp-3.3",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:49:07Z",
+ "other_risks": [
+  "rapid disruptions to the global balance of power",
+  "automated R&D in other domains (energy, robotics, weapons development)"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No offensive cyber risk anywhere in the document (no 'cyber' term; read all 20 pages incl. tables and changelog)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No cyber threshold."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No cyber response."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Non-novel chemical/biological weapons production.",
+    "page": "p.6",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI systems with the ability to significantly help individuals or groups with basic technical backgrounds (e.g., undergraduate STEM degrees) create/obtain and deploy chemical and/or biological weapons with serious potential for catastrophic damages.",
+    "page": "p.6",
+    "note": "Second threshold (novel CB weapons, functional substitute for scarce expertise) on p.7."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers",
+    "page": "p.6",
+    "note": "Named measures (classifier guards, access controls, red-teaming, bug bounties); E6. Novel CB row p.7 applies protections at least as strong as ASL-3 to an expanded set of use cases."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.12",
+    "note": "Risk Reports assess per threat model whether thresholds are crossed (p.11); RSO approves deployment decisions (p.15)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments.",
+    "page": "p.15",
+    "note": "Framework-wide adherence review covers every risk with a threshold."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated",
+    "page": "p.15",
+    "note": "C6(b) noncompliance procedure, framework-wide."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "For now, our evaluations will focus specifically on AI R&D",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "We will consider this threshold to be met if we determine that either (1) our models would be able to fully substitute for our entire set of Research Scientists and Research Engineers, at competitive costs",
+    "page": "p.9",
+    "note": "Or (2) 'double the rate of progress' attributable to automation of AI R&D (p.9)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",
+    "page": "p.16",
+    "note": "Appendix A 'Anthropic in the lead' scenario for a highly capable model (= crosses the automated AI R&D threshold, p.13); C3(b) with 'as needed' per E2; conditional on the competitive scenario. Row measures p.8-9 ('eyes on everything' logging, security moonshots)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.12",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "subject to external review by at least one expert, experienced, credible, candid and disinterested external party.",
+    "page": "p.10",
+    "note": "Automated R&D row (company column, starts p.9). Also p.13 full external review for highly capable, significantly redacted reports; annual third-party compliance review p.15."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Until we are able to do so, we will delay AI development and deployment as needed to achieve this.",
+    "page": "p.16",
+    "note": "Appendix A row 2, highly capable models. Also noncompliance procedure p.15."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "moderate capacity for autonomous, goal-directed operation and subterfuge",
+    "page": "p.7",
+    "note": "Within the misalignment threshold; p.10 Risk Reports cover internal models deployed 'for large-scale, fully autonomous research'."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Autonomous operation appears only as a component of the 'Misaligned AI systems in high-stakes settings' threshold (p.7), presented as marking misalignment (B2). Changelog ARA checkpoint p.17 describes v2.0 (A10)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response tied to autonomous replication, resource acquisition or long-horizon autonomy as such."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "could pose risks related to high-stakes misalignment or automated R&D",
+    "page": "p.10",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI systems that are highly relied on and have extensive access to sensitive assets as well as moderate capacity for autonomous, goal-directed operation and subterfuge",
+    "page": "p.7",
+    "note": "Row 'Misaligned AI systems in high-stakes settings'; continues p.8: could carry out sabotage leading to substantially higher odds of a later global catastrophe. Triggers Risk Report detail (E5)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",
+    "page": "p.16",
+    "note": "Row's own plan is reporting plus 'We expect to continually be able to meet the criteria' (hedged, p.7-8). Appendix A lead-scenario gate covers catastrophic risk per Section 1 recommendations, incl. the misalignment row; conditional on the competitive scenario."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.",
+    "page": "p.12",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments.",
+    "page": "p.15",
+    "note": "Framework-wide adherence review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated",
+    "page": "p.15",
+    "note": "C6(b) noncompliance procedure, framework-wide."
+   }
+  }
+ }
+}

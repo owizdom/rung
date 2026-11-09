@@ -1,0 +1,201 @@
+{
+ "doc_id": "anthropic-rsp-2.2",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:48:23Z",
+ "other_risks": [
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber Operations‬‭: The ability to‬\n‭significantly enhance or automate‬\n‭sophisticated destructive cyber attacks,‬\n‭including but not limited to discovering‬\n‭novel zero-day exploit chains, developing‬\n‭complex malware",
+    "page": "p.9",
+    "note": "Listed as a capability requiring significant investigation, with ongoing assessment."
+   },
+   "threshold": {
+    "value": 0,
+    "note": "p.9 cyber is on the list of capabilities needing investigation; the document says 'Instead of prespecifying particular thresholds and safeguards today, we will conduct ongoing assessments' with thresholds deferred to a future iteration. The ongoing assessment is not triggered by reaching a level.",
+    "page": "",
+    "quote": ""
+   },
+   "response": {
+    "value": 0,
+    "note": "p.9 only 'considering the implementation of tiered access controls or phased deployments' (hedged) and testing/documentation (evaluation only). No required safeguards for cyber.",
+    "page": "",
+    "quote": ""
+   },
+   "acc_decider": {
+    "value": 0,
+    "note": "nothing to decide for this risk",
+    "page": "",
+    "quote": ""
+   },
+   "acc_external": {
+    "value": 0,
+    "note": "No threshold or response for cyber; p.9 'engaging with experts in cyber operations' is part of the developer's own risk assessment, not review of a threshold or safeguards decision.",
+    "page": "",
+    "quote": ""
+   },
+   "acc_unmet": {
+    "value": 0,
+    "note": "No required response for cyber, so nothing whose failure is addressed.",
+    "page": "",
+    "quote": ""
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "This update to our RSP provides specifications for Capabilities‬\n‭Thresholds related to Chemical, Biological, Radiological, and Nuclear (CBRN) weapons",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "CBRN-3:‬‭The ability to significantly assist individuals‬‭or groups with basic STEM backgrounds in‬\n‭obtaining, producing, or deploying CBRN weapons.",
+    "page": "p.20",
+    "note": "Also in the p.8 table; CBRN-4 also defined."
+   },
+   "response": {
+    "value": 1,
+    "quote": "and the‬‭ASL-3 Security Standard‬‭, which protect‬\n‭against misuse and model-weight theft by‬\n‭non-state adversaries, are required.",
+    "page": "p.8",
+    "note": "Required Safeguards for CBRN-3 (table cell, p.8): ASL-3 Deployment Standard and ASL-3 Security Standard, whose criteria are listed in sections 4.1-4.2 (p.12-14). Glossary p.18: Required Safeguards 'must be implemented when a model reaches a Capability Threshold'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Safeguards Report(s) will be‬‭escalated to the‬‭CEO and the Responsible Scaling Officer‬‭, who will‬\n‭(1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2)‬\n‭decide any deployment-related issues.",
+    "page": "p.14",
+    "note": "Capability determination by CEO and RSO also p.11."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an‬‭annual basis, we will commission a third-party‬\n‭review that assesses whether we adhered to this policy’s main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide adherence review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and‬\n‭further scaling.",
+    "page": "p.14",
+    "note": "Also p.15 interim measures, de-deploy, delete weights, pause training until ASL-3 Security Standard implemented."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "AI R&D-4:‬ ‭The ability to fully‬\n‭automate the work of an entry-level,‬\n‭remote-only Researcher at Anthropic.",
+    "page": "p.20",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI R&D-4:‬ ‭The ability to fully‬\n‭automate the work of an entry-level,‬\n‭remote-only Researcher at Anthropic.",
+    "page": "p.20",
+    "note": "Also AI R&D-5 (p.20) and the p.8 table."
+   },
+   "response": {
+    "value": 1,
+    "quote": "The‬‭ASL-3 Security Standard‬‭is required. In‬\n‭addition, we will develop an affirmative case",
+    "page": "p.8",
+    "note": "Required Safeguards for AI R&D-4 (table cell p.8); ASL-3 Security Standard measures listed p.12-14. AI R&D-5 requires at minimum ASL-4 Security Standard."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Safeguards Report(s) will be‬‭escalated to the‬‭CEO and the Responsible Scaling Officer‬‭, who will‬\n‭(1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2)‬\n‭decide any deployment-related issues.",
+    "page": "p.14",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an‬‭annual basis, we will commission a third-party‬\n‭review that assesses whether we adhered to this policy’s main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide adherence review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and‬\n‭further scaling.",
+    "page": "p.14",
+    "note": "Also p.15: 'We will not train models with comparable or greater capabilities to the one that requires the ASL-3 Security Standard.'"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Model Autonomy checkpoint‬‭: The ability to perform‬‭a wide range of advanced software engineering tasks‬\n‭autonomously that could be precursors to full autonomous replication or automated AI R&D",
+    "page": "p.20",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "checkpoint: the ability to autonomously‬\n‭p erform a wide range of 2-8 hour software engineering tasks. We would view this level of capability as an‬\n‭important checkpoint towards both Autonomous AI R&D as well as other capabilities that may warrant similar‬\n‭attention (for example, autonomous replication). We will test for this checkpoint and, by the time we reach it,",
+    "page": "p.8",
+    "note": "Checkpoint = 'the ability to autonomously perform a wide range of 2-8 hour software engineering tasks' (p.8), presented as precursor to autonomous replication (p.20). Reaching it triggers sharing an update and beginning testing for further thresholds (p.8-9), so it counts under E5."
+   },
+   "response": {
+    "value": 0,
+    "note": "p.8 at the checkpoint the developer will only 'aim to have met (or be close to meeting) the ASL-3 Security Standard' (hedged), share an update (reporting) and begin testing (evaluation). Changelog p.21 says the ARA threshold was replaced by a checkpoint that no longer triggers higher standards automatically.",
+    "page": "",
+    "quote": ""
+   },
+   "acc_decider": {
+    "value": 0,
+    "note": "The CEO/RSO determinations (p.11, p.14) cover Capability Thresholds and Required Safeguards; no named role is given a formal decision on the autonomy checkpoint, and there is no autonomy response.",
+    "page": "",
+    "quote": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an‬‭annual basis, we will commission a third-party‬\n‭review that assesses whether we adhered to this policy’s main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide adherence review; autonomy has a checkpoint level."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Further, we‬\n‭will track and investigate any reported or otherwise identified potential instances of noncompliance‬\n‭with this policy.",
+    "page": "p.16",
+    "note": "Framework-wide noncompliance procedure (C6(b)); autonomy has a checkpoint level whose commitments (test, share update, begin testing) fall under the policy. No autonomy-specific safeguard failure rule."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "In‬\n‭addition, we will develop an affirmative case‬\n‭that (1) identifies the most immediate and‬\n‭relevant risks from models pursuing‬\n‭misaligned goals and (2) explains how we have‬\n‭mitigated these risks to acceptable levels.",
+    "page": "p.8",
+    "note": "Also p.6 risk 'that an AI system attempts to subvert the goals of its operators' and changelog p.23 'AI systems engaging in autonomous internal sabotage'."
+   },
+   "threshold": {
+    "value": 0,
+    "note": "No misalignment threshold. The affirmative case is tied to AI R&D-4, whose own text is about automating research (B2), not misalignment. p.6 names subversion of operators' goals only as a future risk.",
+    "page": "",
+    "quote": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "In‬\n‭addition, we will develop an affirmative case‬\n‭that (1) identifies the most immediate and‬\n‭relevant risks from models pursuing‬\n‭misaligned goals and (2) explains how we have‬\n‭mitigated these risks to acceptable levels.",
+    "page": "p.8",
+    "note": "Part of the AI R&D-4 Required Safeguards; p.14 'If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling' makes deployment conditional on it (C3(b)). Coded as response without a threshold."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Safeguards Report(s) will be‬‭escalated to the‬‭CEO and the Responsible Scaling Officer‬‭, who will‬\n‭(1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2)‬\n‭decide any deployment-related issues.",
+    "page": "p.14",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "On approximately an‬‭annual basis, we will commission a third-party‬\n‭review that assesses whether we adhered to this policy’s main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide adherence review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and‬\n‭further scaling.",
+    "page": "p.14",
+    "note": "Applies to the Required Safeguards, which for AI R&D-4 include the misalignment affirmative case (p.8)."
+   }
+  }
+ }
+}

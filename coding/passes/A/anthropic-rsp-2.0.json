@@ -1,0 +1,201 @@
+{
+ "doc_id": "anthropic-rsp-2.0",
+ "coder": "A",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:44:43Z",
+ "other_risks": [
+  "nuclear and radiological"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber Operations: The ability to significantly enhance or automate sophisticated destructive cyber attacks, including but not limited to discovering novel zero-day exploit chains, developing complex malware",
+    "page": "p.8",
+    "note": "Listed as a capability requiring 'significant investigation'."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Cyber is in the list of capabilities whose 'exact Capability Threshold and the Required Safeguards are not clear at present' (p.8); 'Instead of prespecifying particular thresholds and safeguards today, we will conduct ongoing assessments'. Thresholds deferred to a future iteration."
+   },
+   "response": {
+    "value": 1,
+    "quote": "risks while maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards",
+    "page": "p.21",
+    "note": "Generic acceptance gate (E3): changelog states this version maintains the commitment; p.2 'not to train or deploy models capable of causing catastrophic harm unless we have implemented safety and security measures that will keep risks below acceptable levels'. Cyber-specific measures are hedged: 'considering the implementation of tiered access controls or phased deployments' (p.8). No cyber threshold (gap)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Board of Directors; (2) approving relevant model training or deployment decisions based on capability and safeguard assessments",
+    "page": "p.15",
+    "note": "RSO duty (p.15) covers training/deployment decisions under the gate."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide external adherence review. Also p.17 'We will solicit input from external experts in relevant domains in the process of developing and conducting capability and safeguards assessments.'"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only response for cyber is the generic gate (E4); cyber-specific measures are 'considering' (p.8), so no required response whose failure is addressed."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Chemical, Biological, Radiological, and Nuclear (CBRN) weapons: The ability to significantly assist individuals or groups with basic STEM backgrounds in obtaining, producing, or deploying CBRN weapons.",
+    "page": "p.20",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Chemical, Biological, Radiological, and Nuclear (CBRN) weapons: The ability to significantly assist individuals or groups with basic STEM backgrounds in obtaining, producing, or deploying CBRN weapons.",
+    "page": "p.20",
+    "note": "Also summary table p.7."
+   },
+   "response": {
+    "value": 1,
+    "quote": "ASL-3 Deployment Standard and the ASL-3 Security Standard, which protect against misuse and model-weight theft by non-state adversaries, are required.",
+    "page": "p.7",
+    "note": "Standards defined p.11-13."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The report will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have sufficiently established that we are unlikely to reach the Capability Threshold and (2) decide any deployment-related issues.",
+    "page": "p.10",
+    "note": "Same for safeguards decision p.13."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide external adherence review. Also p.17 'We will solicit input from external experts in relevant domains in the process of developing and conducting capability and safeguards assessments.'"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",
+    "page": "p.14",
+    "note": "Also p.14-15 s.6.2: interim measures, de-deploy or delete weights, pause training until ASL-3 Security Standard is implemented; p.16 noncompliance reported to RSO and investigated."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomous AI Research and Development: The ability to either: (1) Fully automate the work of an entry-level remote-only Researcher at Anthropic",
+    "page": "p.20",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Autonomous AI Research and Development: The ability to either: (1) Fully automate the work of an entry-level remote-only Researcher at Anthropic",
+    "page": "p.20",
+    "note": "Quantitative 35^2 = ~1000x scaleup criterion on same page."
+   },
+   "response": {
+    "value": 1,
+    "quote": "At minimum, the ASL-3 Security Standard is required",
+    "page": "p.7",
+    "note": "Table cell for AI R&D threshold, p.7."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The report will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have sufficiently established that we are unlikely to reach the Capability Threshold and (2) decide any deployment-related issues.",
+    "page": "p.10",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide external adherence review. Also p.17 'We will solicit input from external experts in relevant domains in the process of developing and conducting capability and safeguards assessments.'"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",
+    "page": "p.14",
+    "note": "Also p.14-15 s.6.2: interim measures, de-deploy or delete weights, pause training until ASL-3 Security Standard is implemented; p.16 noncompliance reported to RSO and investigated."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "The ability to perform a wide range of advanced software engineering tasks autonomously that could be precursors to full autonomous replication or automated AI R&D",
+    "page": "p.20",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Model Autonomy checkpoint: The ability to perform a wide range of advanced software engineering tasks autonomously that could be precursors to full autonomous replication or automated AI R&D, and that would take a domain expert human 2-8 hours to complete.",
+    "page": "p.20",
+    "note": "Checkpoint triggers more evaluation (E5): p.8 'We will test for this checkpoint ... At that point, we will also specify Required Safeguards ... and test for the full Autonomous AI R&D Capability Threshold'; p.21 'reaching this checkpoint will prompt additional evaluation'."
+   },
+   "response": {
+    "value": 1,
+    "quote": "risks while maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards",
+    "page": "p.21",
+    "note": "Generic acceptance gate (E3): changelog states this version maintains the commitment; p.2 'not to train or deploy models capable of causing catastrophic harm unless we have implemented safety and security measures that will keep risks below acceptable levels'. Checkpoint-specific security is hedged: 'we aim to have met (or be close to meeting) the ASL-3 Security Standard' (p.8)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The report will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have sufficiently established that we are unlikely to reach the Capability Threshold and (2) decide any deployment-related issues.",
+    "page": "p.10",
+    "note": "Checkpoint is used to rule out the AI R&D threshold (p.8), a determination made by CEO and RSO; RSO also approves deployment decisions (p.15)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide external adherence review. Also p.17 'We will solicit input from external experts in relevant domains in the process of developing and conducting capability and safeguards assessments.'"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only response is the generic gate (E4); checkpoint safeguards are 'aim to have met' (p.8), hedged."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "We also expect a strong affirmative case (made with accountability for both the reasoning and implementation) about the risk of models pursuing misaligned goals will be required.",
+    "page": "p.7",
+    "note": "Also p.6 'the risk that an AI system attempts to subvert the goals of its operators'."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "generating their own revenue and using it to run copies of themselves in large-scale, hard-to-shut-down operations",
+    "page": "p.20",
+    "note": "Model Autonomy checkpoint text frames it as marking hard-to-shut-down systems (B1/B2); checkpoint triggers further evaluation (E5)."
+   },
+   "response": {
+    "value": 1,
+    "quote": "risks while maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards",
+    "page": "p.21",
+    "note": "Generic acceptance gate (E3): changelog states this version maintains the commitment; p.2 'not to train or deploy models capable of causing catastrophic harm unless we have implemented safety and security measures that will keep risks below acceptable levels'. Misalignment affirmative case is 'we also expect ... will be required' (p.7), hedged."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The report will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have sufficiently established that we are unlikely to reach the Capability Threshold and (2) decide any deployment-related issues.",
+    "page": "p.10",
+    "note": "CEO and RSO determination covers the checkpoint/AI R&D threshold; RSO approves deployment decisions (p.15)."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",
+    "page": "p.17",
+    "note": "Framework-wide external adherence review. Also p.17 'We will solicit input from external experts in relevant domains in the process of developing and conducting capability and safeguards assessments.'"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only response is the generic gate (E4); misalignment safeguard is 'we also expect' (p.7), hedged."
+   }
+  }
+ }
+}

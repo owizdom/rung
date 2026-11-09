@@ -34,7 +34,7 @@ def norm(s: str) -> str:
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("­", "").replace("ﬁ", "fi").replace("ﬂ", "fl")
     s = s.replace("–", "-").replace("—", "-").replace("‑", "-")
-    s = re.sub("[​‌‍⁠﻿]", "", s)
+    s = re.sub("[\u200b\u200c\u200d\u2060\ufeff\u200e\u200f\u202a-\u202e\u2066-\u2069]", "", s)  # zero-width and bidi marks
     s = re.sub(r"-\s*\n\s*", "", s)  # hyphenated line breaks
     s = re.sub(r"\s+", " ", s)
     return s.strip().lower()

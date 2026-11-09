@@ -95,3 +95,7 @@ def test_shared_notes_flags_copying():
         b["risks"][k]["threshold"]["note"] = f"no {k} threshold; only general risk language on p.4"
     assert shared_notes(a, b) >= 3
     assert shared_notes(rec(), rec()) == 0  # boilerplate default notes are ignored
+
+
+def test_bidi_marks_ignored():
+    assert quote_found("we will pause training", "\u202dwe will\u202c \u202dpause training\u202c")

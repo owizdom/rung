@@ -17,6 +17,7 @@ from analysis.ladder import LEVEL_NAMES  # noqa: E402
 from coding.check import RISKS  # noqa: E402
 
 OUT = ROOT / "analysis" / "out"
+WORD = {i: w for i, w in enumerate("Zero One Two Three Four Five Six Seven Eight Nine Ten Eleven Twelve Thirteen".split())}
 CELL_WORD = ["Not mentioned", "Mentioned", "Threshold", "Response", "Accountability"]
 ALPHA = [0, 0.16, 0.42, 0.7, 1.0]
 
@@ -32,9 +33,9 @@ def cell(p, x, y, w, h, lv, small=False):
 
 
 def legend(p, x, y):
-    w = 236
+    w = 234
     for lv in range(5):
-        cell(p, x + lv * w, y, w - 8, 40)
+        cell(p, x + lv * w, y, w - 8, 40, lv)
     p.text(x, y - 14, "Each step needs the steps before it. Accountability means a named decider, outside review and a stated consequence if the response fails.", 15, GRAY)
 
 
@@ -42,10 +43,10 @@ def latest(title: str, rows: list[dict], notes: list[str]):
     devs = sorted({r["developer"] for r in rows}, key=lambda d: (-sum(r["level"] for r in rows if r["developer"] == d), d))
     names = {r["developer"]: r["name"] for r in rows}
     n = len(devs)
-    x0, y0, lw, cw, rh = 64, 330, 330, 236, 52
+    x0, y0, lw, cw, rh = 64, 380, 300, 234, 52
     p = Page(title, "How far each developer's current frontier safety framework goes on each risk, as of 31 October 2026",
-             height=y0 + n * rh + 260)
-    legend(p, x0 + lw - 330 + 330, 196)
+             height=y0 + n * rh + 200)
+    legend(p, x0 + lw, 250)
     for j, risk in enumerate(RISKS):
         p.text(x0 + lw + j * cw + cw / 2, y0 - 22, tables.RISK_LABEL[risk], 19, INK, anchor="middle", weight=600)
     for i, d in enumerate(devs):
@@ -72,7 +73,11 @@ def main() -> int:
     rows = tables.latest()
     write_csv("latest.csv", rows)
     devs = {r["developer"] for r in rows}
-    title = f"What {len(devs)} frontier safety frameworks commit to, risk by risk"
+    top = {d: max(r["level"] for r in rows if r["developer"] == d) for d in devs}
+    n_thr = sum(v >= 2 for v in top.values())
+    n_acc = sum(v == 4 for v in top.values())
+    title = (f"{WORD[n_thr]} of {len(devs)} safety frameworks set risk thresholds. {WORD[n_acc]} say who\n"
+             f"decides, who checks from outside and what happens if safeguards fail")
     latest(title, rows, [
         "Each cell is the highest step the developer's current framework reaches for that risk. Anthropic and OpenAI each have two current documents; a step counts if either reaches it.",
         "Coded from the framework text, tables and figures by two independent passes, disagreements adjudicated. Hedged verbs (may, consider, intend) do not count as a commitment.",
