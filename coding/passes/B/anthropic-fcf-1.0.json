@@ -1,0 +1,203 @@
+{
+ "doc_id": "anthropic-fcf-1.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T13:59:53Z",
+ "other_risks": [
+  "harmful manipulation",
+  "radiological and nuclear",
+  "influence operations and election interference"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber offense, including model capabilities that could enable or enhance attacks on computer systems, networks, or digital infrastructure",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "providing clear measurable thresholds for decision-making around offensive cyber capabilities.",
+    "page": "p.6",
+    "note": "four cyber tiers with domain descriptions p.6-7; 2.3 p.6: when a model reaches a tier, safeguards proportionate to the risk are implemented"
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.10",
+    "note": "acceptance gate (E3); residual-risk gate with tiers guiding mitigations before release; named safeguards in 2.3/2.5 are only 'may include'/'may rely'"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no named role or body decides threshold, response or proceeding: p.10 says the risk owner documents the justification, p.15 says the Ireland board oversees implementation, which is not a decision"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "external input is hedged: p.14 'We may solicit input from external actors'; external red-teaming p.5 and independent review of security controls p.13 are described practice, not a commitment on this risk's safeguards"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "7.2, stated with respect to EU Code compliance; no other non-compliance procedure"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Chemical, biological, radiological, and nuclear (CBRN) threats",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "providing measurable thresholds for decision-making.",
+    "page": "p.7",
+    "note": "four CBRN tiers with descriptions, p.7-8"
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.10",
+    "note": "acceptance gate (E3); residual-risk gate with tiers guiding mitigations before release; named safeguards in 2.3/2.5 are only 'may include'/'may rely'"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no named role or body decides threshold, response or proceeding: p.10 says the risk owner documents the justification, p.15 says the Ireland board oversees implementation, which is not a decision"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "external input is hedged: p.14 'We may solicit input from external actors'; external red-teaming p.5 and independent review of security controls p.13 are described practice, not a commitment on this risk's safeguards"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "7.2, stated with respect to EU Code compliance; no other non-compliance procedure"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "AI R&D automation or self-improvement is not named; p.8 sabotaging safety research and manipulating training of successor systems is a loss-of-control scenario, not research acceleration"
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no AI R&D threshold"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no AI R&D-specific response"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no AI R&D threshold or response"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "or accumulating resources and capabilities without authorization.",
+    "page": "p.8",
+    "note": "also cyber tier 4 near-complete autonomous cyber operations p.7"
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "providing thresholds for decision-making around autonomous capabilities.",
+    "page": "p.8",
+    "note": "tier table p.9: Tier 4 sustained autonomous operation and resource acquisition against active resistance"
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.10",
+    "note": "acceptance gate (E3); residual-risk gate with tiers guiding mitigations before release; named safeguards in 2.3/2.5 are only 'may include'/'may rely'"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no named role or body decides threshold, response or proceeding: p.10 says the risk owner documents the justification, p.15 says the Ireland board oversees implementation, which is not a decision"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "external input is hedged: p.14 'We may solicit input from external actors'; external red-teaming p.5 and independent review of security controls p.13 are described practice, not a commitment on this risk's safeguards"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "7.2, stated with respect to EU Code compliance; no other non-compliance procedure"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Sabotage and loss of control, including evasion of oversight or unsupervised conduct",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "For sabotage and loss of control risks, we have established a tier system that describes model capabilities against autonomy level, deception sophistication, and potential for unsanctioned action",
+    "page": "p.8",
+    "note": "tiers p.9"
+   },
+   "response": {
+    "value": 1,
+    "quote": "Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",
+    "page": "p.10",
+    "note": "acceptance gate (E3); residual-risk gate with tiers guiding mitigations before release; named safeguards in 2.3/2.5 are only 'may include'/'may rely'"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "no named role or body decides threshold, response or proceeding: p.10 says the risk owner documents the justification, p.15 says the Ireland board oversees implementation, which is not a decision"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "external input is hedged: p.14 'We may solicit input from external actors'; external red-teaming p.5 and independent review of security controls p.13 are described practice, not a commitment on this risk's safeguards"
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",
+    "page": "p.16",
+    "note": "7.2, stated with respect to EU Code compliance; no other non-compliance procedure"
+   }
+  }
+ }
+}

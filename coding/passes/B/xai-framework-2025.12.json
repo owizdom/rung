@@ -1,0 +1,205 @@
+{
+ "doc_id": "xai-framework-2025.12",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:06:33Z",
+ "other_risks": [
+  "terrorism and large-scale violence",
+  "radiological and nuclear",
+  "sycophancy",
+  "operational and societal risks",
+  "model theft and distillation (information security)"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Without any safeguards, we recognize that advanced AI models could lower the barrier to entry for bad actors seeking to develop chemical, biological, radiological, or nuclear (“CBRN”) or cyber weapons",
+    "page": "p.3",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Engaging in conduct with no meaningful human oversight, intervention, or supervision that is either a cyberattack or, if the conduct had been committed by a human, would constitute the crime of murder, assault, extortion, or theft, including theft by false pretense.",
+    "page": "p.1",
+    "note": "Ambiguous: item (B) of the Catastrophic Risk definition in footnote 1 (p.1: more than 50 people or $1 billion), adopted as scope on p.1 and used on p.3 ('we particularly focus on requests that pose a Catastrophic Risk') to trigger heightened safeguards."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.3 'apply heightened safeguards' names none; p.6 'xAI currently relies on our basic refusal policy to prevent misuse for cyber attacks' and 'still working on identifying enforceable critical steps' are practice and unfinished work; p.6 input and output filters are unconditional practice (E1); p.10 pre-deployment review is review only; the p.6 acceptance criterion covers biology and chemistry only."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only risk owners with 'responsibility for proactively mitigating identified risks', periodic audits and incident monitoring (p.9); none is said to decide whether a threshold is reached, whether the response is adequate, or whether to deploy."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement is not committed: p.2 'works with ... private testing firms' describes bottleneck identification; p.5-6 independent third-party assessments are past findings; p.8 'we may also provide vetted and qualified external red teams ... unredacted versions' is hedged."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if a required response is unmet; p.9 steps are all 'may' and cover imminent catastrophic events; p.8 employee reporting of nonadherence goes to no named body; p.9 audits have no stated consequence."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Without any safeguards, we recognize that advanced AI models could lower the barrier to entry for bad actors seeking to develop chemical, biological, radiological, or nuclear (“CBRN”) or cyber weapons",
+    "page": "p.3",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.",
+    "page": "p.6",
+    "note": "Internal benchmark with SecureBio on restricted biology and chemistry queries."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.",
+    "page": "p.6",
+    "note": "Present-tense rule tied to a condition (E1): deployment criterion on restricted-query answer rate; p.5 also states AI-powered filters restrict the critical steps."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only risk owners with 'responsibility for proactively mitigating identified risks', periodic audits and incident monitoring (p.9); none is said to decide whether a threshold is reached, whether the response is adequate, or whether to deploy."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement is not committed: p.2 'works with ... private testing firms' describes bottleneck identification; p.5-6 independent third-party assessments are past findings; p.8 'we may also provide vetted and qualified external red teams ... unredacted versions' is hedged."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The deployment criterion is a risk-acceptance gate only (E4); No statement of what happens if a required response is unmet; p.9 steps are all 'may' and cover imminent catastrophic events; p.8 employee reporting of nonadherence goes to no named body; p.9 audits have no stated consequence."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Internal AI usage: Assess the percent of code or percent of pull requests at xAI generated by our models, or other potential metrics related to AI research and development automation.",
+    "page": "p.8",
+    "note": "Metric tracked; framed as AI R&D automation."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No level defined for AI R&D automation; p.8 only lists a metric to assess."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response tied to AI R&D automation."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk; no external review committed."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "assume dual-use capabilities such as offensive cybersecurity capabilities (e.g., to surreptitiously replicate across servers or prevent shutdown) that we also track as part of managing malicious use risks.",
+    "page": "p.2",
+    "note": "Self-replication and shutdown prevention named as capabilities tracked (B1: also loss_of_control)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No level defined for self-replication or autonomous operation as a trigger; footnote 1 item (B) (p.1) is only used on p.3 for requests posing Catastrophic Risk (misuse), and the replication capability is only 'tracked' (p.2)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response tied to autonomy."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "One of the most salient risks of AI within the public consciousness is the loss of control of advanced AI systems.",
+    "page": "p.6",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK.",
+    "page": "p.7",
+    "note": "Honesty benchmark criterion in the loss of control section."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK.",
+    "page": "p.7",
+    "note": "Present-tense deployment criterion (E1). p.10 'we review catastrophic risks like oversight evasion before extensive rollout' is review only."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only risk owners with 'responsibility for proactively mitigating identified risks', periodic audits and incident monitoring (p.9); none is said to decide whether a threshold is reached, whether the response is adequate, or whether to deploy."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement is not committed: p.2 'works with ... private testing firms' describes bottleneck identification; p.5-6 independent third-party assessments are past findings; p.8 'we may also provide vetted and qualified external red teams ... unredacted versions' is hedged."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The deployment criterion is a risk-acceptance gate only (E4); No statement of what happens if a required response is unmet; p.9 steps are all 'may' and cover imminent catastrophic events; p.8 employee reporting of nonadherence goes to no named body; p.9 audits have no stated consequence."
+   }
+  }
+ }
+}

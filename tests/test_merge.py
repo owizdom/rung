@@ -29,3 +29,10 @@ def test_disagreement_needs_adjudication():
     assert rows is None
     rows, dis = merge_doc(a, b, {("d-x-1", "cyber", "mentioned"): {"value": "0", "quote": "", "ruling": "background only"}})
     assert not dis and [r for r in rows if r["risk"] == "cyber"][0]["mentioned"] == 0
+
+
+def test_cross_version_ruling_overrides():
+    a = rec({("cyber", "mentioned"): 1})
+    b = rec({("cyber", "mentioned"): 1}, "B")
+    rows, _ = merge_doc(a, b, {}, {("d-x-1", "cyber", "mentioned"): {"value": "0", "quote": "", "page": ""}})
+    assert [r for r in rows if r["risk"] == "cyber"][0]["mentioned"] == 0

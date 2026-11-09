@@ -1,0 +1,199 @@
+{
+ "doc_id": "amazon-fmsf-2025.02",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:04:24Z",
+ "other_risks": [],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Offensive Cyber Operations focuses on risks that would arise from the use of a model by malicious actors to compromise digital systems with the intent to cause harm.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of providing material uplift (beyond other publicly available research or tools) that would enable a moderately skilled actor (e.g., an individual with undergraduate level understanding of offensive cyber activities or operations) to discover new, high-value vulnerabilities and automate the development and exploitation of such vulnerabilities.",
+    "page": "p.2",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "When a maximal capability evaluation indicates that a model has hit a Critical Capability Threshold, we will not deploy the model until we have implemented appropriate safeguards.",
+    "page": "p.3",
+    "note": "Section 3 names Safety Measures (training data safeguards, alignment training, harmful content guardrails, fine-tuning safeguards, incident response) and Security Measures; also p.1 and p.5 'Models may not be publicly released unless safeguards are applied.'"
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",
+    "page": "p.5",
+    "note": "Ambiguous: 'senior leadership' is generic, but the same bullet says the report 'will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel'; read as defining the roles."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.",
+    "page": "p.3",
+    "note": "Ambiguous: binding force comes from the lead-in 'We will therefore use a range of evaluation approaches, including both automated and manual methods, including:' on p.3; the bullet itself is present tense. Also p.5 'We will continue to invest in external security research, including bug bounty programs'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "Required response is the Safety and Security Measures; if they cannot mitigate, no deployment until additional safeguards are in place."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN Weapons Proliferation focuses on the risk that a model may be able to guide malicious actors in developing and deploying CBRN weapons.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of providing expert-level, interactive instruction that provides material uplift (beyond other publicly available research or tools) that would enable a non-subject matter expert to reliably produce and deploy a CBRN weapon.",
+    "page": "p.2",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "When a maximal capability evaluation indicates that a model has hit a Critical Capability Threshold, we will not deploy the model until we have implemented appropriate safeguards.",
+    "page": "p.3",
+    "note": "Section 3 names Safety Measures (training data safeguards, alignment training, harmful content guardrails, fine-tuning safeguards, incident response) and Security Measures; also p.1 and p.5 'Models may not be publicly released unless safeguards are applied.'"
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",
+    "page": "p.5",
+    "note": "Ambiguous: 'senior leadership' is generic, but the same bullet says the report 'will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel'; read as defining the roles."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.",
+    "page": "p.3",
+    "note": "Ambiguous: binding force comes from the lead-in 'We will therefore use a range of evaluation approaches, including both automated and manual methods, including:' on p.3; the bullet itself is present tense. Also p.5 'We will continue to invest in external security research, including bug bounty programs'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "Required response is the Safety and Security Measures; if they cannot mitigate, no deployment until additional safeguards are in place."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "However, Automated AI R&D could also accelerate the development of models that pose enhanced CBRN, Offensive Cybersecurity, or other severe risks.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "AI at this level will be capable of replacing human researchers and fully automating the research, development, and deployment of frontier models that will pose severe risk such as accelerating the development of enhanced CBRN weapons and offensive cybersecurity methods.",
+    "page": "p.2",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "When a maximal capability evaluation indicates that a model has hit a Critical Capability Threshold, we will not deploy the model until we have implemented appropriate safeguards.",
+    "page": "p.3",
+    "note": "Section 3 names Safety Measures (training data safeguards, alignment training, harmful content guardrails, fine-tuning safeguards, incident response) and Security Measures; also p.1 and p.5 'Models may not be publicly released unless safeguards are applied.'"
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",
+    "page": "p.5",
+    "note": "Ambiguous: 'senior leadership' is generic, but the same bullet says the report 'will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel'; read as defining the roles."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.",
+    "page": "p.3",
+    "note": "Ambiguous: binding force comes from the lead-in 'We will therefore use a range of evaluation approaches, including both automated and manual methods, including:' on p.3; the bullet itself is present tense. Also p.5 'We will continue to invest in external security research, including bug bounty programs'."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",
+    "page": "p.3",
+    "note": "Required response is the Safety and Security Measures; if they cannot mitigate, no deployment until additional safeguards are in place."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Autonomy is not named as a risk or threshold; the only autonomy-like item is the Automated AI R&D threshold (ai_rnd)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Autonomy is not named as a risk or threshold; the only autonomy-like item is the Automated AI R&D threshold (ai_rnd)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named. 'Alignment Training' (p.3) is a safety measure, not a named risk; 'other severe risks' (p.2) is unnamed; 'side door or back door access to frontier models' (p.5) is about external threat actors."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named. 'Alignment Training' (p.3) is a safety measure, not a named risk; 'other severe risks' (p.2) is unnamed; 'side door or back door access to frontier models' (p.5) is about external threat actors."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named. 'Alignment Training' (p.3) is a safety measure, not a named risk; 'other severe risks' (p.2) is unnamed; 'side door or back door access to frontier models' (p.5) is about external threat actors."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named. 'Alignment Training' (p.3) is a safety measure, not a named risk; 'other severe risks' (p.2) is unnamed; 'side door or back door access to frontier models' (p.5) is about external threat actors."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named. 'Alignment Training' (p.3) is a safety measure, not a named risk; 'other severe risks' (p.2) is unnamed; 'side door or back door access to frontier models' (p.5) is about external threat actors."
+   }
+  }
+ }
+}

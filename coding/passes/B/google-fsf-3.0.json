@@ -1,0 +1,202 @@
+{
+ "doc_id": "google-fsf-3.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:03:08Z",
+ "other_risks": [
+  "harmful manipulation",
+  "radiological and nuclear (within CBRN)"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber: Risks of models assisting in the development, preparation, and/or execution of a cyber attack.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Cyber uplift level 1: Provides sufficient uplift with high impact cyber attacks for additional expected harm at severe scale.",
+    "page": "p.10",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments of a model take place only after the appropriate governance function determines the safety case regarding each CCL the model has reached to be adequate.",
+    "page": "p.9",
+    "note": "Gate on deployment until safety case adequate (E3); p.6-7 acceptance criteria are 'if, for example', security levels only 'recommended'."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only 'the appropriate governance function' (p.9, p.12) and 'appropriate corporate governance bodies' (p.16) are named, with no specific role or body."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Ambiguous: 'as needed' read as not voiding per E2; external experts inform the threshold analysis. 'Where appropriate, we may engage ... external actors' (p.5) is hedged; p.16 disclosure to government is sharing only."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9 and p.12 deployment gate turns on the safety case being adequate (risk acceptable), which is E4 gate-only; p.16 adherence assessment leads to framework updates, not a non-compliance procedure; p.7 security 'or we otherwise assess' escape."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN: Risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear (“CBRN”) threat.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Provides low to medium resourced actors uplift in reference scenarios resulting in",
+    "page": "p.10",
+    "note": "CBRN uplift level 1 (table text interleaved by a footnote marker, nearest contiguous quote)"
+   },
+   "response": {
+    "value": 1,
+    "quote": "external deployments of a model take place only after the appropriate governance function determines the safety case regarding each CCL the model has reached to be adequate.",
+    "page": "p.9",
+    "note": "Gate on deployment until safety case adequate (E3); p.6-7 acceptance criteria are 'if, for example', security levels only 'recommended'."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only 'the appropriate governance function' (p.9, p.12) and 'appropriate corporate governance bodies' (p.16) are named, with no specific role or body."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Ambiguous: 'as needed' read as not voiding per E2; external experts inform the threshold analysis. 'Where appropriate, we may engage ... external actors' (p.5) is hedged; p.16 disclosure to government is sharing only."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9 and p.12 deployment gate turns on the safety case being adequate (risk acceptable), which is E4 gate-only; p.16 adherence assessment leads to framework updates, not a non-compliance procedure; p.7 security 'or we otherwise assess' escape."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "For machine learning R&D risk, we define CCLs that identify when ML R&D capabilities in our models may, if not properly managed, reduce society’s overall ability to manage AI risks.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "ML R&D automation level 1: Can fully automate the work of any team of researchers at Google focused on improving AI capabilities",
+    "page": "p.14",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Pre-deployment review of safety case: external deployments and large scale internal deployments of a model take place only after the appropriate governance function determines",
+    "page": "p.12",
+    "note": "Sentence continues on p.13: '...to be adequate'. ML R&D deployment gate covers external and large-scale internal deployment (E3)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only 'the appropriate governance function' (p.9, p.12) and 'appropriate corporate governance bodies' (p.16) are named, with no specific role or body."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.6",
+    "note": "Ambiguous: 'as needed' read as not voiding per E2; external experts inform the threshold analysis. 'Where appropriate, we may engage ... external actors' (p.5) is hedged; p.16 disclosure to government is sharing only."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.9 and p.12 deployment gate turns on the safety case being adequate (risk acceptable), which is E4 gate-only; p.16 adherence assessment leads to framework updates, not a non-compliance procedure; p.7 security 'or we otherwise assess' escape."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Autonomy not named as a risk; 'agency' appears only as a cross-cutting capability to evaluate (p.2) and p.15 refers to agents that 'become difficult to control' (loss_of_control)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy threshold; ML R&D automation CCL (p.14) is ai_rnd."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Misalignment can pose a number of risks. In the context of the Framework, we address specific scenarios where general-purpose AI agents are potentially misaligned and can become difficult to control, thereby posing a risk of severe harm.",
+    "page": "p.15",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.15 Instrumental Reasoning CCLs are 'Illustrative' and p.4 says they are 'exploratory and intended for illustration only'; the ML R&D CCL text (p.14) is about automating research, not misalignment (B2)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.15 automated monitoring 'may be applied' and 'one possible mitigation', illustrative only; p.4 'we do not associate them with explicit risk acceptance criteria'."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No threshold or response for this risk; external input is only 'as needed'/'where appropriate' in general terms."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No response for this risk; p.15 mitigation is illustrative."
+   }
+  }
+ }
+}

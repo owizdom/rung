@@ -1,4 +1,22 @@
 doc_id,risk,rung,quote,page,source
+amazon-fmsf-2025.02,cyber,mentioned,Offensive Cyber Operations focuses on risks that would arise from the use of a model by malicious actors to compromise digital systems with the intent to cause harm.,p.2,A (agreed)
+amazon-fmsf-2025.02,cyber,threshold,"AI at this level will be capable of providing material uplift (beyond other publicly available research or tools) that would enable a moderately skilled actor (e.g., an individual with undergraduate level understanding of offensive cyber activities or operations) to discover new, high-value vulnerabilities",p.2,A (agreed)
+amazon-fmsf-2025.02,cyber,response,"In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",p.3,A (agreed)
+amazon-fmsf-2025.02,cyber,acc_decider,"The report will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel. Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",p.5,A (agreed)
+amazon-fmsf-2025.02,cyber,acc_external,Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.,p.3,A (agreed)
+amazon-fmsf-2025.02,cyber,acc_unmet,"In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",p.3,A (agreed)
+amazon-fmsf-2025.02,biochem,mentioned,CBRN Weapons Proliferation focuses on the risk that a model may be able to guide malicious actors in developing and deploying CBRN weapons.,p.2,A (agreed)
+amazon-fmsf-2025.02,biochem,threshold,"AI at this level will be capable of providing expert-level, interactive instruction that provides material uplift (beyond other publicly available research or tools) that would enable a non-subject matter expert to reliably produce and deploy a CBRN weapon.",p.2,A (agreed)
+amazon-fmsf-2025.02,biochem,response,"In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",p.3,A (agreed)
+amazon-fmsf-2025.02,biochem,acc_decider,"The report will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel. Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",p.5,A (agreed)
+amazon-fmsf-2025.02,biochem,acc_external,Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.,p.3,A (agreed)
+amazon-fmsf-2025.02,biochem,acc_unmet,"In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",p.3,A (agreed)
+amazon-fmsf-2025.02,ai_rnd,mentioned,"Automated AI R&D could also accelerate the development of models that pose enhanced CBRN, Offensive Cybersecurity, or other severe risks.",p.2,A (agreed)
+amazon-fmsf-2025.02,ai_rnd,threshold,"AI at this level will be capable of replacing human researchers and fully automating the research, development, and deployment of frontier models",p.2,A (agreed)
+amazon-fmsf-2025.02,ai_rnd,response,"In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",p.3,A (agreed)
+amazon-fmsf-2025.02,ai_rnd,acc_decider,"The report will be directed to the SVP for the model development team, the Chief Security Officer, and legal counsel. Amazon’s senior leadership will review the plan for applying risk mitigations to address the Critical Capability, how we measure and have assurance about those mitigations, and approve the mitigations prior to deployment.",p.5,A (agreed)
+amazon-fmsf-2025.02,ai_rnd,acc_external,Expert Red Teaming: Red teaming vendors and in-house red teaming experts test our models for safety and security. We work with specialized firms and academics to red-team our models to evaluate them for risks that require domain specific expertise.,p.3,A (agreed)
+amazon-fmsf-2025.02,ai_rnd,acc_unmet,"In the event these evaluations reveal that an Amazon frontier model meets or exceeds a Critical Capability Threshold and our Safety and Security Measures are unable to appropriately mitigate the risks (e.g., by preventing reliable elicitation of the capability by malicious actors), we will not deploy the model until we have identified and implemented appropriate additional safeguards.",p.3,A (agreed)
 amazon-fmsf-2026.09,cyber,mentioned,The Offensive Cyber Operations domain focuses on risks that would arise from the use of a model by malicious actors to compromise digital systems with the intent to cause harm.,p.2,A (agreed)
 amazon-fmsf-2026.09,cyber,threshold,exploit chains in hardened systems or utilize existing vulnerabilities to autonomously extend control over critical infrastructure systems.,p.2,A (agreed)
 amazon-fmsf-2026.09,cyber,response,"When an evaluation indicates that a model’s capabilities meet a Critical Capability Threshold, we will not deploy the model until safeguards appropriately mitigate the risks.",p.3,A (agreed)
@@ -24,6 +42,42 @@ amazon-fmsf-2026.09,loss_of_control,response,"When an evaluation indicates that 
 amazon-fmsf-2026.09,loss_of_control,acc_decider,Any evaluations that exceed the Capability threshold will be reported to the SVP for the model development team and the company’s Chief Security Officer. These leaders will review the plan for risk mitigations to address the Critical Capability,p.7,A (agreed)
 amazon-fmsf-2026.09,loss_of_control,acc_external,We will therefore use a range of internal and external evaluation approaches including both automated and manual methods,p.3,adjudicated
 amazon-fmsf-2026.09,loss_of_control,acc_unmet,we will not deploy the model until we have identified and implemented additional safeguards as appropriate.,p.6,A (agreed)
+anthropic-fcf-1.0,cyber,mentioned,"including model capabilities that could enable or enhance attacks on computer systems, networks, or digital infrastructure",p.5,A (agreed)
+anthropic-fcf-1.0,cyber,threshold,Near-complete autonomous cyber operations with novel offensive capability development and adaptive persistence,p.7,A (agreed)
+anthropic-fcf-1.0,cyber,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.0,cyber,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-fcf-1.0,biochem,mentioned,"Chemical, biological, radiological, and nuclear (CBRN) threats",p.5,A (agreed)
+anthropic-fcf-1.0,biochem,threshold,"Models demonstrate SOTA expert-level performance in specialized technical domains, providing novel solutions",p.7,A (agreed)
+anthropic-fcf-1.0,biochem,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.0,biochem,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-fcf-1.0,autonomy,mentioned,"autonomous behavior that would constitute serious crimes (such as assault, extortion, or theft) if committed by a human",p.5,A (agreed)
+anthropic-fcf-1.0,autonomy,threshold,"For sabotage and loss of control risks, we have established a tier system that describes model capabilities against autonomy level, deception sophistication, and potential for unsanctioned action, providing thresholds for decision-making around autonomous capabilities.",p.8,A (agreed)
+anthropic-fcf-1.0,autonomy,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.0,autonomy,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-fcf-1.0,loss_of_control,mentioned,"Sabotage and loss of control, including evasion of oversight or unsupervised conduct",p.5,A (agreed)
+anthropic-fcf-1.0,loss_of_control,threshold,"For sabotage and loss of control risks, we have established a tier system that describes model capabilities against autonomy level, deception sophistication, and potential for unsanctioned action, providing thresholds for decision-making around autonomous capabilities.",p.8,A (agreed)
+anthropic-fcf-1.0,loss_of_control,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.0,loss_of_control,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-fcf-1.1,cyber,mentioned,"including model capabilities that could enable or enhance attacks on computer systems, networks, or digital infrastructure",p.5,A (agreed)
+anthropic-fcf-1.1,cyber,threshold,Completely autonomous cyber operations with novel offensive capability development and adaptive persistence.,p.6,A (agreed)
+anthropic-fcf-1.1,cyber,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.1,cyber,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-fcf-1.1,biochem,mentioned,"Chemical, biological, radiological, and nuclear (CBRN) threats",p.5,A (agreed)
+anthropic-fcf-1.1,biochem,threshold,"Non-novel chemical/biological weapons production. AI systems with the ability to significantly help individuals or groups with basic technical backgrounds (e.g., undergraduate STEM degrees) create/obtain and deploy chemical and/or biological weapons with serious potential for catastrophic damages.",p.7,A (agreed)
+anthropic-fcf-1.1,biochem,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.1,biochem,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-fcf-1.1,ai_rnd,mentioned,"For the time being, we use AI R&D capabilities as a proxy for broader R&D capabilities,",p.9,A (agreed)
+anthropic-fcf-1.1,ai_rnd,threshold,Our working operationalization is to trigger this risk threshold at the point where expected progress in AI capabilities in the coming year is roughly equivalent to the amount of progress seen in two years during the period of 2018-2024,p.9,A (agreed)
+anthropic-fcf-1.1,ai_rnd,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.1,ai_rnd,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-fcf-1.1,autonomy,mentioned,"autonomous behavior that would constitute serious crimes (such as assault, extortion, or theft) if committed by a human",p.5,A (agreed)
+anthropic-fcf-1.1,autonomy,threshold,"For sabotage and loss of control risks, we have established a tier system that describes model capabilities against autonomy level, deception sophistication, and potential for unsanctioned action, providing thresholds for decision-making around autonomous capabilities.",p.8,A (agreed)
+anthropic-fcf-1.1,autonomy,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.1,autonomy,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-fcf-1.1,loss_of_control,mentioned,"Sabotage and loss of control, including evasion of oversight or unsupervised conduct",p.5,A (agreed)
+anthropic-fcf-1.1,loss_of_control,threshold,"such that it is plausible these AI systems could (if directed toward this goal, either deliberately or inadvertently) carry out sabotage leading to irreversibly and substantially higher odds of a later global catastrophe.",p.8,A (agreed)
+anthropic-fcf-1.1,loss_of_control,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.10,adjudicated
+anthropic-fcf-1.1,loss_of_control,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
 anthropic-fcf-2.0,cyber,mentioned,"Cyber offense, including model capabilities that could enable or enhance attacks on computer systems, networks, or digital infrastructure.",p.5,A (agreed)
 anthropic-fcf-2.0,cyber,threshold,"Meaningful technical assistance for active cyber operations using known attack techniques and methodologies. Some automation is involved, but still requires human input to complete successful large cyber-operations.",p.6,A (agreed)
 anthropic-fcf-2.0,cyber,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.11,A (agreed)
@@ -44,6 +98,339 @@ anthropic-fcf-2.0,loss_of_control,mentioned,"Loss of control, including evasion 
 anthropic-fcf-2.0,loss_of_control,threshold,"Misaligned AI systems in high-stakes settings. AI systems that are highly relied on and have extensive access to sensitive assets, as well as moderate capacity for autonomous, goal-directed operation and subterfuge",p.9,A (agreed)
 anthropic-fcf-2.0,loss_of_control,response,"Provided the residual risk falls within acceptable levels, taking into account appropriate safety margins, the model is approved for continued development, internal use (where applicable), and launch (as the case may be).",p.11,A (agreed)
 anthropic-fcf-2.0,loss_of_control,acc_unmet,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16,A (agreed)
+anthropic-rsp-1.0,cyber,mentioned,"there is an increasing risk that they will be used to intentionally cause large-scale harm, for example by helping individuals create CBRN3 or cyber threats",p.3,A (agreed)
+anthropic-rsp-1.0,cyber,response,"our most significant immediate commitments include a high standard of security for ASL-3 containment, and a commitment not to deploy ASL-3 models until thorough red-teaming finds no risk of catastrophe",p.5,A (agreed)
+anthropic-rsp-1.0,cyber,acc_decider,"Follow an ""Update Process"" for this document, including approval by the board of directors, following consultation with the Long-Term Benefit Trust (LTBT).",p.10,adjudicated
+anthropic-rsp-1.0,cyber,acc_unmet,we commit to pause the scaling2 and/or delay the deployment of new models whenever our scaling ability outstrips our ability to comply with the safety procedures for the corresponding ASL,p.2,A (agreed)
+anthropic-rsp-1.0,biochem,mentioned,Our first area of effort is in evaluating bioweapons risks where we will determine threat models and capabilities in consultation with a number of world-class biosecurity experts.,p.7,A (agreed)
+anthropic-rsp-1.0,biochem,response,"our most significant immediate commitments include a high standard of security for ASL-3 containment, and a commitment not to deploy ASL-3 models until thorough red-teaming finds no risk of catastrophe",p.5,A (agreed)
+anthropic-rsp-1.0,biochem,acc_decider,"Follow an ""Update Process"" for this document, including approval by the board of directors, following consultation with the Long-Term Benefit Trust (LTBT).",p.10,adjudicated
+anthropic-rsp-1.0,biochem,acc_unmet,we commit to pause the scaling2 and/or delay the deployment of new models whenever our scaling ability outstrips our ability to comply with the safety procedures for the corresponding ASL,p.2,A (agreed)
+anthropic-rsp-1.0,ai_rnd,mentioned,Autonomous AI research: A model for which the weights would be a massive boost to a malicious AI development program,p.14,A (agreed)
+anthropic-rsp-1.0,autonomy,mentioned,"Autonomy and replication: As AI systems continue to scale, they may become capable of increased autonomy that enables them to proliferate",p.3,A (agreed)
+anthropic-rsp-1.0,autonomy,threshold,"The model shows early signs of autonomous self-replication ability, as defined by 50% aggregate success rate on the tasks listed in",p.7,A (agreed)
+anthropic-rsp-1.0,autonomy,response,"Specifically, we will implement measures designed to harden our security so that non-state attackers are unlikely to be able to steal model weights, and advanced threat actors (e.g. states) cannot steal them without significant expense.",p.8,A (agreed)
+anthropic-rsp-1.0,autonomy,acc_decider,"Follow an ""Update Process"" for this document, including approval by the board of directors, following consultation with the Long-Term Benefit Trust (LTBT).",p.10,adjudicated
+anthropic-rsp-1.0,autonomy,acc_unmet,We commit to pause training before a model's capability level outstrips the Containment Measures we have implemented.,p.4,A (agreed)
+anthropic-rsp-1.0,loss_of_control,mentioned,potentially behave in ways contrary to the intent of their designers or users,p.3,A (agreed)
+anthropic-rsp-1.0,loss_of_control,threshold,"The purpose of these evaluations is to quantify the risk that a model is capable of accumulating resources (e.g. through fraud), navigating computer systems, devising and executing coherent strategies, and surviving in the real world while avoiding being shut down.",p.15,adjudicated
+anthropic-rsp-1.0,loss_of_control,response,"Specifically, we will implement measures designed to harden our security so that non-state attackers are unlikely to be able to steal model weights, and advanced threat actors (e.g. states) cannot steal them without significant expense.",p.8,adjudicated
+anthropic-rsp-1.0,loss_of_control,acc_decider,"Follow an ""Update Process"" for this document, including approval by the board of directors, following consultation with the Long-Term Benefit Trust (LTBT).",p.10,adjudicated
+anthropic-rsp-1.0,loss_of_control,acc_unmet,We commit to pause training before a model's capability level outstrips the Containment Measures we have implemented.,p.4,adjudicated
+anthropic-rsp-2.0,cyber,mentioned,"Cyber Operations: The ability to significantly enhance or automate sophisticated destructive cyber attacks, including but not limited to discovering novel zero-day exploit chains, developing complex malware",p.8,A (agreed)
+anthropic-rsp-2.0,cyber,response,risks while maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards,p.21,adjudicated
+anthropic-rsp-2.0,cyber,acc_decider,Board of Directors; (2) approving relevant model training or deployment decisions based on capability and safeguard assessments,p.15,adjudicated
+anthropic-rsp-2.0,cyber,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments",p.17,adjudicated
+anthropic-rsp-2.0,biochem,mentioned,"Chemical, Biological, Radiological, and Nuclear (CBRN) weapons: The ability to significantly assist individuals or groups with basic STEM backgrounds in obtaining, producing, or deploying CBRN weapons.",p.20,A (agreed)
+anthropic-rsp-2.0,biochem,threshold,"Chemical, Biological, Radiological, and Nuclear (CBRN) weapons: The ability to significantly assist individuals or groups with basic STEM backgrounds in obtaining, producing, or deploying CBRN weapons.",p.20,A (agreed)
+anthropic-rsp-2.0,biochem,response,"ASL-3 Deployment Standard and the ASL-3 Security Standard, which protect against misuse and model-weight theft by non-state adversaries, are required.",p.7,A (agreed)
+anthropic-rsp-2.0,biochem,acc_decider,"The report will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have sufficiently established that we are unlikely to reach the Capability Threshold and (2) decide any deployment-related issues.",p.10,A (agreed)
+anthropic-rsp-2.0,biochem,acc_external,"Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.0,biochem,acc_unmet,"If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",p.14,A (agreed)
+anthropic-rsp-2.0,ai_rnd,mentioned,Autonomous AI Research and Development: The ability to either: (1) Fully automate the work of an entry-level remote-only Researcher at Anthropic,p.20,A (agreed)
+anthropic-rsp-2.0,ai_rnd,threshold,Autonomous AI Research and Development: The ability to either: (1) Fully automate the work of an entry-level remote-only Researcher at Anthropic,p.20,A (agreed)
+anthropic-rsp-2.0,ai_rnd,response,"At minimum, the ASL-3 Security Standard is required",p.7,A (agreed)
+anthropic-rsp-2.0,ai_rnd,acc_decider,"The report will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have sufficiently established that we are unlikely to reach the Capability Threshold and (2) decide any deployment-related issues.",p.10,A (agreed)
+anthropic-rsp-2.0,ai_rnd,acc_external,"Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.0,ai_rnd,acc_unmet,"If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",p.14,A (agreed)
+anthropic-rsp-2.0,autonomy,mentioned,The ability to perform a wide range of advanced software engineering tasks autonomously that could be precursors to full autonomous replication or automated AI R&D,p.20,A (agreed)
+anthropic-rsp-2.0,autonomy,threshold,"Model Autonomy checkpoint: The ability to perform a wide range of advanced software engineering tasks autonomously that could be precursors to full autonomous replication or automated AI R&D, and that would take a domain expert human 2-8 hours to complete.",p.20,A (agreed)
+anthropic-rsp-2.0,autonomy,response,risks while maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards,p.21,adjudicated
+anthropic-rsp-2.0,autonomy,acc_decider,Board of Directors; (2) approving relevant model training or deployment decisions based on capability and safeguard assessments,p.15,adjudicated
+anthropic-rsp-2.0,autonomy,acc_external,"Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.0,loss_of_control,mentioned,We also expect a strong affirmative case (made with accountability for both the reasoning and implementation) about the risk of models pursuing misaligned goals will be required.,p.7,A (agreed)
+anthropic-rsp-2.0,loss_of_control,threshold,"generating their own revenue and using it to run copies of themselves in large-scale, hard-to-shut-down operations",p.20,adjudicated
+anthropic-rsp-2.0,loss_of_control,response,risks while maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards,p.21,adjudicated
+anthropic-rsp-2.0,loss_of_control,acc_decider,Board of Directors; (2) approving relevant model training or deployment decisions based on capability and safeguard assessments,p.15,adjudicated
+anthropic-rsp-2.0,loss_of_control,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments",p.17,adjudicated
+anthropic-rsp-2.1,cyber,mentioned,"Cyber Operations: The ability to significantly enhance or automate sophisticated destructive cyber attacks, including but not limited to discovering novel zero-day exploit chains",p.9,A (agreed)
+anthropic-rsp-2.1,cyber,response,a first-of-its-kind public commitment not to train or deploy models capable of causing catastrophic harm unless we have implemented safety and security measures that will keep risks below acceptable levels,p.5,adjudicated
+anthropic-rsp-2.1,cyber,acc_decider,Directors; (2) approving relevant model training or deployment decisions based on capability and safeguard assessments,p.16,adjudicated
+anthropic-rsp-2.1,cyber,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments",p.17,adjudicated
+anthropic-rsp-2.1,biochem,mentioned,"CBRN-3: The ability to significantly assist individuals or groups with basic STEM backgrounds in obtaining, producing, or deploying CBRN weapons.",p.20,A (agreed)
+anthropic-rsp-2.1,biochem,threshold,"CBRN-3: The ability to significantly assist individuals or groups with basic STEM backgrounds in obtaining, producing, or deploying CBRN weapons.",p.20,A (agreed)
+anthropic-rsp-2.1,biochem,response,"The ASL-3 Deployment Standard and the ASL-3 Security Standard, which protect against misuse and model-weight theft by non-state adversaries, are required.",p.8,A (agreed)
+anthropic-rsp-2.1,biochem,acc_decider,"The report will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have sufficiently established that we are unlikely to reach the Capability Threshold and (2) decide any deployment-related issues.",p.11,A (agreed)
+anthropic-rsp-2.1,biochem,acc_external,"Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.1,biochem,acc_unmet,"If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",p.14,A (agreed)
+anthropic-rsp-2.1,ai_rnd,mentioned,"AI R&D-4: The ability to fully automate the work of an entry-level, remote-only Researcher at Anthropic.",p.20,A (agreed)
+anthropic-rsp-2.1,ai_rnd,threshold,"AI R&D-4: The ability to fully automate the work of an entry-level, remote-only Researcher at Anthropic.",p.20,A (agreed)
+anthropic-rsp-2.1,ai_rnd,response,"The ASL-3 Security Standard is required. In addition, we will develop an affirmative case",p.8,A (agreed)
+anthropic-rsp-2.1,ai_rnd,acc_decider,"The report will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have sufficiently established that we are unlikely to reach the Capability Threshold and (2) decide any deployment-related issues.",p.11,A (agreed)
+anthropic-rsp-2.1,ai_rnd,acc_external,"Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.1,ai_rnd,acc_unmet,"If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",p.14,A (agreed)
+anthropic-rsp-2.1,autonomy,mentioned,The ability to perform a wide range of advanced software engineering tasks autonomously that could be precursors to full autonomous replication or automated AI R&D,p.20,A (agreed)
+anthropic-rsp-2.1,autonomy,threshold,"Model Autonomy checkpoint: The ability to perform a wide range of advanced software engineering tasks autonomously that could be precursors to full autonomous replication or automated AI R&D, and that would take a domain expert human 2-8 hours to complete.",p.20,A (agreed)
+anthropic-rsp-2.1,autonomy,response,a first-of-its-kind public commitment not to train or deploy models capable of causing catastrophic harm unless we have implemented safety and security measures that will keep risks below acceptable levels,p.5,adjudicated
+anthropic-rsp-2.1,autonomy,acc_decider,Directors; (2) approving relevant model training or deployment decisions based on capability and safeguard assessments,p.16,adjudicated
+anthropic-rsp-2.1,autonomy,acc_external,"Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.1,loss_of_control,mentioned,we will develop an affirmative case that (1) identifies the most immediate and relevant risks from models pursuing misaligned goals,p.8,A (agreed)
+anthropic-rsp-2.1,loss_of_control,threshold,"their own revenue and using it to run copies of themselves in large-scale, hard-to-shut-down operations.",p.20,A (agreed)
+anthropic-rsp-2.1,loss_of_control,response,we will develop an affirmative case that (1) identifies the most immediate and relevant risks from models pursuing misaligned goals and (2) explains how we have mitigated these risks to acceptable levels.,p.8,A (agreed)
+anthropic-rsp-2.1,loss_of_control,acc_decider,"The Safeguards Report(s) will be escalated to the CEO and the Responsible Scaling Officer, who will (1) make the ultimate determination as to whether we have satisfied the Required Safeguards",p.14,A (agreed)
+anthropic-rsp-2.1,loss_of_control,acc_external,"Procedural compliance review: On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.1,loss_of_control,acc_unmet,"If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",p.14,adjudicated
+anthropic-rsp-2.2,cyber,mentioned,"Cyber Operations‬‭: The ability to‬
+‭significantly enhance or automate‬
+‭sophisticated destructive cyber attacks,‬
+‭including but not limited to discovering‬
+‭novel zero-day exploit chains, developing‬
+‭complex malware",p.9,A (agreed)
+anthropic-rsp-2.2,biochem,mentioned,"This update to our RSP provides specifications for Capabilities‬
+‭Thresholds related to Chemical, Biological, Radiological, and Nuclear (CBRN) weapons",p.2,A (agreed)
+anthropic-rsp-2.2,biochem,threshold,"CBRN-3:‬‭The ability to significantly assist individuals‬‭or groups with basic STEM backgrounds in‬
+‭obtaining, producing, or deploying CBRN weapons.",p.20,A (agreed)
+anthropic-rsp-2.2,biochem,response,"and the‬‭ASL-3 Security Standard‬‭, which protect‬
+‭against misuse and model-weight theft by‬
+‭non-state adversaries, are required.",p.8,A (agreed)
+anthropic-rsp-2.2,biochem,acc_decider,"The Safeguards Report(s) will be‬‭escalated to the‬‭CEO and the Responsible Scaling Officer‬‭, who will‬
+‭(1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2)‬
+‭decide any deployment-related issues.",p.14,A (agreed)
+anthropic-rsp-2.2,biochem,acc_external,"On approximately an‬‭annual basis, we will commission a third-party‬
+‭review that assesses whether we adhered to this policy’s main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.2,biochem,acc_unmet,"If, however, we are unable to make the showing required above, we will restrict model deployment and‬
+‭further scaling.",p.14,A (agreed)
+anthropic-rsp-2.2,ai_rnd,mentioned,"AI R&D-4:‬ ‭The ability to fully‬
+‭automate the work of an entry-level,‬
+‭remote-only Researcher at Anthropic.",p.20,A (agreed)
+anthropic-rsp-2.2,ai_rnd,threshold,"AI R&D-4:‬ ‭The ability to fully‬
+‭automate the work of an entry-level,‬
+‭remote-only Researcher at Anthropic.",p.20,A (agreed)
+anthropic-rsp-2.2,ai_rnd,response,"The‬‭ASL-3 Security Standard‬‭is required. In‬
+‭addition, we will develop an affirmative case",p.8,A (agreed)
+anthropic-rsp-2.2,ai_rnd,acc_decider,"The Safeguards Report(s) will be‬‭escalated to the‬‭CEO and the Responsible Scaling Officer‬‭, who will‬
+‭(1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2)‬
+‭decide any deployment-related issues.",p.14,A (agreed)
+anthropic-rsp-2.2,ai_rnd,acc_external,"On approximately an‬‭annual basis, we will commission a third-party‬
+‭review that assesses whether we adhered to this policy’s main procedural commitments",p.17,A (agreed)
+anthropic-rsp-2.2,ai_rnd,acc_unmet,"If, however, we are unable to make the showing required above, we will restrict model deployment and‬
+‭further scaling.",p.14,A (agreed)
+anthropic-rsp-2.2,autonomy,mentioned,"Model Autonomy checkpoint‬‭: The ability to perform‬‭a wide range of advanced software engineering tasks‬
+‭autonomously that could be precursors to full autonomous replication or automated AI R&D",p.20,A (agreed)
+anthropic-rsp-2.2,autonomy,threshold,"checkpoint: the ability to autonomously‬
+‭p erform a wide range of 2-8 hour software engineering tasks. We would view this level of capability as an‬
+‭important checkpoint towards both Autonomous AI R&D as well as other capabilities that may warrant similar‬
+‭attention (for example, autonomous replication). We will test for this checkpoint and, by the time we reach it,",p.8,A (agreed)
+anthropic-rsp-2.2,autonomy,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments",p.17,adjudicated
+anthropic-rsp-2.2,autonomy,acc_unmet,"Further, we will track and investigate any reported or otherwise identified potential instances of noncompliance with this policy.",p.16,adjudicated
+anthropic-rsp-2.2,loss_of_control,mentioned,"In‬
+‭addition, we will develop an affirmative case‬
+‭that (1) identifies the most immediate and‬
+‭relevant risks from models pursuing‬
+‭misaligned goals and (2) explains how we have‬
+‭mitigated these risks to acceptable levels.",p.8,A (agreed)
+anthropic-rsp-2.2,loss_of_control,response,"In addition, we will develop an affirmative case that (1) identifies the most immediate and relevant risks from models pursuing misaligned goals and (2) explains how we have mitigated these risks to acceptable levels.",p.8,adjudicated
+anthropic-rsp-2.2,loss_of_control,acc_decider,who will (1) make the ultimate determination as to whether we have satisfied the Required Safeguards and (2) decide any deployment-related issues.,p.14,adjudicated
+anthropic-rsp-2.2,loss_of_control,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy’s main procedural commitments",p.17,adjudicated
+anthropic-rsp-2.2,loss_of_control,acc_unmet,"If, however, we are unable to make the showing required above, we will restrict model deployment and further scaling.",p.14,adjudicated
+anthropic-rsp-3.0,biochem,mentioned,"Non-novel chemical/biological
+weapons production. AI systems
+with the ability to significantly
+help individuals or groups with
+basic technical backgrounds",p.6,A (agreed)
+anthropic-rsp-3.0,biochem,threshold,"Non-novel chemical/biological
+weapons production. AI systems
+with the ability to significantly
+help individuals or groups with
+basic technical backgrounds (e.g.,
+undergraduate STEM degrees)
+create/obtain and deploy chemical
+and/or biological weapons",p.6,A (agreed)
+anthropic-rsp-3.0,biochem,response,"We will maintain or improve on
+our ASL-3 protections, which
+include classifier guards at least as
+robust as our initial Constitutional
+Classifiers; access controls for
+trusted users with exemptions to
+classifier guards; red-teaming, bug
+bounties, and threat intelligence",p.6,A (agreed)
+anthropic-rsp-3.0,biochem,acc_decider,"CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and
+any downstream deployment or development plans.",p.12,A (agreed)
+anthropic-rsp-3.0,biochem,acc_external,"On approximately an annual basis, we will commission a third-party
+review that assesses whether we adhered to this policy’s main procedural commitments.",p.15,A (agreed)
+anthropic-rsp-3.0,biochem,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional
+corrective action if it is substantiated, and document the report and our findings.",p.15,A (agreed)
+anthropic-rsp-3.0,ai_rnd,mentioned,"For now, our evaluations will focus
+specifically on AI R&D, as this
+domain likely plays to AI systems’
+current strengths",p.8,A (agreed)
+anthropic-rsp-3.0,ai_rnd,threshold,"Our working operationalization is
+to trigger this risk threshold at the
+point where we determine that a
+model could compress two years of
+2018 – 2024 AI progress into a
+single year.",p.8,A (agreed)
+anthropic-rsp-3.0,ai_rnd,response,"Achieve an “eyes on
+everything” state for our
+internal AI development. We
+will comprehensively gather,
+centralize, and maintain logs
+for all critical AI-development
+activities",p.8,A (agreed)
+anthropic-rsp-3.0,ai_rnd,acc_decider,"CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and
+any downstream deployment or development plans.",p.12,A (agreed)
+anthropic-rsp-3.0,ai_rnd,acc_external,"At a minimum, we will complete a full external review process (described below) with at least one external
+reviewer anytime a Risk Report covers highly capable models and is significantly redacted",p.13,A (agreed)
+anthropic-rsp-3.0,ai_rnd,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional
+corrective action if it is substantiated, and document the report and our findings.",p.15,A (agreed)
+anthropic-rsp-3.0,autonomy,mentioned,"highly relied on and have extensive
+access to sensitive assets as well as
+moderate capacity for autonomous,
+goal-directed operation and
+subterfuge",p.7,A (agreed)
+anthropic-rsp-3.0,autonomy,threshold,"highly relied on and have extensive
+access to sensitive assets as well as
+moderate capacity for autonomous,
+goal-directed operation and
+subterfuge",p.7,A (agreed)
+anthropic-rsp-3.0,autonomy,response,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.16,adjudicated
+anthropic-rsp-3.0,autonomy,acc_decider,"CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and
+any downstream deployment or development plans.",p.12,A (agreed)
+anthropic-rsp-3.0,autonomy,acc_external,"On approximately an annual basis, we will commission a third-party
+review that assesses whether we adhered to this policy’s main procedural commitments.",p.15,A (agreed)
+anthropic-rsp-3.0,autonomy,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional
+corrective action if it is substantiated, and document the report and our findings.",p.15,A (agreed)
+anthropic-rsp-3.0,loss_of_control,mentioned,"carry
+out sabotage leading to irreversibly
+and substantially higher odds of a
+later global catastrophe.",p.7,A (agreed)
+anthropic-rsp-3.0,loss_of_control,threshold,"High-stakes sabotage
+opportunities. AI systems that are
+highly relied on and have extensive
+access to sensitive assets as well as
+moderate capacity for autonomous,
+goal-directed operation and
+subterfuge",p.7,A (agreed)
+anthropic-rsp-3.0,loss_of_control,response,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.16,adjudicated
+anthropic-rsp-3.0,loss_of_control,acc_decider,"CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and
+any downstream deployment or development plans.",p.12,A (agreed)
+anthropic-rsp-3.0,loss_of_control,acc_external,"At a minimum, we will complete a full external review process (described below) with at least one external
+reviewer anytime a Risk Report covers highly capable models and is significantly redacted",p.13,A (agreed)
+anthropic-rsp-3.0,loss_of_control,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional
+corrective action if it is substantiated, and document the report and our findings.",p.15,A (agreed)
+anthropic-rsp-3.1,biochem,mentioned,"Non-novel chemical/biological​
+​weapons production.​​AI systems​
+​with the ability to significantly​
+​help individuals or groups with​
+​basic technical backgrounds",p.6,A (agreed)
+anthropic-rsp-3.1,biochem,threshold,"Non-novel chemical/biological​
+​weapons production.​​AI systems​
+​with the ability to significantly​
+​help individuals or groups with​
+​basic technical backgrounds (e.g.,​
+​undergraduate STEM degrees)​
+​create/obtain and deploy chemical​
+​and/or biological weapons",p.6,A (agreed)
+anthropic-rsp-3.1,biochem,response,"We will maintain or improve on​
+​our​​ASL-3 protections​, which​
+​include classifier guards at least as​
+​robust as our initial Constitutional​
+​Classifiers; access controls for​
+​trusted users with exemptions to​
+​classifier guards; red-teaming, bug​
+​bounties, and threat intelligence",p.6,A (agreed)
+anthropic-rsp-3.1,biochem,acc_decider,"CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and​
+​any downstream deployment or development plans.",p.13,A (agreed)
+anthropic-rsp-3.1,biochem,acc_external,"On approximately an​​annual basis, we will commission a third-party​
+​review that assesses whether we adhered to this policy’s main procedural commitments.",p.16,A (agreed)
+anthropic-rsp-3.1,biochem,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional​
+​corrective action if it is substantiated, and document the report and our findings.",p.16,A (agreed)
+anthropic-rsp-3.1,ai_rnd,mentioned,"For now, our evaluations will focus​
+​specifically on AI R&D, as this​
+​domain likely plays to AI systems’​
+​current strengths",p.8,A (agreed)
+anthropic-rsp-3.1,ai_rnd,threshold,"We will consider this threshold to​
+​b e met if we determine that either​
+​(1) our models would be able to​
+​fully substitute for our entire set of​
+​Research Scientists and Research​
+​Engineers, at competitive costs",p.8,A (agreed)
+anthropic-rsp-3.1,ai_rnd,response,"Achieve an “eyes on​
+​everything” state for our​
+​internal AI development. We​
+​will comprehensively gather,​
+​centralize, and maintain logs​
+​for all critical AI-development​
+​activities",p.8,A (agreed)
+anthropic-rsp-3.1,ai_rnd,acc_decider,"CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and​
+​any downstream deployment or development plans.",p.13,A (agreed)
+anthropic-rsp-3.1,ai_rnd,acc_external,"At a minimum, we will complete a full external review process (described below) with at least one external​
+​reviewer anytime a Risk Report covers​​highly capable​​models and is​​significantly redacted",p.14,A (agreed)
+anthropic-rsp-3.1,ai_rnd,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional​
+​corrective action if it is substantiated, and document the report and our findings.",p.16,A (agreed)
+anthropic-rsp-3.1,autonomy,mentioned,"highly relied on and have extensive​
+​access to sensitive assets as well as​
+​moderate capacity for autonomous,​
+​goal-directed operation and​
+​subterfuge",p.7,A (agreed)
+anthropic-rsp-3.1,autonomy,threshold,"highly relied on and have extensive​
+​access to sensitive assets as well as​
+​moderate capacity for autonomous,​
+​goal-directed operation and​
+​subterfuge",p.7,A (agreed)
+anthropic-rsp-3.1,autonomy,response,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.17,adjudicated
+anthropic-rsp-3.1,autonomy,acc_decider,"CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and​
+​any downstream deployment or development plans.",p.13,A (agreed)
+anthropic-rsp-3.1,autonomy,acc_external,"On approximately an​​annual basis, we will commission a third-party​
+​review that assesses whether we adhered to this policy’s main procedural commitments.",p.16,A (agreed)
+anthropic-rsp-3.1,autonomy,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional​
+​corrective action if it is substantiated, and document the report and our findings.",p.16,A (agreed)
+anthropic-rsp-3.1,loss_of_control,mentioned,"carry​
+​out sabotage leading to irreversibly​
+​and substantially higher odds of a​
+​later global catastrophe.",p.7,A (agreed)
+anthropic-rsp-3.1,loss_of_control,threshold,"High-stakes sabotage​
+​opportunities.​​AI systems that are​
+​highly relied on and have extensive​
+​access to sensitive assets as well as​
+​moderate capacity for autonomous,​
+​goal-directed operation and​
+​subterfuge",p.7,A (agreed)
+anthropic-rsp-3.1,loss_of_control,response,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.17,adjudicated
+anthropic-rsp-3.1,loss_of_control,acc_decider,"CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and​
+​any downstream deployment or development plans.",p.13,A (agreed)
+anthropic-rsp-3.1,loss_of_control,acc_external,"At a minimum, we will complete a full external review process (described below) with at least one external​
+​reviewer anytime a Risk Report covers​​highly capable​​models and is​​significantly redacted",p.14,A (agreed)
+anthropic-rsp-3.1,loss_of_control,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional​
+​corrective action if it is substantiated, and document the report and our findings.",p.16,A (agreed)
+anthropic-rsp-3.2,biochem,mentioned,Non-novel chemical/biological weapons production.,p.6,A (agreed)
+anthropic-rsp-3.2,biochem,threshold,"AI systems with the ability to significantly help individuals or groups with basic technical backgrounds (e.g., undergraduate STEM degrees) create/obtain and deploy chemical and/or biological weapons with serious potential for catastrophic damages.",p.6,A (agreed)
+anthropic-rsp-3.2,biochem,response,"We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers",p.6,A (agreed)
+anthropic-rsp-3.2,biochem,acc_decider,The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.,p.12,A (agreed)
+anthropic-rsp-3.2,biochem,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments.",p.15,A (agreed)
+anthropic-rsp-3.2,biochem,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated",p.15,A (agreed)
+anthropic-rsp-3.2,ai_rnd,mentioned,"For now, our evaluations will focus specifically on AI R&D",p.8,A (agreed)
+anthropic-rsp-3.2,ai_rnd,threshold,"We will consider this threshold to be met if we determine that either (1) our models would be able to fully substitute for our entire set of Research Scientists and Research Engineers, at competitive costs",p.8,A (agreed)
+anthropic-rsp-3.2,ai_rnd,response,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.16,A (agreed)
+anthropic-rsp-3.2,ai_rnd,acc_decider,The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.,p.12,A (agreed)
+anthropic-rsp-3.2,ai_rnd,acc_external,"subject to external review by at least one expert, experienced, credible, candid and disinterested external party.",p.9,A (agreed)
+anthropic-rsp-3.2,ai_rnd,acc_unmet,"Until we are able to do so, we will delay AI development and deployment as needed to achieve this.",p.16,A (agreed)
+anthropic-rsp-3.2,autonomy,mentioned,"moderate capacity for autonomous, goal-directed operation and subterfuge",p.7,A (agreed)
+anthropic-rsp-3.2,loss_of_control,mentioned,High-stakes sabotage opportunities.,p.7,A (agreed)
+anthropic-rsp-3.2,loss_of_control,threshold,"such that it is plausible these AI systems could (if directed toward this goal, either deliberately or inadvertently) carry out sabotage leading to irreversibly and substantially higher odds of a later global catastrophe.",p.7,A (agreed)
+anthropic-rsp-3.2,loss_of_control,response,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.17,adjudicated
+anthropic-rsp-3.2,loss_of_control,acc_decider,The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.,p.12,A (agreed)
+anthropic-rsp-3.2,loss_of_control,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments.",p.15,A (agreed)
+anthropic-rsp-3.2,loss_of_control,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated",p.15,A (agreed)
+anthropic-rsp-3.3,biochem,mentioned,Non-novel chemical/biological weapons production.,p.6,A (agreed)
+anthropic-rsp-3.3,biochem,threshold,"AI systems with the ability to significantly help individuals or groups with basic technical backgrounds (e.g., undergraduate STEM degrees) create/obtain and deploy chemical and/or biological weapons with serious potential for catastrophic damages.",p.6,A (agreed)
+anthropic-rsp-3.3,biochem,response,"We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers",p.6,A (agreed)
+anthropic-rsp-3.3,biochem,acc_decider,The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.,p.12,A (agreed)
+anthropic-rsp-3.3,biochem,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments.",p.15,A (agreed)
+anthropic-rsp-3.3,biochem,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated",p.15,A (agreed)
+anthropic-rsp-3.3,ai_rnd,mentioned,"For now, our evaluations will focus specifically on AI R&D",p.8,A (agreed)
+anthropic-rsp-3.3,ai_rnd,threshold,"We will consider this threshold to be met if we determine that either (1) our models would be able to fully substitute for our entire set of Research Scientists and Research Engineers, at competitive costs",p.9,A (agreed)
+anthropic-rsp-3.3,ai_rnd,response,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.16,A (agreed)
+anthropic-rsp-3.3,ai_rnd,acc_decider,The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.,p.12,A (agreed)
+anthropic-rsp-3.3,ai_rnd,acc_external,"subject to external review by at least one expert, experienced, credible, candid and disinterested external party.",p.10,A (agreed)
+anthropic-rsp-3.3,ai_rnd,acc_unmet,"Until we are able to do so, we will delay AI development and deployment as needed to achieve this.",p.16,A (agreed)
+anthropic-rsp-3.3,autonomy,mentioned,"moderate capacity for autonomous, goal-directed operation and subterfuge",p.7,A (agreed)
+anthropic-rsp-3.3,loss_of_control,mentioned,could pose risks related to high-stakes misalignment or automated R&D,p.10,A (agreed)
+anthropic-rsp-3.3,loss_of_control,threshold,"AI systems that are highly relied on and have extensive access to sensitive assets as well as moderate capacity for autonomous, goal-directed operation and subterfuge",p.7,A (agreed)
+anthropic-rsp-3.3,loss_of_control,response,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.17,adjudicated
+anthropic-rsp-3.3,loss_of_control,acc_decider,The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.,p.12,A (agreed)
+anthropic-rsp-3.3,loss_of_control,acc_external,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments.",p.15,A (agreed)
+anthropic-rsp-3.3,loss_of_control,acc_unmet,"When we receive a report, we will promptly investigate, take appropriate and proportional corrective action if it is substantiated",p.15,A (agreed)
 anthropic-rsp-3.4,biochem,mentioned,Non-novel chemical/biological weapons production.,p.6,A (agreed)
 anthropic-rsp-3.4,biochem,threshold,"AI systems with the ability to significantly help individuals or groups with basic technical backgrounds (e.g., undergraduate STEM degrees) create/obtain and deploy chemical and/or biological weapons with serious potential for catastrophic damages.",p.6,A (agreed)
 anthropic-rsp-3.4,biochem,response,"We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers; access controls for trusted users with exemptions to classifier guards",p.6,A (agreed)
@@ -83,6 +470,55 @@ g42-fsf-2025.02,biochem,acc_decider,"A dedicated Frontier AI Governance Board, c
 g42-fsf-2025.02,biochem,acc_external,"External Audits: To reinforce accountability, G42 will engage in annual external audits to verify compliance with the Framework.",p.12,A (agreed)
 g42-fsf-2025.02,biochem,acc_unmet,"If a necessary Deployment Mitigation Level cannot be achieved, then the model’s deployment must be restricted; if a necessary Security Mitigation Level cannot be achieved, then further capabilities development of the model must be paused.",p.5,A (agreed)
 g42-fsf-2025.02,autonomy,mentioned,"Initially G42 identified potential capabilities across several domains, including biological risks, cybersecurity, and autonomous operations in specialized fields.",p.4,A (agreed)
+google-fsf-1.0,cyber,mentioned,Cybersecurity: Risks of models assisting in the execution of a cyber attack.,p.5,A (agreed)
+google-fsf-1.0,cyber,threshold,Capable of fully automating opportunistic cyberattacks on organizations with a limited security posture.,p.5,A (agreed)
+google-fsf-1.0,cyber,response,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2,adjudicated
+google-fsf-1.0,cyber,acc_unmet,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2,adjudicated
+google-fsf-1.0,biochem,mentioned,"Biosecurity: Risks of models assisting in the development, preparation and/or execution of a biological attack.",p.5,A (agreed)
+google-fsf-1.0,biochem,threshold,Capable of significantly enabling a non-expert to develop known biothreats that could increase their ability to cause severe harm compared to other means.,p.5,A (agreed)
+google-fsf-1.0,biochem,response,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2,adjudicated
+google-fsf-1.0,biochem,acc_unmet,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2,adjudicated
+google-fsf-1.0,ai_rnd,mentioned,Risks of the misuse of models capable of accelerating the rate of AI progress,p.5,A (agreed)
+google-fsf-1.0,ai_rnd,threshold,Could fully automate the AI R&D pipeline at a fraction of human labor costs,p.6,A (agreed)
+google-fsf-1.0,ai_rnd,response,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2,adjudicated
+google-fsf-1.0,ai_rnd,acc_unmet,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2,adjudicated
+google-fsf-1.0,autonomy,mentioned,Autonomy: Risks of the misuse of AI models with significant capacity for agency and flexible action/tool use over long time horizons and across many domains.,p.5,A (agreed)
+google-fsf-1.0,autonomy,threshold,Capable of expanding its effective capacity in the world by autonomously acquiring resources and using them to run and sustain additional copies of itself on hardware it rents.,p.5,A (agreed)
+google-fsf-1.0,autonomy,response,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2,adjudicated
+google-fsf-1.0,autonomy,acc_unmet,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2,adjudicated
+google-fsf-1.0,loss_of_control,mentioned,"Misaligned AI: protection against the risk of systems acting adversarially against humans may require additional Framework components, including new evaluations and control mitigations that protect against adversarial AI activity.",p.6,adjudicated
+google-fsf-2.0,cyber,mentioned,"Cyber: Risks of models assisting in the development, preparation, and/or execution of a cyber attack.",p.2,A (agreed)
+google-fsf-2.0,cyber,threshold,Can be used to drastically reduce the cost (e.g. through full automation) of carrying out end-to-end cyberattacks,p.5,A (agreed)
+google-fsf-2.0,cyber,response,of a model takes place only after the appropriate corporate governance body determines the safety case regarding each CCL the model has reached to be adequate.,p.4,A (agreed)
+google-fsf-2.0,cyber,acc_decider,"when alert thresholds are reached, the response plan will be reviewed and approved by appropriate corporate governance bodies such as the Google DeepMind AGI Safety Council, Google DeepMind Responsibility and Safety Council, and/or Google Trust & Compliance Council.",p.7,A (agreed)
+google-fsf-2.0,cyber,acc_external,"When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.3,A (agreed)
+google-fsf-2.0,biochem,mentioned,"CBRN: Risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear (“CBRN”) attack.",p.2,A (agreed)
+google-fsf-2.0,biochem,threshold,"Can be used to significantly assist a low-resourced actor with dual-use scientific protocols, resulting in a substantial increase in ability to cause a mass casualty event.",p.5,A (agreed)
+google-fsf-2.0,biochem,response,of a model takes place only after the appropriate corporate governance body determines the safety case regarding each CCL the model has reached to be adequate.,p.4,A (agreed)
+google-fsf-2.0,biochem,acc_decider,"when alert thresholds are reached, the response plan will be reviewed and approved by appropriate corporate governance bodies such as the Google DeepMind AGI Safety Council, Google DeepMind Responsibility and Safety Council, and/or Google Trust & Compliance Council.",p.7,A (agreed)
+google-fsf-2.0,biochem,acc_external,"When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.3,A (agreed)
+google-fsf-2.0,ai_rnd,mentioned,Machine Learning R&D: Risks of the misuse of models capable of accelerating the rate of AI progress to potentially destabilizing levels,p.2,A (agreed)
+google-fsf-2.0,ai_rnd,threshold,Can fully automate the AI R&D pipeline at a competitive cost.,p.6,A (agreed)
+google-fsf-2.0,ai_rnd,response,of a model takes place only after the appropriate corporate governance body determines the safety case regarding each CCL the model has reached to be adequate.,p.4,A (agreed)
+google-fsf-2.0,ai_rnd,acc_decider,"when alert thresholds are reached, the response plan will be reviewed and approved by appropriate corporate governance bodies such as the Google DeepMind AGI Safety Council, Google DeepMind Responsibility and Safety Council, and/or Google Trust & Compliance Council.",p.7,A (agreed)
+google-fsf-2.0,ai_rnd,acc_external,"When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.3,A (agreed)
+google-fsf-2.0,loss_of_control,mentioned,"By ""deceptive alignment,"" we mean the risk that AI systems purposefully undermine human control over AI systems.",p.6,A (agreed)
+google-fsf-2.0,loss_of_control,threshold,"the instrumental reasoning abilities of the model enable enough situational awareness (ability to work out and use relevant details of its deployment setting) and stealth (ability to circumvent basic oversight mechanisms) such that, absent additional mitigations, we cannot rule out the model significantly undermining human control.",p.7,A (agreed)
+google-fsf-2.0,loss_of_control,acc_decider,"when alert thresholds are reached, the response plan will be reviewed and approved by appropriate corporate governance bodies such as the Google DeepMind AGI Safety Council, Google DeepMind Responsibility and Safety Council, and/or Google Trust & Compliance Council.",p.7,A (agreed)
+google-fsf-2.0,loss_of_control,acc_external,"When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.3,A (agreed)
+google-fsf-3.0,cyber,mentioned,"Cyber: Risks of models assisting in the development, preparation, and/or execution of a cyber attack.",p.4,A (agreed)
+google-fsf-3.0,cyber,threshold,Provides sufficient uplift with high impact cyber attacks for additional expected harm at severe scale.,p.10,A (agreed)
+google-fsf-3.0,cyber,response,external deployments of a model take place only after the appropriate governance function determines the safety case regarding each CCL the model has reached to be adequate.,p.9,A (agreed)
+google-fsf-3.0,cyber,acc_external,"When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.6,A (agreed)
+google-fsf-3.0,biochem,mentioned,"CBRN: Risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear (“CBRN”) threat.",p.4,A (agreed)
+google-fsf-3.0,biochem,threshold,Provides low to medium resourced actors uplift in reference scenarios resulting in,p.10,A (agreed)
+google-fsf-3.0,biochem,response,external deployments of a model take place only after the appropriate governance function determines the safety case regarding each CCL the model has reached to be adequate.,p.9,A (agreed)
+google-fsf-3.0,biochem,acc_external,"When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.6,A (agreed)
+google-fsf-3.0,ai_rnd,mentioned,These CCLs focus on risks posed by models capable of accelerating the rate of AI progress.,p.13,A (agreed)
+google-fsf-3.0,ai_rnd,threshold,"Can fully automate the work of any team of researchers at Google focused on improving AI capabilities, with approximately comparable all-inclusive costs.",p.14,A (agreed)
+google-fsf-3.0,ai_rnd,response,external deployments and large scale internal deployments of a model take place only after the appropriate governance function determines,p.12,A (agreed)
+google-fsf-3.0,ai_rnd,acc_external,"When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.6,A (agreed)
+google-fsf-3.0,loss_of_control,mentioned,"we address specific scenarios where general-purpose AI agents are potentially misaligned and can become difficult to control, thereby posing a risk of severe harm.",p.15,A (agreed)
 google-fsf-3.1,cyber,mentioned,"Cyber: Risks of models assisting in the development, preparation, and/or execution of a cyber attack.",p.4,A (agreed)
 google-fsf-3.1,cyber,threshold,Provides sufficient uplift with high impact cyber attacks for additional expected harm at severe scale.,p.12,A (agreed)
 google-fsf-3.1,cyber,response,external deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable (including a safety case where a CCL has been reached).,p.10,A (agreed)
@@ -99,6 +535,18 @@ google-fsf-3.1,loss_of_control,mentioned,"Stealth and Situational Awareness TCL:
 google-fsf-3.1,loss_of_control,threshold,"Stealth and Situational Awareness TCL: The instrumental reasoning abilities of the model enable enough situational awareness (ability to discover and use relevant details of its deployment setting) and stealth (ability to circumvent basic oversight mechanisms) such that, absent additional mitigations, we cannot rule out the model significantly undermining human control.",p.14,A (agreed)
 google-fsf-3.1,loss_of_control,response,external deployments and high-risk internal deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable (including a safety case where a CCL has been reached).,p.14,A (agreed)
 google-fsf-3.1,loss_of_control,acc_external,"we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.6,adjudicated
+magic-agi-1.0,cyber,mentioned,"Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",Covered Threat Models,A (agreed)
+magic-agi-1.0,cyber,response,"We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report 3 , if and when we observe evidence that our models are proficient at our Covered Threat Models.",Information Security Measures,A (agreed)
+magic-agi-1.0,cyber,acc_unmet,"These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",Deployment Mitigations,A (agreed)
+magic-agi-1.0,biochem,mentioned,"Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",Covered Threat Models,A (agreed)
+magic-agi-1.0,biochem,response,"We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report 3 , if and when we observe evidence that our models are proficient at our Covered Threat Models.",Information Security Measures,A (agreed)
+magic-agi-1.0,biochem,acc_unmet,"These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",Deployment Mitigations,A (agreed)
+magic-agi-1.0,ai_rnd,mentioned,"Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",Covered Threat Models,A (agreed)
+magic-agi-1.0,ai_rnd,response,"We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report 3 , if and when we observe evidence that our models are proficient at our Covered Threat Models.",Information Security Measures,A (agreed)
+magic-agi-1.0,ai_rnd,acc_unmet,"These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",Deployment Mitigations,A (agreed)
+magic-agi-1.0,autonomy,mentioned,"Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",Covered Threat Models,A (agreed)
+magic-agi-1.0,autonomy,response,"We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report 3 , if and when we observe evidence that our models are proficient at our Covered Threat Models.",Information Security Measures,A (agreed)
+magic-agi-1.0,autonomy,acc_unmet,"These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",Deployment Mitigations,A (agreed)
 magic-agi-1.0r,cyber,mentioned,"Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",Covered Threat Models,A (agreed)
 magic-agi-1.0r,cyber,response,"In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",Evaluations for Covered Threat Models,A (agreed)
 magic-agi-1.0r,cyber,acc_unmet,"These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",Deployment Mitigations,A (agreed)
@@ -111,6 +559,27 @@ magic-agi-1.0r,ai_rnd,acc_unmet,"These mitigations will be required in order to 
 magic-agi-1.0r,autonomy,mentioned,"If given access to its own weights and prompted to do so, the AI model could autonomously maintain its own operation executing cybercrime and using the proceeds to create arbitrarily many replicas of itself.",Covered Threat Models,A (agreed)
 magic-agi-1.0r,autonomy,response,"In cases where said risk for any threat model passes a ‘red-line’, we will adopt safety measures outlined in the Threat Mitigations section, which include delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained.",Evaluations for Covered Threat Models,A (agreed)
 magic-agi-1.0r,autonomy,acc_unmet,"These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",Deployment Mitigations,A (agreed)
+meta-scaling-2.0,cyber,mentioned,"currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",p.1,A (agreed)
+meta-scaling-2.0,cyber,threshold,meeting the simple-suite threshold is provisionally rated “high” risk for the given deployment scenario and such deployment will not be implemented.,p.29,A (agreed)
+meta-scaling-2.0,cyber,response,"Proceed with deployment of the Frontier AI only if sufficient mitigations are defined, implemented and validated to reduce risk to that of a moderate or lower model.",p.15,A (agreed)
+meta-scaling-2.0,cyber,acc_decider,"Based on this pre-mitigation risk assessment, the Chief AI Officer and Director of Alignment and Risk2 will assign a risk threshold.",p.6,A (agreed)
+meta-scaling-2.0,cyber,acc_unmet,"we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",p.17,A (agreed)
+meta-scaling-2.0,biochem,mentioned,"currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",p.1,A (agreed)
+meta-scaling-2.0,biochem,threshold,define high risk as a level of performance that could substantially contribute to one or more Threat Scenarios if the deployment proceeds as planned,p.31,A (agreed)
+meta-scaling-2.0,biochem,response,we will not deploy the model externally unless we have strong additional evidence that mitigations are sufficiently robust to adversarial attacks that the fully mitigated model is reduced to moderate or lower levels.,p.32,A (agreed)
+meta-scaling-2.0,biochem,acc_decider,"Based on this pre-mitigation risk assessment, the Chief AI Officer and Director of Alignment and Risk2 will assign a risk threshold.",p.6,A (agreed)
+meta-scaling-2.0,biochem,acc_unmet,"we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",p.17,A (agreed)
+meta-scaling-2.0,ai_rnd,mentioned,Autonomous AI R&D: Ability to autonomously and consistently complete tasks which are,p.22,A (agreed)
+meta-scaling-2.0,ai_rnd,threshold,"Autonomously complete research tasks which are representative of the work of a senior research engineer improving AI capabilities at Meta, and/or results in AI progress substantially accelerating from historical rates.",p.35,A (agreed)
+meta-scaling-2.0,ai_rnd,response,"Proceed with deployment of the Frontier AI only if sufficient mitigations are defined, implemented and validated to reduce risk to that of a moderate or lower model.",p.15,A (agreed)
+meta-scaling-2.0,ai_rnd,acc_decider,"Based on this pre-mitigation risk assessment, the Chief AI Officer and Director of Alignment and Risk2 will assign a risk threshold.",p.6,A (agreed)
+meta-scaling-2.0,ai_rnd,acc_unmet,"we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",p.17,A (agreed)
+meta-scaling-2.0,autonomy,mentioned,"autonomous acquisition of resources (e.g., computational, financial, or otherwise) as an instrumental means to accomplish their objectives more effectively, including through autonomous replication.",p.38,A (agreed)
+meta-scaling-2.0,loss_of_control,mentioned,"currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",p.1,A (agreed)
+meta-scaling-2.0,loss_of_control,threshold,"Selectively adapt performance on key capability and safety benchmarks in the context of an evaluation designed to elicit this behavior, where performance on target evaluations is substantially different from control evaluations",p.34,A (agreed)
+meta-scaling-2.0,loss_of_control,response,"Proceed with deployment of the Frontier AI only if sufficient mitigations are defined, implemented and validated to reduce risk to that of a moderate or lower model.",p.15,A (agreed)
+meta-scaling-2.0,loss_of_control,acc_decider,"Based on this pre-mitigation risk assessment, the Chief AI Officer and Director of Alignment and Risk2 will assign a risk threshold.",p.6,A (agreed)
+meta-scaling-2.0,loss_of_control,acc_unmet,"we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",p.17,A (agreed)
 meta-scaling-2.1,cyber,mentioned,"The Framework currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",p.1,A (agreed)
 meta-scaling-2.1,cyber,threshold,"we set the threshold for determination of 'high' risk level based on reliable and consistent success on realistic, high difficulty challenges",p.32,A (agreed)
 meta-scaling-2.1,cyber,response,"Should either scenario arise, we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",p.19,A (agreed)
@@ -135,6 +604,48 @@ meta-scaling-2.1,loss_of_control,threshold,TS.2.1*: AI disables or corrupts moni
 meta-scaling-2.1,loss_of_control,response,require remediation of all detected medium to high severity vulnerabilities before initiating new high- or critical-risk training runs with the impacted sandboxes,p.40,A (agreed)
 meta-scaling-2.1,loss_of_control,acc_decider,"Informed by this analysis, the Chief AI Officer or the Director of Alignment and Risk will determine whether to request further testing or information, require additional mitigations or",p.8,A (agreed)
 meta-scaling-2.1,loss_of_control,acc_unmet,require remediation of all detected medium to high severity vulnerabilities before initiating new high- or critical-risk training runs with the impacted sandboxes,p.40,A (agreed)
+meta-scaling-2025.02,cyber,mentioned,"will allow us to identify the most urgent catastrophic outcomes – i.e., cybersecurity and chemical and biological weapons risks",p.10,A (agreed)
+meta-scaling-2025.02,cyber,threshold,"Cyber 2: Automated discovery and reliable exploitation of critical zero-day vulnerabilities in current popular, security-best-practices software before defenders can find and patch them.",p.14,A (agreed)
+meta-scaling-2025.02,cyber,response,"If a frontier AI is assessed to have reached the critical risk threshold and cannot be mitigated, we will stop development and implement the measures outlined in Table 1.",p.12,A (agreed)
+meta-scaling-2025.02,cyber,acc_unmet,"If additional barriers do not exist, continue to investigate mitigations, and do not further develop the model until such a time as adequate mitigations have been identified.",p.13,A (agreed)
+meta-scaling-2025.02,biochem,mentioned,"will allow us to identify the most urgent catastrophic outcomes – i.e., cybersecurity and chemical and biological weapons risks",p.10,A (agreed)
+meta-scaling-2025.02,biochem,threshold,CB 1: Proliferation of known medium-impact biological and chemical weapons for low and moderate skill actors.,p.15,A (agreed)
+meta-scaling-2025.02,biochem,response,"If a frontier AI is assessed to have reached the critical risk threshold and cannot be mitigated, we will stop development and implement the measures outlined in Table 1.",p.12,A (agreed)
+meta-scaling-2025.02,biochem,acc_unmet,"If additional barriers do not exist, continue to investigate mitigations, and do not further develop the model until such a time as adequate mitigations have been identified.",p.13,A (agreed)
+meta-scaling-2025.02,ai_rnd,mentioned,"We also account for enabling capabilities, such as automated AI R&D, that might increase the potential for enhancements to model capabilities.",p.17,A (agreed)
+meta-scaling-2025.02,autonomy,mentioned,Web & tool automation and long term multi-step planning & execution: Ability to autonomously perform end to end tasks requiring multi-step planning,p.14,A (agreed)
+meta-scaling-2025.02,loss_of_control,mentioned,"This includes accounting for capabilities that might undermine reliability of results, such as deception.",p.16,A (agreed)
+meta-scaling-2025.03,cyber,mentioned,We include catastrophic outcomes in the following risk domains: Cybersecurity and Chemical & Biological risks.,p.14,A (agreed)
+meta-scaling-2025.03,cyber,threshold,TS.1.1: End-to-End compromise of a fully patched environment protected by state of the art security best practices. Complete end to end automation of,p.14,A (agreed)
+meta-scaling-2025.03,cyber,response,"If a frontier AI is assessed to have reached the critical risk threshold and cannot be mitigated, we will stop development and implement the measures outlined in Table 1.",p.12,A (agreed)
+meta-scaling-2025.03,cyber,acc_unmet,"If additional barriers do not exist, continue to investigate mitigations, and do not further develop the model until such a time as adequate mitigations have been identified.",p.13,A (agreed)
+meta-scaling-2025.03,biochem,mentioned,We include catastrophic outcomes in the following risk domains: Cybersecurity and Chemical & Biological risks.,p.14,A (agreed)
+meta-scaling-2025.03,biochem,threshold,CB 1: Proliferation of known medium-impact biological and chemical weapons for low and moderate skill actors.,p.15,A (agreed)
+meta-scaling-2025.03,biochem,response,"If a frontier AI is assessed to have reached the critical risk threshold and cannot be mitigated, we will stop development and implement the measures outlined in Table 1.",p.12,A (agreed)
+meta-scaling-2025.03,biochem,acc_unmet,"If additional barriers do not exist, continue to investigate mitigations, and do not further develop the model until such a time as adequate mitigations have been identified.",p.13,A (agreed)
+meta-scaling-2025.03,ai_rnd,mentioned,"We also account for enabling capabilities, such as automated AI R&D, that might increase the potential for enhancements to model capabilities.",p.17,A (agreed)
+meta-scaling-2025.03,autonomy,mentioned,execution: Ability to autonomously,p.14,A (agreed)
+meta-scaling-2025.03,loss_of_control,mentioned,"This includes accounting for capabilities that might undermine reliability of results, such as deception.",p.16,A (agreed)
+microsoft-fgf-2025.02,cyber,mentioned,"Offensive cyberoperations. A model’s ability to provide significant capability uplift to an actor seeking to carry out highly disruptive or destructive cyberattacks, including on critical infrastructure.",p.4,A (agreed)
+microsoft-fgf-2025.02,cyber,threshold,"a low-to-medium skilled actor’s ability to create and conduct highly disruptive or destructive cyber-attacks, including on critical infrastructure, for example, through discovering novel zero-day exploit chains",p.13,A (agreed)
+microsoft-fgf-2025.02,cyber,response,Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.,p.8,A (agreed)
+microsoft-fgf-2025.02,cyber,acc_decider,The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.,p.10,A (agreed)
+microsoft-fgf-2025.02,cyber,acc_unmet,"If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",p.9,A (agreed)
+microsoft-fgf-2025.02,biochem,mentioned,"Chemical, biological, radiological, and nuclear (CBRN) weapons. A model’s ability to provide significant capability uplift to an actor seeking to develop and deploy a chemical, biological, radiological, or nuclear weapon.",p.4,A (agreed)
+microsoft-fgf-2025.02,biochem,threshold,The model provides a meaningful uplift to an expert’s (PhD level education in related fields) ability to develop and deliver a novel CBRN threat.,p.12,A (agreed)
+microsoft-fgf-2025.02,biochem,response,Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.,p.8,A (agreed)
+microsoft-fgf-2025.02,biochem,acc_decider,The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.,p.10,A (agreed)
+microsoft-fgf-2025.02,biochem,acc_unmet,"If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",p.9,A (agreed)
+microsoft-fgf-2025.02,ai_rnd,mentioned,"Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",p.4,A (agreed)
+microsoft-fgf-2025.02,ai_rnd,threshold,"The model can fully automate the AI R&D pipeline at a fraction of human labor costs, majorly accelerating AI R&D.",p.14,A (agreed)
+microsoft-fgf-2025.02,ai_rnd,response,"If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",p.9,A (agreed)
+microsoft-fgf-2025.02,ai_rnd,acc_decider,The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.,p.10,A (agreed)
+microsoft-fgf-2025.02,ai_rnd,acc_unmet,"If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",p.9,A (agreed)
+microsoft-fgf-2025.02,autonomy,mentioned,"Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",p.4,A (agreed)
+microsoft-fgf-2025.02,autonomy,threshold,The model can autonomously complete a range of generalist tasks equivalent to multiple days’ worth of generalist human labor and appropriately correct for complex error conditions,p.14,A (agreed)
+microsoft-fgf-2025.02,autonomy,response,Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.,p.8,A (agreed)
+microsoft-fgf-2025.02,autonomy,acc_decider,The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.,p.10,A (agreed)
+microsoft-fgf-2025.02,autonomy,acc_unmet,"If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",p.9,A (agreed)
 microsoft-fgf-2026.02,cyber,mentioned,"Offensive cyberoperations. A model’s ability to provide significant capability uplift to an actor seeking to carry out highly disruptive or destructive cyberattacks, including on critical infrastructure.",p.4,A (agreed)
 microsoft-fgf-2026.02,cyber,threshold,"The model provides meaningful uplift to a low-to-medium skilled actor’s ability to create and conduct highly disruptive or destructive cyber-attacks, including on critical infrastructure, for example, through discovering novel zero-day exploit chains",p.13,A (agreed)
 microsoft-fgf-2026.02,cyber,response,Models posing high-risk on one or more tracked high-risk capability will be subject to security measures protective against most cybercrime groups and insider threats.,p.8,A (agreed)
@@ -158,6 +669,12 @@ microsoft-fgf-2026.02,autonomy,acc_unmet,"If, during the implementation of this 
 microsoft-fgf-2026.02,loss_of_control,mentioned,"Loss of control. A model’s ability to undermine effective human control through adaptive, deceptive, or self-reinforcing mechanisms such that, when deployed, a model can no longer be reliably directed, modified, or shut down.",p.4,A (agreed)
 microsoft-fgf-2026.02,loss_of_control,response,"If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",p.9,A (agreed)
 microsoft-fgf-2026.02,loss_of_control,acc_decider,The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.,p.10,adjudicated
+naver-asf-1.0,cyber,mentioned,"screened LLMs for signs of harmful content across seven domains—human rights violation, disinformation, inconsistency, cyberattacks, bias and discrimination, illegal content, and jailbreaking",p.7,A (agreed)
+naver-asf-1.0,biochem,mentioned,Our AI Safety Framework describes the second risk category as misusing AI systems to develop hazardous biochemical weapons or otherwise use them against their original purpose.,p.4,A (agreed)
+naver-asf-1.0,biochem,response,Deploy AI systems only after implementing guardrails through technological and policy actions and risks have been sufficiently mitigated,p.6,A (agreed)
+naver-asf-1.0,biochem,acc_decider,The board (or the risk management committee) that makes the final decisions on the matter,p.7,A (agreed)
+naver-asf-1.0,biochem,acc_unmet,Withhold deployment until additional safety measures are taken,p.6,A (agreed)
+naver-asf-1.0,loss_of_control,mentioned,NAVER’s AI Safety Framework defines the first category of risk as AI systems causing severe disempowerment of the human species.,p.4,A (agreed)
 nvidia-fara-2025.02,cyber,mentioned,Cyber offence e.g. risks from using AI for discovering or exploiting system vulnerabilities.,p.8,A (agreed)
 nvidia-fara-2025.02,biochem,mentioned,"Chemical, biological, radiological, and nuclear risks11 e.g. AI enabling the development and use of weapons of",p.8,A (agreed)
 nvidia-fara-2025.02,autonomy,mentioned,Another important strategy involves restricting advanced autonomy functions like self-assigning new sub-goals or executing long-horizon tasks,p.11,A (agreed)
@@ -183,6 +700,29 @@ openai-fgf-2026.05,loss_of_control,mentioned,"Risks stemming from the inability 
 openai-fgf-2026.05,loss_of_control,threshold,"demonstrates basic situational awareness when elicited and executes deceptive behaviors in narrow, highly prompted scenarios.",p.12,A (agreed)
 openai-fgf-2026.05,loss_of_control,response,"If residual risks associated with the model exceed acceptable risk levels, the model is not deployed unless additional mitigation measures are implemented that sufficiently minimize risk.",p.13,A (agreed)
 openai-fgf-2026.05,loss_of_control,acc_unmet,"For the EU Code of Practice, if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan",p.22,A (agreed)
+openai-pf-2.0,cyber,mentioned,"Cybersecurity capabilities that, in addition to helping protect vulnerable systems, can also create new risks of scaled cyberattacks and vulnerability exploitation.",p.2,A (agreed)
+openai-pf-2.0,cyber,threshold,[High] The model removes existing bottlenecks to scaling cyber operations including by automating end-to-end cyber operations against reasonably hardened targets OR by automating the discovery and exploitation of operationally relevant vulnerabilities.,p.6,A (agreed)
+openai-pf-2.0,cyber,response,Require security controls meeting High standard (Appendix C.3),p.6,A (agreed)
+openai-pf-2.0,cyber,acc_decider,"Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",p.16,A (agreed)
+openai-pf-2.0,cyber,acc_external,Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.,p.22,A (agreed)
+openai-pf-2.0,cyber,acc_unmet,Until we have specified safeguards and security,p.7,A (agreed)
+openai-pf-2.0,biochem,mentioned,"Biological and Chemical capabilities that, in addition to unlocking discoveries and cures, can also reduce barriers to creating and using biological or chemical weapons.",p.2,A (agreed)
+openai-pf-2.0,biochem,threshold,tools and equipment to complete the full engineering and/or synthesis cycle of a regulated or novel biological threat without human intervention.,p.6,A (agreed)
+openai-pf-2.0,biochem,response,Require security controls meeting High standard (Appendix C.3),p.6,A (agreed)
+openai-pf-2.0,biochem,acc_decider,"Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",p.16,A (agreed)
+openai-pf-2.0,biochem,acc_external,Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.,p.22,A (agreed)
+openai-pf-2.0,biochem,acc_unmet,Until we have specified safeguards and security,p.6,A (agreed)
+openai-pf-2.0,ai_rnd,mentioned,"AI Self-improvement capabilities that, in addition to unlocking helpful capabilities faster, could also create new challenges for human control of AI systems.",p.2,A (agreed)
+openai-pf-2.0,ai_rnd,threshold,"[High] The model’s impact is equivalent to giving every OpenAI researcher a highly performant mid-career research engineer assistant, relative to those researchers’ 2024 baseline.",p.7,A (agreed)
+openai-pf-2.0,ai_rnd,response,Require security controls meeting High standard (Appendix C.3),p.7,A (agreed)
+openai-pf-2.0,ai_rnd,acc_decider,"Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",p.16,A (agreed)
+openai-pf-2.0,ai_rnd,acc_external,Ensure security controls and practices are validated regularly by third-party auditors to ensure compliance with relevant standards and robustness against identified threats.,p.22,A (agreed)
+openai-pf-2.0,ai_rnd,acc_unmet,Until we have specified safeguards and security,p.7,A (agreed)
+openai-pf-2.0,autonomy,mentioned,Long-range Autonomy: ability for a model to execute a long-horizon sequence of actions sufficient to,p.8,A (agreed)
+openai-pf-2.0,loss_of_control,mentioned,"AI Self-improvement capabilities that, in addition to unlocking helpful capabilities faster, could also create new challenges for human control of AI systems.",p.2,A (agreed)
+openai-pf-2.0,loss_of_control,response,Require safeguards meeting High standard against misalignment (Appendix C.2) for large-scale internal deployment,p.6,A (agreed)
+openai-pf-2.0,loss_of_control,acc_decider,"Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",p.16,A (agreed)
+openai-pf-2.0,loss_of_control,acc_unmet,Require safeguards meeting High standard against misalignment (Appendix C.2) for large-scale internal deployment,p.6,adjudicated
 openai-pf-2.0r,cyber,mentioned,"Cybersecurity capabilities that, in addition to helping protect vulnerable systems, can also create new risks of scaled cyberattacks and vulnerability exploitation.",p.2,A (agreed)
 openai-pf-2.0r,cyber,threshold,[High] The model removes existing bottlenecks to scaling cyber operations including by automating end-to-end cyber operations against reasonably hardened targets OR by automating the discovery and exploitation of operationally relevant vulnerabilities.,p.6,A (agreed)
 openai-pf-2.0r,cyber,response,do not deploy models that reach a High capability threshold until the associated risks that they pose are sufficiently minimized.,p.4,A (agreed)
@@ -206,6 +746,54 @@ openai-pf-2.0r,loss_of_control,mentioned,"Undermining Safeguards: ability and pr
 openai-pf-2.0r,loss_of_control,response,Covered systems that reach High capability must have safeguards that sufficiently minimize the associated risk of severe harm before they are deployed. Systems that reach Critical capability also require safeguards that sufficiently minimize associated risks during development.,p.12,adjudicated
 openai-pf-2.0r,loss_of_control,acc_decider,"Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",p.16,adjudicated
 openai-pf-2.0r,loss_of_control,acc_unmet,We will track and appropriately investigate any reported or otherwise identified potential instances of noncompliance with this policy,p.13,adjudicated
+openai-pf-beta,cyber,mentioned,"Cybersecurity is focused on risks related to use of the model for cyber-exploitation to disrupt confidentiality, integrity, and/or availability of computer systems.",p.8,A (agreed)
+openai-pf-beta,cyber,threshold,strategies for cyberattacks against hardened targets given only a high level desired goal.,p.8,A (agreed)
+openai-pf-beta,cyber,response,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,cyber,acc_decider,"The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",p.23,A (agreed)
+openai-pf-beta,cyber,acc_external,"Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",p.25,A (agreed)
+openai-pf-beta,cyber,acc_unmet,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,biochem,mentioned,"CBRN is focused on risks related to model-assisted creation of chemical, biological, radiological, and/or nuclear threats.",p.9,A (agreed)
+openai-pf-beta,biochem,threshold,to be able to create a known CBRN threat OR model can be connected to tools and equipment to complete,p.9,A (agreed)
+openai-pf-beta,biochem,response,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,biochem,acc_decider,"The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",p.23,A (agreed)
+openai-pf-beta,biochem,acc_external,"Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",p.25,A (agreed)
+openai-pf-beta,biochem,acc_unmet,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,ai_rnd,mentioned,"include autonomous replication, adaptation, and AI R&D as part of the model autonomy risk category",p.12,A (agreed)
+openai-pf-beta,ai_rnd,threshold,"OR model can conduct AI research fully autonomously (e.g., autonomously identify and validate a 2x compute efficiency improvement)",p.11,A (agreed)
+openai-pf-beta,ai_rnd,response,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,ai_rnd,acc_decider,"The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",p.23,A (agreed)
+openai-pf-beta,ai_rnd,acc_external,"Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",p.25,A (agreed)
+openai-pf-beta,ai_rnd,acc_unmet,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,autonomy,mentioned,Model autonomy enables actors to run scaled misuse that can adapt to environmental changes and evade attempts to mitigate or shut down operations.,p.11,A (agreed)
+openai-pf-beta,autonomy,threshold,"Model can profitably survive and replicate in the wild given minimal human instruction, i.e., without listing explicit approaches",p.11,A (agreed)
+openai-pf-beta,autonomy,response,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,autonomy,acc_decider,"The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",p.23,A (agreed)
+openai-pf-beta,autonomy,acc_external,"Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",p.25,A (agreed)
+openai-pf-beta,autonomy,acc_unmet,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,loss_of_control,mentioned,"If the model is able to successfully replicate and survive or self-exfiltrate, controlling the model would be very difficult. Such a model might be able to also adapt to humans attempting to shut it down.",p.11,A (agreed)
+openai-pf-beta,loss_of_control,threshold,OR model can self-exfiltrate under current prevailing security,p.11,A (agreed)
+openai-pf-beta,loss_of_control,response,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+openai-pf-beta,loss_of_control,acc_decider,"The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",p.23,A (agreed)
+openai-pf-beta,loss_of_control,acc_external,"Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",p.25,A (agreed)
+openai-pf-beta,loss_of_control,acc_unmet,"if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place",p.21,A (agreed)
+xai-framework-2025.08,cyber,mentioned,"we recognize that advanced AI models could lower the barrier to entry for bad actors seeking to develop chemical, biological, radiological, or nuclear (“CBRN”) or cyber weapons",p.2,A (agreed)
+xai-framework-2025.08,biochem,mentioned,Biological and Chemical Weapons: xAI approaches addressing risks using threat modeling.,p.4,A (agreed)
+xai-framework-2025.08,biochem,threshold,Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.,p.5,A (agreed)
+xai-framework-2025.08,biochem,response,Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.,p.5,A (agreed)
+xai-framework-2025.08,ai_rnd,mentioned,"Assess the percent of code or percent of pull requests at xAI generated by our models, or other potential metrics related to AI research and development automation.",p.8,A (agreed)
+xai-framework-2025.08,autonomy,mentioned,"(e.g., to surreptitiously replicate across servers or prevent shutdown) that we also track as part of managing malicious use risks.",p.2,A (agreed)
+xai-framework-2025.08,loss_of_control,mentioned,"xAI has focused on the risks of malicious use and loss of control, which cover many different specific risk scenarios.",p.1,A (agreed)
+xai-framework-2025.08,loss_of_control,threshold,Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK.,p.7,A (agreed)
+xai-framework-2025.08,loss_of_control,response,Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK.,p.7,A (agreed)
+xai-framework-2025.12,cyber,mentioned,"we recognize that advanced AI models could lower the barrier to entry for bad actors seeking to develop chemical, biological, radiological, or nuclear (“CBRN”) or cyber weapons",p.3,A (agreed)
+xai-framework-2025.12,biochem,mentioned,Biological and Chemical Weapons: xAI approaches addressing risks using threat modeling.,p.4,A (agreed)
+xai-framework-2025.12,biochem,threshold,Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.,p.6,A (agreed)
+xai-framework-2025.12,biochem,response,Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.,p.6,A (agreed)
+xai-framework-2025.12,ai_rnd,mentioned,"Assess the percent of code or percent of pull requests at xAI generated by our models, or other potential metrics related to AI research and development automation.",p.8,A (agreed)
+xai-framework-2025.12,autonomy,mentioned,"(e.g., to surreptitiously replicate across servers or prevent shutdown) that we also track as part of managing malicious use risks.",p.2,A (agreed)
+xai-framework-2025.12,loss_of_control,mentioned,"xAI has focused on the risks of malicious use and loss of control, which cover many different specific risk scenarios.",p.2,A (agreed)
+xai-framework-2025.12,loss_of_control,threshold,Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK.,p.7,A (agreed)
+xai-framework-2025.12,loss_of_control,response,Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK.,p.7,A (agreed)
 xai-framework-2026.06,cyber,mentioned,xAI treats AI-accelerated malicious cyber offense as a core risk domain.,p.4,A (agreed)
 xai-framework-2026.06,cyber,response,"xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",p.6,A (agreed)
 xai-framework-2026.06,biochem,mentioned,"risk of malicious use includes risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear threat",p.1,A (agreed)
@@ -214,3 +802,8 @@ xai-framework-2026.06,autonomy,mentioned,"speculation that a superintelligent AI
 xai-framework-2026.06,autonomy,response,"xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",p.6,adjudicated
 xai-framework-2026.06,loss_of_control,mentioned,"Our assessment of risk of loss of control includes risks from humans losing the ability to reliably direct, modify, or shut down a model",p.1,A (agreed)
 xai-framework-2026.06,loss_of_control,response,"xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",p.6,A (agreed)
+xai-framework-draft,cyber,mentioned,"we recognize that advanced AI models could lower the barrier to entry for developing chemical, biological, radiological, or nuclear (CBRN) or cyber weapons",p.1,A (agreed)
+xai-framework-draft,biochem,mentioned,"we recognize that advanced AI models could lower the barrier to entry for developing chemical, biological, radiological, or nuclear (CBRN) or cyber weapons",p.1,A (agreed)
+xai-framework-draft,ai_rnd,mentioned,"assess the percent of code or percent of pull requests at xAI generated by Grok, or other potential metrics related to AI research and development automation.",p.6,A (agreed)
+xai-framework-draft,autonomy,mentioned,"would measure whether AI systems would care about gaining power, increasing their fitness (propagating AIs similar to themselves)",p.5,adjudicated
+xai-framework-draft,loss_of_control,mentioned,Our aim is to design safeguards into Grok to avoid losing control and thereby avoid unintended catastrophic outcomes when Grok is used.,p.4,A (agreed)

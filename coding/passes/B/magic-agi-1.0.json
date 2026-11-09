@@ -1,0 +1,199 @@
+{
+ "doc_id": "magic-agi-1.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:04:22Z",
+ "other_risks": [],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",
+    "page": "Covered Threat Models",
+    "note": "Cyberoffense."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The four threat-model capability levels in the Covered Threat Models table are described by the document as 'high-level, illustrative capability levels'; the only quantitative trigger (50% on LiveCodeBench, Threshold Definition) is a general coding-benchmark trigger, not specific to this domain."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report 3 , if and when we observe evidence that our models are proficient at our Covered Threat Models.",
+    "page": "Threat Mitigations / Information Security Measures",
+    "note": "Named measures: hardening model weight and code security, internal compartmentalization. Also 'delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained' (Evaluations for Covered Threat Models)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The Board only receives reports and approves changes to the general benchmark threshold ('Updating Our Understanding'); no named body decides whether a threat-model threshold is reached or the response is adequate."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'potentially in collaboration with external advisers' is hedged; 'input from external security and AI safety advisers' only accompanies Board approval of threshold changes."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Threat Mitigations / Deployment Mitigations",
+    "note": "Wide availability requires the deployment mitigations once evaluations trigger."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",
+    "page": "Covered Threat Models",
+    "note": "'potentially Biological Weapons Assistance' is a Covered Threat Model."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The four threat-model capability levels in the Covered Threat Models table are described by the document as 'high-level, illustrative capability levels'; the only quantitative trigger (50% on LiveCodeBench, Threshold Definition) is a general coding-benchmark trigger, not specific to this domain."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report 3 , if and when we observe evidence that our models are proficient at our Covered Threat Models.",
+    "page": "Threat Mitigations / Information Security Measures",
+    "note": "Named measures: hardening model weight and code security, internal compartmentalization. Also 'delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained' (Evaluations for Covered Threat Models)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The Board only receives reports and approves changes to the general benchmark threshold ('Updating Our Understanding'); no named body decides whether a threat-model threshold is reached or the response is adequate."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'potentially in collaboration with external advisers' is hedged; 'input from external security and AI safety advisers' only accompanies Board approval of threshold changes."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Threat Mitigations / Deployment Mitigations",
+    "note": "Wide availability requires the deployment mitigations once evaluations trigger."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",
+    "page": "Covered Threat Models",
+    "note": "AI R&D."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The four threat-model capability levels in the Covered Threat Models table are described by the document as 'high-level, illustrative capability levels'; the only quantitative trigger (50% on LiveCodeBench, Threshold Definition) is a general coding-benchmark trigger, not specific to this domain."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report 3 , if and when we observe evidence that our models are proficient at our Covered Threat Models.",
+    "page": "Threat Mitigations / Information Security Measures",
+    "note": "Named measures: hardening model weight and code security, internal compartmentalization. Also 'delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained' (Evaluations for Covered Threat Models)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The Board only receives reports and approves changes to the general benchmark threshold ('Updating Our Understanding'); no named body decides whether a threat-model threshold is reached or the response is adequate."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'potentially in collaboration with external advisers' is hedged; 'input from external security and AI safety advisers' only accompanies Board approval of threshold changes."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Threat Mitigations / Deployment Mitigations",
+    "note": "Wide availability requires the deployment mitigations once evaluations trigger."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our current understanding suggests at least four threat models of concern as our AI systems become more capable: Cyberoffense, AI R&D, Autonomous Replication and Adaptation (ARA), and potentially Biological Weapons Assistance.",
+    "page": "Covered Threat Models",
+    "note": "Autonomous Replication and Adaptation (ARA)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The four threat-model capability levels in the Covered Threat Models table are described by the document as 'high-level, illustrative capability levels'; the only quantitative trigger (50% on LiveCodeBench, Threshold Definition) is a general coding-benchmark trigger, not specific to this domain."
+   },
+   "response": {
+    "value": 1,
+    "quote": "We will implement the following information security measures, based on recommendations in RAND’s Securing Artificial Intelligence Model Weights report 3 , if and when we observe evidence that our models are proficient at our Covered Threat Models.",
+    "page": "Threat Mitigations / Information Security Measures",
+    "note": "Named measures: hardening model weight and code security, internal compartmentalization. Also 'delaying or pausing development in the worst case until the dangerous capability detected has been mitigated or contained' (Evaluations for Covered Threat Models)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "The Board only receives reports and approves changes to the general benchmark threshold ('Updating Our Understanding'); no named body decides whether a threat-model threshold is reached or the response is adequate."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'potentially in collaboration with external advisers' is hedged; 'input from external security and AI safety advisers' only accompanies Board approval of threshold changes."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "These mitigations will be required in order to make our models available for wide use, if the evaluations for our Covered Threat Models trigger.",
+    "page": "Threat Mitigations / Deployment Mitigations",
+    "note": "Wide availability requires the deployment mitigations once evaluations trigger."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No misalignment, deception, sandbagging, shutdown-resistance or loss-of-control wording anywhere. ARA threshold is about replicating via cybercrime proceeds; AI R&D is about unsafe proliferation of capabilities."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to cover for this risk."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   }
+  }
+ }
+}

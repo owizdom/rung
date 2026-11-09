@@ -1,0 +1,199 @@
+{
+ "doc_id": "microsoft-fgf-2025.02",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:03:40Z",
+ "other_risks": [],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Offensive cyberoperations. A model’s ability to provide significant capability uplift to an actor seeking to carry out highly disruptive or destructive cyberattacks, including on critical infrastructure.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model provides meaningful uplift to a low-to-medium skilled actor’s ability to create and conduct highly disruptive or destructive cyber-attacks, including on critical infrastructure",
+    "page": "p.13",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Framework-wide for each tracked capability; named measures (restricted access, defense in depth, security red teaming) follow on p.8; also further review and mitigations before deployment (p.7). Pause commitment p.9."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement is hedged: 'As appropriate, evaluations involve qualified and expert external actors' (p.7), red teaming 'using third parties where appropriate' (p.8), 'external expertise where appropriate' (p.9); board oversight and internal audit (p.10) are internal; public sharing is not review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": ""
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Chemical, biological, radiological, and nuclear (CBRN) weapons. A model’s ability to provide significant capability uplift to an actor seeking to develop and deploy a chemical, biological, radiological, or nuclear weapon.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model provides a meaningful uplift to an expert’s (PhD level education in related fields) ability to develop and deliver a novel CBRN threat.",
+    "page": "p.12",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Framework-wide for each tracked capability; named measures (restricted access, defense in depth, security red teaming) follow on p.8; also further review and mitigations before deployment (p.7). Pause commitment p.9."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement is hedged: 'As appropriate, evaluations involve qualified and expert external actors' (p.7), red teaming 'using third parties where appropriate' (p.8), 'external expertise where appropriate' (p.9); board oversight and internal audit (p.10) are internal; public sharing is not review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": ""
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can fully automate the AI R&D pipeline at a fraction of human labor costs, majorly accelerating AI R&D.",
+    "page": "p.14",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Framework-wide for each tracked capability; named measures (restricted access, defense in depth, security red teaming) follow on p.8; also further review and mitigations before deployment (p.7). Pause commitment p.9."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement is hedged: 'As appropriate, evaluations involve qualified and expert external actors' (p.7), red teaming 'using third parties where appropriate' (p.8), 'external expertise where appropriate' (p.9); board oversight and internal audit (p.10) are internal; public sharing is not review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": ""
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Advanced autonomy. A model’s ability to complete expert-level tasks autonomously, including AI research and development.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "The model can autonomously complete a range of generalist tasks equivalent to multiple days’ worth of generalist human labor and appropriately correct for complex error conditions",
+    "page": "p.14",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "Models posing high-risk on one or more tracked capability will be subject to security measures protective against most cybercrime groups and insider threats.",
+    "page": "p.8",
+    "note": "Framework-wide for each tracked capability; named measures (restricted access, defense in depth, security red teaming) follow on p.8; also further review and mitigations before deployment (p.7). Pause commitment p.9."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The Executive Officers (or their delegates) will make the final decision on whether to approve the recommendation for secure and trustworthy deployment.",
+    "page": "p.10",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "External involvement is hedged: 'As appropriate, evaluations involve qualified and expert external actors' (p.7), red teaming 'using third parties where appropriate' (p.8), 'external expertise where appropriate' (p.9); board oversight and internal audit (p.10) are internal; public sharing is not review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",
+    "page": "p.9",
+    "note": ""
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named: no misalignment, shutdown, oversight-undermining or self-exfiltration; 'automated monitoring in chain-of-thought outputs' (p.9) is a generic mitigation, and weights security (p.8) is not self-exfiltration."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named: no misalignment, shutdown, oversight-undermining or self-exfiltration; 'automated monitoring in chain-of-thought outputs' (p.9) is a generic mitigation, and weights security (p.8) is not self-exfiltration."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named: no misalignment, shutdown, oversight-undermining or self-exfiltration; 'automated monitoring in chain-of-thought outputs' (p.9) is a generic mitigation, and weights security (p.8) is not self-exfiltration."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named: no misalignment, shutdown, oversight-undermining or self-exfiltration; 'automated monitoring in chain-of-thought outputs' (p.9) is a generic mitigation, and weights security (p.8) is not self-exfiltration."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control risk named: no misalignment, shutdown, oversight-undermining or self-exfiltration; 'automated monitoring in chain-of-thought outputs' (p.9) is a generic mitigation, and weights security (p.8) is not self-exfiltration."
+   }
+  }
+ }
+}

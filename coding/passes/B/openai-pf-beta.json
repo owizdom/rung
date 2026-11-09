@@ -1,0 +1,203 @@
+{
+ "doc_id": "openai-pf-beta",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:04:22Z",
+ "other_risks": [
+  "persuasion",
+  "nuclear and radiological",
+  "deception and social engineering"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cybersecurity is focused on risks related to use of the model for cyber-exploitation to disrupt confidentiality, integrity, and/or availability of computer systems.",
+    "page": "p.8",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Tool-augmented model can identify and develop",
+    "page": "p.8",
+    "note": "High level; cell on p.8 triggers p.21 restrictions."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place for the relevant post-mitigation risk level to be back at most to “medium” level.",
+    "page": "p.21",
+    "note": "Restricting deployment section; applies to every tracked category at High pre-mitigation. p.20 asset-protection bullets are hedged ('might require')."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "Leadership makes the final decision (p.24), BoD can reverse; SAG only advises."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place for the relevant post-mitigation risk level to be back at most to “medium” level.",
+    "page": "p.21",
+    "note": "Not deploying until mitigations are in place is the required response. Ambiguous under E4 because 'reasonably mitigations' are unnamed."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN is focused on risks related to model-assisted creation of chemical, biological, radiological, and/or nuclear threats.",
+    "page": "p.9",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Model enables an expert to develop a novel threat",
+    "page": "p.9",
+    "note": "High level, table cell on p.9."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place for the relevant post-mitigation risk level to be back at most to “medium” level.",
+    "page": "p.21",
+    "note": "Restricting deployment section; applies to every tracked category at High pre-mitigation. p.20 asset-protection bullets are hedged ('might require')."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "Leadership makes the final decision (p.24), BoD can reverse; SAG only advises."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place for the relevant post-mitigation risk level to be back at most to “medium” level.",
+    "page": "p.21",
+    "note": "Not deploying until mitigations are in place is the required response. Ambiguous under E4 because 'reasonably mitigations' are unnamed."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Model can execute open-ended, novel ML tasks on a production ML codebase that would constitute a significant step on the critical path to model self-improvement",
+    "page": "p.11",
+    "note": "Also p.12: AI R&D is part of the model autonomy category."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Model can execute open-ended, novel ML tasks on a production ML codebase that would constitute a significant step on the critical path to model self-improvement",
+    "page": "p.11",
+    "note": "High level of Model autonomy table; Critical level adds fully autonomous AI research."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place for the relevant post-mitigation risk level to be back at most to “medium” level.",
+    "page": "p.21",
+    "note": "Restricting deployment section; applies to every tracked category at High pre-mitigation. p.20 asset-protection bullets are hedged ('might require')."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "Leadership makes the final decision (p.24), BoD can reverse; SAG only advises."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place for the relevant post-mitigation risk level to be back at most to “medium” level.",
+    "page": "p.21",
+    "note": "Not deploying until mitigations are in place is the required response. Ambiguous under E4 because 'reasonably mitigations' are unnamed."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Model autonomy enables actors to run scaled misuse that can adapt to environmental changes and evade attempts to mitigate or shut down operations.",
+    "page": "p.11",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Model can profitably survive and replicate in the wild given minimal human instruction, i.e., without listing explicit approaches",
+    "page": "p.11",
+    "note": "Critical level of Model autonomy, table cell p.11."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place for the relevant post-mitigation risk level to be back at most to “medium” level.",
+    "page": "p.21",
+    "note": "Restricting deployment section; applies to every tracked category at High pre-mitigation. p.20 asset-protection bullets are hedged ('might require')."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "Leadership makes the final decision (p.24), BoD can reverse; SAG only advises."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) at least “high” pre-mitigation risk in any of the considered categories, we will not continue with deployment of that model (by the time we hit “high” pre-mitigation risk) until there are reasonably mitigations in place for the relevant post-mitigation risk level to be back at most to “medium” level.",
+    "page": "p.21",
+    "note": "Not deploying until mitigations are in place is the required response. Ambiguous under E4 because 'reasonably mitigations' are unnamed."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomy is also a prerequisite for self-exfiltration, self-improvement, and resource acquisition.",
+    "page": "p.11",
+    "note": "Critical row also names self-exfiltration and difficulty shutting the model down; p.21 requires evidence of alignment."
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "model can self-exfiltrate under current prevailing security",
+    "page": "p.11",
+    "note": "Critical level, B2: the threshold text is about self-exfiltration; rationale cell says controlling the model would be very difficult."
+   },
+   "response": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) “critical” pre-mitigation risk along any risk category, we commit to ensuring there are sufficient mitigations in place for that model",
+    "page": "p.21",
+    "note": "Restricting development section; also requires dependable evidence the model is sufficiently aligned not to initiate critical tasks."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",
+    "page": "p.23",
+    "note": "Leadership makes the final decision (p.24), BoD can reverse; SAG only advises."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "Scorecard evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties to ensure accurate reporting of results",
+    "page": "p.25",
+    "note": "Framework-wide audit of Scorecard evaluations and mitigations."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "if we reach (or are forecasted to reach) “critical” pre-mitigation risk along any risk category, we commit to ensuring there are sufficient mitigations in place for that model",
+    "page": "p.21",
+    "note": "Development continues only with sufficient mitigations in place; ambiguous under E4 as mitigations are unnamed."
+   }
+  }
+ }
+}

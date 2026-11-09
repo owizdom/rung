@@ -16,6 +16,7 @@ from coding.check import RISKS, load_pass
 
 ROOT = Path(__file__).resolve().parents[1]
 ADJ = ROOT / "coding" / "adjudication.csv"
+XV = ROOT / "coding" / "cross_version.csv"
 ADJ_FIELDS = ["doc_id", "risk", "rung", "value", "quote", "page", "ruling"]
 DIS_FIELDS = ["doc_id", "risk", "rung", "a_value", "a_quote", "a_page", "a_note", "b_value", "b_quote", "b_page", "b_note"]
 CODE_FIELDS = ["doc_id", "risk"] + RUNGS + ["level", "level_loose", "gaps", "other_risks"]
@@ -27,14 +28,27 @@ def load_adj() -> dict:
     return {(r["doc_id"], r["risk"], r["rung"]): r for r in csv.DictReader(ADJ.open(encoding="utf-8"))}
 
 
-def merge_doc(a: dict, b: dict, adj: dict):
+def load_xv() -> dict:
+    """Cross-version rulings: made with both versions side by side; they override earlier values."""
+    if not XV.exists():
+        return {}
+    return {(r["doc_id"], r["risk"], r["rung"]): r for r in csv.DictReader(XV.open(encoding="utf-8"))}
+
+
+def merge_doc(a: dict, b: dict, adj: dict, xv: dict | None = None):
     did = a["doc_id"]
+    xv = xv or {}
     dis, rows, quotes = [], [], []
     for risk in RISKS:
         vals = {}
         for g in RUNGS:
             ca, cb = a["risks"][risk][g], b["risks"][risk][g]
-            if ca["value"] == cb["value"]:
+            if (did, risk, g) in xv:
+                r = xv[(did, risk, g)]
+                vals[g] = int(r["value"])
+                if vals[g]:
+                    quotes.append({"doc_id": did, "risk": risk, "rung": g, "quote": r["quote"], "page": r.get("page", ""), "source": "cross-version"})
+            elif ca["value"] == cb["value"]:
                 vals[g] = ca["value"]
                 if ca["value"]:
                     quotes.append({"doc_id": did, "risk": risk, "rung": g, "quote": ca["quote"], "page": ca["page"], "source": "A (agreed)"})
@@ -65,9 +79,10 @@ def main(argv=None) -> int:
     if a.docs:
         ids = [i for i in ids if i in a.docs]
     adj = load_adj()
+    xv = load_xv()
     all_rows, all_dis, all_q = [], [], []
     for did in ids:
-        rows, dis = merge_doc(A[did], B[did], adj)
+        rows, dis = merge_doc(A[did], B[did], adj, xv)
         all_dis += dis
         if rows:
             all_rows += rows
@@ -79,6 +94,9 @@ def main(argv=None) -> int:
     print(f"documents {len(ids)}, unresolved disagreements {len(all_dis)}")
     if all_dis:
         return 1
+    if a.docs:
+        print("subset run: codes.csv not written (run without --docs for the final merge)")
+        return 0
     with (ROOT / "coding" / "codes.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=CODE_FIELDS)
         w.writeheader()

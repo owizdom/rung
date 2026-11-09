@@ -1,0 +1,206 @@
+{
+ "doc_id": "naver-asf-1.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:04:22Z",
+ "other_risks": [
+  "bias and discrimination",
+  "disinformation",
+  "human rights violation",
+  "illegal content",
+  "jailbreaking",
+  "inconsistency"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "human rights violation, disinformation, inconsistency, cyberattacks, bias and discrimination, illegal content, and jailbreaking",
+    "page": "p.7",
+    "note": "Red Teaming Challenge domains; thin mention, cyberattack harmful content screened. Ambiguous whether this is a considered risk."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No cyber-specific level; the risk matrix is generic and cyberattacks appear only in the red-teaming list (p.7)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No committed cyber response; the generic matrix (p.6) is only exemplified by biochemical weaponization (p.5)."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to cover for this risk; the April red-teaming challenge (p.7) is a past event, not a commitment."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response for this risk."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our AI Safety Framework describes the second risk category as misusing AI systems to develop hazardous biochemical weapons or otherwise use them against their original purpose.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No capability level for biochem. The matrix (p.5-6) is by use case and need for guardrails, with 'Special use case: biochemical weaponization' only as an example."
+   },
+   "response": {
+    "value": 1,
+    "quote": "Open AI systems only to authorized users to mitigate risks",
+    "page": "p.6",
+    "note": "Special-purpose cell of the matrix, example on p.5 is biochemical weaponization; same matrix says 'Do not deploy AI systems' for High risk. Rules stated as imperatives in a matrix (E1), ambiguous."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The board (or the risk management committee) that makes the final decisions on the matter",
+    "page": "p.7",
+    "note": "AI Governance; scope 'the matter' is potential risks raised by the risk management working group, so coverage of this risk is generic."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No commitment to external review: partnerships and the April red-teaming challenge (p.7) are descriptive; 'collaborate with external experts' (p.9) is about governance structure."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "Withhold deployment until additional safety measures are taken",
+    "page": "p.6",
+    "note": "Matrix cell general purpose, high need; the delay-until-mitigated cell on p.5 covers managing risks. Not specific to biochem, ambiguous under E4."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named anywhere in the document."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to cover for this risk."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not named; only 'AI-enabled automation' is mentioned (p.4) as something loss of control goes beyond."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to decide for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Nothing to cover for this risk."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not named."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "NAVER’s AI Safety Framework defines the first category of risk as AI systems causing severe disempowerment of the human species.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "when performance is seen to have increased six times, they will be assessed even before the three-month term is up",
+    "page": "p.5",
+    "note": "Risk assessment scale for loss of control; 6x performance (computing) triggers an earlier evaluation, E5."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Only periodic evaluation and review (p.5); no safeguard, restriction or halt is committed for loss of control. The deploy/do-not-deploy matrix is stated to be for the 'misuse' category (p.5)."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "The board (or the risk management committee) that makes the final decisions on the matter",
+    "page": "p.7",
+    "note": "AI Governance; generic coverage of risk issues, so ambiguous for this risk."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No external review committed; collaboration lines on p.7 and p.9 are descriptive or about governance building."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No required response, so nothing said about it not being met."
+   }
+  }
+ }
+}

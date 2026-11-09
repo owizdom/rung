@@ -1,0 +1,201 @@
+{
+ "doc_id": "google-fsf-2.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:02:22Z",
+ "other_risks": [
+  "radiological and nuclear (within CBRN)"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cyber: Risks of models assisting in the development, preparation, and/or execution of a cyber attack.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Cyber autonomy level 1: Can be used to drastically reduce the cost (e.g. through full automation) of carrying out end-to-end cyberattacks",
+    "page": "p.5",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "takes place only after the appropriate corporate governance body determines the safety case regarding each CCL the model has reached to be adequate.",
+    "page": "p.4",
+    "note": "Deployment mitigation process (safeguards plus safety case) applies to models reaching a CCL; gate is E3 style. Security levels on p.5-6 are only 'recommended'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "the response plan will be reviewed and approved by appropriate corporate governance bodies such as the Google DeepMind AGI Safety Council, Google DeepMind Responsibility and Safety Council, and/or Google Trust & Compliance Council.",
+    "page": "p.7",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.3",
+    "note": "Ambiguous: 'as needed' read as not voiding per E2; external experts inform the threshold analysis. p.3 evaluators 'may' be external (hedged); p.8 disclosure to government is sharing only."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.3 'response plan may involve putting deployment or further development on hold' is hedged ('may'); the p.4 deployment gate is a safety-case adequacy gate with no required safeguard stated as unmet (E4). No non-compliance procedure."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "CBRN: Risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear (“CBRN”) attack.",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "CBRN uplift 1: Can be used to significantly assist a low-resourced actor with dual-use scientific protocols, resulting in a substantial increase in ability to cause a mass casualty event",
+    "page": "p.5",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "takes place only after the appropriate corporate governance body determines the safety case regarding each CCL the model has reached to be adequate.",
+    "page": "p.4",
+    "note": "Deployment mitigation process (safeguards plus safety case) applies to models reaching a CCL; gate is E3 style. Security levels on p.5-6 are only 'recommended'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "the response plan will be reviewed and approved by appropriate corporate governance bodies such as the Google DeepMind AGI Safety Council, Google DeepMind Responsibility and Safety Council, and/or Google Trust & Compliance Council.",
+    "page": "p.7",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.3",
+    "note": "Ambiguous: 'as needed' read as not voiding per E2; external experts inform the threshold analysis. p.3 evaluators 'may' be external (hedged); p.8 disclosure to government is sharing only."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.3 'response plan may involve putting deployment or further development on hold' is hedged ('may'); the p.4 deployment gate is a safety-case adequacy gate with no required safeguard stated as unmet (E4). No non-compliance procedure."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Machine Learning R&D: Risks of the misuse of models capable of accelerating the rate of AI progress to potentially destabilizing levels",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Machine Learning R&D autonomy level 1: Can fully automate the AI R&D pipeline at a competitive cost.",
+    "page": "p.6",
+    "note": ""
+   },
+   "response": {
+    "value": 1,
+    "quote": "takes place only after the appropriate corporate governance body determines the safety case regarding each CCL the model has reached to be adequate.",
+    "page": "p.4",
+    "note": "Deployment mitigation process (safeguards plus safety case) applies to models reaching a CCL; gate is E3 style. Security levels on p.5-6 are only 'recommended'."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "the response plan will be reviewed and approved by appropriate corporate governance bodies such as the Google DeepMind AGI Safety Council, Google DeepMind Responsibility and Safety Council, and/or Google Trust & Compliance Council.",
+    "page": "p.7",
+    "note": ""
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.3",
+    "note": "Ambiguous: 'as needed' read as not voiding per E2; external experts inform the threshold analysis. p.3 evaluators 'may' be external (hedged); p.8 disclosure to government is sharing only."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.3 'response plan may involve putting deployment or further development on hold' is hedged ('may'); the p.4 deployment gate is a safety-case adequacy gate with no required safeguard stated as unmet (E4). No non-compliance procedure."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Autonomy risk domain removed in this version (footnote 9, p.5), a changelog-type statement (A10); 'Cyber autonomy' and 'ML R&D autonomy' CCLs are cyber and ai_rnd. Self-replication appears only as an example of CBRN misuse (p.5 fn10)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy threshold in this version; Autonomy risk domain removed in this version (footnote 9, p.5), a changelog-type statement (A10); 'Cyber autonomy' and 'ML R&D autonomy' CCLs are cyber and ai_rnd. Self-replication appears only as an example of CBRN misuse (p.5 fn10)."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy risk covered."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "For deceptive alignment risk, the initial approach focuses on detecting when models might develop a baseline instrumental reasoning ability at which they have the potential to undermine human control",
+    "page": "p.2",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Instrumental Reasoning Level 1: the instrumental reasoning abilities of the model enable enough situational awareness (ability to work out and use relevant details of its deployment setting) and stealth (ability to circumvent basic oversight mechanisms) such that, absent additional mitigations, we cannot rule out the model significantly undermining human control.",
+    "page": "p.7",
+    "note": "Table 2; triggers automated monitoring"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Automated monitoring for IR Level 1 is 'may be applied' (p.3), 'we believe ... is an effective mitigation' (p.6); Table 2 mitigation has no binding verb; IR Level 2 is 'Future work' (p.7); safety cases are what 'developers should' do (p.7); the p.4 deployment process is in the Misuse section."
+   },
+   "acc_decider": {
+    "value": 1,
+    "quote": "the response plan will be reviewed and approved by appropriate corporate governance bodies such as the Google DeepMind AGI Safety Council, Google DeepMind Responsibility and Safety Council, and/or Google Trust & Compliance Council.",
+    "page": "p.7",
+    "note": "Applies to alert thresholds framework-wide including deceptive alignment CCLs."
+   },
+   "acc_external": {
+    "value": 1,
+    "quote": "When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",
+    "page": "p.3",
+    "note": "Ambiguous: 'as needed' read as not voiding per E2; external experts inform the threshold analysis. p.3 evaluators 'may' be external (hedged); p.8 disclosure to government is sharing only."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding statement of what happens if monitoring is not in place or fails; IR Level 2 has only future work (p.7)."
+   }
+  }
+ }
+}

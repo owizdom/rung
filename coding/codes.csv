@@ -1,14 +1,69 @@
 doc_id,risk,mentioned,threshold,response,acc_decider,acc_external,acc_unmet,level,level_loose,gaps,other_risks
+amazon-fmsf-2025.02,cyber,1,1,1,1,1,1,4,4,,nuclear and radiological
+amazon-fmsf-2025.02,biochem,1,1,1,1,1,1,4,4,,nuclear and radiological
+amazon-fmsf-2025.02,ai_rnd,1,1,1,1,1,1,4,4,,nuclear and radiological
+amazon-fmsf-2025.02,autonomy,0,0,0,0,0,0,0,0,,nuclear and radiological
+amazon-fmsf-2025.02,loss_of_control,0,0,0,0,0,0,0,0,,nuclear and radiological
 amazon-fmsf-2026.09,cyber,1,1,1,1,1,1,4,4,,harmful manipulation; nuclear and radiological
 amazon-fmsf-2026.09,biochem,1,1,1,1,1,1,4,4,,harmful manipulation; nuclear and radiological
 amazon-fmsf-2026.09,ai_rnd,1,0,0,0,0,0,1,1,,harmful manipulation; nuclear and radiological
 amazon-fmsf-2026.09,autonomy,1,1,1,1,1,1,4,4,,harmful manipulation; nuclear and radiological
 amazon-fmsf-2026.09,loss_of_control,1,1,1,1,1,1,4,4,,harmful manipulation; nuclear and radiological
+anthropic-fcf-1.0,cyber,1,1,1,0,0,1,3,3,,harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear
+anthropic-fcf-1.0,biochem,1,1,1,0,0,1,3,3,,harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear
+anthropic-fcf-1.0,ai_rnd,0,0,0,0,0,0,0,0,,harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear
+anthropic-fcf-1.0,autonomy,1,1,1,0,0,1,3,3,,harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear
+anthropic-fcf-1.0,loss_of_control,1,1,1,0,0,1,3,3,,harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear
+anthropic-fcf-1.1,cyber,1,1,1,0,0,1,3,3,,"automated R&D in other domains (energy, robotics, weapons development); harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-fcf-1.1,biochem,1,1,1,0,0,1,3,3,,"automated R&D in other domains (energy, robotics, weapons development); harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-fcf-1.1,ai_rnd,1,1,1,0,0,1,3,3,,"automated R&D in other domains (energy, robotics, weapons development); harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-fcf-1.1,autonomy,1,1,1,0,0,1,3,3,,"automated R&D in other domains (energy, robotics, weapons development); harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-fcf-1.1,loss_of_control,1,1,1,0,0,1,3,3,,"automated R&D in other domains (energy, robotics, weapons development); harmful manipulation; influence operations and election interference; nuclear and radiological (within CBRN); radiological and nuclear; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-fcf-2.0,cyber,1,1,1,0,0,1,3,3,,harmful manipulation; large-scale systemic harm (>50 fatalities or $1bn damages); nuclear and radiological (within CBRN); radiological and nuclear
 anthropic-fcf-2.0,biochem,1,1,1,0,0,1,3,3,,harmful manipulation; large-scale systemic harm (>50 fatalities or $1bn damages); nuclear and radiological (within CBRN); radiological and nuclear
 anthropic-fcf-2.0,ai_rnd,1,1,1,0,0,1,3,3,,harmful manipulation; large-scale systemic harm (>50 fatalities or $1bn damages); nuclear and radiological (within CBRN); radiological and nuclear
 anthropic-fcf-2.0,autonomy,1,1,1,0,0,1,3,3,,harmful manipulation; large-scale systemic harm (>50 fatalities or $1bn damages); nuclear and radiological (within CBRN); radiological and nuclear
 anthropic-fcf-2.0,loss_of_control,1,1,1,0,0,1,3,3,,harmful manipulation; large-scale systemic harm (>50 fatalities or $1bn damages); nuclear and radiological (within CBRN); radiological and nuclear
+anthropic-rsp-1.0,cyber,1,0,1,1,0,1,1,1,response acc_decider acc_unmet,nuclear and radiological
+anthropic-rsp-1.0,biochem,1,0,1,1,0,1,1,1,response acc_decider acc_unmet,nuclear and radiological
+anthropic-rsp-1.0,ai_rnd,1,0,0,0,0,0,1,1,,nuclear and radiological
+anthropic-rsp-1.0,autonomy,1,1,1,1,0,1,3,4,,nuclear and radiological
+anthropic-rsp-1.0,loss_of_control,1,1,1,1,0,1,3,4,,nuclear and radiological
+anthropic-rsp-2.0,cyber,1,0,1,1,1,0,1,1,response acc_decider acc_external,nuclear and radiological
+anthropic-rsp-2.0,biochem,1,1,1,1,1,1,4,4,,nuclear and radiological
+anthropic-rsp-2.0,ai_rnd,1,1,1,1,1,1,4,4,,nuclear and radiological
+anthropic-rsp-2.0,autonomy,1,1,1,1,1,0,3,4,,nuclear and radiological
+anthropic-rsp-2.0,loss_of_control,1,1,1,1,1,0,3,4,,nuclear and radiological
+anthropic-rsp-2.1,cyber,1,0,1,1,1,0,1,1,response acc_decider acc_external,nuclear and radiological
+anthropic-rsp-2.1,biochem,1,1,1,1,1,1,4,4,,nuclear and radiological
+anthropic-rsp-2.1,ai_rnd,1,1,1,1,1,1,4,4,,nuclear and radiological
+anthropic-rsp-2.1,autonomy,1,1,1,1,1,0,3,4,,nuclear and radiological
+anthropic-rsp-2.1,loss_of_control,1,1,1,1,1,1,4,4,,nuclear and radiological
+anthropic-rsp-2.2,cyber,1,0,0,0,0,0,1,1,,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
+anthropic-rsp-2.2,biochem,1,1,1,1,1,1,4,4,,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
+anthropic-rsp-2.2,ai_rnd,1,1,1,1,1,1,4,4,,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
+anthropic-rsp-2.2,autonomy,1,1,0,0,1,1,2,2,acc_external acc_unmet,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
+anthropic-rsp-2.2,loss_of_control,1,0,1,1,1,1,1,1,response acc_decider acc_external acc_unmet,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
+anthropic-rsp-3.0,cyber,0,0,0,0,0,0,0,0,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.0,biochem,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.0,ai_rnd,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.0,autonomy,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.0,loss_of_control,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.1,cyber,0,0,0,0,0,0,0,0,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.1,biochem,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.1,ai_rnd,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.1,autonomy,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.1,loss_of_control,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
+anthropic-rsp-3.2,cyber,0,0,0,0,0,0,0,0,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.2,biochem,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.2,ai_rnd,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.2,autonomy,1,0,0,0,0,0,1,1,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.2,loss_of_control,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.3,cyber,0,0,0,0,0,0,0,0,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.3,biochem,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.3,ai_rnd,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.3,autonomy,1,0,0,0,0,0,1,1,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.3,loss_of_control,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.4,cyber,0,0,0,0,0,0,0,0,,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
 anthropic-rsp-3.4,biochem,1,1,1,1,1,1,4,4,,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
 anthropic-rsp-3.4,ai_rnd,1,1,1,1,1,1,4,4,,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
@@ -24,26 +79,71 @@ g42-fsf-2025.02,biochem,1,1,1,1,1,1,4,4,,advanced manipulation; fraud; fraud mat
 g42-fsf-2025.02,ai_rnd,0,0,0,0,0,0,0,0,,advanced manipulation; fraud; fraud material; illicit content generation; misinformation campaigns
 g42-fsf-2025.02,autonomy,1,0,0,0,0,0,1,1,,advanced manipulation; fraud; fraud material; illicit content generation; misinformation campaigns
 g42-fsf-2025.02,loss_of_control,0,0,0,0,0,0,0,0,,advanced manipulation; fraud; fraud material; illicit content generation; misinformation campaigns
+google-fsf-1.0,cyber,1,1,1,0,0,1,3,3,,
+google-fsf-1.0,biochem,1,1,1,0,0,1,3,3,,
+google-fsf-1.0,ai_rnd,1,1,1,0,0,1,3,3,,
+google-fsf-1.0,autonomy,1,1,1,0,0,1,3,3,,
+google-fsf-1.0,loss_of_control,1,0,0,0,0,0,1,1,,
+google-fsf-2.0,cyber,1,1,1,1,1,0,3,4,,nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-2.0,biochem,1,1,1,1,1,0,3,4,,nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-2.0,ai_rnd,1,1,1,1,1,0,3,4,,nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-2.0,autonomy,0,0,0,0,0,0,0,0,,nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-2.0,loss_of_control,1,1,0,1,1,0,2,2,acc_decider acc_external,nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-3.0,cyber,1,1,1,0,1,0,3,3,,harmful manipulation; nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-3.0,biochem,1,1,1,0,1,0,3,3,,harmful manipulation; nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-3.0,ai_rnd,1,1,1,0,1,0,3,3,,harmful manipulation; nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-3.0,autonomy,0,0,0,0,0,0,0,0,,harmful manipulation; nuclear and radiological; radiological and nuclear (within CBRN)
+google-fsf-3.0,loss_of_control,1,0,0,0,0,0,1,1,,harmful manipulation; nuclear and radiological; radiological and nuclear (within CBRN)
 google-fsf-3.1,cyber,1,1,1,0,1,0,3,3,,harmful manipulation; nuclear and radiological (within CBRN); radiological and nuclear; structural risks
 google-fsf-3.1,biochem,1,1,1,0,1,0,3,3,,harmful manipulation; nuclear and radiological (within CBRN); radiological and nuclear; structural risks
 google-fsf-3.1,ai_rnd,1,1,1,0,1,0,3,3,,harmful manipulation; nuclear and radiological (within CBRN); radiological and nuclear; structural risks
 google-fsf-3.1,autonomy,0,0,0,0,0,0,0,0,,harmful manipulation; nuclear and radiological (within CBRN); radiological and nuclear; structural risks
 google-fsf-3.1,loss_of_control,1,1,1,0,1,0,3,3,,harmful manipulation; nuclear and radiological (within CBRN); radiological and nuclear; structural risks
+magic-agi-1.0,cyber,1,0,1,0,0,1,1,1,response acc_unmet,
+magic-agi-1.0,biochem,1,0,1,0,0,1,1,1,response acc_unmet,
+magic-agi-1.0,ai_rnd,1,0,1,0,0,1,1,1,response acc_unmet,
+magic-agi-1.0,autonomy,1,0,1,0,0,1,1,1,response acc_unmet,
+magic-agi-1.0,loss_of_control,0,0,0,0,0,0,0,0,,
 magic-agi-1.0r,cyber,1,0,1,0,0,1,1,1,response acc_unmet,biological weapons assistance (marked 'potentially'); unsafe proliferation of dangerous AI capabilities
 magic-agi-1.0r,biochem,1,0,1,0,0,1,1,1,response acc_unmet,biological weapons assistance (marked 'potentially'); unsafe proliferation of dangerous AI capabilities
 magic-agi-1.0r,ai_rnd,1,0,1,0,0,1,1,1,response acc_unmet,biological weapons assistance (marked 'potentially'); unsafe proliferation of dangerous AI capabilities
 magic-agi-1.0r,autonomy,1,0,1,0,0,1,1,1,response acc_unmet,biological weapons assistance (marked 'potentially'); unsafe proliferation of dangerous AI capabilities
 magic-agi-1.0r,loss_of_control,0,0,0,0,0,0,0,0,,biological weapons assistance (marked 'potentially'); unsafe proliferation of dangerous AI capabilities
+meta-scaling-2.0,cyber,1,1,1,1,0,1,3,4,,fraud and scams; loss of human oversight capacity (emerging); nuclear and radiological; physical autonomy; physical autonomy (emerging)
+meta-scaling-2.0,biochem,1,1,1,1,0,1,3,4,,fraud and scams; loss of human oversight capacity (emerging); nuclear and radiological; physical autonomy; physical autonomy (emerging)
+meta-scaling-2.0,ai_rnd,1,1,1,1,0,1,3,4,,fraud and scams; loss of human oversight capacity (emerging); nuclear and radiological; physical autonomy; physical autonomy (emerging)
+meta-scaling-2.0,autonomy,1,0,0,0,0,0,1,1,,fraud and scams; loss of human oversight capacity (emerging); nuclear and radiological; physical autonomy; physical autonomy (emerging)
+meta-scaling-2.0,loss_of_control,1,1,1,1,0,1,3,4,,fraud and scams; loss of human oversight capacity (emerging); nuclear and radiological; physical autonomy; physical autonomy (emerging)
 meta-scaling-2.1,cyber,1,1,1,1,0,1,3,4,,"large-scale fraud and scams (Cyber 3); loss of human oversight capacity (emerging); loss of human oversight capacity (illustrative, not in framework); nuclear and radiological (emerging); nuclear and radiological (emerging, not in framework); physical autonomy (emerging); physical autonomy (emerging, not in framework); scams, fraud and extortion (Cyber 3)"
 meta-scaling-2.1,biochem,1,1,1,1,0,1,3,4,,"large-scale fraud and scams (Cyber 3); loss of human oversight capacity (emerging); loss of human oversight capacity (illustrative, not in framework); nuclear and radiological (emerging); nuclear and radiological (emerging, not in framework); physical autonomy (emerging); physical autonomy (emerging, not in framework); scams, fraud and extortion (Cyber 3)"
 meta-scaling-2.1,ai_rnd,1,1,1,1,0,1,3,4,,"large-scale fraud and scams (Cyber 3); loss of human oversight capacity (emerging); loss of human oversight capacity (illustrative, not in framework); nuclear and radiological (emerging); nuclear and radiological (emerging, not in framework); physical autonomy (emerging); physical autonomy (emerging, not in framework); scams, fraud and extortion (Cyber 3)"
 meta-scaling-2.1,autonomy,1,0,1,1,0,1,1,1,response acc_decider acc_unmet,"large-scale fraud and scams (Cyber 3); loss of human oversight capacity (emerging); loss of human oversight capacity (illustrative, not in framework); nuclear and radiological (emerging); nuclear and radiological (emerging, not in framework); physical autonomy (emerging); physical autonomy (emerging, not in framework); scams, fraud and extortion (Cyber 3)"
 meta-scaling-2.1,loss_of_control,1,1,1,1,0,1,3,4,,"large-scale fraud and scams (Cyber 3); loss of human oversight capacity (emerging); loss of human oversight capacity (illustrative, not in framework); nuclear and radiological (emerging); nuclear and radiological (emerging, not in framework); physical autonomy (emerging); physical autonomy (emerging, not in framework); scams, fraud and extortion (Cyber 3)"
+meta-scaling-2025.02,cyber,1,1,1,0,0,1,3,3,,
+meta-scaling-2025.02,biochem,1,1,1,0,0,1,3,3,,
+meta-scaling-2025.02,ai_rnd,1,0,0,0,0,0,1,1,,
+meta-scaling-2025.02,autonomy,1,0,0,0,0,0,1,1,,
+meta-scaling-2025.02,loss_of_control,1,0,0,0,0,0,1,1,,
+meta-scaling-2025.03,cyber,1,1,1,0,0,1,3,3,,
+meta-scaling-2025.03,biochem,1,1,1,0,0,1,3,3,,
+meta-scaling-2025.03,ai_rnd,1,0,0,0,0,0,1,1,,
+meta-scaling-2025.03,autonomy,1,0,0,0,0,0,1,1,,
+meta-scaling-2025.03,loss_of_control,1,0,0,0,0,0,1,1,,
+microsoft-fgf-2025.02,cyber,1,1,1,1,0,1,3,4,,nuclear and radiological
+microsoft-fgf-2025.02,biochem,1,1,1,1,0,1,3,4,,nuclear and radiological
+microsoft-fgf-2025.02,ai_rnd,1,1,1,1,0,1,3,4,,nuclear and radiological
+microsoft-fgf-2025.02,autonomy,1,1,1,1,0,1,3,4,,nuclear and radiological
+microsoft-fgf-2025.02,loss_of_control,0,0,0,0,0,0,0,0,,nuclear and radiological
 microsoft-fgf-2026.02,cyber,1,1,1,1,0,1,3,4,,harmful manipulation; nuclear and radiological
 microsoft-fgf-2026.02,biochem,1,1,1,1,0,1,3,4,,harmful manipulation; nuclear and radiological
 microsoft-fgf-2026.02,ai_rnd,1,1,1,1,0,1,3,4,,harmful manipulation; nuclear and radiological
 microsoft-fgf-2026.02,autonomy,1,1,1,1,0,1,3,4,,harmful manipulation; nuclear and radiological
 microsoft-fgf-2026.02,loss_of_control,1,0,1,1,0,0,1,1,response acc_decider,harmful manipulation; nuclear and radiological
+naver-asf-1.0,cyber,1,0,0,0,0,0,1,1,,bias and discrimination; disinformation; human rights violation; illegal content; inconsistency; jailbreaking; misuse (general)
+naver-asf-1.0,biochem,1,0,1,1,0,1,1,1,response acc_decider acc_unmet,bias and discrimination; disinformation; human rights violation; illegal content; inconsistency; jailbreaking; misuse (general)
+naver-asf-1.0,ai_rnd,0,0,0,0,0,0,0,0,,bias and discrimination; disinformation; human rights violation; illegal content; inconsistency; jailbreaking; misuse (general)
+naver-asf-1.0,autonomy,0,0,0,0,0,0,0,0,,bias and discrimination; disinformation; human rights violation; illegal content; inconsistency; jailbreaking; misuse (general)
+naver-asf-1.0,loss_of_control,1,0,0,0,0,0,1,1,,bias and discrimination; disinformation; human rights violation; illegal content; inconsistency; jailbreaking; misuse (general)
 naver-asf-2.0,cyber,0,0,0,0,0,0,0,0,,harm to economic value; misleading AI-generated content; misleading users with AI-generated content; preventing unjust discrimination; protecting economic value; protecting life and physical safety; threats to life and physical safety; unjust discrimination
 naver-asf-2.0,biochem,0,0,0,0,0,0,0,0,,harm to economic value; misleading AI-generated content; misleading users with AI-generated content; preventing unjust discrimination; protecting economic value; protecting life and physical safety; threats to life and physical safety; unjust discrimination
 naver-asf-2.0,ai_rnd,0,0,0,0,0,0,0,0,,harm to economic value; misleading AI-generated content; misleading users with AI-generated content; preventing unjust discrimination; protecting economic value; protecting life and physical safety; threats to life and physical safety; unjust discrimination
@@ -59,18 +159,43 @@ openai-fgf-2026.05,biochem,1,1,1,0,0,1,3,3,,harmful manipulation; nuclear and ra
 openai-fgf-2026.05,ai_rnd,1,0,1,0,0,1,1,1,response acc_unmet,harmful manipulation; nuclear and radiological; nuclear and radiological (within CBRN); systemic risk (>50 fatalities or $1bn damage)
 openai-fgf-2026.05,autonomy,1,1,1,0,0,1,3,3,,harmful manipulation; nuclear and radiological; nuclear and radiological (within CBRN); systemic risk (>50 fatalities or $1bn damage)
 openai-fgf-2026.05,loss_of_control,1,1,1,0,0,1,3,3,,harmful manipulation; nuclear and radiological; nuclear and radiological (within CBRN); systemic risk (>50 fatalities or $1bn damage)
+openai-pf-2.0,cyber,1,1,1,1,1,1,4,4,,nuclear and radiological; nuclear and radiological (Research Category)
+openai-pf-2.0,biochem,1,1,1,1,1,1,4,4,,nuclear and radiological; nuclear and radiological (Research Category)
+openai-pf-2.0,ai_rnd,1,1,1,1,1,1,4,4,,nuclear and radiological; nuclear and radiological (Research Category)
+openai-pf-2.0,autonomy,1,0,0,0,0,0,1,1,,nuclear and radiological; nuclear and radiological (Research Category)
+openai-pf-2.0,loss_of_control,1,0,1,1,0,1,1,1,response acc_decider acc_unmet,nuclear and radiological; nuclear and radiological (Research Category)
 openai-pf-2.0r,cyber,1,1,1,1,1,1,4,4,,nuclear and radiological; persuasion; sandbagging; undermining safeguards
 openai-pf-2.0r,biochem,1,1,1,1,1,1,4,4,,nuclear and radiological; persuasion; sandbagging; undermining safeguards
 openai-pf-2.0r,ai_rnd,1,1,1,1,1,1,4,4,,nuclear and radiological; persuasion; sandbagging; undermining safeguards
 openai-pf-2.0r,autonomy,1,0,0,0,0,0,1,1,,nuclear and radiological; persuasion; sandbagging; undermining safeguards
 openai-pf-2.0r,loss_of_control,1,0,1,1,0,1,1,1,response acc_decider acc_unmet,nuclear and radiological; persuasion; sandbagging; undermining safeguards
+openai-pf-beta,cyber,1,1,1,1,1,1,4,4,,deception and social engineering; deception and social engineering (within persuasion); nuclear and radiological; persuasion; unknown unknowns
+openai-pf-beta,biochem,1,1,1,1,1,1,4,4,,deception and social engineering; deception and social engineering (within persuasion); nuclear and radiological; persuasion; unknown unknowns
+openai-pf-beta,ai_rnd,1,1,1,1,1,1,4,4,,deception and social engineering; deception and social engineering (within persuasion); nuclear and radiological; persuasion; unknown unknowns
+openai-pf-beta,autonomy,1,1,1,1,1,1,4,4,,deception and social engineering; deception and social engineering (within persuasion); nuclear and radiological; persuasion; unknown unknowns
+openai-pf-beta,loss_of_control,1,1,1,1,1,1,4,4,,deception and social engineering; deception and social engineering (within persuasion); nuclear and radiological; persuasion; unknown unknowns
 samsung-asf-2025.02,cyber,0,0,0,0,0,0,0,0,,fairness and bias; privacy; security threats to AI models (malicious attacks); toxicity; truthfulness and reliability
 samsung-asf-2025.02,biochem,0,0,0,0,0,0,0,0,,fairness and bias; privacy; security threats to AI models (malicious attacks); toxicity; truthfulness and reliability
 samsung-asf-2025.02,ai_rnd,0,0,0,0,0,0,0,0,,fairness and bias; privacy; security threats to AI models (malicious attacks); toxicity; truthfulness and reliability
 samsung-asf-2025.02,autonomy,0,0,0,0,0,0,0,0,,fairness and bias; privacy; security threats to AI models (malicious attacks); toxicity; truthfulness and reliability
 samsung-asf-2025.02,loss_of_control,0,0,0,0,0,0,0,0,,fairness and bias; privacy; security threats to AI models (malicious attacks); toxicity; truthfulness and reliability
+xai-framework-2025.08,cyber,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.08,biochem,1,1,1,0,0,0,3,3,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.08,ai_rnd,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.08,autonomy,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.08,loss_of_control,1,1,1,0,0,0,3,3,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.12,cyber,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.12,biochem,1,1,1,0,0,0,3,3,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.12,ai_rnd,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.12,autonomy,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
+xai-framework-2025.12,loss_of_control,1,1,1,0,0,0,3,3,,mass violence and terrorism; model theft and distillation (information security); nuclear and radiological; operational and societal risks; radiological and nuclear; sycophancy; terrorism and large-scale violence
 xai-framework-2026.06,cyber,1,0,1,0,0,0,1,1,response,deception and sycophancy; harmful manipulation; jailbreaks and safeguard circumvention; nuclear and radiological (within CBRN); radiological and nuclear; unauthorized proliferation via distillation
 xai-framework-2026.06,biochem,1,0,1,0,0,0,1,1,response,deception and sycophancy; harmful manipulation; jailbreaks and safeguard circumvention; nuclear and radiological (within CBRN); radiological and nuclear; unauthorized proliferation via distillation
 xai-framework-2026.06,ai_rnd,0,0,0,0,0,0,0,0,,deception and sycophancy; harmful manipulation; jailbreaks and safeguard circumvention; nuclear and radiological (within CBRN); radiological and nuclear; unauthorized proliferation via distillation
 xai-framework-2026.06,autonomy,1,0,1,0,0,0,1,1,response,deception and sycophancy; harmful manipulation; jailbreaks and safeguard circumvention; nuclear and radiological (within CBRN); radiological and nuclear; unauthorized proliferation via distillation
 xai-framework-2026.06,loss_of_control,1,0,1,0,0,0,1,1,response,deception and sycophancy; harmful manipulation; jailbreaks and safeguard circumvention; nuclear and radiological (within CBRN); radiological and nuclear; unauthorized proliferation via distillation
+xai-framework-draft,cyber,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft (information security); nuclear and radiological; operational and societal risks; terrorism and large-scale violence
+xai-framework-draft,biochem,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft (information security); nuclear and radiological; operational and societal risks; terrorism and large-scale violence
+xai-framework-draft,ai_rnd,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft (information security); nuclear and radiological; operational and societal risks; terrorism and large-scale violence
+xai-framework-draft,autonomy,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft (information security); nuclear and radiological; operational and societal risks; terrorism and large-scale violence
+xai-framework-draft,loss_of_control,1,0,0,0,0,0,1,1,,mass violence and terrorism; model theft (information security); nuclear and radiological; operational and societal risks; terrorism and large-scale violence

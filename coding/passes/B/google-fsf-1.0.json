@@ -1,0 +1,199 @@
+{
+ "doc_id": "google-fsf-1.0",
+ "coder": "B",
+ "codebook": "v1.1",
+ "coded_at": "2026-11-09T14:01:31Z",
+ "other_risks": [],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Cybersecurity: Risks of models assisting in the execution of a cyber attack.",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Cyber enablement level 1: Capable of enabling an amateur to carry out sophisticated and severe attacks",
+    "page": "p.5",
+    "note": ""
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 says 'we would put on hold further deployment or development, or implement additional protocols' and 'will not be deployed without appropriate deployment mitigations'; the hold is an either-or with more protocols and the mitigations are only 'appropriate' (deployment levels are 'illustrative', no CCL is mapped to a level, p.6 says mapping is future work). No unqualified named response."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role or body named as deciding anything; nothing named in the document."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.1 'Where appropriate, involve external parties' is hedged; p.6 'We are exploring'/'will also explore' external involvement is not a commitment."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 hold-or-additional-protocols is an either-or with the alternative being more evaluation, and appropriate mitigations are unnamed; no non-compliance procedure."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Biosecurity: Risks of models assisting in the development, preparation and/or execution of a biological attack.",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Bio amateur enablement level 1: Capable of significantly enabling a non-expert to develop known biothreats",
+    "page": "p.5",
+    "note": ""
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 says 'we would put on hold further deployment or development, or implement additional protocols' and 'will not be deployed without appropriate deployment mitigations'; the hold is an either-or with more protocols and the mitigations are only 'appropriate' (deployment levels are 'illustrative', no CCL is mapped to a level, p.6 says mapping is future work). No unqualified named response."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role or body named as deciding anything; nothing named in the document."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.1 'Where appropriate, involve external parties' is hedged; p.6 'We are exploring'/'will also explore' external involvement is not a commitment."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 hold-or-additional-protocols is an either-or with the alternative being more evaluation, and appropriate mitigations are unnamed; no non-compliance procedure."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Machine Learning R&D: Risks of the misuse of models capable of accelerating the rate of AI progress",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Machine Learning R&D level 2: Could fully automate the AI R&D pipeline at a fraction of human labor costs",
+    "page": "p.6",
+    "note": ""
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 says 'we would put on hold further deployment or development, or implement additional protocols' and 'will not be deployed without appropriate deployment mitigations'; the hold is an either-or with more protocols and the mitigations are only 'appropriate' (deployment levels are 'illustrative', no CCL is mapped to a level, p.6 says mapping is future work). No unqualified named response."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role or body named as deciding anything; nothing named in the document."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.1 'Where appropriate, involve external parties' is hedged; p.6 'We are exploring'/'will also explore' external involvement is not a commitment."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 hold-or-additional-protocols is an either-or with the alternative being more evaluation, and appropriate mitigations are unnamed; no non-compliance procedure."
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Autonomy: Risks of the misuse of AI models with significant capacity for agency and flexible action/tool use over long time horizons",
+    "page": "p.5",
+    "note": ""
+   },
+   "threshold": {
+    "value": 1,
+    "quote": "Autonomy level 1: Capable of expanding its effective capacity in the world by autonomously acquiring resources and using them to run and sustain additional copies of itself on hardware it rents.",
+    "page": "p.5",
+    "note": ""
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 says 'we would put on hold further deployment or development, or implement additional protocols' and 'will not be deployed without appropriate deployment mitigations'; the hold is an either-or with more protocols and the mitigations are only 'appropriate' (deployment levels are 'illustrative', no CCL is mapped to a level, p.6 says mapping is future work). No unqualified named response."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No role or body named as deciding anything; nothing named in the document."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.1 'Where appropriate, involve external parties' is hedged; p.6 'We are exploring'/'will also explore' external involvement is not a commitment."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.2 hold-or-additional-protocols is an either-or with the alternative being more evaluation, and appropriate mitigations are unnamed; no non-compliance procedure."
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "p.6 'Misaligned AI' is future work ('may require additional Framework components'), not a risk this version covers; autonomy CCL is framed as misuse by bad actors."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No misalignment or loss-of-control level defined; p.6 lists it only as possible future work."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not covered in this version."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not covered in this version; no external review commitment."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Risk not covered in this version."
+   }
+  }
+ }
+}
