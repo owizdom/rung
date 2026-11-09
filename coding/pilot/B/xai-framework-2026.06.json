@@ -1,0 +1,203 @@
+{
+ "doc_id": "xai-framework-2026.06",
+ "coder": "B",
+ "codebook": "v1",
+ "coded_at": "2026-11-09T11:54:26Z",
+ "other_risks": [
+  "harmful manipulation",
+  "radiological and nuclear",
+  "jailbreaks and prompt injection"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "xAI treats AI-accelerated malicious cyber offense as a core risk domain.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No specific capability or quantitative level for this risk. 'significance and severity thresholds' (p.3), 'risk tiers' (p.6) and 'whether the threshold has been reached' (p.6) are generic and never defined."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "No risk-specific threshold, so this is the framework-wide gate (rule C3, no-threshold case). 'acceptable' is undefined. Judgement call."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body. Section 4 Governance (p.9) and 'risk owners' (p.8) name none; 'legal and compliance reviews' are unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. 'human expert red-teaming' (p.6) not stated as external; SOC 2 Type II (p.8) concerns information security, not this risk's safeguards or adherence; third-party feedback (p.8) is a channel, not a review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "Same passage as response: no proceeding until risks are acceptable (C6a). Judgement call, it is a general gate and not a statement about failed safeguards."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "our assessment of risk of malicious use includes risks of models assisting in the development, preparation, and/or execution of a chemical, biological, radiological, or nuclear threat",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No specific capability or quantitative level for this risk. 'significance and severity thresholds' (p.3), 'risk tiers' (p.6) and 'whether the threshold has been reached' (p.6) are generic and never defined."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "No risk-specific threshold, so this is the framework-wide gate (rule C3, no-threshold case). 'acceptable' is undefined. Judgement call. CBRN-specific safeguards (heightened safeguards on weapons-intent prompts p.3; CBRN classifier filters p.7 'as appropriate') are hedged or unnamed."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body. Section 4 Governance (p.9) and 'risk owners' (p.8) name none; 'legal and compliance reviews' are unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. 'human expert red-teaming' (p.6) not stated as external; SOC 2 Type II (p.8) concerns information security, not this risk's safeguards or adherence; third-party feedback (p.8) is a channel, not a review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "Same passage as response: no proceeding until risks are acceptable (C6a). Judgement call, it is a general gate and not a statement about failed safeguards."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No mention of AI R&D automation or self-improvement; 'automation of knowledge compilation' p.3 is about CBRN. Searched whole document."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "not mentioned"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "speculation that a superintelligent AI system hypothetically might escape the control of its developers and wreak havoc on the public, assume dual-use capabilities such as offensive cybersecurity capabilities (e.g., to surreptitiously replicate across servers or prevent shutdown) that we also track",
+    "page": "p.7",
+    "note": "Judgement: only autonomous replication named, inside the loss-of-control discussion (B1)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No specific capability or quantitative level for this risk. 'significance and severity thresholds' (p.3), 'risk tiers' (p.6) and 'whether the threshold has been reached' (p.6) are generic and never defined. Replication is only a tracked capability."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy-specific response; the p.6 gate is not credited because autonomy is not an identified risk domain (p.2). Judgement call."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy threshold, response or safeguards."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our assessment of risk of loss of control includes risks from humans losing the ability to reliably direct, modify, or shut down a model",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No specific capability or quantitative level for this risk. 'significance and severity thresholds' (p.3), 'risk tiers' (p.6) and 'whether the threshold has been reached' (p.6) are generic and never defined."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "No risk-specific threshold, so this is the framework-wide gate (rule C3, no-threshold case). 'acceptable' is undefined. Judgement call. The loss-of-control section (p.7) lists oversight, training against deception, and red-teaming in sandboxes with no commitment verb tied to a level."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body. Section 4 Governance (p.9) and 'risk owners' (p.8) name none; 'legal and compliance reviews' are unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. 'human expert red-teaming' (p.6) not stated as external; SOC 2 Type II (p.8) concerns information security, not this risk's safeguards or adherence; third-party feedback (p.8) is a channel, not a review."
+   },
+   "acc_unmet": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "Same passage as response: no proceeding until risks are acceptable (C6a). Judgement call, it is a general gate and not a statement about failed safeguards."
+   }
+  }
+ }
+}

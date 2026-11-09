@@ -1,0 +1,212 @@
+{
+ "doc_id": "cohere-fmf-2025.02",
+ "coder": "A",
+ "codebook": "v1",
+ "coded_at": "2026-11-09T11:54:07Z",
+ "other_risks": [
+  "discriminatory outcomes",
+  "child sexual exploitation and abuse material",
+  "hateful or violent content",
+  "insecure code",
+  "harmful inaccurate outputs",
+  "data poisoning",
+  "model theft",
+  "prompt injection",
+  "sensitive information disclosure",
+  "excessive agency",
+  "over-refusal",
+  "privacy"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Risks stemming from possible malicious use of foundation AI models, such as generating content to facilitate cybercrime or child sexual exploitation",
+    "page": "p.6",
+    "note": "Also p.8 'Malware code' row of harms table. p.9 cyber risks to Cohere's own systems not counted."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Harms table pp.7-8 gives an 'illustrative assessment' of likelihood/severity for malware, not a trigger level; p.16 'no significant regressions' bright line is generic."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Mitigations (pp.12-14 table, p.11) are present-tense descriptions with no binding verb and no threshold; nothing cyber-specific committed."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk (Chief Scientist named as final launch authority p.15, but no threshold or response exists for this risk)"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Biorisk appears only in a box describing another industry approach (pp.14-15, 'One approach to risk assurance in the AI industry ... facilitate biorisk') and critiquing biorisk research; not adopted as a risk Cohere considers (A3)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned as a considered risk."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned as a considered risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'ability to perform autonomous research' appears only in the p.14-15 box describing other safety frameworks (A3)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned as a considered risk."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned as a considered risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "'autonomy, and self-replication' appear only in the p.14 box describing other frameworks (A3). 'Excessive agency' listed as a deployment risk (p.13) is an OWASP application-security item, not autonomous action in the world as defined."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned as a considered risk."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned as a considered risk."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No mention of misalignment, deception, oversight or shutdown risks; 'alignment on risk mitigation goals' (p.16) refers to safety-instruction following, not loss of control."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  }
+ }
+}

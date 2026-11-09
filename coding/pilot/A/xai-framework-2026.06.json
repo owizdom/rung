@@ -1,0 +1,204 @@
+{
+ "doc_id": "xai-framework-2026.06",
+ "coder": "A",
+ "codebook": "v1",
+ "coded_at": "2026-11-09T11:54:07Z",
+ "other_risks": [
+  "harmful manipulation",
+  "nuclear and radiological",
+  "sycophancy",
+  "model distillation/unauthorized proliferation"
+ ],
+ "risks": {
+  "cyber": {
+   "mentioned": {
+    "value": 1,
+    "quote": "xAI treats AI-accelerated malicious cyber offense as a core risk domain.",
+    "page": "p.4",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No cyber-specific level defined; p.6 refers to 'whether a threshold has been reached' and 'risk tiers' without defining them. p.4 describes current uplift, not a trigger level."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "No threshold; acceptance criteria applied to each identified risk (p.5). Coded as response type (b) gap in ladder. Domain safeguards (pp.3-4, p.7) are present tense or 'as appropriate'."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body; p.8 'designating risk owners' and p.9 'internal governance structures' are unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. p.6 'human expert red-teaming' not stated as external; p.9 incident reports to authorities are notification only; SOC 2 (p.7) covers xAI's own information security."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if a required response is not in place or the framework is not followed; p.8 incident steps are hedged ('may'); p.9 compliance reviews are present-tense with no procedure."
+   }
+  },
+  "biochem": {
+   "mentioned": {
+    "value": 1,
+    "quote": "execution of a chemical, biological, radiological, or nuclear threat (“CBRN Risks”)",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No CBRN capability level defined; heightened safeguards p.3 are triggered by user intent in prompts, not a model capability or risk level."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "No threshold; acceptance criteria applied to each identified risk (p.5). Coded as response type (b) gap in ladder. Domain safeguards (pp.3-4, p.7) are present tense or 'as appropriate'."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body; p.8 'designating risk owners' and p.9 'internal governance structures' are unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. p.6 'human expert red-teaming' not stated as external; p.9 incident reports to authorities are notification only; SOC 2 (p.7) covers xAI's own information security."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if a required response is not in place or the framework is not followed; p.8 incident steps are hedged ('may'); p.9 compliance reviews are present-tense with no procedure."
+   }
+  },
+  "ai_rnd": {
+   "mentioned": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No mention of AI automating AI/ML R&D or self-improvement anywhere (pp.1-9)."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Not mentioned."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "autonomy": {
+   "mentioned": {
+    "value": 1,
+    "quote": "(e.g., to surreptitiously replicate across servers or prevent shutdown) that we also track as part of managing malicious use risks",
+    "page": "p.7",
+    "note": "Also p.4 'red-teaming of model-driven agents in controlled sandboxes'."
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No autonomy level defined."
+   },
+   "response": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "Autonomy is not one of the four identified risk domains (p.2) to which the acceptance gate applies; no committed response for it."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "nothing to decide for this risk"
+   }
+  },
+  "loss_of_control": {
+   "mentioned": {
+    "value": 1,
+    "quote": "Our assessment of risk of loss of control includes risks from humans losing the ability to reliably direct, modify, or shut down a model (“Loss of Control Risks”).",
+    "page": "p.1",
+    "note": ""
+   },
+   "threshold": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No loss-of-control level defined; p.4 and p.7 describe benchmarks and propensity measurement only."
+   },
+   "response": {
+    "value": 1,
+    "quote": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+    "page": "p.6",
+    "note": "No threshold; acceptance criteria applied to each identified risk (p.5). Coded as response type (b) gap in ladder. Domain safeguards (pp.3-4, p.7) are present tense or 'as appropriate'."
+   },
+   "acc_decider": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No named role or body; p.8 'designating risk owners' and p.9 'internal governance structures' are unnamed."
+   },
+   "acc_external": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No binding external review. p.6 'human expert red-teaming' not stated as external; p.9 incident reports to authorities are notification only; SOC 2 (p.7) covers xAI's own information security."
+   },
+   "acc_unmet": {
+    "value": 0,
+    "quote": "",
+    "page": "",
+    "note": "No statement of what happens if a required response is not in place or the framework is not followed; p.8 incident steps are hedged ('may'); p.9 compliance reviews are present-tense with no procedure."
+   }
+  }
+ }
+}
