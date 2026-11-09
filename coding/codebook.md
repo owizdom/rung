@@ -1,4 +1,4 @@
-# Codebook v1.1 (spec 0001)
+# Codebook v1.2 (spec 0001)
 
 You code one framework document at a time. For each of five risks you answer six yes-or-no questions (the rungs), and you back every yes with a quote. That gives 30 codes per document, plus a list of the other risks the document names. You do not compute levels; the analysis does that from your rungs.
 
@@ -134,3 +134,13 @@ E5. Thresholds that trigger reporting or analysis. A level that triggers extra a
 E6. Protections already in place. A commitment to keep named protections in place for models at or above this risk's threshold counts for `response`.
 
 E7. Approaches the document describes but does not adopt (for example "one approach in the industry is ...") count for nothing (A3).
+
+## F. Rulings from the review (v1.2)
+
+These three rules settle patterns the first coding applied unevenly across developers. They apply to every document and every risk.
+
+F1. Illustrative sections. Text inside a section, appendix or table that the document itself labels illustrative, an example, or "not a definitive or comprehensive list" counts for nothing on any rung, even when a sentence in it uses "will" or "require". This extends C2 ("given only as illustrations") from thresholds to every rung.
+
+F2. Discretionary outside review. `acc_external` needs a commitment that an outside party will review in the cases the document covers. It does not count when the document leaves whether outsiders take part to the developer's discretion: "as needed", "where appropriate", "when available and feasible", "if warranted", or "the decision to involve external experts is made by" the developer. This overrides E2 for this rung only. A present-tense description of practice with no condition does not count either (E1).
+
+F3. A threshold that describes two risks. A threshold counts for each of the five risks whose capability its own definition describes, including examples given inside the definition itself ("including ... the research, development and deployment of frontier models" describes AI R&D). An "associated risk" column, a rationale or a list of consequences beside the threshold is not its definition. This refines B2.

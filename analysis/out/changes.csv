@@ -3,22 +3,22 @@ anthropic,rsp,anthropic-rsp-1.0,anthropic-rsp-2.0,cyber,1,1,unchanged,acc_extern
 anthropic,rsp,anthropic-rsp-1.0,anthropic-rsp-2.0,biochem,1,4,added,threshold acc_external,
 anthropic,rsp,anthropic-rsp-1.0,anthropic-rsp-2.0,ai_rnd,1,4,added,threshold response acc_decider acc_external acc_unmet,
 anthropic,rsp,anthropic-rsp-1.0,anthropic-rsp-2.0,autonomy,3,4,added,acc_external,
-anthropic,rsp,anthropic-rsp-1.0,anthropic-rsp-2.0,loss_of_control,3,4,added,acc_external,
+anthropic,rsp,anthropic-rsp-1.0,anthropic-rsp-2.0,loss_of_control,1,1,unchanged,acc_external,
 anthropic,rsp,anthropic-rsp-2.0,anthropic-rsp-2.1,cyber,1,1,unchanged,,
 anthropic,rsp,anthropic-rsp-2.0,anthropic-rsp-2.1,biochem,4,4,unchanged,,
 anthropic,rsp,anthropic-rsp-2.0,anthropic-rsp-2.1,ai_rnd,4,4,unchanged,,
 anthropic,rsp,anthropic-rsp-2.0,anthropic-rsp-2.1,autonomy,4,4,unchanged,,
-anthropic,rsp,anthropic-rsp-2.0,anthropic-rsp-2.1,loss_of_control,4,4,unchanged,,
+anthropic,rsp,anthropic-rsp-2.0,anthropic-rsp-2.1,loss_of_control,1,1,unchanged,,
 anthropic,rsp,anthropic-rsp-2.1,anthropic-rsp-2.2,cyber,1,1,unchanged,,
 anthropic,rsp,anthropic-rsp-2.1,anthropic-rsp-2.2,biochem,4,4,unchanged,,
 anthropic,rsp,anthropic-rsp-2.1,anthropic-rsp-2.2,ai_rnd,4,4,unchanged,,
 anthropic,rsp,anthropic-rsp-2.1,anthropic-rsp-2.2,autonomy,4,4,unchanged,,
-anthropic,rsp,anthropic-rsp-2.1,anthropic-rsp-2.2,loss_of_control,4,4,unchanged,,
+anthropic,rsp,anthropic-rsp-2.1,anthropic-rsp-2.2,loss_of_control,1,1,unchanged,,
 anthropic,rsp,anthropic-rsp-2.2,anthropic-rsp-3.0,cyber,1,0,removed,,mentioned response acc_decider acc_external acc_unmet
 anthropic,rsp,anthropic-rsp-2.2,anthropic-rsp-3.0,biochem,4,4,unchanged,,
 anthropic,rsp,anthropic-rsp-2.2,anthropic-rsp-3.0,ai_rnd,4,4,unchanged,,
 anthropic,rsp,anthropic-rsp-2.2,anthropic-rsp-3.0,autonomy,4,4,unchanged,,
-anthropic,rsp,anthropic-rsp-2.2,anthropic-rsp-3.0,loss_of_control,4,4,unchanged,,
+anthropic,rsp,anthropic-rsp-2.2,anthropic-rsp-3.0,loss_of_control,1,4,added,threshold,
 anthropic,rsp,anthropic-rsp-3.0,anthropic-rsp-3.1,cyber,0,0,unchanged,,
 anthropic,rsp,anthropic-rsp-3.0,anthropic-rsp-3.1,biochem,4,4,unchanged,,
 anthropic,rsp,anthropic-rsp-3.0,anthropic-rsp-3.1,ai_rnd,4,4,unchanged,,
@@ -49,40 +49,40 @@ anthropic,fcf,anthropic-fcf-1.1,anthropic-fcf-2.0,biochem,3,3,unchanged,,
 anthropic,fcf,anthropic-fcf-1.1,anthropic-fcf-2.0,ai_rnd,3,3,unchanged,,
 anthropic,fcf,anthropic-fcf-1.1,anthropic-fcf-2.0,autonomy,3,3,unchanged,,
 anthropic,fcf,anthropic-fcf-1.1,anthropic-fcf-2.0,loss_of_control,3,3,unchanged,,
-openai,pf,openai-pf-beta,openai-pf-2.0,cyber,4,4,unchanged,,
-openai,pf,openai-pf-beta,openai-pf-2.0,biochem,4,4,unchanged,,
-openai,pf,openai-pf-beta,openai-pf-2.0,ai_rnd,4,4,unchanged,,
+openai,pf,openai-pf-beta,openai-pf-2.0,cyber,4,3,softened,,acc_external
+openai,pf,openai-pf-beta,openai-pf-2.0,biochem,4,3,softened,,acc_external
+openai,pf,openai-pf-beta,openai-pf-2.0,ai_rnd,4,3,softened,,acc_external
 openai,pf,openai-pf-beta,openai-pf-2.0,autonomy,4,1,softened,,threshold response acc_decider acc_external acc_unmet
 openai,pf,openai-pf-beta,openai-pf-2.0,loss_of_control,4,1,softened,,threshold acc_external
-openai,pf,openai-pf-2.0,openai-pf-2.0r,cyber,4,4,unchanged,,
-openai,pf,openai-pf-2.0,openai-pf-2.0r,biochem,4,4,unchanged,,
-openai,pf,openai-pf-2.0,openai-pf-2.0r,ai_rnd,4,4,unchanged,,
+openai,pf,openai-pf-2.0,openai-pf-2.0r,cyber,3,3,unchanged,,
+openai,pf,openai-pf-2.0,openai-pf-2.0r,biochem,3,3,unchanged,,
+openai,pf,openai-pf-2.0,openai-pf-2.0r,ai_rnd,3,3,unchanged,,
 openai,pf,openai-pf-2.0,openai-pf-2.0r,autonomy,1,1,unchanged,,
 openai,pf,openai-pf-2.0,openai-pf-2.0r,loss_of_control,1,1,unchanged,,
-google,fsf,google-fsf-1.0,google-fsf-2.0,cyber,3,3,unchanged,acc_decider acc_external,acc_unmet
-google,fsf,google-fsf-1.0,google-fsf-2.0,biochem,3,3,unchanged,acc_decider acc_external,acc_unmet
-google,fsf,google-fsf-1.0,google-fsf-2.0,ai_rnd,3,3,unchanged,acc_decider acc_external,acc_unmet
+google,fsf,google-fsf-1.0,google-fsf-2.0,cyber,3,3,unchanged,acc_decider,acc_unmet
+google,fsf,google-fsf-1.0,google-fsf-2.0,biochem,3,3,unchanged,acc_decider,acc_unmet
+google,fsf,google-fsf-1.0,google-fsf-2.0,ai_rnd,3,3,unchanged,acc_decider,acc_unmet
 google,fsf,google-fsf-1.0,google-fsf-2.0,autonomy,3,0,removed,,mentioned threshold response acc_unmet
-google,fsf,google-fsf-1.0,google-fsf-2.0,loss_of_control,1,2,added,threshold acc_decider acc_external,
+google,fsf,google-fsf-1.0,google-fsf-2.0,loss_of_control,1,2,added,threshold acc_decider,
 google,fsf,google-fsf-2.0,google-fsf-3.0,cyber,3,3,unchanged,,acc_decider
 google,fsf,google-fsf-2.0,google-fsf-3.0,biochem,3,3,unchanged,,acc_decider
 google,fsf,google-fsf-2.0,google-fsf-3.0,ai_rnd,3,3,unchanged,,acc_decider
 google,fsf,google-fsf-2.0,google-fsf-3.0,autonomy,0,0,unchanged,,
-google,fsf,google-fsf-2.0,google-fsf-3.0,loss_of_control,2,1,softened,,threshold acc_decider acc_external
+google,fsf,google-fsf-2.0,google-fsf-3.0,loss_of_control,2,1,softened,,threshold acc_decider
 google,fsf,google-fsf-3.0,google-fsf-3.1,cyber,3,3,unchanged,,
 google,fsf,google-fsf-3.0,google-fsf-3.1,biochem,3,3,unchanged,,
 google,fsf,google-fsf-3.0,google-fsf-3.1,ai_rnd,3,3,unchanged,,
 google,fsf,google-fsf-3.0,google-fsf-3.1,autonomy,0,0,unchanged,,
-google,fsf,google-fsf-3.0,google-fsf-3.1,loss_of_control,1,3,added,threshold response acc_external,
+google,fsf,google-fsf-3.0,google-fsf-3.1,loss_of_control,1,3,added,threshold response,
 meta,scaling,meta-scaling-2025.02,meta-scaling-2025.03,cyber,3,3,unchanged,,
 meta,scaling,meta-scaling-2025.02,meta-scaling-2025.03,biochem,3,3,unchanged,,
 meta,scaling,meta-scaling-2025.02,meta-scaling-2025.03,ai_rnd,1,1,unchanged,,
-meta,scaling,meta-scaling-2025.02,meta-scaling-2025.03,autonomy,1,1,unchanged,,
+meta,scaling,meta-scaling-2025.02,meta-scaling-2025.03,autonomy,0,0,unchanged,,
 meta,scaling,meta-scaling-2025.02,meta-scaling-2025.03,loss_of_control,1,1,unchanged,,
 meta,scaling,meta-scaling-2025.03,meta-scaling-2.0,cyber,3,3,unchanged,acc_decider,
 meta,scaling,meta-scaling-2025.03,meta-scaling-2.0,biochem,3,3,unchanged,acc_decider,
 meta,scaling,meta-scaling-2025.03,meta-scaling-2.0,ai_rnd,1,3,added,threshold response acc_decider acc_unmet,
-meta,scaling,meta-scaling-2025.03,meta-scaling-2.0,autonomy,1,1,unchanged,,
+meta,scaling,meta-scaling-2025.03,meta-scaling-2.0,autonomy,0,1,added,mentioned,
 meta,scaling,meta-scaling-2025.03,meta-scaling-2.0,loss_of_control,1,3,added,threshold response acc_decider acc_unmet,
 meta,scaling,meta-scaling-2.0,meta-scaling-2.1,cyber,3,3,unchanged,,
 meta,scaling,meta-scaling-2.0,meta-scaling-2.1,biochem,3,3,unchanged,,
@@ -94,11 +94,11 @@ microsoft,fgf,microsoft-fgf-2025.02,microsoft-fgf-2026.02,biochem,3,3,unchanged,
 microsoft,fgf,microsoft-fgf-2025.02,microsoft-fgf-2026.02,ai_rnd,3,3,unchanged,,
 microsoft,fgf,microsoft-fgf-2025.02,microsoft-fgf-2026.02,autonomy,3,3,unchanged,,
 microsoft,fgf,microsoft-fgf-2025.02,microsoft-fgf-2026.02,loss_of_control,0,1,added,mentioned response acc_decider,
-amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,cyber,4,4,unchanged,,
-amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,biochem,4,4,unchanged,,
-amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,ai_rnd,4,1,softened,,threshold response acc_decider acc_external acc_unmet
-amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,autonomy,0,4,added,mentioned threshold response acc_decider acc_external acc_unmet,
-amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,loss_of_control,0,4,added,mentioned threshold response acc_decider acc_external acc_unmet,
+amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,cyber,4,3,softened,,acc_external
+amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,biochem,4,3,softened,,acc_external
+amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,ai_rnd,4,3,softened,,acc_external
+amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,autonomy,0,3,added,mentioned threshold response acc_decider acc_unmet,
+amazon,fmsf,amazon-fmsf-2025.02,amazon-fmsf-2026.09,loss_of_control,0,3,added,mentioned threshold response acc_decider acc_unmet,
 xai,framework,xai-framework-draft,xai-framework-2025.08,cyber,1,1,unchanged,,
 xai,framework,xai-framework-draft,xai-framework-2025.08,biochem,1,3,added,threshold response,
 xai,framework,xai-framework-draft,xai-framework-2025.08,ai_rnd,1,1,unchanged,,

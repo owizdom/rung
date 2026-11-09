@@ -4,7 +4,7 @@ What frontier AI safety frameworks commit to, risk by risk.
 
 For every published frontier safety framework of the 20 Frontier AI Safety Commitments signatories, this repository codes five risks (cyber, bio and chem, AI R&D automation, autonomy, loss of control) on one ladder: not mentioned, mentioned, threshold defined, response specified, accountability named. Accountability means a named decider, a commitment to outside review, and a stated consequence if the response fails. Every published version up to 31 October 2026 is coded the same way, so changes between versions show up as data.
 
-Result, as of 31 October 2026: of 13 developers with a framework, 8 set a threshold for at least one risk and all 8 commit to a response; 4 (Amazon, Anthropic, G42, OpenAI) reach full accountability on any risk. Outside review is the step most often missing. Across 40 versions, a risk's step went up 14 times and down 12 times. The full write-up is [docs/methods.md](docs/methods.md).
+Result, as of 31 October 2026: of 13 developers with a published framework, 8 set a threshold for at least one of the five risks and all 8 commit to a response. Only 2 reach full accountability on any risk: Anthropic and G42. Outside review is the step that is missing: of the 8 frameworks with a threshold and a response, only 2 commit to review from outside the company. Across 40 versions, a risk's step went up 15 times and down 17 times. The full write-up is [docs/methods.md](docs/methods.md).
 
 ![Latest frameworks heatmap](analysis/out/01_latest.png)
 
@@ -31,4 +31,4 @@ Document bytes are cached outside the repository in `~/.rung-cache/`; `python3 -
 
 ## Coding
 
-Two independent coders (both Claude models) coded all 1,200 cells, backing every yes with a verbatim quote that a script checks against the document. A fresh adjudicator ruled on the 95 disagreements, and every change between versions was re-checked with both versions side by side. Agreement and limits are in the methods note.
+Two independent coders (both Claude models) coded all 1,200 cells, backing every yes with a verbatim quote that a script checks against the document. A fresh adjudicator ruled on the 95 disagreements, every change between versions was re-checked with both versions side by side, and three rules added after review were applied to every document. Agreement and limits are in the methods note.

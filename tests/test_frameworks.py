@@ -80,6 +80,8 @@ def test_freeze_precedes_coding():  # AT1
     m = _re.search(r"FREEZE (\S+Z): documents\.csv sha256 ([0-9a-f]{64}), codebook\.md sha256 ([0-9a-f]{64})", j)
     assert m, "no FREEZE entry"
     assert hashlib.sha256(DOCS.read_bytes()).hexdigest() == m.group(2)
-    assert hashlib.sha256((ROOT / "coding" / "codebook.md").read_bytes()).hexdigest() == m.group(3)
+    book = hashlib.sha256((ROOT / "coding" / "codebook.md").read_bytes()).hexdigest()
+    amends = _re.findall(r"AMEND (\S+Z): codebook\.md sha256 ([0-9a-f]{64})", j)
+    assert book == (amends[-1][1] if amends else m.group(3)), "codebook changed without a logged AMEND entry"
     for p in (ROOT / "coding" / "passes").glob("*/*.json"):
         assert json.loads(p.read_text())["coded_at"] > m.group(1), p.name

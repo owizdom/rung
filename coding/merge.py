@@ -28,6 +28,18 @@ def load_adj() -> dict:
     return {(r["doc_id"], r["risk"], r["rung"]): r for r in csv.DictReader(ADJ.open(encoding="utf-8"))}
 
 
+def load_consistency() -> dict:
+    """Codebook v1.2 section F rulings, applied to every document; they override all earlier values."""
+    out = {}
+    for f in sorted((ROOT / "coding").glob("consistency_F*.csv")):
+        for r in csv.DictReader(f.open(encoding="utf-8")):
+            k = (r["doc_id"], r["risk"], r["rung"])
+            if k in out and out[k]["value"] != r["value"]:
+                raise SystemExit(f"conflicting consistency rulings for {k}")
+            out[k] = {**r, "rule": f.stem.split("_")[1]}
+    return out
+
+
 def load_xv() -> dict:
     """Cross-version rulings: made with both versions side by side; they override earlier values."""
     if not XV.exists():
@@ -35,38 +47,39 @@ def load_xv() -> dict:
     return {(r["doc_id"], r["risk"], r["rung"]): r for r in csv.DictReader(XV.open(encoding="utf-8"))}
 
 
-def merge_doc(a: dict, b: dict, adj: dict, xv: dict | None = None):
+def merge_doc(a: dict, b: dict, adj: dict, xv: dict | None = None, cons: dict | None = None):
+    """Final value of every cell. Precedence: consistency ruling > cross-version ruling > adjudication > agreement."""
     did = a["doc_id"]
-    xv = xv or {}
-    dis, rows, quotes = [], [], []
+    xv, cons = xv or {}, cons or {}
+    dis, rows, cells = [], [], []
     for risk in RISKS:
         vals = {}
         for g in RUNGS:
             ca, cb = a["risks"][risk][g], b["risks"][risk][g]
-            if (did, risk, g) in xv:
-                r = xv[(did, risk, g)]
-                vals[g] = int(r["value"])
-                if vals[g]:
-                    quotes.append({"doc_id": did, "risk": risk, "rung": g, "quote": r["quote"], "page": r.get("page", ""), "source": "cross-version"})
+            k = (did, risk, g)
+            if k in cons:
+                r, src = cons[k], f"consistency {cons[k]['rule']}"
+            elif k in xv:
+                r, src = xv[k], "cross-version"
             elif ca["value"] == cb["value"]:
-                vals[g] = ca["value"]
-                if ca["value"]:
-                    quotes.append({"doc_id": did, "risk": risk, "rung": g, "quote": ca["quote"], "page": ca["page"], "source": "A (agreed)"})
-            elif (did, risk, g) in adj:
-                r = adj[(did, risk, g)]
-                vals[g] = int(r["value"])
-                if vals[g]:
-                    quotes.append({"doc_id": did, "risk": risk, "rung": g, "quote": r["quote"], "page": r.get("page", ""), "source": "adjudicated"})
+                r, src = {"value": ca["value"], "quote": ca["quote"], "page": ca["page"], "ruling": ca["note"]}, "agreed"
+            elif k in adj:
+                r, src = adj[k], "adjudicated"
             else:
                 dis.append({"doc_id": did, "risk": risk, "rung": g, "a_value": ca["value"], "a_quote": ca["quote"], "a_page": ca["page"],
                             "a_note": ca["note"], "b_value": cb["value"], "b_quote": cb["quote"], "b_page": cb["page"], "b_note": cb["note"]})
+                continue
+            vals[g] = int(r["value"])
+            cells.append({"doc_id": did, "risk": risk, "rung": g, "value": vals[g], "quote": r.get("quote", "") if vals[g] else "",
+                          "page": r.get("page", "") if vals[g] else "", "note": r.get("ruling", r.get("note", "")) if (not vals[g] or src != "agreed") else "",
+                          "source": src})
         if len(vals) == len(RUNGS):
             others = sorted(set(a.get("other_risks", [])) | set(b.get("other_risks", [])), key=str.lower)
             rows.append({"doc_id": did, "risk": risk, **vals, "level": level(vals), "level_loose": level(vals, "loose"),
                          "gaps": " ".join(gaps(vals)), "other_risks": "; ".join(others)})
     if dis:
         return None, dis
-    merge_doc.quotes = quotes
+    merge_doc.quotes = cells
     return rows, dis
 
 
@@ -80,9 +93,10 @@ def main(argv=None) -> int:
         ids = [i for i in ids if i in a.docs]
     adj = load_adj()
     xv = load_xv()
+    cons = load_consistency()
     all_rows, all_dis, all_q = [], [], []
     for did in ids:
-        rows, dis = merge_doc(A[did], B[did], adj, xv)
+        rows, dis = merge_doc(A[did], B[did], adj, xv, cons)
         all_dis += dis
         if rows:
             all_rows += rows
@@ -102,7 +116,7 @@ def main(argv=None) -> int:
         w.writeheader()
         w.writerows(all_rows)
     with (ROOT / "coding" / "quotes.csv").open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["doc_id", "risk", "rung", "quote", "page", "source"])
+        w = csv.DictWriter(f, fieldnames=["doc_id", "risk", "rung", "value", "quote", "page", "note", "source"])
         w.writeheader()
         w.writerows(all_q)
     print(f"codes.csv: {len(all_rows)} rows")

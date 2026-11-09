@@ -121,7 +121,7 @@ def main() -> int:
              f"decides, who checks from outside and what happens if safeguards fail")
     latest(title, rows, [
         "Each cell is the highest step the developer's current framework reaches for that risk. Anthropic and OpenAI each have two current documents; a step counts if either reaches it.",
-        "Coded from the framework text, tables and figures by two independent passes, disagreements adjudicated. Hedged verbs (may, consider, intend) do not count as a commitment.",
+        "Coded from the framework text, tables and figures by two independent passes, disagreements adjudicated. Hedged verbs (may, consider, as needed) and illustrative text do not count.",
         "Source: published frontier safety frameworks of the Frontier AI Safety Commitments signatories, archived copies (Wayback Machine); METR framework list.",
     ])
     vrows = tables.versions()
@@ -135,7 +135,7 @@ def main() -> int:
                   f"and down {sum(c['change'] in ('softened', 'removed') for c in moved)} times")
         versions(vtitle, vrows, docs, [
             "Each row is one published version, coded on its own. A step counts only when the version itself states it; hedged verbs do not count.",
-            "Changes between versions were checked passage by passage: a change is kept only if the wording behind the higher step is absent from the other version.",
+            "Every change between consecutive versions was re-read with both versions side by side, and the same wording gets the same code in every version.",
             "Source: published frontier safety frameworks and their archived earlier versions (Wayback Machine); METR framework list.",
         ])
     return 0

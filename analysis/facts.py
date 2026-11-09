@@ -9,6 +9,10 @@ from analysis.ladder import RUNGS, level
 from coding.check import RISKS, agreement, load_pass
 
 ROOT = Path(__file__).resolve().parents[1]
+# Versions in documents.csv that METR's list (metr.org/fsp, fetched 2026-11-09) does not carry as an entry:
+# METR links one FCF entry (now v2), the April 28 re-issue of Preparedness v2, Meta's March 2025 text,
+# Magic's live page, and has no Samsung entry. Checked against frameworks/discovery/census_agent.csv notes.
+METR_MISSED = ["anthropic-fcf-1.0", "anthropic-fcf-1.1", "openai-pf-2.0", "meta-scaling-2025.02", "magic-agi-1.0", "samsung-asf-2025.02"]
 WORD = {i: w for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve thirteen".split())}
 
 
@@ -37,6 +41,12 @@ def facts() -> dict:
     f["n_with_resp"] = len(with_resp)
     for g in ("acc_decider", "acc_external", "acc_unmet"):
         f[f"n_{g}"] = sum(1 for d in with_resp if any(r[g] and r["response"] and r["threshold"] for r in L if r["developer"] == d))
+    name = lambda d: tables.SIGNATORIES[d]
+    for g in ("acc_decider", "acc_external", "acc_unmet"):
+        f[f"missing_{g}"] = sorted(name(d) for d in with_resp
+                                   if not any(r[g] and r["response"] and r["threshold"] for r in L if r["developer"] == d))
+    f["loose_join"] = sorted(name(d) for d in devs if top_loose[d] == 4 and top[d] < 4)
+    f["no_threshold_devs"] = sorted(name(d) for d in devs if top[d] < 2)
     f["gap_cells"] = sum(1 for r in L if "response" in r["gaps"].split())
     f["gap_devs"] = sorted({tables.SIGNATORIES[r["developer"]] for r in L if "response" in r["gaps"].split()})
     ch = tables.changes(c, docs)
@@ -54,6 +64,10 @@ def facts() -> dict:
     f["n_disagree"] = sum(v[1] for v in ag["rungs"].values())
     xv = list(csv.DictReader((ROOT / "coding" / "cross_version.csv").open(encoding="utf-8")))
     f["n_xv_cells"] = len(xv)
+    q = list(csv.DictReader((ROOT / "coding" / "quotes.csv").open(encoding="utf-8")))
+    f["source"] = {s: sum(r["source"].startswith(s) for r in q) for s in ("agreed", "adjudicated", "cross-version", "consistency")}
+    f["n_metr_missed"] = len(METR_MISSED)
+    assert set(METR_MISSED) <= set(docs), "METR_MISSED names a document not in the list"
     vr = ROOT / "coding" / "verify_results.csv"
     if vr.exists():
         v = list(csv.DictReader(vr.open(encoding="utf-8")))
