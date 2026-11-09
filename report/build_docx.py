@@ -257,12 +257,12 @@ def build(out: Path) -> None:
         "OpenAI (April 2025) turned its binding third-party audits into an illustrative appendix, and moved autonomy and loss of control out of its tracked risks into \"research categories\" with no danger levels.",
         "Google DeepMind removed autonomy in February 2025 and marked its misalignment levels \"illustrative only\" in September 2025.",
         "Anthropic removed cyber from its main policy in February 2026.",
-        "Amazon (September 2026) changed outside evaluation from a commitment to \"as appropriate\".",
+        "Amazon (September 2026) changed outside evaluation from a commitment to \"as appropriate\", and its named leaders went from approving the safeguards to reviewing them.",
         "xAI (June 2026) removed its numeric limits for bio and chem and for model dishonesty, and stopped naming AI R&D.",
         "Naver (July 2026) replaced its named risks with three \"protected values\"; cyber, bio and chem, and loss of control are no longer named.",
     ]:
         para(doc, txt, style="List Bullet", after=4)
-    para(doc, "Anthropic's February 2026 rewrite also dropped autonomy from full accountability to a threshold, because its only commitment there depends on Anthropic being ahead of competitors. "
+    para(doc, "Anthropic's February 2026 policy rewrite also dropped autonomy from full accountability to a threshold, because its only commitment there depends on Anthropic being ahead of competitors; its separate compliance framework still supplies a response. "
               "Some steps went up too: Anthropic added a loss of control level in February 2026, Google DeepMind in April 2026, Meta in its April 2026 framework "
               "and Amazon in September 2026. Every change was checked with both versions side by side. Appendix A shows every version.", after=10)
 
@@ -293,7 +293,7 @@ def build(out: Path) -> None:
     for txt in [
         "The brief asks for two people to code at least a quarter of the cells. Here two AI coders coded all of them and no human audited the codes. Two coders from one model family can share blind spots.",
         "The top step needs all three parts of accountability, and outside review must be a commitment, not \"as needed\". Both are strict readings; the looser result is given above.",
-        "Where a company has two current documents (Anthropic and OpenAI), a step counts if either reaches it.",
+        "Where a company has two current documents (Anthropic and OpenAI), they are combined part by part: each step can come from either document. Anthropic's autonomy and loss of control reach the top step only in combination, the response from one document and the accountability from the other.",
         "Samsung is included because its \"AI Safety Framework\" is the document it published for the Seoul commitments, even though it covers only on-device AI.",
     ]:
         para(doc, txt, style="List Bullet", after=4)

@@ -4,11 +4,11 @@ amazon-fmsf-2025.02,amazon,fmsf,2025-02-09,biochem,1,1,1,1,1,1,4
 amazon-fmsf-2025.02,amazon,fmsf,2025-02-09,ai_rnd,1,1,1,1,1,1,4
 amazon-fmsf-2025.02,amazon,fmsf,2025-02-09,autonomy,0,0,0,0,0,0,0
 amazon-fmsf-2025.02,amazon,fmsf,2025-02-09,loss_of_control,0,0,0,0,0,0,0
-amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,cyber,1,1,1,1,0,1,3
-amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,biochem,1,1,1,1,0,1,3
-amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,ai_rnd,1,1,1,1,0,1,3
-amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,autonomy,1,1,1,1,0,1,3
-amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,loss_of_control,1,1,1,1,0,1,3
+amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,cyber,1,1,1,0,0,1,3
+amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,biochem,1,1,1,0,0,1,3
+amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,ai_rnd,1,1,1,0,0,1,3
+amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,autonomy,1,1,1,0,0,1,3
+amazon-fmsf-2026.09,amazon,fmsf,2026-09-17,loss_of_control,1,1,1,0,0,1,3
 anthropic-rsp-1.0,anthropic,rsp,2023-09-19,cyber,1,0,1,1,0,1,1
 anthropic-rsp-1.0,anthropic,rsp,2023-09-19,biochem,1,0,1,1,0,1,1
 anthropic-rsp-1.0,anthropic,rsp,2023-09-19,ai_rnd,1,0,0,0,0,0,1

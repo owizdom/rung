@@ -24,11 +24,11 @@ microsoft,Microsoft,microsoft-fgf-2026.02,biochem,1,1,1,1,0,1,3,4,
 microsoft,Microsoft,microsoft-fgf-2026.02,ai_rnd,1,1,1,1,0,1,3,4,
 microsoft,Microsoft,microsoft-fgf-2026.02,autonomy,1,1,1,1,0,1,3,4,
 microsoft,Microsoft,microsoft-fgf-2026.02,loss_of_control,1,0,1,1,0,0,1,1,response acc_decider
-amazon,Amazon,amazon-fmsf-2026.09,cyber,1,1,1,1,0,1,3,4,
-amazon,Amazon,amazon-fmsf-2026.09,biochem,1,1,1,1,0,1,3,4,
-amazon,Amazon,amazon-fmsf-2026.09,ai_rnd,1,1,1,1,0,1,3,4,
-amazon,Amazon,amazon-fmsf-2026.09,autonomy,1,1,1,1,0,1,3,4,
-amazon,Amazon,amazon-fmsf-2026.09,loss_of_control,1,1,1,1,0,1,3,4,
+amazon,Amazon,amazon-fmsf-2026.09,cyber,1,1,1,0,0,1,3,3,
+amazon,Amazon,amazon-fmsf-2026.09,biochem,1,1,1,0,0,1,3,3,
+amazon,Amazon,amazon-fmsf-2026.09,ai_rnd,1,1,1,0,0,1,3,3,
+amazon,Amazon,amazon-fmsf-2026.09,autonomy,1,1,1,0,0,1,3,3,
+amazon,Amazon,amazon-fmsf-2026.09,loss_of_control,1,1,1,0,0,1,3,3,
 xai,xAI,xai-framework-2026.06,cyber,1,0,1,0,0,0,1,1,response
 xai,xAI,xai-framework-2026.06,biochem,1,0,1,0,0,0,1,1,response
 xai,xAI,xai-framework-2026.06,ai_rnd,0,0,0,0,0,0,0,0,

@@ -120,7 +120,7 @@ def main() -> int:
     title = (f"{WORD[n_thr]} of {len(devs)} safety frameworks set risk thresholds. {WORD[n_acc]} {'says' if n_acc == 1 else 'say'} who\n"
              f"decides, who checks from outside and what happens if safeguards fail")
     latest(title, rows, [
-        "Each cell is the highest step the developer's current framework reaches for that risk. Anthropic and OpenAI each have two current documents; a step counts if either reaches it.",
+        "Each cell is the highest step the developer's current framework reaches for that risk. Anthropic and OpenAI each have two current documents, combined part by part: each step can come from either.",
         "Coded from the framework text, tables and figures by two independent passes, disagreements adjudicated. Hedged verbs (may, consider, as needed) and illustrative text do not count.",
         "Source: published frontier safety frameworks of the Frontier AI Safety Commitments signatories, archived copies (Wayback Machine); METR framework list.",
     ])

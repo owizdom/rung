@@ -12,7 +12,7 @@ Frameworks that set a threshold for a risk almost always say what they will do w
 
 - Of 13 developers with a published framework, 8 set a threshold for at least one of the five risks. Every one of those 8 also commits to a response.
 - Only 1 reaches full accountability on any risk: Anthropic. Full accountability means a named decider, a binding commitment to outside review, and a stated consequence if the response fails.
-- Outside review is the step that is missing. Of the 8 frameworks with a threshold and a response, 5 name a decider and 6 state a consequence, but only 2 commit to review from outside the company.
+- Outside review is the step that is missing. Of the 8 frameworks with a threshold and a response, 4 name a decider and 6 state a consequence, but only 2 commit to review from outside the company.
 - Cyber and bio and chem are covered best: 7 developers set a threshold for each. AI R&D automation gets a threshold from 6, autonomy and loss of control from 5 each.
 - Naver and Samsung Electronics publish frameworks that name none of the five risks.
 - Across 40 versions, a risk's step went up 15 times and down 18 times between one version and the next.
@@ -35,17 +35,17 @@ The reverse happens. In 12 developer-and-risk cells a framework commits to a res
 
 Among the 8 frameworks with a threshold and a response:
 
-- 5 name who decides. G42, Google DeepMind and NVIDIA do not. G42's governance board oversees and reviews but no passage gives it, or anyone named, the decision; Google DeepMind's latest version leaves the call to an unnamed "appropriate governance function"; NVIDIA's only binding approval sits below its threshold.
+- 4 name who decides. Amazon, G42, Google DeepMind and NVIDIA do not. Amazon's 2026 leaders "review the safeguards evaluation report as part of a go/no-go decision", where its 2025 version had them "approve the mitigations"; G42's governance board oversees and reviews but no passage gives it, or anyone named, the decision; Google DeepMind's latest version leaves the call to an unnamed "appropriate governance function"; NVIDIA's only binding approval sits below its threshold.
 - 6 say what happens if the response cannot be met. Google DeepMind and NVIDIA do not.
 - 2 commit to review from outside the company. Amazon, Google DeepMind, Meta, Microsoft, NVIDIA and OpenAI do not.
 
 Most of the six do mention outside reviewers, but in words that leave it to the company. Google DeepMind will analyse risk "involving internal and external experts as needed". Amazon conducts external evaluations "as appropriate". OpenAI's only binding audit commitment sits in an appendix it titles "Illustrative safeguards", which "should not be construed as a definitive or comprehensive list"; in the main text it will work with third parties "when available and feasible". The codebook counts none of these as a commitment.
 
-Under a looser rule, where a named decider plus either outside review or a stated consequence is enough, 5 developers reach the top step instead of 1: Amazon, Meta, Microsoft and OpenAI join.
+Under a looser rule, where a named decider plus either outside review or a stated consequence is enough, 4 developers reach the top step instead of 1: Meta, Microsoft and OpenAI join.
 
 ### 4. Anthropic's current policy no longer mentions cyber
 
-Anthropic's Responsible Scaling Policy named cyber in versions 1.0 to 2.2. From version 3.0 (February 2026) it does not mention cyber at all. Anthropic's cyber coverage now comes only from its Frontier Compliance Framework, written for California's SB 53, which reaches the response step. The heatmap counts a step if either current document reaches it, so Anthropic's cyber cell shows a response.
+Anthropic's Responsible Scaling Policy named cyber in versions 1.0 to 2.2. From version 3.0 (February 2026) it does not mention cyber at all. Anthropic's cyber coverage now comes only from its Frontier Compliance Framework, written for California's SB 53, which reaches the response step. The heatmap combines a developer's current documents part by part: each step can come from either document. So Anthropic's cyber cell shows a response, and its autonomy and loss of control cells reach accountability by combining the Compliance Framework's response with the RSP's named decider, outside review and stated consequence. Neither document reaches that step for those two risks on its own.
 
 ## How commitments changed between versions
 
@@ -56,7 +56,7 @@ Changes that lowered a step:
 - OpenAI, Preparedness Framework beta to v2 (April 2025): the beta's binding third-party audits become an illustrative appendix, so cyber, bio and chem and AI R&D drop from accountability to response. Autonomy and loss of control fall to mention: v2 moves them to "Research Categories" with no thresholds.
 - Google DeepMind, Frontier Safety Framework v1.0 to v2.0 (February 2025): the autonomy risk domain is removed. v2.0 to v3.0 (September 2025): its misalignment levels become "illustrative only", so the loss of control threshold is lost.
 - Anthropic, RSP v2.2 to v3.0: cyber removed (above). Autonomy drops from full accountability to threshold: v3.0's only commitment that reaches autonomy is to delay development if Anthropic is in the lead, which depends on competitors, not on the threshold.
-- Amazon, February 2025 to September 2026: outside evaluation changes from a commitment to "as appropriate", so cyber, bio and chem and AI R&D drop from accountability to response.
+- Amazon, February 2025 to September 2026: outside evaluation changes from a commitment to "as appropriate", and the named leaders go from approving the mitigations to reviewing them, so cyber, bio and chem and AI R&D drop from accountability to response.
 - xAI, December 2025 to June 2026: the numeric criteria for bio and chem and for dishonesty are removed, so both drop from response to mention. AI R&D is no longer named.
 - Naver, v1.0 to v2.0 (July 2026): cyber, bio and chem, and loss of control are no longer named. v2.0 replaces risk categories with three protected values.
 
@@ -78,7 +78,7 @@ Codebook. Each document is coded on five risks and six yes-or-no steps: mentione
 
 Coding. Two independent coders, both Claude models, coded every one of the 1,200 cells. Each read every page, tables and figures included, and backed every yes with a quote that a script found verbatim in the document. A fresh adjudicator ruled on the 95 cells where they disagreed. Agreement before adjudication, as Cohen's kappa: mentioned 0.95, threshold 0.868, response 0.663, named decider 0.82, outside review 0.793, consequence 0.88. Weighted kappa on the overall level is 0.885. The response step falls below the 0.7 bar the study set, so a single coder's reading of it would be unreliable.
 
-Later rounds. Two further rounds ruled on cells with both readings in view. A cross-version check re-read every step that moved between consecutive versions with both versions open, ruling 232 cells; where the same wording had been coded two ways, it set both versions to one value. A consistency pass applied the three added rules to every document, and after a second review a fresh adjudicator ruled on six groups of contested cells (91 cells), so that oversight-only boards, discretionary outside review and competitor-contingent commitments are coded the same way for every developer. Each round could overturn an earlier value, including one both coders agreed on. Of the 1,200 final cells, 844 are as both coders agreed, 46 as the adjudicator ruled, 189 as the cross-version check ruled and 121 as the consistency pass ruled.
+Later rounds. Two further rounds ruled on cells with both readings in view. A cross-version check re-read every step that moved between consecutive versions with both versions open, ruling 232 cells; where the same wording had been coded two ways, it set both versions to one value. A consistency pass applied the three added rules to every document, and after the second and third reviews fresh adjudicators ruled on eight groups of contested cells (111 cells), so that oversight-only boards, discretionary outside review and competitor-contingent commitments are coded the same way for every developer. Each round could overturn an earlier value, including one both coders agreed on. Of the 1,200 final cells, 836 are as both coders agreed, 46 as the adjudicator ruled, 179 as the cross-version check ruled and 139 as the consistency pass ruled.
 
 Check. A separate instance re-checked 60 final codes, sampled 5 per step and value, against the documents before the consistency pass: 57 correct, 1 wrong and 2 unsure. The wrong one, Anthropic RSP v2.0's cyber outside review, turns on whether the policy's general "commitment not to train or deploy models ... unless" sentence is a response for cyber; the cross-version check read it as one in every version where it appears.
 
@@ -92,7 +92,7 @@ Gaps in the public record:
 Choices in this study:
 - Both coders, the adjudicators and every later round are Claude models. The brief asks for two people to code at least 25% of cells; here two model coders coded all of them, and no human audited the codes.
 - Level 4 needs all three accountability parts, and outside review needs a commitment that does not leave the decision to the company. Both are strict readings. The looser level 4 rule is reported above.
-- A developer's cell takes each step from any current document, which matters for Anthropic (RSP and Compliance Framework) and OpenAI (Preparedness and Governance Frameworks). Each document is also reported on its own in the data.
+- A developer's cell combines its current documents part by part, as the spec sets out: each step can come from either document. This matters for Anthropic (RSP and Compliance Framework) and OpenAI (Preparedness and Governance Frameworks). Anthropic's autonomy and loss of control reach accountability only in combination. Each document is also reported on its own in the data.
 - Autonomy and loss of control are coded as two risks. Merging them would not change any developer's top level.
 - Samsung Electronics is included because its "AI Safety Framework" is its Seoul-commitment document, even though it covers on-device AI and names none of the five risks.
 
