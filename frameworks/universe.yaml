@@ -1,0 +1,504 @@
+window_end: '2026-10-31'
+documents:
+- doc_id: anthropic-rsp-1.0
+  developer: anthropic
+  line: rsp
+  title: Anthropic's Responsible Scaling Policy
+  version: '1.0'
+  published: '2023-09-19'
+  published_source: document ('Version 1.0 Effective September 19, 2023'); METR Sep 2023
+  url: https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf
+  archive_url: ''
+  sha256: 14785337769bee567dd488d346f9cf6e36fed7792da9656a0a8b55b2f6d21c43
+  local: ~/.rung-cache/discovery/anthropic_rsp_1_0.pdf
+  note: 'METR version; live bytes re-confirmed cache: ~/.rung-cache/discovery/anthropic_rsp_1_0.pdf'
+- doc_id: anthropic-rsp-2.0
+  developer: anthropic
+  line: rsp
+  title: Responsible Scaling Policy
+  version: '2.0'
+  published: '2024-10-15'
+  published_source: document ('Effective October 15, 2024'); METR Oct 2024
+  url: https://www-cdn.anthropic.com/616dee633636e5bd309cb73aed8622e80fe47839.pdf
+  archive_url: https://web.archive.org/web/20241022154907id_/https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf
+  sha256: cc522e2770c6fec6c2808ce5abd8b757a8d7fe2078d029879295df8443185f7f
+  local: ~/.rung-cache/discovery/anthropic_rsp_2_0_live.pdf
+  note: 'PROBLEM DOC RESOLVED. METR link (assets.anthropic.com) now redirects; Anthropic''s own RSP page links this live www-cdn URL. Live bytes are identical to the earliest Wayback capture (2024-10-22).
+    A second variant (sha256 22b37ecf..., 341342 bytes, captures 2024-11-01 onward) differs only by the words '', link here'' in the change log; treat as the same version. cache: ~/.rung-cache/discovery/anthropic_rsp_2_0_live.pdf'
+- doc_id: anthropic-rsp-2.1
+  developer: anthropic
+  line: rsp
+  title: Responsible Scaling Policy
+  version: '2.1'
+  published: '2025-03-31'
+  published_source: document ('Effective March 31, 2025'); METR Mar 2025
+  url: https://www-cdn.anthropic.com/17310f6d70ae5627f55313ed067afc1a762a4068.pdf
+  archive_url: ''
+  sha256: f0ac67ca61b1726cbcd159e6d2f595ce4f26de2ee29c594ba488f53f780d4ee7
+  local: ~/.rung-cache/discovery/anthropic_rsp_2_1.pdf
+  note: 'METR version; live bytes re-confirmed cache: ~/.rung-cache/discovery/anthropic_rsp_2_1.pdf'
+- doc_id: anthropic-rsp-2.2
+  developer: anthropic
+  line: rsp
+  title: Responsible Scaling Policy
+  version: '2.2'
+  published: '2025-05-14'
+  published_source: document ('Effective May 14, 2025'); METR May 2025
+  url: https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf
+  archive_url: ''
+  sha256: 4807f3970c76968a75a6dffa55d8ffe547014522b63c67e261cd02f7b6fc1e39
+  local: ~/.rung-cache/discovery/anthropic_rsp_2_2.pdf
+  note: 'METR version; live bytes re-confirmed cache: ~/.rung-cache/discovery/anthropic_rsp_2_2.pdf'
+- doc_id: anthropic-rsp-3.0
+  developer: anthropic
+  line: rsp
+  title: Anthropic's Responsible Scaling Policy (version 3.0)
+  version: '3.0'
+  published: '2026-02-24'
+  published_source: document ('Effective February 24, 2026'); METR Feb 2026
+  url: https://www-cdn.anthropic.com/e670587677525f28df69b59e5fb4c22cc5461a17.pdf
+  archive_url: ''
+  sha256: a71bfa08a7fa4b750b2b408b4b9c8681ad50c6b53271c314f591c59c84c38064
+  local: ~/.rung-cache/discovery/anthropic_cdn_e6705876.pdf
+  note: 'METR links https://anthropic.com/responsible-scaling-policy/rsp-v3-0, which serves identical bytes (same sha256) cache: ~/.rung-cache/discovery/anthropic_rsp_3_0.pdf'
+- doc_id: anthropic-rsp-3.1
+  developer: anthropic
+  line: rsp
+  title: Responsible Scaling Policy
+  version: '3.1'
+  published: '2026-04-02'
+  published_source: document ('Effective April 2, 2026'); METR Apr 2026
+  url: https://www-cdn.anthropic.com/files/4zrzovbb/website/bf04581e4f329735fd90634f6a1962c13c0bd351.pdf
+  archive_url: ''
+  sha256: 5aa73a3b3155ef856e429711c8d156e18d9b5ce1e28c2e0a74019a2c3c764d7b
+  local: ~/.rung-cache/discovery/anthropic_rsp_3_1.pdf
+  note: 'METR version; live bytes re-confirmed cache: ~/.rung-cache/discovery/anthropic_rsp_3_1.pdf'
+- doc_id: anthropic-rsp-3.2
+  developer: anthropic
+  line: rsp
+  title: Responsible Scaling Policy
+  version: '3.2'
+  published: '2026-04-29'
+  published_source: document ('Effective April 29, 2026'); METR Apr 2026
+  url: https://cdn.sanity.io/files/4zrzovbb/website/28c6241900d90410628a8a2003a5572faae4365a.pdf
+  archive_url: ''
+  sha256: 5410e3d986cf6917e9105c3d3a661ccc91bfbcb8672bca18b7752ca394e3f2a1
+  local: ~/.rung-cache/discovery/anthropic_rsp_3_2.pdf
+  note: 'METR version; live bytes re-confirmed cache: ~/.rung-cache/discovery/anthropic_rsp_3_2.pdf'
+- doc_id: anthropic-rsp-3.3
+  developer: anthropic
+  line: rsp
+  title: Responsible Scaling Policy
+  version: '3.3'
+  published: '2026-05-26'
+  published_source: document ('Effective May 26, 2026'); METR May 2026
+  url: https://cdn.sanity.io/files/4zrzovbb/website/c11e84981d0a7281a1b229f3fa6af0da66eaf43f.pdf
+  archive_url: ''
+  sha256: b7e7cc1e72e9371949415522ae3c9e61103cc739c5df64579af32dd941624f42
+  local: ~/.rung-cache/discovery/anthropic_rsp_3_3.pdf
+  note: 'METR version; live bytes re-confirmed cache: ~/.rung-cache/discovery/anthropic_rsp_3_3.pdf'
+- doc_id: anthropic-rsp-3.4
+  developer: anthropic
+  line: rsp
+  title: Responsible Scaling Policy
+  version: '3.4'
+  published: '2026-07-08'
+  published_source: document ('Effective July 8, 2026'); METR
+  url: https://cdn.sanity.io/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf
+  archive_url: ''
+  sha256: 6247b9e4001fd342827526fabc476c9d4dd6b2041ac00055f0ccda26f4d0b07d
+  local: ~/.rung-cache/discovery/anthropic_rsp_3_4.pdf
+  note: 'METR version; live bytes re-confirmed; current RSP on 2026-10-31 cache: ~/.rung-cache/discovery/anthropic_rsp_3_4.pdf'
+- doc_id: anthropic-fcf-1.0
+  developer: anthropic
+  line: fcf
+  title: Frontier Compliance Framework
+  version: 1 (December 2025)
+  published: '2025-12-19'
+  published_source: announcement (anthropic.com/news/compliance-framework-SB53, 'Published Dec 19, 2025'); document changelog in v1.1/v2 ('December 19, 2025 Initial Version')
+  url: https://trust.anthropic.com/resources?s=eorilovp4wxk38nxbi7k3&name=anthropic-frontier-compliance-framework
+  archive_url: https://web.archive.org/web/20260106195759id_/https://trust.anthropic.com/doc/trust?rid=6945b96bed5877c43526a197&r=iz673w96495gyjer8h78n&view=true
+  sha256: c37f500cd813fe04fe6a1af27f192ce67a111ac374201b81144190edd5721981
+  local: ~/.rung-cache/discovery/trustdoc_rid6945b96b_wb20260106195759.pdf
+  note: 'NEW: METR misses this version. Cover ''December 2025'', 16 pp. Live doc URL now 404; bytes from Wayback. Portal rid is a Mongo ObjectId whose timestamp decodes to 2025-12-19T20:45Z. cache: ~/.rung-cache/discovery/trustdoc_rid6945b96b_wb20260106195759.pdf'
+- doc_id: anthropic-fcf-1.1
+  developer: anthropic
+  line: fcf
+  title: Frontier Compliance Framework
+  version: 1.1 (March 2026)
+  published: '2026-03-02'
+  published_source: document changelog ('March 2, 2026 Update'); cover 'March 2026'
+  url: https://trust.anthropic.com/resources?s=zgt6rgfecy1eo7vicr064b&name=anthropic-frontier-compliance-framework
+  archive_url: https://web.archive.org/web/20260305132455id_/https://trust.anthropic.com/doc/trust?rid=69a610f04f45e4e758282a86&r=iz673w96495gyjer8h78n&view=true
+  sha256: 442d44b5ff029320a3c2e039b8ab5ed954b07277fc3b39f3dbc374d891a6c5c9
+  local: ~/.rung-cache/discovery/trustdoc_rid69a610f0_wb20260305132455.pdf
+  note: 'NEW: METR misses this version. 16 pp; PDF Title metadata ''Frontier Compliance Framework [FEB 2026] PDF''. Revised risk tiers in all four categories; added nascent Harmful Manipulation tiers. Bytes
+    from Wayback. cache: ~/.rung-cache/discovery/trustdoc_rid69a610f0_wb20260305132455.pdf'
+- doc_id: anthropic-fcf-2.0
+  developer: anthropic
+  line: fcf
+  title: Frontier Compliance Framework
+  version: '2'
+  published: '2026-07-24'
+  published_source: document cover ('Version 2 Effective 24th July 2026') and changelog; Anthropic HAIP report (oecd.ai) 'updated in July 2026'
+  url: https://trust.anthropic.com/doc/trust?rid=6a637f7ac13a333cf66a4fbf&r=iz673w96495gyjer8h78n&view=true
+  archive_url: https://web.archive.org/web/20260930043905/https://trust.anthropic.com/doc/trust?rid=6a637f7ac13a333cf66a4fbf&r=iz673w96495gyjer8h78n&view=true
+  sha256: 8e4d91e12861218ee8068e2ad1f50ce84d803d0fac22f0492e6a9dccbbe5e23f
+  local: ~/.rung-cache/discovery/anthropic_fcf_live_rid6a637f7a.pdf
+  note: 'PROBLEM DOC RESOLVED: public, no login or NDA. The portal lists it with ''View'' (not ''Request access''); curl of the doc URL returns the PDF (17 pp, Title ''Frontier Compliance Framework_July
+    2026''). This is what METR''s portal link (s=zgt6rgfecy1eo7vicr064b) opens today, so METR''s ''Jun 2026'' label does not match the current file. Archive capture listed in CDX (20260930043905) but not
+    downloaded (rate limit). Current FCF on 2026-10-31. cache: ~/.rung-cache/discovery/anthropic_fcf_live_rid6a637f7a.pdf'
+- doc_id: openai-pf-beta
+  developer: openai
+  line: pf
+  title: Preparedness Framework (Beta)
+  version: Beta
+  published: '2023-12-18'
+  published_source: document ('December 18, 2023'); METR Dec 2023
+  url: https://cdn.openai.com/openai-preparedness-framework-beta.pdf
+  archive_url: ''
+  sha256: c84e3a59c7dab251e45434e0b0d3e8abadcea7293f995cf92d32269e7d290398
+  local: ~/.rung-cache/discovery/openai_pf_beta.pdf
+  note: 'METR version; live bytes re-confirmed cache: ~/.rung-cache/discovery/openai_pf_beta.pdf'
+- doc_id: openai-pf-2.0
+  developer: openai
+  line: pf
+  title: Preparedness Framework
+  version: 2 (release-day file)
+  published: '2025-04-15'
+  published_source: 'document (''Version 2. Last updated: 15th April, 2025''); announcement openai.com/index/updating-our-preparedness-framework (Apr 15 2025); METR'
+  url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+  archive_url: https://web.archive.org/web/20250415191354id_/https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+  sha256: 432de80c72d039f2e93c70c481af916616676a31b867b7113f1874e5763ccac3
+  local: ~/.rung-cache/discovery/openai_pf_2_wb20250415191354.pdf
+  note: 'NEW (original text METR''s link no longer delivers). Captured on release day; PDF CreationDate 2025-04-15; 22 pp; contains the ''Value alignment'' safeguard row later removed. cache: ~/.rung-cache/discovery/openai_pf_2_wb20250415191354.pdf'
+- doc_id: openai-pf-2.0r
+  developer: openai
+  line: pf
+  title: Preparedness Framework
+  version: 2 (silent re-issue, still labelled 15 April 2025)
+  published: '2025-04-28'
+  published_source: 'inferred: PDF CreationDate 2025-04-28; first Wayback capture of these bytes 2025-06-11; document still prints ''Last updated: 15th April, 2025'''
+  url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+  archive_url: ''
+  sha256: fae6e4cc6f7212a010bb9348fc0cde1fe711b9cad426c6a99db97740ee52729b
+  local: ~/.rung-cache/discovery/openai_pf_2_wb20250611025204.pdf
+  note: 'METR links this file as v2.0 (Apr 15 2025). NEW FINDING: it is an unannounced re-issue of the release-day file. Word-level diff: the only content change is the removal of the safeguards-table row
+    ''Value alignment: The model consistently applies human values in novel settings (without any instructions) to avoid taking actions that cause harm, and has shown sufficiently minimal indications of
+    misaligned behaviors like deception or scheming'' (relevant to loss_of_control); other differences are punctuation. Still the current Preparedness Framework on 2026-10-31 (no v3 found). cache: ~/.rung-cache/discovery/openai_pf_2.pdf'
+- doc_id: openai-fgf-2026.05
+  developer: openai
+  line: fgf
+  title: OpenAI Frontier Governance Framework
+  version: (unversioned, 2026)
+  published: 2026-05
+  published_source: METR list (May 2026); announcement page date May 28, 2026 per search snippets (page returns 403 to curl, WebFetch and the browser extension); first Wayback capture of the PDF 2026-05-29
+    (Midas Watchtower also logs May 29, 2026)
+  url: https://cdn.openai.com/pdf/e37d949b-8c9f-4d76-b99e-4272f4631a7e/openai-frontier-governance-framework.pdf
+  archive_url: https://web.archive.org/web/20260529171758id_/https://cdn.openai.com/pdf/e37d949b-8c9f-4d76-b99e-4272f4631a7e/openai-frontier-governance-framework.pdf
+  sha256: 33e4e118b24d56786c2292df6ed4d9ec635f8887b22986f98ce3c09896fcfffc
+  local: ~/.rung-cache/discovery/openai_fgf_wb20260529171758.pdf
+  note: 'METR version; live bytes re-confirmed and identical to the first Wayback capture (2026-05-29); no printed date or version in the PDF cache: ~/.rung-cache/discovery/openai_fgf.pdf'
+- doc_id: google-fsf-1.0
+  developer: google
+  line: fsf
+  title: Frontier Safety Framework
+  version: '1.0'
+  published: '2024-05-17'
+  published_source: announcement (deepmind.google blog 'introducing-the-frontier-safety-framework', May 17, 2024); METR May 2024
+  url: https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/introducing-the-frontier-safety-framework/fsf-technical-report.pdf
+  archive_url: ''
+  sha256: 3c073cd5c7a0dd03a07d0cc826fd9d5c76801f57441ac37ef6b2163e9261543d
+  local: ~/.rung-cache/discovery/gdm_fsf_1_0.pdf
+  note: 'METR version; live bytes re-confirmed; document prints no date; one Wayback payload only cache: ~/.rung-cache/discovery/gdm_fsf_1_0.pdf'
+- doc_id: google-fsf-2.0
+  developer: google
+  line: fsf
+  title: Frontier Safety Framework 2.0
+  version: '2.0'
+  published: '2025-02-04'
+  published_source: document ('4th February 2025'); METR Feb 2025
+  url: https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf
+  archive_url: https://web.archive.org/web/20250205011727id_/https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf
+  sha256: 14a48e4ef052fba75b651ea23845c2e9557f5c638e2767656decc6410861aae3
+  local: ~/.rung-cache/discovery/gdm_fsf_2_0_wb20250328105532.pdf
+  note: 'METR version; live bytes re-confirmed. The live file is a corrected re-issue: it adds an ''Updates and changes'' page listing ''Fixed an incorrect link to Google''s AI Principles webpage (21 March
+    2025)'' as a non-substantive correction, plus one spelling fix. The original Feb 2025 file (archive_url, 8 pp, sha256 f82534b5f9c26a700340706d8ebac7b34bbb492354465d24226bf94eb7ddd16c) otherwise has
+    the same text; treated as one version. cache: ~/.rung-cache/discovery/gdm_fsf_2_0.pdf'
+- doc_id: google-fsf-3.0
+  developer: google
+  line: fsf
+  title: Frontier Safety Framework
+  version: '3.0'
+  published: '2025-09-22'
+  published_source: 'document (''Published: September 22, 2025''); METR Sep 2025'
+  url: https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3.pdf
+  archive_url: ''
+  sha256: 87ebf40b747b98468226b2198442b45ff54854975f6e9882d9ece2d009082fe5
+  local: ~/.rung-cache/discovery/gdm_fsf_3_0.pdf
+  note: 'METR version; live bytes re-confirmed; one Wayback payload only cache: ~/.rung-cache/discovery/gdm_fsf_3_0.pdf'
+- doc_id: google-fsf-3.1
+  developer: google
+  line: fsf
+  title: Frontier Safety Framework
+  version: '3.1'
+  published: '2026-04-17'
+  published_source: 'document (''Published: April 17, 2026''); METR'
+  url: https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3-1.pdf
+  archive_url: ''
+  sha256: ad10d2d240e0d557ecad406dbccedcbb4a70295f8ba8eec46bfe01803cb9c301
+  local: ~/.rung-cache/discovery/gdm_fsf_3_1.pdf
+  note: 'METR version; live bytes re-confirmed; current on 2026-10-31; no separate SB 53 framework found cache: ~/.rung-cache/discovery/gdm_fsf_3_1.pdf'
+- doc_id: meta-scaling-2025.02
+  developer: meta
+  line: scaling
+  title: Frontier AI Framework
+  version: '1.1 printed (METR: v1.0), February 2025 text'
+  published: '2025-02-03'
+  published_source: document change log in v2.0 and v2.1 ('February 3, 2025 (Frontier AI Framework) Initial version'); METR Feb 2025
+  url: https://ai.meta.com/static-resource/meta-frontier-ai-framework/
+  archive_url: https://web.archive.org/web/20250213105620id_/https://ai.meta.com/static-resource/meta-frontier-ai-framework/
+  sha256: 9fa301dfb67bf8d392abda13a2466358ffde756f14a9d55e4fe2d95f7cfecc21
+  local: ~/.rung-cache/discovery/meta_faf_wb20250213105620.pdf
+  note: 'NEW (original text METR''s link does not deliver). Cover prints ''Version 1.1''; PDF CreationDate 2025-01-31; 21 pp. Live URL returns HTTP 400. The 2025-03-11 capture has the same CDX payload digest
+    (not downloaded). cache: ~/.rung-cache/discovery/meta_faf_wb20250213105620.pdf'
+- doc_id: meta-scaling-2025.03
+  developer: meta
+  line: scaling
+  title: Frontier AI Framework
+  version: 1.1 printed, March 2025 silent revision
+  published: 2025-03
+  published_source: 'inferred: PDF CreationDate 2025-03-14 and first Wayback capture 2025-03-28; not in Meta''s change log'
+  url: https://ai.meta.com/static-resource/meta-frontier-ai-framework/
+  archive_url: https://web.archive.org/web/20250328093937id_/https://ai.meta.com/static-resource/meta-frontier-ai-framework/
+  sha256: 8f88ef32bba23ea9b386231c3bf10091e73bcae17fed6a900bb0c52b98d0d58b
+  local: ~/.rung-cache/discovery/meta_faf_wb20250927115711.pdf
+  note: 'NEW version line-wise: this is the file METR links (its archive 20260303173438 has identical bytes) but labels v1.0 Feb 2025. Text differs from Feb 2025 file (scope narrowed to models that ''exceed''
+    the frontier; ''internal deployment'' -> ''closed deployment''; figure reordered). Unannounced; the date is inferred, not stated. cache: ~/.rung-cache/discovery/meta_faf_wb20250328093937.pdf'
+- doc_id: meta-scaling-2.0
+  developer: meta
+  line: scaling
+  title: Advanced AI Scaling Framework
+  version: 2 (v2.0)
+  published: '2026-04-07'
+  published_source: document change log ('April 7, 2026 (Advanced AI Scaling Framework v2.0)'); METR Apr 2026
+  url: https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2
+  archive_url: https://web.archive.org/web/20260408163104id_/https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2
+  sha256: d87aa9bf00456ec747e80b84216f9f2ffc427c1e98541f8b3c8f7f52c13c7b6a
+  local: ~/.rung-cache/discovery/meta_aasf_wb20260408163104.pdf
+  note: 'PROBLEM DOC RESOLVED from Wayback. Live URL returns HTTP 400. 44 pp. Four capture digests (2026-04-08 to 2026-10-19) all decode to these same bytes (one was brotli-encoded), so no silent revision.
+    cache: ~/.rung-cache/discovery/meta_aasf_wb20260408163104.pdf'
+- doc_id: meta-scaling-2.1
+  developer: meta
+  line: scaling
+  title: Meta Superintelligence Scaling Framework
+  version: '2.1'
+  published: '2026-10-02'
+  published_source: document change log ('October 2, 2026 (Meta v2.1)'); METR
+  url: https://research.meta.ai/static/meta-superintelligence-scaling-framework
+  archive_url: https://web.archive.org/web/20261012114306id_/https://research.meta.ai/static/meta-superintelligence-scaling-framework
+  sha256: 5a01d327df6dd81f2be886ea6006dbb53a64c37b359c7bd95346dd718819c64f
+  local: ~/.rung-cache/discovery/meta_ssf_2_1.pdf
+  note: 'METR version; live bytes re-confirmed (= Wayback 2026-10-12). The first capture (2026-10-03; 36 pp, macOS Quartz PDF, sha256 fb266acffd6e01bc5aa3cecde3696dc95b0caa6d17092e2e6ccb15f30141f0a4) is
+    the same text re-rendered: the live 51-page Google Docs file only adds ''Version 2.1 | October 2026'' running headers and one repeated table header row. Treated as one version. Current on 2026-10-31.
+    cache: ~/.rung-cache/discovery/meta_ssf_2_1.pdf'
+- doc_id: microsoft-fgf-2025.02
+  developer: microsoft
+  line: fgf
+  title: Frontier Governance Framework
+  version: 1 (February 2025)
+  published: '2025-02-08'
+  published_source: document change log ('8 February 2025 – First version'); METR Feb 2025
+  url: https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft-Frontier-Governance-Framework.pdf
+  archive_url: ''
+  sha256: da0d8b1507a305fb8b5148b560d8be426549b854ca8888b999874d00e6170c4f
+  local: ~/.rung-cache/discovery/msft_fgf_2025.pdf
+  note: 'METR version; live bytes re-confirmed cache: ~/.rung-cache/discovery/msft_fgf_2025.pdf'
+- doc_id: microsoft-fgf-2026.02
+  developer: microsoft
+  line: fgf
+  title: Frontier Governance Framework
+  version: February 2026
+  published: 2026-02
+  published_source: document change log ('February 2026' one-year update); METR Feb 2026; no day printed
+  url: https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Frontier-Governance-Framework-Feb-2026.pdf
+  archive_url: ''
+  sha256: 3282e4fc65a84420f3bf1360d4716928883abce3d28b56804d0598c164111932
+  local: ~/.rung-cache/discovery/msft_fgf_2026.pdf
+  note: 'METR version; live bytes re-confirmed; current on 2026-10-31 cache: ~/.rung-cache/discovery/msft_fgf_2026.pdf'
+- doc_id: amazon-fmsf-2025.02
+  developer: amazon
+  line: fmsf
+  title: Amazon's Frontier Model Safety Framework
+  version: February 2025 (file label 2.7 FINAL)
+  published: '2025-02-09'
+  published_source: 'announcement (amazon.science publication page: ''published on February 9, 2025, and updated September 17, 2026''); METR Feb 2025'
+  url: https://cdn.amazon.science/a7/7c/8bdade5c4eda9168f3dee6434fff/pc-amazon-frontier-model-safety-framework-2-7-final-2-9.pdf
+  archive_url: https://web.archive.org/web/20260423074133id_/https://cdn.amazon.science/a7/7c/8bdade5c4eda9168f3dee6434fff/pc-amazon-frontier-model-safety-framework-2-7-final-2-9.pdf
+  sha256: 0628d7818d2c506df871521c6a58c83ad8e42a3322d1c942b0b69a0ec873721f
+  local: ~/.rung-cache/discovery/amazon_fmsf_2025_wb20260423.pdf
+  note: 'PROBLEM DOC RESOLVED from Wayback. PDF Title ''PC Amazon Frontier Model Safety Framework 2.7 FINAL'', CreationDate 2025-02-10, 8 pp. Live URL now returns HTTP 403; the landing page links only the
+    2026 PDF. cache: ~/.rung-cache/discovery/amazon_fmsf_2025_wb20260423.pdf'
+- doc_id: amazon-fmsf-2026.09
+  developer: amazon
+  line: fmsf
+  title: Amazon's Frontier Model Safety Framework
+  version: September 2026 update
+  published: '2026-09-17'
+  published_source: announcement (amazon.science publication page 'updated September 17, 2026'); METR
+  url: https://cdn.amazon.science/a0/4f/bca5cb32495280835d9370a466b7/amazon-fmsf-9-2026.pdf
+  archive_url: ''
+  sha256: 06236643f56a6b86fac04e323beab2f97f7d70a03cf4fe7b7f9619c68a9a3edc
+  local: ~/.rung-cache/discovery/amazon_fmsf_2026_09.pdf
+  note: 'METR version; live bytes re-confirmed; current on 2026-10-31 cache: ~/.rung-cache/discovery/amazon_fmsf_2026_09.pdf'
+- doc_id: xai-framework-draft
+  developer: xai
+  line: framework
+  title: xAI Risk Management Framework (Draft)
+  version: Draft
+  published: '2025-02-20'
+  published_source: METR Feb 2025; date in filename (2025.02.20); PDF CreationDate 2025-02-21
+  url: https://data.x.ai/2025.02.20-RMF-Draft.pdf
+  archive_url: ''
+  sha256: 89fafebb73757def5a9068105554e68799e3dcce55374a4179b7a62559b6bef9
+  local: ~/.rung-cache/discovery/xai_rmf_draft_2025_02.pdf
+  note: 'METR version; live bytes re-confirmed; document prints no date cache: ~/.rung-cache/discovery/xai_rmf_draft_2025_02.pdf'
+- doc_id: xai-framework-2025.08
+  developer: xai
+  line: framework
+  title: xAI Risk Management Framework
+  version: August 2025 (METR v1.0)
+  published: '2025-08-20'
+  published_source: 'document (''Last updated: August 20, 2025''); METR Aug 2025'
+  url: https://data.x.ai/2025-08-20-xai-risk-management-framework.pdf
+  archive_url: https://web.archive.org/web/20250821224133id_/https://data.x.ai/2025-08-20-xai-risk-management-framework.pdf
+  sha256: 39fab200a4b36f149c6e24ee00d3e31adc84ed59f95a734290ed80a69de73f74
+  local: ~/.rung-cache/discovery/xai_rmf_wb20250822181311.pdf
+  note: 'METR version; live bytes re-confirmed (= Wayback capture 2025-08-22). The first capture (2025-08-21, PDF created 2025-08-21, sha256 31eae94d448b5b359220cbb93673e22b11adc9e27b8e8eb87e7646521f322f8a)
+    differs only by naming AISI among bio-threshold collaborators (''SecureBio, NIST, AISI, RAND, and EBRC''); AISI was removed in the 2025-08-22 file. Treated as one version. cache: ~/.rung-cache/discovery/xai_rmf_2025_08.pdf'
+- doc_id: xai-framework-2025.12
+  developer: xai
+  line: framework
+  title: xAI Frontier Artificial Intelligence Framework
+  version: December 2025 (METR v2.0)
+  published: '2025-12-30'
+  published_source: 'document (''Last updated: December 30, 2025''); METR Dec 2025'
+  url: https://data.x.ai/2025-12-31-xai-frontier-artificial-intelligence-framework.pdf
+  archive_url: ''
+  sha256: aa01669c19fca50c85323595141d08f98076cf0c48ed8f4a114ad6420c1a1012
+  local: ~/.rung-cache/discovery/xai_faif_2025_12_wb20260102171656.pdf
+  note: 'METR version; live bytes re-confirmed; filename says 12-31, document says December 30 cache: ~/.rung-cache/discovery/xai_faif_2025_12.pdf'
+- doc_id: xai-framework-2026.06
+  developer: xai
+  line: framework
+  title: xAI Frontier Artificial Intelligence Framework
+  version: June 2026
+  published: '2026-06-30'
+  published_source: 'document (''Effective Date: 30 June 2026''); METR'
+  url: https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-f1f0c916.pdf
+  archive_url: ''
+  sha256: 4be128b1d79757b0d052990f995024126f3bcc9d72004ff245df82a993df2995
+  local: ~/.rung-cache/discovery/xai_faif_2026_06.pdf
+  note: 'METR version; live bytes re-confirmed; current on 2026-10-31 cache: ~/.rung-cache/discovery/xai_faif_2026_06.pdf'
+- doc_id: nvidia-fara-2025.02
+  developer: nvidia
+  line: fara
+  title: Frontier AI Risk Assessment
+  version: (unversioned)
+  published: '2025-02-17'
+  published_source: METR list (Feb 17 2025); PDF CreationDate 2025-02-12; first Wayback capture 2025-02-24. The document prints 'Applicable from August 2025' (an effective date, not a publication date)
+  url: https://images.nvidia.com/content/pdf/NVIDIA-Frontier-AI-Risk-Assessment.pdf
+  archive_url: https://web.archive.org/web/20250224223739id_/https://images.nvidia.com/content/pdf/NVIDIA-Frontier-AI-Risk-Assessment.pdf
+  sha256: 8c6aade8b0cff8797f481715cf3dc512171299790031f921c00ae60f53d0077b
+  local: ~/.rung-cache/discovery/nvidia_fara_wb20250224223739.pdf
+  note: 'METR version; live bytes identical to the 2025-02-24 Wayback capture, so there is one version only (Vorp Labs'' ''August 2025'' date is the applicability line, not a second version). States frontier
+    models are not currently under development at NVIDIA. cache: ~/.rung-cache/discovery/nvidia_fara_live.pdf'
+- doc_id: magic-agi-1.0
+  developer: magic
+  line: agi
+  title: AGI Readiness Policy
+  version: '1.0'
+  published: '2024-07-02'
+  published_source: document ('Version 1.0 — July 2, 2024'); METR
+  url: https://magic.dev/agi-readiness-policy
+  archive_url: https://web.archive.org/web/20240704164810id_/https://magic.dev/agi-readiness-policy
+  sha256: 31e1e9173b7c38322311d51125a91e3d21190940b7b61c185c50ee2077bc3c91
+  local: ~/.rung-cache/discovery/magic_agi_readiness.html
+  note: 'METR version; HTML page (no PDF); hash is of the 2026-11-09 live fetch and varies with site chrome. Live page adds the banner ''This policy is outdated. We''re working on an update.'' Wayback history:
+    the original text (captured 2024-07-04 and 2024-07-10) listed different public-model baseline scores; from the 2024-07-20 capture onward the baseline paragraph cites newer LiveCodeBench scores (e.g.,
+    Claude-3.5-Sonnet 48.8%). The threshold sentence (50% on LiveCodeBench) and all other policy text are unchanged, and policy text from 2024-07-20 to 2026-09-02 captures matches live word for word. Treated
+    as one version; Watchtower (Sep 18 2024) records an announced v2 that never appeared. cache: ~/.rung-cache/discovery/magic_agi_readiness.html'
+- doc_id: naver-asf-1.0
+  developer: naver
+  line: asf
+  title: 'NAVER AI Safety Framework (ASF) [file name: NAVER_AI Safety Framework Beta.pdf]'
+  version: 1.0 (called ASF Beta in ASF 2.0)
+  published: '2024-06-17'
+  published_source: 'document (''Initial Publication Date: June 17, 2024''); METR gives Aug 2024 (English blog post date Aug 7, 2024)'
+  url: https://navercorp.com/api/article/download/86d50d13-721c-4bad-8fd8-61ca2360ec38
+  archive_url: ''
+  sha256: 3b176f8ff7cc5f5785aef0103829a47a7d8633a1f82c6607527cfa3e6ad42017
+  local: ~/.rung-cache/discovery/naver_asf_1_0.pdf
+  note: 'NEW COPY: PDF edition of the version METR links as a clova.ai blog page. PDF CreationDate 2026-07-28 (re-rendered file), 10 pp, 1,966 words vs 1,474 for the blog page; 41 of 51 blog sentences appear
+    in the PDF and the PDF adds about 20 sentences, so the two editions are close but not identical text. cache: ~/.rung-cache/discovery/naver_asf_1_0.pdf'
+- doc_id: naver-asf-2.0
+  developer: naver
+  line: asf
+  title: 'NAVER ASF 2.0: AI Safety Framework 2.0'
+  version: '2.0'
+  published: '2026-07-07'
+  published_source: 'document (''Initial Publication Date: July 7, 2026''); METR'
+  url: https://static-homepage.pstatic.net/cdn-static/naver/download/NAVER_AI.Safety.Framework.2.0.pdf
+  archive_url: ''
+  sha256: 56e5ee0dc0cf6fe358f8809db920534d5072215d111adf5d4fe1a0d2138f7496
+  local: ~/.rung-cache/discovery/naver_asf_2_0.pdf
+  note: 'METR version; live bytes re-confirmed; current on 2026-10-31 cache: ~/.rung-cache/discovery/naver_asf_2_0.pdf'
+- doc_id: g42-fsf-2025.02
+  developer: g42
+  line: fsf
+  title: G42 Frontier AI Safety Framework (Publication Version)
+  version: Publication version
+  published: '2025-02-06'
+  published_source: METR (Feb 6 2025); document cover 'February 2025'
+  url: https://www.g42.ai/application/files/9517/3882/2182/G42_Frontier_Safety_Framework_Publication_Version.pdf
+  archive_url: ''
+  sha256: 36ddb6b0cc80ca7d275019c4fbd0545b51fcf875147c171eca35ccdb060a3e58
+  local: ~/.rung-cache/discovery/g42_fsf_2025_02.pdf
+  note: 'METR version; live bytes re-confirmed; one Wayback payload (2025-02-14, 2025-11-28), no later version cache: ~/.rung-cache/discovery/g42_fsf_2025_02.pdf'
+- doc_id: cohere-fmf-2025.02
+  developer: cohere
+  line: fmf
+  title: The Cohere Secure AI Frontier Model Framework
+  version: V1.0
+  published: '2025-02-07'
+  published_source: METR (Feb 7 2025); 'february-2025' in file name; document says 'This is the first published version'
+  url: https://cohere.com/security/the-cohere-secure-ai-frontier-model-framework-february-2025.pdf
+  archive_url: ''
+  sha256: 9b76fb542bdacb94c62fd0e24274391baee504513ea4ee0c8ce0d93ff13eed46
+  local: ~/.rung-cache/discovery/cohere_safmf_2025_02.pdf
+  note: 'METR version; live bytes re-confirmed; one Wayback capture, no later version cache: ~/.rung-cache/discovery/cohere_safmf_2025_02.pdf'
+- doc_id: samsung-asf-2025.02
+  developer: samsung
+  line: asf
+  title: AI Safety Framework (Samsung Electronics)
+  version: (undated)
+  published: 2025-02
+  published_source: 'inferred: PDF CreationDate 2025-02-03; first Wayback capture 2025-03-21; document prints no date'
+  url: https://www.samsung.com/global/sustainability/policy-file/AZTUlveqAMoALYMV/Samsung_Electronics_AI_Safety_Framework_en.pdf
+  archive_url: https://web.archive.org/web/20250321022344id_/https://www.samsung.com/global/sustainability/policy-file/AZTUlveqAMoALYMV/Samsung_Electronics_AI_Safety_Framework_en.pdf
+  sha256: 6e98a3c54c64472e14fdfa0491511c90287980c34dd1038f9e5ef75433257bba
+  local: ~/.rung-cache/discovery/samsung_asf_en_wb20250321.pdf
+  note: 'CANDIDATE, likely OUT under spec 1.1: 5 pp on on-device consumer AI (privacy, fairness, data and model governance); 0 hits for threshold, catastroph, severe, biolog, chemical, cyber, weapon, frontier,
+    autonom. SaferAI: ''limited to on-device AI safety''. The live URL now serves a re-issue (PDF CreationDate 2026-06-25, sha256 a54bd583ec8ce37caa370aa2edd09b1dc42cb088c258fca8da8b2964156ee07c, cached
+    as samsung_asf_en.pdf) whose extracted text differs by one word (''AI System''s'' -> ''AI''s''); treated as the same version. cache: ~/.rung-cache/discovery/samsung_asf_en_wb20250321.pdf'
+excluded:
+- row: Anthropic Frontier Compliance Framework
+  reason: 'FCF v1.2: no bytes obtainable (superseded on the trust portal, never archived, no public copy)'
+- row: Naver NAVER's AI Safety Framework (ASF) (blog edition)
+  reason: 'Naver ASF 1.0 blog edition: same version as the June 17 2024 PDF, which is coded'
+- row: 'IBM Trustworthy AI at scale: IBM''s AI Safety and Governance Fram'
+  reason: 'IBM: newsroom blog post on general governance, names no severe risk; blog posts are not frameworks (spec 1.1)'
+- row: Inflection AI Our policy on frontier safety
+  reason: 'Inflection: October 2023 UK AI Safety Summit policy page, before the Seoul commitments; the same class of page from six other developers is not counted either'
+- row: Zhipu.ai Frontier Open-Weight AI Risk Management Framework (Concordia
+  reason: 'Zhipu: co-authored general open-weight framework (Concordia AI) with no commitment about its own models'
