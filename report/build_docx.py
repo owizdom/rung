@@ -179,7 +179,7 @@ def doc_claims(F):
     """Sentences the docx must contain, built from the data (AT11 for the docx)."""
     return [
         f"Of {F['n_devs']} companies with a published framework, {F['n_threshold_any']} set a specific danger level",
-        f"Only {F['n_acc_any']} ({_and(F['acc_devs'])}) go all the way on any risk",
+        f"Only {F['n_acc_any']} ({_and(F['acc_devs'])}) {'goes' if F['n_acc_any'] == 1 else 'go'} all the way on any risk",
         f"only {F['n_acc_external']} commit to any binding review from outside the company",
         f"Cyber is named by {F['cyber_mention']} of the {F['n_devs']} frameworks, but only {F['cyber_threshold']} set a cyber danger level",
         f"in {F['gap_cells']} cases a framework commits to a response",
@@ -217,8 +217,8 @@ def build(out: Path) -> None:
 
     para(doc, f"Less than they appear to. Of {F['n_devs']} companies with a published framework, {F['n_threshold_any']} set a specific danger level "
               f"for at least one of the five risks, and every one of those also says what it will do when that level is reached. "
-              f"Only {F['n_acc_any']} ({_and(F['acc_devs'])}) go all the way on any risk: they name who decides, commit to outside review, and say "
-              f"what happens if their safeguards fall short. The missing piece is outside review. "
+              f"Only {F['n_acc_any']} ({_and(F['acc_devs'])}) {'goes' if F['n_acc_any'] == 1 else 'go'} all the way on any risk: naming who decides, committing to outside review, and saying "
+              f"what happens if safeguards fall short. The missing piece is outside review. "
               f"{_and([short(x) for x in F['zero_devs']])} publish frameworks that name none of the five risks.", lead="Short answer.", after=8)
 
     para(doc, "Each framework is scored on five risks. For each risk it climbs a ladder, and a step counts only if every step below it is also met:", after=4)
@@ -240,7 +240,7 @@ def build(out: Path) -> None:
     para(doc, f"Every framework that sets a level also commits to a response. Some go the other way: in {F['gap_cells']} cases a framework commits to a response "
               "for a risk it never sets a level for. xAI's June 2026 framework says it \"will only proceed\" if risks are \"determined to be acceptable\", "
               "but defines no level for any risk, so the promise has nothing to measure against.", lead="2. Where there is a level, there is a response.")
-    para(doc, f"Of the {F['n_with_resp']} frameworks with a level and a response, {F['n_acc_decider']} name who decides and {F['n_acc_unmet']} say what happens "
+    para(doc, f"Of the {F['n_with_resp']} frameworks with a level and a response, {F['n_acc_decider']} name who decides ({_and(F['missing_acc_decider'])} do not) and {F['n_acc_unmet']} say what happens "
               f"if the response fails, but only {F['n_acc_external']} commit to any binding review from outside the company. "
               f"{_and(F['missing_acc_external'])} make no binding commitment. Most mention outside experts, but on the company's terms: Google DeepMind involves them "
               "\"as needed\", Amazon runs external evaluations \"as appropriate\", and OpenAI's third-party audits sit in an appendix it calls \"illustrative\". "
@@ -262,7 +262,8 @@ def build(out: Path) -> None:
         "Naver (July 2026) replaced its named risks with three \"protected values\"; cyber, bio and chem, and loss of control are no longer named.",
     ]:
         para(doc, txt, style="List Bullet", after=4)
-    para(doc, "Some steps went up too: Anthropic added a loss of control level in February 2026, Google DeepMind in April 2026, Meta in its April 2026 framework "
+    para(doc, "Anthropic's February 2026 rewrite also dropped autonomy from full accountability to a threshold, because its only commitment there depends on Anthropic being ahead of competitors. "
+              "Some steps went up too: Anthropic added a loss of control level in February 2026, Google DeepMind in April 2026, Meta in its April 2026 framework "
               "and Amazon in September 2026. Every change was checked with both versions side by side. Appendix A shows every version.", after=10)
 
     heading(doc, "How it was done")
@@ -276,7 +277,7 @@ def build(out: Path) -> None:
         ("Agreement.", f"Before the disagreements were settled, the two coders agreed well on most steps (Cohen's kappa, where 1 is perfect: mentioned {k['mentioned']}, threshold {k['threshold']}, "
                        f"decider {k['acc_decider']}, outside review {k['acc_external']}, consequence {k['acc_unmet']}). They agreed less on the response step ({k['response']}), "
                        "so that step leans most on the later rulings."),
-        ("Check.", f"Another Claude instance re-checked {sum(v.values())} randomly chosen codes against the documents: {v['correct']} correct, {v['wrong']} wrong and {v['unsure']} unsure."),
+        ("Check.", f"Before the last rule changes, another Claude instance re-checked {sum(v.values())} codes, drawn at random 5 per step and per yes or no, against the documents: {v['correct']} correct, {v['wrong']} wrong and {v['unsure']} unsure."),
         ("Yardstick.", "What counts as a specified response follows the EU General-Purpose AI Code of Practice, Safety and Security chapter."),
     ]:
         para(doc, txt, lead=lead, style="List Bullet", after=6)

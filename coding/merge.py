@@ -31,12 +31,10 @@ def load_adj() -> dict:
 def load_consistency() -> dict:
     """Codebook v1.2 section F rulings, applied to every document; they override all earlier values."""
     out = {}
+    # Rounds apply in order (F1, F1b, F2, F3, then F4, the ruling after the second review); a later round wins.
     for f in sorted((ROOT / "coding").glob("consistency_F*.csv")):
         for r in csv.DictReader(f.open(encoding="utf-8")):
-            k = (r["doc_id"], r["risk"], r["rung"])
-            if k in out and out[k]["value"] != r["value"]:
-                raise SystemExit(f"conflicting consistency rulings for {k}")
-            out[k] = {**r, "rule": f.stem.split("_")[1]}
+            out[(r["doc_id"], r["risk"], r["rung"])] = {**r, "rule": f.stem.split("_")[1]}
     return out
 
 

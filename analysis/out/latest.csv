@@ -17,7 +17,7 @@ google,Google DeepMind,google-fsf-3.1,loss_of_control,1,1,1,0,0,0,3,3,
 meta,Meta,meta-scaling-2.1,cyber,1,1,1,1,0,1,3,4,
 meta,Meta,meta-scaling-2.1,biochem,1,1,1,1,0,1,3,4,
 meta,Meta,meta-scaling-2.1,ai_rnd,1,1,1,1,0,1,3,4,
-meta,Meta,meta-scaling-2.1,autonomy,1,0,1,1,0,1,1,1,response acc_decider acc_unmet
+meta,Meta,meta-scaling-2.1,autonomy,1,0,0,0,0,0,1,1,
 meta,Meta,meta-scaling-2.1,loss_of_control,1,1,1,1,0,1,3,4,
 microsoft,Microsoft,microsoft-fgf-2026.02,cyber,1,1,1,1,0,1,3,4,
 microsoft,Microsoft,microsoft-fgf-2026.02,biochem,1,1,1,1,0,1,3,4,
@@ -34,10 +34,10 @@ xai,xAI,xai-framework-2026.06,biochem,1,0,1,0,0,0,1,1,response
 xai,xAI,xai-framework-2026.06,ai_rnd,0,0,0,0,0,0,0,0,
 xai,xAI,xai-framework-2026.06,autonomy,1,0,1,0,0,0,1,1,response
 xai,xAI,xai-framework-2026.06,loss_of_control,1,0,1,0,0,0,1,1,response
-nvidia,NVIDIA,nvidia-fara-2025.02,cyber,1,0,0,0,0,0,1,1,
-nvidia,NVIDIA,nvidia-fara-2025.02,biochem,1,0,0,0,0,0,1,1,
+nvidia,NVIDIA,nvidia-fara-2025.02,cyber,1,0,1,0,0,0,1,1,response
+nvidia,NVIDIA,nvidia-fara-2025.02,biochem,1,0,1,0,0,0,1,1,response
 nvidia,NVIDIA,nvidia-fara-2025.02,ai_rnd,0,0,0,0,0,0,0,0,
-nvidia,NVIDIA,nvidia-fara-2025.02,autonomy,1,1,1,1,0,0,3,3,
+nvidia,NVIDIA,nvidia-fara-2025.02,autonomy,1,1,1,0,0,0,3,3,
 nvidia,NVIDIA,nvidia-fara-2025.02,loss_of_control,0,0,0,0,0,0,0,0,
 magic,Magic,magic-agi-1.0r,cyber,1,0,1,0,0,1,1,1,response acc_unmet
 magic,Magic,magic-agi-1.0r,biochem,1,0,1,0,0,1,1,1,response acc_unmet
@@ -49,8 +49,8 @@ naver,Naver,naver-asf-2.0,biochem,0,0,0,0,0,0,0,0,
 naver,Naver,naver-asf-2.0,ai_rnd,0,0,0,0,0,0,0,0,
 naver,Naver,naver-asf-2.0,autonomy,0,0,0,0,0,0,0,0,
 naver,Naver,naver-asf-2.0,loss_of_control,0,0,0,0,0,0,0,0,
-g42,G42,g42-fsf-2025.02,cyber,1,1,1,1,1,1,4,4,
-g42,G42,g42-fsf-2025.02,biochem,1,1,1,1,1,1,4,4,
+g42,G42,g42-fsf-2025.02,cyber,1,1,1,0,1,1,3,3,
+g42,G42,g42-fsf-2025.02,biochem,1,1,1,0,1,1,3,3,
 g42,G42,g42-fsf-2025.02,ai_rnd,0,0,0,0,0,0,0,0,
 g42,G42,g42-fsf-2025.02,autonomy,1,0,0,0,0,0,1,1,
 g42,G42,g42-fsf-2025.02,loss_of_control,0,0,0,0,0,0,0,0,

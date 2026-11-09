@@ -117,7 +117,7 @@ def main() -> int:
     top = {d: max(r["level"] for r in rows if r["developer"] == d) for d in devs}
     n_thr = sum(v >= 2 for v in top.values())
     n_acc = sum(v == 4 for v in top.values())
-    title = (f"{WORD[n_thr]} of {len(devs)} safety frameworks set risk thresholds. {WORD[n_acc]} say who\n"
+    title = (f"{WORD[n_thr]} of {len(devs)} safety frameworks set risk thresholds. {WORD[n_acc]} {'says' if n_acc == 1 else 'say'} who\n"
              f"decides, who checks from outside and what happens if safeguards fail")
     latest(title, rows, [
         "Each cell is the highest step the developer's current framework reaches for that risk. Anthropic and OpenAI each have two current documents; a step counts if either reaches it.",

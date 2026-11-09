@@ -21,7 +21,7 @@ def test_readme_claims_hold():
     f = facts()
     text = (ROOT / "README.md").read_text(encoding="utf-8")
     for c in [f"of {f['n_devs']} developers with a published framework, {f['n_threshold_any']} set a threshold",
-              f"Only {f['n_acc_any']} reach full accountability on any risk: {_and(f['acc_devs'])}",
+              f"Only {f['n_acc_any']} {'reaches' if f['n_acc_any'] == 1 else 'reach'} full accountability on any risk: {_and(f['acc_devs'])}",
               f"only {f['n_acc_external']} commit to review from outside the company",
               f"went up {f['n_up']} times and down {f['n_down']} times",
               f"ruled on the {f['n_adjudicated']} disagreements"]:
