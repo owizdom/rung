@@ -422,12 +422,21 @@ documents:
   published_source: document ('Version 1.0 — July 2, 2024'); METR
   url: https://magic.dev/agi-readiness-policy
   archive_url: https://web.archive.org/web/20240704164810id_/https://magic.dev/agi-readiness-policy
+  sha256: 0959ec36503d962d95b3ad6fcf1823d79172c794a96c6009b4648ec84202124e
+  local: ~/.rung-cache/discovery/magic_wb20240704164810.html
+  note: 'Text as published: first Wayback capture, 2024-07-04 (GPT-4-Turbo benchmark table). Benchmark examples refreshed by 2024-07-20; commitments unchanged.'
+- doc_id: magic-agi-1.0r
+  developer: magic
+  line: agi
+  title: AGI Readiness Policy
+  version: 1.0 (re-issue with "This policy is outdated" note)
+  published: '2026-09-08'
+  published_source: first Wayback capture carrying the note (2026-09-08; absent on 2026-09-02); live page 2026-11-09
+  url: https://magic.dev/agi-readiness-policy
+  archive_url: https://web.archive.org/web/20240704164810id_/https://magic.dev/agi-readiness-policy
   sha256: 31e1e9173b7c38322311d51125a91e3d21190940b7b61c185c50ee2077bc3c91
   local: ~/.rung-cache/discovery/magic_agi_readiness.html
-  note: 'METR version; HTML page (no PDF); hash is of the 2026-11-09 live fetch and varies with site chrome. Live page adds the banner ''This policy is outdated. We''re working on an update.'' Wayback history:
-    the original text (captured 2024-07-04 and 2024-07-10) listed different public-model baseline scores; from the 2024-07-20 capture onward the baseline paragraph cites newer LiveCodeBench scores (e.g.,
-    Claude-3.5-Sonnet 48.8%). The threshold sentence (50% on LiveCodeBench) and all other policy text are unchanged, and policy text from 2024-07-20 to 2026-09-02 captures matches live word for word. Treated
-    as one version; Watchtower (Sep 18 2024) records an announced v2 that never appeared. cache: ~/.rung-cache/discovery/magic_agi_readiness.html'
+  note: 'Live page on 2026-11-09, same text as the 2026-09-08 and 2026-09-26 captures. Adds "Note: This policy is outdated. We''re working on an update."'
 - doc_id: naver-asf-1.0
   developer: naver
   line: asf

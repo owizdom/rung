@@ -71,3 +71,15 @@ def test_every_signatory_accounted_for():  # AT2
             continue
         wheres = {row["where"] for row in log if row["developer"] == s}
         assert {"company site", "metr list", "wayback", "web search"} <= wheres, (s, wheres)
+
+
+def test_freeze_precedes_coding():  # AT1
+    import json
+    import re as _re
+    j = (ROOT / "docs" / "JOURNAL.md").read_text(encoding="utf-8")
+    m = _re.search(r"FREEZE (\S+Z): documents\.csv sha256 ([0-9a-f]{64}), codebook\.md sha256 ([0-9a-f]{64})", j)
+    assert m, "no FREEZE entry"
+    assert hashlib.sha256(DOCS.read_bytes()).hexdigest() == m.group(2)
+    assert hashlib.sha256((ROOT / "coding" / "codebook.md").read_bytes()).hexdigest() == m.group(3)
+    for p in (ROOT / "coding" / "passes").glob("*/*.json"):
+        assert json.loads(p.read_text())["coded_at"] > m.group(1), p.name
