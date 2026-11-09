@@ -3,7 +3,6 @@
 ## Snapshot
 
 - 2026-11-09: DONE. 40 versions from 13 developers coded (1,200 cells), codebook v1.2, four review rounds; the last found no in-scope defect (HEAD 9f9d378 + follow-ups). Write-up: docs/methods.md; docx at ~/Desktop/docs/rung/. Headline: 8 of 13 set thresholds, only Anthropic reaches full accountability, 2 of 8 commit to outside review; 15 up, 18 down across versions. Local only, not pushed.
-- Next: freeze documents.csv after the census, then the codebook pilot on 3 documents.
 
 ## Evidence log (append only)
 
