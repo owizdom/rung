@@ -1,0 +1,79 @@
+doc_id,risk,rung,value,quote,page
+cohere-fmf-2025.02,loss_of_control,mentioned,0,,
+anthropic-rsp-3.0,cyber,mentioned,0,,
+samsung-asf-2025.02,ai_rnd,mentioned,0,,
+magic-agi-1.0r,loss_of_control,mentioned,0,,
+cohere-fmf-2025.02,biochem,mentioned,0,,
+meta-scaling-2025.03,ai_rnd,mentioned,1,"We also account for enabling capabilities, such as automated AI R&D, that might increase the potential for enhancements to model capabilities.",p.17
+meta-scaling-2.0,loss_of_control,mentioned,1,"currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",p.1
+anthropic-rsp-3.1,biochem,mentioned,1,"Non-novel chemical/biological​
+​weapons production.​​AI systems​
+​with the ability to significantly​
+​help individuals or groups with​
+​basic technical backgrounds",p.6
+amazon-fmsf-2025.02,ai_rnd,mentioned,1,"Automated AI R&D could also accelerate the development of models that pose enhanced CBRN, Offensive Cybersecurity, or other severe risks.",p.2
+microsoft-fgf-2026.02,loss_of_control,mentioned,1,"Loss of control. A model’s ability to undermine effective human control through adaptive, deceptive, or self-reinforcing mechanisms such that, when deployed, a model can no longer be reliably directed, modified, or shut down.",p.4
+anthropic-rsp-3.2,cyber,threshold,0,,
+google-fsf-3.0,loss_of_control,threshold,0,,
+openai-pf-2.0,autonomy,threshold,0,,
+google-fsf-3.1,autonomy,threshold,0,,
+microsoft-fgf-2026.02,loss_of_control,threshold,0,,
+openai-pf-beta,loss_of_control,threshold,1,OR model can self-exfiltrate under current prevailing security,p.11
+anthropic-fcf-2.0,loss_of_control,threshold,1,"Misaligned AI systems in high-stakes settings. AI systems that are highly relied on and have extensive access to sensitive assets, as well as moderate capacity for autonomous, goal-directed operation and subterfuge",p.9
+anthropic-rsp-3.1,ai_rnd,threshold,1,"We will consider this threshold to​
+​b e met if we determine that either​
+​(1) our models would be able to​
+​fully substitute for our entire set of​
+​Research Scientists and Research​
+​Engineers, at competitive costs",p.8
+meta-scaling-2025.03,biochem,threshold,1,CB 1: Proliferation of known medium-impact biological and chemical weapons for low and moderate skill actors.,p.15
+anthropic-rsp-3.0,loss_of_control,threshold,1,"moderate capacity for autonomous,
+goal-directed operation and
+subterfuge",p.7
+google-fsf-3.0,autonomy,response,0,,
+openai-pf-2.0r,autonomy,response,0,,
+xai-framework-2025.08,ai_rnd,response,0,,
+samsung-asf-2025.02,autonomy,response,0,,
+meta-scaling-2025.02,autonomy,response,0,,
+naver-asf-1.0,biochem,response,1,Deploy AI systems only after implementing guardrails through technological and policy actions and risks have been sufficiently mitigated,p.6
+anthropic-rsp-1.0,biochem,response,1,"our most significant immediate commitments include a high standard of security for ASL-3 containment, and a commitment not to deploy ASL-3 models until thorough red-teaming finds no risk of catastrophe",p.5
+anthropic-rsp-3.2,biochem,response,1,"We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers",p.6
+anthropic-rsp-3.1,loss_of_control,response,1,"We will require a strong argument that catastrophic risk is contained, along the lines of our recommendations for industry-wide safety (see Section 1). We will delay AI development and deployment as needed to achieve this",p.17
+google-fsf-1.0,biochem,response,1,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2
+anthropic-rsp-3.1,cyber,acc_decider,0,,
+naver-asf-1.0,loss_of_control,acc_decider,0,,
+xai-framework-2026.06,loss_of_control,acc_decider,0,,
+meta-scaling-2025.02,cyber,acc_decider,0,,
+anthropic-fcf-2.0,loss_of_control,acc_decider,0,,
+anthropic-rsp-3.3,biochem,acc_decider,1,The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.,p.12
+anthropic-rsp-3.3,autonomy,acc_decider,1,"The​
+​CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and​
+​any downstream deployment or development plans.​",p.13
+anthropic-rsp-3.4,loss_of_control,acc_decider,1,The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans.,p.13
+openai-pf-beta,cyber,acc_decider,1,"The OpenAI Leadership, i.e., the CEO or a person designated by them, serves as the default decision-maker on all decisions",p.23
+meta-scaling-2.1,loss_of_control,acc_decider,1,"Informed by this analysis, the Chief AI Officer or the Director of Alignment and Risk will determine whether to request further testing or information, require additional mitigations or",p.8
+magic-agi-1.0,cyber,acc_external,0,,
+xai-framework-2025.08,loss_of_control,acc_external,0,,
+g42-fsf-2025.02,loss_of_control,acc_external,0,,
+magic-agi-1.0,autonomy,acc_external,0,,
+naver-asf-1.0,cyber,acc_external,0,,
+anthropic-rsp-2.0,autonomy,acc_external,1,"we will commission a
+third-party review that assesses whether we adhered to this policy’s main procedural
+commitments",p.17
+anthropic-rsp-2.0,cyber,acc_external,1,"we will commission a
+third-party review that assesses whether we adhered to this policy’s main procedural
+commitments",p.17
+anthropic-rsp-2.2,biochem,acc_external,1,"On approximately an‬‭annual basis, we will commission a third-party‬
+‭review that assesses whether we adhered to this policy’s main procedural commitments",p.17
+anthropic-rsp-3.2,biochem,acc_external,1,"On approximately an annual basis, we will commission a third-party review that assesses whether we adhered to this policy's main procedural commitments.",p.15
+google-fsf-3.0,biochem,acc_external,1,"When a model reaches an alert threshold for a CCL, we will assess the proximity of the model to the CCL and analyze the risk posed, involving internal and external experts as needed.",p.6
+google-fsf-3.1,autonomy,acc_unmet,0,,
+google-fsf-3.1,ai_rnd,acc_unmet,0,,
+meta-scaling-2025.02,autonomy,acc_unmet,0,,
+xai-framework-2025.08,loss_of_control,acc_unmet,0,,
+xai-framework-2026.06,ai_rnd,acc_unmet,0,,
+anthropic-fcf-2.0,autonomy,acc_unmet,1,"if we identify any instances of non-adherence or any measures that are required to be implemented to ensure continued adherence, we will draft and implement a remediation plan.",p.16
+meta-scaling-2025.02,cyber,acc_unmet,1,"If additional barriers do not exist, continue to investigate mitigations, and do not further develop the model until such a time as adequate mitigations have been identified.",p.13
+google-fsf-1.0,autonomy,acc_unmet,1,"If this happens, we would put on hold further deployment or development, or implement additional protocols (such as the implementation of more precise early warning evaluations for a given CCL) to ensure models will not reach CCLs without appropriate security mitigations, and that models with CCLs will not be deployed without appropriate deployment mitigations.",p.2
+microsoft-fgf-2025.02,cyber,acc_unmet,1,"If, during the implementation of this framework, we identify a risk we cannot sufficiently mitigate, we will pause development and deployment until the point at which mitigation practices evolve to meet the risk.",p.9
+meta-scaling-2.1,biochem,acc_unmet,1,"Should either scenario arise, we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",p.19

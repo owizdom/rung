@@ -29,21 +29,21 @@ anthropic-rsp-1.0,biochem,1,0,1,1,0,1,1,1,response acc_decider acc_unmet,nuclear
 anthropic-rsp-1.0,ai_rnd,1,0,0,0,0,0,1,1,,nuclear and radiological
 anthropic-rsp-1.0,autonomy,1,1,1,1,0,1,3,4,,nuclear and radiological
 anthropic-rsp-1.0,loss_of_control,1,1,1,1,0,1,3,4,,nuclear and radiological
-anthropic-rsp-2.0,cyber,1,0,1,1,1,0,1,1,response acc_decider acc_external,nuclear and radiological
+anthropic-rsp-2.0,cyber,1,0,1,1,1,1,1,1,response acc_decider acc_external acc_unmet,nuclear and radiological
 anthropic-rsp-2.0,biochem,1,1,1,1,1,1,4,4,,nuclear and radiological
 anthropic-rsp-2.0,ai_rnd,1,1,1,1,1,1,4,4,,nuclear and radiological
-anthropic-rsp-2.0,autonomy,1,1,1,1,1,0,3,4,,nuclear and radiological
-anthropic-rsp-2.0,loss_of_control,1,1,1,1,1,0,3,4,,nuclear and radiological
-anthropic-rsp-2.1,cyber,1,0,1,1,1,0,1,1,response acc_decider acc_external,nuclear and radiological
+anthropic-rsp-2.0,autonomy,1,1,1,1,1,1,4,4,,nuclear and radiological
+anthropic-rsp-2.0,loss_of_control,1,1,1,1,1,1,4,4,,nuclear and radiological
+anthropic-rsp-2.1,cyber,1,0,1,1,1,1,1,1,response acc_decider acc_external acc_unmet,nuclear and radiological
 anthropic-rsp-2.1,biochem,1,1,1,1,1,1,4,4,,nuclear and radiological
 anthropic-rsp-2.1,ai_rnd,1,1,1,1,1,1,4,4,,nuclear and radiological
-anthropic-rsp-2.1,autonomy,1,1,1,1,1,0,3,4,,nuclear and radiological
+anthropic-rsp-2.1,autonomy,1,1,1,1,1,1,4,4,,nuclear and radiological
 anthropic-rsp-2.1,loss_of_control,1,1,1,1,1,1,4,4,,nuclear and radiological
-anthropic-rsp-2.2,cyber,1,0,0,0,0,0,1,1,,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
+anthropic-rsp-2.2,cyber,1,0,1,1,1,1,1,1,response acc_decider acc_external acc_unmet,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
 anthropic-rsp-2.2,biochem,1,1,1,1,1,1,4,4,,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
 anthropic-rsp-2.2,ai_rnd,1,1,1,1,1,1,4,4,,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
-anthropic-rsp-2.2,autonomy,1,1,0,0,1,1,2,2,acc_external acc_unmet,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
-anthropic-rsp-2.2,loss_of_control,1,0,1,1,1,1,1,1,response acc_decider acc_external acc_unmet,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
+anthropic-rsp-2.2,autonomy,1,1,1,1,1,1,4,4,,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
+anthropic-rsp-2.2,loss_of_control,1,1,1,1,1,1,4,4,,"misinformation, hateful or fraudulent use (Usage Policy); model weight theft; nuclear and radiological; persuasion; radiological and nuclear; societal impacts"
 anthropic-rsp-3.0,cyber,0,0,0,0,0,0,0,0,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
 anthropic-rsp-3.0,biochem,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
 anthropic-rsp-3.0,ai_rnd,1,1,1,1,1,1,4,4,,disruption of the global balance of power; insider threats; model weight theft; societal impacts; usage policy violations
@@ -57,17 +57,17 @@ anthropic-rsp-3.1,loss_of_control,1,1,1,1,1,1,4,4,,disruption of the global bala
 anthropic-rsp-3.2,cyber,0,0,0,0,0,0,0,0,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.2,biochem,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.2,ai_rnd,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
-anthropic-rsp-3.2,autonomy,1,0,0,0,0,0,1,1,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.2,autonomy,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.2,loss_of_control,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.3,cyber,0,0,0,0,0,0,0,0,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.3,biochem,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.3,ai_rnd,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
-anthropic-rsp-3.3,autonomy,1,0,0,0,0,0,1,1,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
+anthropic-rsp-3.3,autonomy,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.3,loss_of_control,1,1,1,1,1,1,4,4,,"automated R&D in other domains (energy, robotics, weapons development); deception and manipulation by AI; rapid disruptions to the global balance of power; threats to international security and global balance of power"
 anthropic-rsp-3.4,cyber,0,0,0,0,0,0,0,0,,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
 anthropic-rsp-3.4,biochem,1,1,1,1,1,1,4,4,,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
 anthropic-rsp-3.4,ai_rnd,1,1,1,1,1,1,4,4,,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
-anthropic-rsp-3.4,autonomy,1,0,1,1,1,1,1,1,response acc_decider acc_external acc_unmet,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
+anthropic-rsp-3.4,autonomy,1,1,1,1,1,1,4,4,,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
 anthropic-rsp-3.4,loss_of_control,1,1,1,1,1,1,4,4,,"automated R&D in other key domains (energy, robotics, weapons development); disruption to the global balance of power / international security; international security and balance of power disruption; model weight theft"
 cohere-fmf-2025.02,cyber,1,0,1,1,0,0,1,1,response acc_decider,child sexual exploitation and abuse; child sexual exploitation and abuse material; data poisoning and model theft; discriminatory outputs; hateful or violent content; inaccurate harmful outputs; insecure code; privacy and sensitive information disclosure; privacy violations; prompt injection
 cohere-fmf-2025.02,biochem,0,0,0,0,0,0,0,0,,child sexual exploitation and abuse; child sexual exploitation and abuse material; data poisoning and model theft; discriminatory outputs; hateful or violent content; inaccurate harmful outputs; insecure code; privacy and sensitive information disclosure; privacy violations; prompt injection

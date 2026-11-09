@@ -51,7 +51,11 @@ def versions(c=None, docs=None) -> list[dict]:
         d = docs[did]
         rows.append({"doc_id": did, "developer": d["developer"], "line": d["line"], "published": d["published"],
                      "risk": risk, **v, "level": level(v)})
-    return sorted(rows, key=lambda r: (r["developer"], r["line"], r["published"], RISKS.index(r["risk"])))
+    first = {}
+    for d in docs.values():
+        k = (d["developer"], d["line"])
+        first[k] = min(first.get(k, d["published"]), d["published"])
+    return sorted(rows, key=lambda r: (r["developer"], first[(r["developer"], r["line"])], r["published"], RISKS.index(r["risk"])))
 
 
 def changes(c=None, docs=None) -> list[dict]:
