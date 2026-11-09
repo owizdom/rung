@@ -15,4 +15,5 @@ Every agent below reported the model it ran as in its final report; the reports 
 | Sample check | 60 cells | verifier | Opus 5.5 |
 | Consistency F1, F2, F3 | all 40 documents | rule pass | Opus 5.5, all 3 |
 | Consistency F4 | contested cells after the second review | adjudicator | Opus 5.5 |
-| Reviews | whole repository | reviewer | Opus 5.5, both rounds |
+| Consistency F5 | Amazon decider and consequence cells after the third review | adjudicator | Opus 5.5 |
+| Reviews | whole repository, then the last fixes | reviewer | Opus 5.5, all four rounds |
